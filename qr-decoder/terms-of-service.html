@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Terms of Service &mdash; QR Decoder | AFK GAMES STUDIO</title>
+  <style>
+    :root{
+      --primary:#0f172a;        /* Navy / Slate */
+      --text:#111827;
+      --muted:#4b5563;
+      --bg:#ffffff;
+      --surface:#f9fafb;
+      --border:#e5e7eb;
+      --highlight:#eff6ff;
+      --link:#2563eb;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height:1.65;
+    }
+    .wrap{
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 60px 22px 80px;
+    }
+    .header{
+      border-bottom: 4px solid var(--primary);
+      padding-bottom: 20px;
+      margin-bottom: 26px;
+      text-align: center;
+    }
+    h1{
+      margin: 0 0 8px;
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+      color: var(--primary);
+      font-weight: 900;
+    }
+    .meta{
+      color: var(--muted);
+      font-size: .9rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: .06em;
+    }
+    .card{
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .notice{
+      border: 2px solid var(--primary);
+      background: var(--highlight);
+      border-radius: 12px;
+      padding: 18px;
+      margin-top: 4px;
+    }
+    h2{
+      margin: 0 0 12px;
+      font-size: 1.05rem;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      font-weight: 800;
+    }
+    p{ margin: 0 0 14px; color: var(--muted); }
+    a{ color: var(--link); font-weight: 700; text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+
+    /* Verbatim document blocks (1:1 copies of the approved source .txt) */
+    .legal-text, .doc{
+      margin: 0;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      color: #111827;
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      tab-size: 4;
+    }
+    .legal-text{
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+    .doc{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.86rem;
+      line-height: 1.55;
+    }
+
+    /* Grouped notices / license links */
+    .links-section{ margin-top: 22px; }
+    .links-section > h2{ margin-bottom: 6px; }
+    .links-intro{ font-size: .92rem; }
+    .link-group{ margin-top: 18px; }
+    .link-group h3{
+      margin: 0 0 10px;
+      font-size: .82rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: var(--primary);
+      font-weight: 900;
+    }
+    .link-list{ display:flex; flex-direction:column; gap:10px; }
+    .link-item{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:14px;
+      padding:12px 14px;
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:10px;
+      text-decoration:none;
+      transition:background .2s,border-color .2s,transform .15s;
+    }
+    .link-item:hover{
+      background:var(--highlight);
+      border-color:var(--primary);
+      text-decoration:none;
+      transform:translateX(3px);
+    }
+    .link-item:focus-visible{ outline:2px solid var(--link); outline-offset:2px; }
+    .link-left{ display:flex; flex-direction:column; gap:2px; min-width:0; }
+    .link-title{ font-weight:900; color:var(--text); line-height:1.25; }
+    .link-sub{
+      font-size:0.8rem;
+      color:var(--muted);
+      font-weight:600;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      word-break:break-all;
+    }
+    .pill{
+      font-size:0.72rem;
+      font-weight:900;
+      padding:4px 11px;
+      border-radius:999px;
+      border:1px solid #bfdbfe;
+      background:var(--highlight);
+      color:var(--primary);
+      white-space:nowrap;
+      flex:0 0 auto;
+    }
+
+    footer{
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: .9rem;
+      color: var(--muted);
+    }
+
+    /* Navigation Bar */
+    .site-nav{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+      justify-content:center;
+      margin-bottom:26px;
+    }
+    .site-nav a{
+      display:inline-block;
+      padding:8px 18px;
+      font-size:.82rem;
+      font-weight:700;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+      text-decoration:none;
+      border-radius:8px;
+      border:1px solid var(--border);
+      color:var(--muted);
+      background:var(--surface);
+      transition:background .2s,color .2s,border-color .2s;
+    }
+    .site-nav a:hover{
+      background:var(--highlight);
+      color:var(--primary);
+      border-color:var(--primary);
+      text-decoration:none;
+    }
+    .site-nav a:focus-visible{ outline:2px solid var(--link); outline-offset:2px; }
+
+    @media (max-width: 600px){
+      .wrap{ padding: 40px 14px 64px; }
+      h1{ font-size: 1.6rem; }
+      .legal-text{ font-size: 0.9rem; }
+      .doc{ font-size: 0.82rem; }
+      .link-item{ flex-direction:column; align-items:flex-start; gap:8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>Terms of Service</h1>
+      <div class="meta">QR Decoder | AFK GAMES STUDIO</div>
+    </div>
+
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="../index.html">Homepage</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="third-party-notices.html">Third-Party Notices</a>
+    </nav>
+
+    <div class="card">
+      <p>This page provides the <strong>Terms of Service</strong> for <strong>QR Decoder</strong>, developed by <strong>AFK GAMES STUDIO</strong> (&ldquo;Studio&rdquo;). The full text below is reproduced verbatim from the official document.</p>
+
+      <div class="notice">
+        <pre class="legal-text">TERMS OF SERVICE
+QR DECODER
+Effective Date: June 15, 2026
+Last Updated: June 15, 2026
+
+Most current version (web):
+https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
+
+These Terms are provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
+
+1. BINDING AGREEMENT
+   These Terms of Service (“Terms”) constitute a binding contract between you (“User”) and AFK GAMES STUDIO (“Studio,” “we,” “us,” or “our”). By downloading, installing, accessing, or using QR Decoder (the “App”), you agree to these Terms. If you do not agree, do not use the App. We may modify these Terms from time to time; if you continue to use the App after the effective date of updated Terms, you accept the updated Terms.
+
+2. ELIGIBILITY
+   The App is not directed to children under 13, and you may not use the App if you are under 13. You represent that you are at least 13 years old. If you are a minor in your jurisdiction, you represent that you have permission from a parent or legal guardian to use the App and that such parent or guardian has reviewed and agreed to these Terms on your behalf.
+
+3. LICENSE GRANT &amp; RESTRICTIONS
+
+3.1 License. Subject to your compliance with these Terms, the Studio grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the App on compatible devices you own or control for personal, household, educational, internal business, productivity, or utility purposes, provided that you do not resell, host, sublicense, or provide the App or App-generated services to third parties except as expressly permitted by these Terms.
+
+3.2 Restrictions. Except as expressly permitted by applicable law, you may not, and you agree not to:
+
+(a) copy, reproduce, distribute, publicly perform, publicly display, modify, translate, or create derivative works of the App;
+
+(b) sell, rent, lease, lend, sublicense, assign, host, resell, commercially exploit, or otherwise transfer the App or access to the App;
+
+(c) use the App to provide hosted, bureau, managed-service, automated, or mass-processing services to third parties without the Studio’s prior written permission;
+
+(d) reverse engineer, decompile, disassemble, or attempt to derive the source code, underlying ideas, algorithms, structure, or organization of the App, except to the extent such restriction is prohibited by applicable law;
+
+(e) circumvent, disable, or interfere with security-related features, advertising delivery, measurement, consent flows, analytics, crash reporting, fraud-prevention systems, or other technical protections;
+
+(f) remove, alter, or obscure proprietary notices, copyright notices, trademark notices, attribution notices, open source notices, or third-party notices contained in or displayed by the App;
+
+(g) use the App in any unlawful, fraudulent, abusive, infringing, deceptive, harmful, or unauthorized manner;
+
+(h) use the App to create, scan, process, store, extract, distribute, or share content that violates applicable law, third-party rights, platform policies, privacy rights, intellectual property rights, or these Terms;
+
+(i) use the App to create, distribute, or facilitate malicious QR codes, phishing links, malware, credential-harvesting flows, deceptive links, unauthorized tracking, spam, or other harmful technical activity;
+
+(j) interfere with, disrupt, damage, overload, or impair the App, third-party SDKs, advertising systems, analytics systems, crash-reporting systems, consent systems, operating system services, or any related infrastructure.
+
+4. INTELLECTUAL PROPERTY; USER CONTENT; APP OUTPUTS
+
+4.1 Ownership. The App and all associated content and materials, including without limitation software, user interface and visual design, trademarks, logos, documentation, templates, configuration, workflows, and Studio-created materials (collectively, “Studio Materials”), are owned by the Studio or its licensors and are protected by intellectual property and other laws. All rights not expressly granted to you are reserved by the Studio.
+
+4.2 User Content. As between you and the Studio, you retain whatever rights you lawfully hold in the QR codes, barcodes, documents, images, text, files, archives, IDs, scan outputs, OCR outputs, inventory records, generated QR codes, exported files, and other content that you select, scan, create, process, save, export, or share through the App (“User Content”). These Terms do not transfer ownership of your User Content to the Studio.
+
+4.3 Responsibility for User Content. You are solely responsible for your User Content and for your use of the App. You represent and warrant that you have all rights, permissions, consents, and legal authority necessary to scan, capture, process, store, edit, extract, export, share, or otherwise use any User Content through the App.
+
+4.4 Local-First Utility. The App is designed as a local-first utility. User Content may be processed and stored on your device, in App-controlled storage, in user-selected locations, or through Android system file access mechanisms. The App is not a cloud storage service, backup service, secure vault, identity verification service, legal records system, regulated records repository, or evidence-preservation system.
+
+4.5 App Outputs. QR codes, scan results, OCR results, ID scan outputs, document outputs, file conversions, ZIP/archive outputs, inventory exports, and other App outputs may be incomplete, inaccurate, corrupted, misread, degraded, incompatible, unsafe, or unsuitable for your intended purpose. You are solely responsible for reviewing and verifying all App outputs before relying on them.
+
+5. SCANNING, OCR, ID, FILE, AND ZIP TOOL LIMITATIONS
+
+5.1 QR and Barcode Scanning. QR codes and barcodes may contain links, commands, contact payloads, Wi-Fi payloads, text, product identifiers, or other data. The App may decode and display such content, but the Studio does not verify the safety, authenticity, legality, accuracy, ownership, or destination of any scanned code.
+
+5.2 Links and External Content. If you open a link, website, file, app, email address, phone number, map location, payment link, or other destination from scanned or user-entered content, you do so at your own risk. External destinations are controlled by third parties and may be subject to separate terms, privacy policies, security practices, and risks.
+
+5.3 Document Scan and OCR. Document scanning and OCR features are provided for convenience only. OCR output may contain recognition errors, formatting errors, omissions, substitutions, or other inaccuracies. You must review and verify OCR results before using, exporting, sharing, storing, or relying on them.
+
+5.4 ID Scan Workflows. ID scan workflows are provided as local utility features for user-directed document capture, review, or organization. The App does not verify identity, authenticate government documents, determine legal status, validate age, confirm authorization, perform background checks, or provide compliance with know-your-customer, employment, financial, immigration, security, or regulated identity-verification requirements.
+
+5.5 File Viewer / Text Editor. File viewing and editing features depend on file type, encoding, permissions, file integrity, file size, device capabilities, and operating system behavior. The Studio does not guarantee that any file will open, render, edit, save, export, or preserve formatting correctly. You are responsible for keeping backup copies of important files before editing or processing them.
+
+5.6 ZIP and Archive Tools. ZIP/archive features, including password-protected ZIPs, encrypted ZIPs, split ZIPs, extraction, and export functions, are provided for convenience only. Archive operations may fail, may not support every archive format or encryption method, and may result in partial, incompatible, corrupted, overwritten, or unusable output. You are responsible for verifying archive contents, keeping backups, and ensuring that you have lawful authority to access or extract any archive.
+
+5.7 No Malware or Security Guarantee. The App is not antivirus software, malware-detection software, endpoint protection software, forensic software, or a security certification tool. The Studio does not guarantee that scanned QR codes, links, files, documents, archives, extracted content, or external destinations are safe, legitimate, malware-free, or non-deceptive.
+
+5.8 No Professional Advice. The App does not provide legal, financial, tax, medical, security, compliance, identity-verification, records-management, forensic, or professional advice. You must obtain appropriate professional advice before relying on App outputs for regulated, safety-critical, legal, financial, evidentiary, or compliance-sensitive purposes.
+
+6. PRIVACY; DATA
+   Your use of the App is governed by our Privacy Policy, which is incorporated by reference and made part of these Terms. The Privacy Policy is available in the App and at:
+
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+The App is designed as a local-first utility. QR scan history, QR creator content, document scan outputs, OCR text, ID scan outputs, file viewer/editor data, ZIP/archive outputs, inventory records, settings, and related local data may be stored on your device, in App-controlled storage, in user-selected locations, or through Android system file access mechanisms. Uninstalling the App typically removes locally stored App data, subject to your device and operating system backup settings.
+
+The App may integrate third-party SDKs/services, including Google AdMob / Google Mobile Ads SDK, Google User Messaging Platform (UMP), Firebase Analytics, Firebase Crashlytics, and Google ML Kit and/or Google Play services scanner components. Such SDKs/services may collect and process certain information, such as advertising identifiers, device or other identifiers, IP-derived approximate location, app interactions, consent signals, diagnostics, crash logs, and technical signals, as described in the Privacy Policy and in the App’s Third-Party Notices.
+
+7. THIRD-PARTY SERVICES; ADS; OPEN SOURCE
+
+7.1 Third-Party Services. The App may interoperate with or include third-party services, SDKs, libraries, operating system services, file providers, storage providers, websites, links, scanners, analytics services, crash-reporting services, advertising services, consent-management services, or other integrations (“Third-Party Services”). Third-Party Services are provided by their respective providers and may be subject to separate terms and policies. The Studio is not responsible for Third-Party Services and does not warrant their availability, accuracy, legality, security, privacy practices, compatibility, or performance.
+
+7.2 Ads and Consent. The App uses Google AdMob / Google Mobile Ads SDK to display advertising. In the current build, the App implements App Open ads only. Future builds may include different or additional ad formats if disclosed as required by applicable law, platform rules, the Privacy Policy, and Third-Party Notices.
+
+Advertising-related processing may involve third-party collection, processing, and sharing of information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance, as described in the Privacy Policy and Third-Party Notices. Where available or required, advertising consent and privacy choices may be managed through Google User Messaging Platform (UMP), device settings, or applicable platform controls.
+
+7.3 User-Directed Sharing and Export. If you choose to share, export, copy, save, print, send, upload, open, or transmit User Content or App outputs through another app, service, website, file provider, storage location, communication tool, or operating system function, that action is user-directed. The receiving destination may process the content under its own terms, privacy policy, security practices, and retention rules.
+
+7.4 Open Source. The App may include open source software components licensed under applicable open source licenses, including without limitation Apache License 2.0 and other licenses identified in the App’s Third-Party Notices or Licenses section. Required notices and license texts are provided in the App’s “Third-Party Notices” or “Licenses” section. In the event of a conflict between these Terms and an applicable open source license, the open source license governs solely with respect to the open source component.
+
+8. PROHIBITED USES
+   You may not use the App to:
+
+(a) violate any applicable law, regulation, court order, platform policy, intellectual property right, privacy right, publicity right, contractual obligation, or third-party right;
+
+(b) scan, capture, process, store, export, or share personal information, identity documents, confidential information, business records, regulated information, or third-party content without all required rights, permissions, consents, and legal authority;
+
+(c) create, distribute, encode, promote, or facilitate malicious, deceptive, phishing, fraudulent, infringing, harmful, spam, malware, credential-theft, unauthorized-tracking, or policy-violating QR codes, barcodes, links, files, documents, or archives;
+
+(d) impersonate another person or entity, misrepresent identity or authorization, falsify documents, alter records unlawfully, or use ID scan workflows for illegal, deceptive, or unauthorized purposes;
+
+(e) bypass, disable, or interfere with advertising systems, consent flows, analytics, crash reporting, security features, fraud-prevention systems, or technical limitations;
+
+(f) use the App in a safety-critical, emergency, medical, legal, financial, law-enforcement, employment-screening, immigration, age-verification, access-control, regulated identity-verification, forensic, evidentiary, or compliance-critical context without independent verification and appropriate professional review;
+
+(g) use the App to violate the terms, policies, or rights of Google, Android, Google Play, Firebase, AdMob, ML Kit, device manufacturers, file providers, storage providers, websites, or other third parties.
+
+9. DISCLAIMER OF WARRANTIES
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP AND ALL STUDIO MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, RELIABILITY, AVAILABILITY, SECURITY, COMPATIBILITY, DATA PRESERVATION, ERROR-FREE OPERATION, OR UNINTERRUPTED USE. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
+
+WITHOUT LIMITING THE FOREGOING, THE STUDIO DOES NOT WARRANT THAT: (A) ANY QR CODE, BARCODE, DOCUMENT, OCR RESULT, ID SCAN OUTPUT, FILE, ARCHIVE, EXTRACTED CONTENT, GENERATED QR CODE, INVENTORY RECORD, EXPORT, LINK, OR EXTERNAL DESTINATION WILL BE ACCURATE, COMPLETE, SECURE, LAWFUL, NON-DECEPTIVE, MALWARE-FREE, COMPATIBLE, PRESERVED, OR SUITABLE FOR YOUR PURPOSE; (B) THE APP WILL DETECT MALICIOUS, DECEPTIVE, INFRINGING, OR UNSAFE CONTENT; OR (C) THE APP WILL SATISFY ANY REGULATORY, PROFESSIONAL, EVIDENTIARY, BUSINESS, SECURITY, IDENTITY-VERIFICATION, RECORDKEEPING, OR COMPLIANCE REQUIREMENT.
+
+10. LIMITATION OF LIABILITY
+    TO THE MAXIMUM EXTENT PERMITTED BY LAW:
+
+(a) IN NO EVENT WILL THE STUDIO BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, FILES, DOCUMENTS, ARCHIVES, SCAN HISTORY, OCR OUTPUTS, ID SCAN OUTPUTS, GOODWILL, BUSINESS OPPORTUNITY, BUSINESS INTERRUPTION, DEVICE FUNCTIONALITY, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATED TO THE APP OR THESE TERMS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; AND
+
+(b) THE STUDIO’S TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF (I) THE AMOUNTS YOU PAID TO THE STUDIO FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM OR (II) TEN U.S. DOLLARS (US $10.00).
+
+Nothing in these Terms limits or excludes liability for fraud, willful misconduct, gross negligence, or personal injury or death to the extent such limitation or exclusion is prohibited by applicable law. SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS OF LIABILITY, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+11. DISPUTE RESOLUTION; BINDING ARBITRATION; CLASS ACTION WAIVER
+    PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS.
+
+11.1 Informal Resolution and Notice of Dispute. Before initiating arbitration or any court proceeding (except small claims court), you agree to first send the Studio a written Notice of Dispute to [afkgames.helpdesk@gmail.com](mailto:afkgames.helpdesk@gmail.com) with the subject line “Notice of Dispute – QR Decoder.” The Notice must include (a) your name and contact information, (b) a description of the dispute, and (c) the relief you seek. The parties agree to attempt in good faith to resolve the dispute within thirty (30) days after the Notice is received.
+
+11.2 Agreement to Arbitrate. If the dispute is not resolved within the 30-day period, you and the Studio agree that any dispute, claim, or controversy arising out of or relating to the App or these Terms will be resolved by binding arbitration administered by the American Arbitration Association (“AAA”) under its Consumer Arbitration Rules, as modified by these Terms. Judgment on the award may be entered in any court of competent jurisdiction.
+
+11.3 Arbitration Location and Procedure. Arbitration will be conducted remotely by video or telephone unless the arbitrator determines an in-person hearing is necessary. If an in-person hearing is required, it will take place in Orange County, Florida, unless the AAA rules or the arbitrator provide otherwise. The arbitrator has exclusive authority to resolve any dispute relating to the interpretation, applicability, enforceability, or formation of this arbitration agreement, except that courts of competent jurisdiction may determine the enforceability of the Class Action Waiver.
+
+11.4 Fees and Costs. Payment of arbitration fees will be governed by the AAA Consumer Arbitration Rules and applicable law.
+
+11.5 Small Claims. Either party may bring an individual action in small claims court in lieu of arbitration, provided the action remains in small claims court and proceeds only on an individual basis.
+
+11.6 Class Action Waiver. YOU AND THE STUDIO AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING. THE ARBITRATOR MAY NOT CONSOLIDATE CLAIMS OR PRESIDE OVER ANY FORM OF CLASS OR REPRESENTATIVE PROCEEDING.
+
+11.7 Opt-Out. You may opt out of this arbitration agreement within thirty (30) days of your first use of the App by emailing [afkgames.helpdesk@gmail.com](mailto:afkgames.helpdesk@gmail.com) with the subject line “Arbitration Opt-Out” and providing (a) your name, (b) the email address you use (if any), and (c) a clear statement that you wish to opt out of arbitration. If you opt out, you and the Studio agree that disputes will be resolved in court as set forth in Section 13.1, and the Class Action Waiver in Section 11.6 will not apply to you.
+
+11.8 Administrator Unavailability. If AAA is unavailable to administer arbitration, the parties will reasonably cooperate to select an alternative arbitration administrator that applies consumer arbitration rules substantially similar to the AAA Consumer Arbitration Rules.
+
+12. TERMINATION
+    The Studio may terminate your license to use the App, and where technically available may suspend or restrict access to App features, if you violate these Terms or if the Studio reasonably determines your use is unlawful, harmful, abusive, fraudulent, infringing, security-sensitive, policy-violating, or otherwise harmful to the Studio, users, third parties, platforms, advertising systems, analytics systems, or service providers. Upon termination, you must cease all use of the App and delete any copies in your possession or control. Sections 3.2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, and 14 survive termination.
+
+13. GENERAL TERMS
+
+13.1 Governing Law; Venue. These Terms are governed by the laws of the State of Florida, USA, without regard to conflict of laws principles. To the extent a dispute is not subject to arbitration (including if you validly opt out under Section 11.7), you agree that any such action will be brought exclusively in the state or federal courts located in Orange County, Florida, and you consent to personal jurisdiction and venue there. Mandatory consumer protection rights that cannot be waived under applicable law remain unaffected.
+
+13.2 Severability. If any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the remaining provisions will remain in full force and effect.
+
+13.3 Entire Agreement. These Terms, together with the Privacy Policy and Third-Party Notices, constitute the entire agreement between you and the Studio regarding the App and supersede all prior or contemporaneous agreements and understandings.
+
+13.4 Assignment. You may not assign or transfer these Terms without the Studio’s prior written consent. The Studio may assign these Terms, including all rights and obligations, in connection with a merger, acquisition, sale of assets, corporate reorganization, or by operation of law.
+
+13.5 No Waiver. The Studio’s failure to enforce any right or provision of these Terms will not constitute a waiver of such right or provision.
+
+13.6 Interpretation. Headings are for convenience only and do not affect interpretation. The word “including” means “including without limitation.” References to the App include the App and any related features, updates, documentation, local files, generated outputs, and in-app legal materials, as applicable.
+
+14. CONTACT
+    AFK GAMES STUDIO
+    Email: [afkgames.helpdesk@gmail.com]</pre>
+      </div>
+
+      <footer>
+        <div><strong>AFK GAMES STUDIO</strong></div>
+        <div>Contact: <a href="mailto:afkgames.helpdesk@gmail.com">afkgames.helpdesk@gmail.com</a></div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

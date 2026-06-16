@@ -1,0 +1,46 @@
+ZIP4J — THIRD-PARTY OPEN SOURCE NOTICE
+Last Updated: June 15, 2026
+
+The App includes Zip4j (“Zip4j”), an open source Java library for handling ZIP files and ZIP streams, including ZIP creation, extraction, password-protected ZIP files, and encryption-related ZIP functionality where used by the App.
+
+Project / source
+
+* Zip4j: https://github.com/srikanth-lingala/zip4j
+
+Component used in the current build
+
+* net.lingala.zip4j:zip4j
+* Version: 2.11.6
+
+License
+Use of Zip4j is governed by the Apache License, Version 2.0.
+
+* Zip4j source: https://github.com/srikanth-lingala/zip4j
+* Zip4j Maven artifact: https://central.sonatype.com/artifact/net.lingala.zip4j/zip4j
+* Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+NOTICE preservation
+Zip4j release artifacts may include license, copyright, attribution, or notice information. Where applicable, the Studio preserves Zip4j license and notice information in the App’s Third-Party Notices and/or related legal/license files.
+
+The full text of the Apache License, Version 2.0 is provided in the App as LICENSE_APACHE_2_0.txt or an equivalent in-app “Apache 2.0” view.
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, Zip4j is used in the App in compliance with the Apache License, Version 2.0 and applicable Zip4j notice requirements for the version included in the build.
+
+The Studio uses Zip4j to support user-directed ZIP/archive functionality where implemented by the App. The Studio does not claim that ZIP files, password-protected ZIP files, encrypted archives, extraction results, or archive contents are guaranteed to be secure, recoverable, compatible, virus-free, malware-free, non-corrupt, legally usable, or suitable for any regulated, evidentiary, archival, professional, or high-risk purpose.
+
+The Studio is responsible for maintaining applicable license text and attribution records for Zip4j and for verifying the resolved dependency graph before each production release.
+
+Attribution
+Zip4j is developed by its upstream author(s) and contributors.
+
+Zip4j, Java, Android, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+
+No endorsement
+The Zip4j project, its author(s), and its contributors are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, ZIP/archive functionality, or in-app notice display purposes. The Zip4j library itself is governed by its applicable upstream license and notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

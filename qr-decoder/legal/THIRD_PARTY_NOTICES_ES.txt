@@ -1,0 +1,498 @@
+QR DECODER — AVISOS DE TERCEROS
+Versión: 1.0
+Última actualización: 15 de junio de 2026
+
+1. ALCANCE
+   Este documento de Avisos de terceros se aplica a QR Decoder (la «App»), desarrollada y distribuida por AFK GAMES STUDIO («el Estudio»).
+
+Identifica (i) software de código abierto de terceros, (ii) servicios/SDK de terceros, (iii) SDK relacionados con Google/Firebase/publicidad/escáner y (iv) ciertos textos de licencia y avisos específicos de proveedores incluidos o utilizados por la App.
+
+Estos avisos se proporcionan únicamente con fines de atribución, cumplimiento de licencias, procedencia y cumplimiento normativo. No modifican los Términos de Uso ni la Política de Privacidad de la App.
+
+Las divulgaciones relacionadas con la privacidad, incluidos los identificadores de publicidad, la ubicación aproximada derivada de la IP, las interacciones con la app, los eventos de publicidad, las señales de analítica, los diagnósticos, las señales de consentimiento, los informes de fallos, las métricas de SDK de escáner/OCR y las elecciones del usuario, se describen en la Política de Privacidad de la App y en los avisos/políticas de los proveedores aplicables.
+
+2. UBICACIÓN / DISPONIBILIDAD
+   Este aviso se proporciona dentro de la app a través del área Legal / Licencias / Avisos de terceros de la App y también puede estar disponible en el sitio web del Estudio.
+
+Si una copia web difiere de esta copia incluida en la app, prevalece la copia incluida en la app para la versión que instalaste.
+
+3. AVISOS INCLUIDOS (ENLACES / ADJUNTOS)
+   La App incluye avisos específicos de proveedores y textos de licencia por separado. Cuando están disponibles en esta versión, son accesibles desde esta pantalla como enlaces/botones individuales:
+
+* Aviso de Google AdMob / Google Mobile Ads SDK: AD_SERVICES_NOTICE.txt
+* Aviso de Firebase Analytics / Firebase Crashlytics: FIREBASE_NOTICE.txt
+* Aviso de Google ML Kit / escáner de documentos: GOOGLE_MLKIT_SCANNER_NOTICE.txt
+* Licencia Apache 2.0 (texto completo): LICENSE_APACHE_2_0.txt
+* GNU GPLv2 con excepción de Classpath (texto completo): LICENSE_GPL_2_0_WITH_CLASSPATH_EXCEPTION.txt
+* Licencia Pública de Eclipse 1.0 (texto completo, dependencia de prueba/desarrollo): LICENSE_EPL_1_0.txt
+* Aviso de Apache POI: APACHE_POI_NOTICE.txt
+* Aviso de Apache Log4j: LOG4J_NOTICE.txt
+* Aviso de ZXing: ZXING_NOTICE.txt
+* Aviso de Zip4j: ZIP4J_NOTICE.txt
+* Aviso de OpenJDK / Desugar JDK Libraries: OPENJDK_DESUGAR_NOTICE.txt
+
+Si alguno de los archivos enumerados no está presente en una variante de compilación específica, el Estudio proporcionará la licencia/el aviso aplicable previa solicitud cuando así lo exijan los términos de la licencia aplicable.
+
+=======================================================================
+A. SOFTWARE DE CÓDIGO ABIERTO (OSS)
+===================================
+
+A.1 Resumen
+La App incluye componentes de código abierto. Cada componente se rige por sus propios términos de licencia.
+
+En caso de conflicto entre este aviso y una licencia de código abierto aplicable, la licencia de código abierto prevalece únicamente respecto del componente de código abierto correspondiente.
+
+A.2 Familia principal de licencia OSS — Licencia Apache 2.0
+Los siguientes componentes principales son de uso común en la App y, por lo general, están licenciados bajo la Licencia Apache, Versión 2.0, o se distribuyen bajo términos de proyecto compatibles con Apache-2.0, según sus metadatos de proyecto/licencia publicados:
+
+Componentes de Android / AndroidX / Jetpack / Compose
+
+* AndroidX Core KTX
+  Módulo: androidx.core:core-ktx
+  Versión: 1.19.0
+  Propósito: extensiones Kotlin del núcleo de Android y utilidades de compatibilidad de plataforma
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Core Splashscreen
+  Módulo: androidx.core:core-splashscreen
+  Versión: 1.2.0
+  Propósito: soporte de compatibilidad para la pantalla de inicio de Android
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Lifecycle Runtime KTX
+  Módulo: androidx.lifecycle:lifecycle-runtime-ktx
+  Versión: 2.10.0
+  Propósito: utilidades de tiempo de ejecución conscientes del ciclo de vida
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Lifecycle Runtime Compose
+  Módulo: androidx.lifecycle:lifecycle-runtime-compose
+  Versión: 2.10.0
+  Propósito: integración de Compose consciente del ciclo de vida
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Activity Compose
+  Módulo: androidx.activity:activity-compose
+  Versión: 1.13.0
+  Propósito: integración de Compose para actividades de Android
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Navigation Compose
+  Módulo: androidx.navigation:navigation-compose
+  Versión: 2.9.8
+  Propósito: soporte de navegación para pantallas de Compose
+  Licencia principal: Licencia Apache 2.0
+
+* Jetpack Compose BOM / UI / Graphics / Tooling / Preview / Test Manifest / Test JUnit4 / Material3
+  Módulos:
+  androidx.compose:compose-bom — 2026.05.01
+  androidx.compose.ui:ui
+  androidx.compose.ui:ui-graphics
+  androidx.compose.ui:ui-tooling
+  androidx.compose.ui:ui-tooling-preview
+  androidx.compose.ui:ui-test-manifest
+  androidx.compose.ui:ui-test-junit4
+  androidx.compose.material3:material3
+  Propósito: framework de UI de Compose, gráficos, herramientas, vistas previas, soporte de pruebas y componentes de UI Material
+  Licencia principal: Licencia Apache 2.0
+
+* Material Icons Extended
+  Módulo: androidx.compose.material:material-icons-extended
+  Versión: 1.7.8
+  Propósito: recursos/componentes de iconos Material utilizados en la interfaz de la App
+  Licencia principal: Licencia Apache 2.0
+
+* CameraX
+  Módulos:
+  androidx.camera:camera-core — 1.6.3
+  androidx.camera:camera-camera2 — 1.6.3
+  androidx.camera:camera-lifecycle — 1.6.3
+  androidx.camera:camera-view — 1.6.3
+  Propósito: vista previa de la cámara, gestión del ciclo de vida de la cámara e integración de la cámara para flujos relacionados con QR/códigos de barras/documentos
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX Room
+  Módulos:
+  androidx.room:room-runtime — 2.8.4
+  androidx.room:room-ktx — 2.8.4
+  androidx.room:room-compiler — 2.8.4
+  Propósito: almacenamiento de base de datos local para registros controlados por la App e historial local
+  Licencia principal: Licencia Apache 2.0
+
+* AndroidX DocumentFile
+  Módulo: androidx.documentfile:documentfile
+  Versión: 1.1.0
+  Propósito: utilidades del Storage Access Framework de Android / acceso a archivos seleccionados por el usuario
+  Licencia principal: Licencia Apache 2.0
+
+Componentes de tiempo de ejecución de Kotlin / Coroutines / relacionados con la compilación
+
+* Biblioteca estándar de Kotlin / componentes de tiempo de ejecución de Kotlin
+  Familia de versión: Kotlin 2.4.0
+  Propósito: soporte del tiempo de ejecución del lenguaje Kotlin
+  Licencia principal: Licencia Apache 2.0
+
+* Kotlinx Coroutines Play Services
+  Módulo: org.jetbrains.kotlinx:kotlinx-coroutines-play-services
+  Versión: 1.11.2
+  Propósito: integración de corrutinas con las tareas de los servicios de Google Play
+  Licencia principal: Licencia Apache 2.0
+
+Componentes de códigos de barras / QR / imágenes / archivos / ZIP / documentos
+
+* ZXing Core
+  Módulo: com.google.zxing:core
+  Versión: 3.5.4
+  Propósito: soporte de codificación o decodificación de QR/códigos de barras
+  Licencia principal: Licencia Apache 2.0
+  Aviso adicional: ZXING_NOTICE.txt
+
+* Coil Compose
+  Módulo: io.coil-kt:coil-compose
+  Versión: 2.7.0
+  Propósito: soporte de carga/visualización de imágenes cuando lo usa la interfaz de la App o los flujos de contenido seleccionado por el usuario
+  Licencia principal: Licencia Apache 2.0
+
+* Apache POI OOXML
+  Módulo: org.apache.poi:poi-ooxml
+  Versión: 5.5.1
+  Propósito: funcionalidad relacionada con documentos Office/OOXML u hojas de cálculo cuando la usa la App
+  Licencia principal: Licencia Apache 2.0
+  Aviso adicional: APACHE_POI_NOTICE.txt
+  Nota: las distribuciones de Apache POI incluyen información de NOTICE. Los avisos aplicables de Apache POI deben conservarse cuando así se requiera.
+
+* Apache Log4j API
+  Módulo: org.apache.logging.log4j:log4j-api
+  Versión: 2.26.0
+  Propósito: dependencia de API de registro cuando la requieren bibliotecas dependientes o el código de la App
+  Licencia principal: Licencia Apache 2.0
+  Aviso adicional: LOG4J_NOTICE.txt
+  Nota: la App no debe divulgar contenido sensible de QR, OCR, ID, archivos, contraseñas de ZIP ni documentos a través de los registros.
+
+* Zip4j
+  Módulo: net.lingala.zip4j:zip4j
+  Versión: 2.11.6
+  Propósito: creación de ZIP/archivos, extracción, ZIP protegido con contraseña, ZIP cifrado y funcionalidad de ZIP dividido
+  Licencia principal: Licencia Apache 2.0
+  Aviso adicional: ZIP4J_NOTICE.txt
+
+* RichEditor Compose
+  Módulo: com.mohamedrejeb.richeditor:richeditor-compose
+  Versión: 1.0.0-rc14
+  Propósito: funcionalidad de editor de texto enriquecido / formato de texto cuando la usa la App
+  Licencia principal: Licencia Apache 2.0
+
+A.3 Texto completo de la Licencia Apache
+El texto completo de la Licencia Apache, Versión 2.0 se proporciona dentro de la App como LICENSE_APACHE_2_0.txt o una vista equivalente «Apache 2.0» en la app.
+
+A.4 Conservación del NOTICE de Apache
+Ciertos proyectos de la Apache Software Foundation pueden incluir archivos NOTICE o avisos de atribución además del texto de la Licencia Apache. Cuando corresponda, dichos avisos se conservan en esta área de Avisos de terceros o en archivos de aviso específicos de proveedores, incluidos:
+
+* Aviso de Apache POI: APACHE_POI_NOTICE.txt
+* Aviso de Apache Log4j: LOG4J_NOTICE.txt
+
+A.5 GNU GPLv2 con excepción de Classpath / componentes de tiempo de ejecución derivados de OpenJDK
+La App utiliza las bibliotecas de desugar de JDK:
+
+* Desugar JDK Libraries
+  Módulo: com.android.tools:desugar_jdk_libs
+  Versión: 2.1.5
+  Propósito: desugaring de la API de Java / soporte de compatibilidad en tiempo de ejecución en Android
+  Familia de licencia: Licencia Pública General de GNU, versión 2, con la excepción de Classpath, o avisos relacionados según los componentes derivados de OpenJDK incluidos
+  Aviso adicional: OPENJDK_DESUGAR_NOTICE.txt
+  Texto completo de la licencia: LICENSE_GPL_2_0_WITH_CLASSPATH_EXCEPTION.txt
+
+La excepción de Classpath tiene por objeto permitir el uso del código de biblioteca cubierto por la GPLv2 aplicable en combinación con módulos independientes no licenciados bajo la GPLv2, sujeto a los términos y avisos de la licencia aplicable.
+
+A.6 Licencia Pública de Eclipse 1.0 / dependencia solo de prueba
+La configuración de compilación/prueba de la App puede incluir JUnit:
+
+* JUnit
+  Módulo: junit:junit
+  Versión: 4.13.2
+  Propósito: pruebas unitarias / dependencia de prueba en tiempo de desarrollo
+  Licencia: Licencia Pública de Eclipse 1.0
+  Texto completo de la licencia: LICENSE_EPL_1_0.txt
+
+JUnit es una dependencia de desarrollo/prueba y puede no distribuirse como parte de la compilación de producción instalada de la App. Se enumera aquí por transparencia y para la integridad del registro de compilación.
+
+A.7 Herramientas de desarrollo / compilación / prueba
+La compilación de la App puede utilizar herramientas de desarrollo o de tiempo de compilación que no necesariamente se distribuyen como parte de la App de producción instalada, incluidas:
+
+* Android Gradle Plugin
+  Plugin: com.android.application
+  Versión: 9.2.1
+
+* Kotlin Compose Compiler Plugin
+  Plugin: org.jetbrains.kotlin.plugin.compose
+  Versión: 2.4.0
+
+* Kotlin Symbol Processing (KSP)
+  Plugin: com.google.devtools.ksp
+  Versión: 2.3.5
+
+* Google Services Gradle Plugin
+  Plugin: com.google.gms.google-services
+  Versión: 4.4.4
+
+* Firebase Crashlytics Gradle Plugin
+  Plugin: com.google.firebase.crashlytics
+  Versión: 3.0.7
+
+* AndroidX Test / JUnit Extension / Espresso
+  Módulos:
+  androidx.test.ext:junit — 1.3.0
+  androidx.test.espresso:espresso-core — 3.7.0
+
+Estas herramientas/dependencias se identifican por transparencia. Los avisos requeridos para los componentes de tiempo de ejecución distribuidos deben conservarse cuando corresponda.
+
+A.8 Nota sobre la integridad
+Esta lista se basa en las declaraciones directas de dependencias de la App y puede no enumerar todas las dependencias transitivas resueltas por Gradle. Las dependencias transitivas pueden tener sus propios términos de licencia y avisos. Antes de cada lanzamiento, el Estudio debe verificar el grafo de dependencias resuelto y actualizar este aviso si componentes distribuidos adicionales requieren atribución o texto de licencia.
+
+=======================================================================
+B. SDK DE GOOGLE / FIREBASE / PLAY SERVICES
+===========================================
+
+B.1 Resumen
+La App utiliza ciertos SDK y servicios proporcionados por Google para publicidad, consentimiento, analítica, informes de fallos, escaneo de códigos de barras, reconocimiento de texto, escaneo de documentos y funcionalidad técnica relacionada.
+
+Los SDK y servicios de Google son proporcionados por Google LLC o servicios relacionados de Google y pueden estar sujetos a términos, políticas, términos específicos de servicio, términos de tratamiento de datos y documentación de privacidad de Google independientes.
+
+Estos avisos de proveedor/servicio no son avisos de licencia de código abierto. Se incluyen por transparencia, información del usuario y mantenimiento de registros de cumplimiento.
+
+B.2 Servicios/SDK de Google incluidos
+
+* Google AdMob / Google Mobile Ads SDK
+  Módulo: com.google.android.gms:play-services-ads
+  Versión: 25.3.0
+  Categoría: servicio / SDK de terceros (publicidad)
+  Proveedor: Google LLC
+  Propósito: entrega de anuncios, medición, limitación de frecuencia, prevención de fraude, seguridad y cumplimiento de políticas
+  Uso actual en la App: solo anuncios de apertura de la app (App Open) en la versión actual
+  Datos/Privacidad: puede recopilar, tratar y compartir automáticamente la dirección IP, los identificadores de publicidad/dispositivo, las interacciones con la app, los eventos de publicidad, las señales de diagnóstico/rendimiento, la ubicación aproximada inferida a partir de la IP y las señales antifraude, según la configuración, la región y las elecciones del usuario.
+  Aviso adicional: AD_SERVICES_NOTICE.txt
+
+* Google User Messaging Platform (UMP)
+  Módulo: com.google.android.ump:user-messaging-platform
+  Versión: 4.0.0
+  Categoría: servicio / SDK de terceros (consentimiento / opciones de privacidad)
+  Proveedor: Google LLC
+  Propósito: recopilación de consentimiento y flujo de opciones de privacidad cuando se requiere o está disponible
+  Datos/Privacidad: puede tratar el estado del consentimiento y las señales técnicas/de dispositivo relacionadas según se describe en la Política de Privacidad y en las políticas de Google.
+  Aviso relacionado: AD_SERVICES_NOTICE.txt o este documento de Avisos de terceros
+
+* Firebase Analytics
+  Módulo: com.google.firebase:firebase-analytics
+  Versión: gestionada por Firebase BoM 34.14.1
+  Categoría: servicio / SDK de terceros (analítica / medición)
+  Proveedor: Google LLC / Firebase
+  Propósito: medición del uso de la app y analítica disponible para el Estudio
+  Datos/Privacidad: puede recopilar y tratar eventos de interacción con la app, eventos del ciclo de vida de la app, identificadores de instancia de la app, el ID de publicidad cuando esté disponible/configurado, ubicación aproximada derivada de la IP enmascarada, información del dispositivo/técnica y señales de analítica relacionadas, según se describe en la Política de Privacidad y en las políticas de Google/Firebase.
+  Uso por el Estudio: el Estudio utiliza Firebase Analytics para comprender el uso general de la App, la interacción con las funciones, el contexto de estabilidad y las tendencias de medición agregadas. El Estudio no utiliza Firebase Analytics para vender información personal ni para compartir datos con terceros ajenos a Google con fines publicitarios.
+  Aviso adicional: FIREBASE_NOTICE.txt
+
+* Firebase Crashlytics
+  Módulo: com.google.firebase:firebase-crashlytics
+  Versión: gestionada por Firebase BoM 34.14.1
+  Categoría: servicio / SDK de terceros (diagnóstico / informes de fallos)
+  Proveedor: Google LLC / Firebase
+  Propósito: informes de fallos y diagnóstico de estabilidad disponibles para el Estudio
+  Datos/Privacidad: puede recopilar y tratar registros de fallos, trazas de pila, el estado relevante de la aplicación, metadatos del dispositivo, el estado de la app, identificadores de instalación de Crashlytics, identificadores de instalación de Firebase e información de diagnóstico relacionada cuando se producen fallos o eventos de estabilidad.
+  Uso por el Estudio: el Estudio utiliza Crashlytics para identificar, priorizar y corregir fallos y problemas de estabilidad. El Estudio no comparte los registros de fallos con terceros ajenos a Google con fines publicitarios.
+  Aviso adicional: FIREBASE_NOTICE.txt
+
+* Google ML Kit Barcode Scanning
+  Módulo: com.google.mlkit:barcode-scanning
+  Versión: 17.3.0
+  Categoría: SDK de terceros (escaneo de códigos de barras / QR)
+  Proveedor: Google LLC
+  Propósito: funcionalidad de escaneo de códigos de barras y QR
+  Datos/Privacidad: las entradas admitidas se procesan en el dispositivo cuando corresponde. ML Kit puede ponerse en contacto con servidores de Google para elementos como correcciones de errores, modelos actualizados e información de compatibilidad de aceleradores de hardware, y puede enviar a Google métricas sobre el rendimiento y la utilización de las API. El Estudio no opera sus propios servidores para subir contenido de QR/códigos de barras escaneados.
+  Aviso adicional: GOOGLE_MLKIT_SCANNER_NOTICE.txt
+
+* Google ML Kit Text Recognition
+  Módulo: com.google.mlkit:text-recognition
+  Versión: 16.0.1
+  Categoría: SDK de terceros (reconocimiento de texto / OCR)
+  Proveedor: Google LLC
+  Propósito: funcionalidad de OCR/reconocimiento de texto
+  Datos/Privacidad: las entradas admitidas se procesan en el dispositivo cuando corresponde. ML Kit puede ponerse en contacto con servidores de Google para elementos como correcciones de errores, modelos actualizados e información de compatibilidad de aceleradores de hardware, y puede enviar a Google métricas sobre el rendimiento y la utilización de las API. El Estudio no opera sus propios servidores para subir imágenes de entrada de OCR ni texto reconocido.
+  Aviso adicional: GOOGLE_MLKIT_SCANNER_NOTICE.txt
+
+* Google Play services ML Kit Document Scanner
+  Módulo: com.google.android.gms:play-services-mlkit-document-scanner
+  Versión: 16.0.0
+  Categoría: SDK de terceros / componente de los servicios de Google Play (escaneo de documentos)
+  Proveedor: Google LLC
+  Propósito: soporte del flujo de escaneo de documentos
+  Datos/Privacidad: el procesamiento y el comportamiento técnico pueden depender de los servicios de Google Play, la configuración del dispositivo, el comportamiento del SDK, los servicios del sistema operativo, la región y las políticas de Google aplicables. El Estudio no opera sus propios servidores para subir documentos escaneados, texto de OCR, salidas de escaneo de ID, archivos ni contenido de ZIP.
+  Aviso adicional: GOOGLE_MLKIT_SCANNER_NOTICE.txt
+
+B.3 Términos y políticas de Google/Firebase
+El uso de los componentes de Google/Firebase/ML Kit/AdMob/UMP se rige por los términos y políticas de Google aplicables, que pueden incluir:
+
+* Política de Privacidad de Google:
+  https://policies.google.com/privacy
+
+* Términos de Servicio de Google:
+  https://policies.google.com/terms
+
+* Términos de Servicio de las APIs de Google:
+  https://developers.google.com/terms
+
+* Términos de Servicio del Google Mobile Ads SDK:
+  https://developers.google.com/ad-manager/mobile-ads-sdk/terms
+
+* Términos de Servicio de AdMob:
+  https://developers.google.com/admob/terms
+
+* Términos de Firebase:
+  https://firebase.google.com/terms
+
+* Privacidad y Seguridad de Firebase:
+  https://firebase.google.com/support/privacy
+
+* Guía de divulgación de datos de Firebase para Android:
+  https://firebase.google.com/docs/android/play-data-disclosure
+
+* Guía de divulgación de datos del Google Mobile Ads SDK:
+  https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+* Términos y Privacidad de ML Kit:
+  https://developers.google.com/ml-kit/terms
+
+* Guía de divulgación de Seguridad de los Datos de Google Play:
+  https://support.google.com/googleplay/android-developer/answer/10787469
+
+Los enlaces y los nombres de las políticas pueden cambiar con el tiempo. Consulta la documentación oficial de Google para conocer las versiones más actuales.
+
+=======================================================================
+C. ÁREAS FUNCIONALES DE LA APP Y COMPONENTES DE TERCEROS
+========================================================
+
+C.1 Escaneo y creación de QR / códigos de barras
+Los componentes de terceros relevantes pueden incluir:
+
+* CameraX
+* Google ML Kit Barcode Scanning
+* ZXing Core
+* Componentes de UI de Jetpack Compose / AndroidX
+
+La App puede utilizar estos componentes para previsualizar la cámara, escanear QR/códigos de barras, decodificar los formatos de código admitidos y generar salidas de QR/códigos de barras. El contenido de QR/códigos de barras seleccionado, escaneado o generado por el usuario se rige por la Política de Privacidad y los Términos de Uso de la App.
+
+C.2 Escaneo de documentos / OCR / escaneo de ID
+Los componentes de terceros relevantes pueden incluir:
+
+* CameraX
+* Google ML Kit Text Recognition
+* Google Play services ML Kit Document Scanner
+* Componentes de UI de AndroidX / Jetpack Compose
+* AndroidX DocumentFile cuando se utiliza almacenamiento seleccionado por el usuario
+
+La App puede utilizar estos componentes para la captura de documentos dirigida por el usuario, los flujos relacionados con OCR y los flujos de escaneo de ID. La App no proporciona verificación de identidad legal, autenticación de documentos gubernamentales, cumplimiento de conozca-a-su-cliente (KYC), verificación de edad ni validación de identidad regulada.
+
+C.3 Visor de archivos / editor de texto / SAF
+Los componentes de terceros relevantes pueden incluir:
+
+* AndroidX DocumentFile
+* RichEditor Compose
+* Componentes de UI de Jetpack Compose / AndroidX
+* Coil Compose cuando se utiliza la carga/visualización de imágenes
+
+La App utiliza los mecanismos de acceso a archivos del sistema Android, incluidos los archivos/carpetas seleccionados por el usuario cuando corresponde. El contenido de los archivos seleccionado por el usuario se rige por la Política de Privacidad y los Términos de Uso de la App.
+
+C.4 Herramientas de ZIP / archivos
+Los componentes de terceros relevantes pueden incluir:
+
+* Zip4j
+* AndroidX DocumentFile
+* Componentes de tiempo de ejecución de Kotlin / AndroidX
+
+Las funciones de ZIP/archivos pueden incluir operaciones normales de ZIP, operaciones de ZIP protegidas con contraseña, manejo de ZIP cifrados, manejo de ZIP divididos y flujos de extracción cuando los implementa la App. Los archivos comprimidos y las salidas extraídas se rigen por la Política de Privacidad y los Términos de Uso de la App.
+
+C.5 Funcionalidad relacionada con Office / hojas de cálculo / exportación
+Los componentes de terceros relevantes pueden incluir:
+
+* Apache POI OOXML
+* Apache Log4j API
+* Componentes de tiempo de ejecución de Kotlin / AndroidX
+
+Cuando se utilizan, estos componentes pueden dar soporte a funciones de importación/exportación o procesamiento relacionadas con documentos/hojas de cálculo. Los usuarios son responsables de verificar todos los archivos generados, importados, exportados o procesados.
+
+=======================================================================
+D. PRIVACIDAD, DATOS Y LÍMITES DEL CONTENIDO DEL USUARIO
+========================================================
+
+D.1 Contenido del usuario local-first
+La App está diseñada como una utilidad local (local-first). El contenido de escaneo de QR, las entradas del creador de QR, el historial de escaneos, la salida de OCR, la salida de escaneo de documentos, la salida de escaneo de ID, el contenido del visor/editor de archivos, el contenido de ZIP/archivos, los archivos extraídos y los archivos seleccionados por el usuario se procesan generalmente en el dispositivo, se almacenan localmente, se almacenan en el almacenamiento controlado por la App, se almacenan en ubicaciones seleccionadas por el usuario o se gestionan mediante los mecanismos de acceso a archivos del sistema Android.
+
+El Estudio no opera sus propios servidores para subir ni alojar el contenido de QR del usuario, documentos, texto de OCR, salidas de escaneo de ID, contenido de archivos, contraseñas de ZIP ni contenido de ZIP/archivos.
+
+D.2 Datos de SDK de terceros
+Los SDK de terceros pueden tratar datos técnicos, de diagnóstico, de analítica, de publicidad, de consentimiento o de operación del servicio, según se describe en la Política de Privacidad de la App y en las políticas de los proveedores aplicables.
+
+Firebase Analytics y Firebase Crashlytics son utilizados por el Estudio para analítica, informes de fallos y diagnóstico. Google AdMob / Google Mobile Ads SDK se utiliza para publicidad y puede recopilar, tratar y compartir cierta información para la entrega de anuncios, la medición, la limitación de frecuencia, la prevención de fraude, la seguridad y el cumplimiento de políticas.
+
+D.3 Compartición / exportación dirigida por el usuario
+Si el usuario decide compartir, exportar, copiar, guardar, imprimir, enviar, subir, abrir o transmitir contenido generado por la App o contenido seleccionado por el usuario a través de otra app, servicio, sitio web, proveedor de archivos, ubicación de almacenamiento, herramienta de comunicación o función del sistema operativo, esa acción la dirige el usuario. El destino receptor puede tratar el contenido bajo sus propios términos, política de privacidad, prácticas de seguridad y reglas de conservación.
+
+=======================================================================
+E. RECURSOS CREATIVOS
+=====================
+
+E.1 Resumen
+Según la lista de dependencias revisada para esta versión, no se identifica ningún aviso independiente de música, voz, efectos de sonido, medios sintéticos ni recursos creativos externos de terceros para QR Decoder en este documento de Avisos de terceros.
+
+E.2 Iconos / recursos de UI
+La App puede utilizar componentes de UI relacionados con Material Design y Material Icons Extended como parte de las bibliotecas Jetpack Compose / AndroidX Material. Dichos componentes se identifican en la sección de OSS anterior.
+
+E.3 Recursos futuros
+Si versiones futuras incluyen audio, imágenes, iconos, fuentes, ilustraciones, plantillas, medios generados o recursos creativos licenciados de terceros, el Estudio debe añadir avisos específicos de proveedores por separado cuando se requiera o sea apropiado.
+
+=======================================================================
+F. PRIVACIDAD Y SOPORTE
+=======================
+
+Política de Privacidad
+Para información sobre prácticas de datos, identificadores, controles de consentimiento, procesamiento local-first, uso de la cámara, flujos de OCR/documentos/ID, procesamiento de archivos/ZIP, analítica, diagnóstico, publicidad y elecciones del usuario, consulta la Política de Privacidad de la App.
+
+Versión más reciente (web):
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+Términos de Uso
+Para restricciones de uso, responsabilidad por el contenido del usuario, exenciones de escáner/OCR/ID/archivos/ZIP, exenciones de garantía, limitación de responsabilidad, servicios de terceros y términos de controversias, consulta los Términos de Uso de la App.
+
+Versión más reciente (web):
+https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
+
+Soporte / Contacto
+AFK GAMES STUDIO
+Soporte: afkgames.helpdesk@gmail.com
+
+=======================================================================
+G. MANTENIMIENTO DE REGISTROS / NOTA DE LANZAMIENTO
+===================================================
+
+Este aviso se basa en la lista de dependencias proporcionada para la compilación de QR Decoder utilizando las siguientes versiones destacadas:
+
+* Android Gradle Plugin: 9.2.1
+* Kotlin: 2.4.0
+* Compose BOM: 2026.05.01
+* CameraX: 1.6.3
+* ML Kit Barcode Scanning: 17.3.0
+* ML Kit Text Recognition: 16.0.1
+* Google Play services ML Kit Document Scanner: 16.0.0
+* ZXing Core: 3.5.4
+* Apache POI OOXML: 5.5.1
+* Apache Log4j API: 2.26.0
+* Room: 2.8.4
+* RichEditor Compose: 1.0.0-rc14
+* AndroidX DocumentFile: 1.1.0
+* Zip4j: 2.11.6
+* Google Mobile Ads SDK: 25.3.0
+* Google User Messaging Platform: 4.0.0
+* Firebase BoM: 34.14.1
+* Firebase Analytics: gestionada por Firebase BoM
+* Firebase Crashlytics: gestionada por Firebase BoM
+
+Antes de cada lanzamiento de producción, el Estudio debe verificar el grafo de dependencias de tiempo de ejecución resuelto, el manifiesto combinado, los avisos empaquetados y cualquier obligación de licencia de dependencias transitivas.

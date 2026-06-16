@@ -1,0 +1,62 @@
+FIREBASE — ANALYTICS / CRASHLYTICS NOTICE
+Last Updated: June 15, 2026
+
+The App uses certain Firebase services provided by Google LLC (“Google” / “Firebase”) for app usage measurement, crash reporting, and stability diagnostics.
+
+Service / source
+
+* Firebase: https://firebase.google.com
+* Firebase Analytics: https://firebase.google.com/docs/analytics
+* Firebase Crashlytics: https://firebase.google.com/docs/crashlytics
+
+Firebase services used in the current build
+
+* Firebase Analytics
+* Firebase Crashlytics
+* Firebase BoM / Firebase Android SDK components, as applicable
+
+Terms
+Use of Firebase and Firebase SDKs is subject to Google’s and Firebase’s then-current terms and policies, including:
+
+* Firebase Terms: https://firebase.google.com/terms
+* Firebase Privacy and Security: https://firebase.google.com/support/privacy
+* Firebase Data Processing and Security Terms: https://firebase.google.com/terms/data-processing-terms
+* Google Privacy Policy: https://policies.google.com/privacy
+* Google Terms of Service: https://policies.google.com/terms
+* Firebase Android Data Disclosure Guidance: https://firebase.google.com/docs/android/play-data-disclosure
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, Firebase Analytics and Firebase Crashlytics are used in the App for measurement, crash reporting, and diagnostics available to the Studio. The Studio uses these services to understand general App usage, feature engagement, crash impact, and stability issues, and to improve the App’s reliability.
+
+Based on the current App implementation, the App does not require Studio account registration for Firebase Analytics, and the Studio does not intentionally use Firebase Analytics to maintain Studio-created user account profiles. Based on the current App implementation, the Studio does not intentionally log custom Firebase Analytics events, set Studio-controlled user IDs, or set Studio-created user properties.
+
+Based on the current App implementation, Firebase Crashlytics is used for crash reporting and stability diagnostics. The Studio does not intentionally attach custom keys, custom logs, free-text user IDs, non-fatal reports, or test-crash UI data to Crashlytics reports.
+
+Data / privacy note
+Firebase Analytics may collect and process app interaction events, app lifecycle events, app-instance identifiers, Advertising ID where available/configured, masked IP-derived coarse location, device/technical information, and related analytics signals.
+
+Firebase Crashlytics may collect and process crash logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, and related diagnostic information when crashes or stability events occur.
+
+Firebase data is processed by Google/Firebase under applicable Google and Firebase terms and policies. The Studio may view related analytics, crash reporting, and diagnostic information in Firebase Console.
+
+The Studio does not use Firebase Analytics or Firebase Crashlytics to sell personal information. The Studio does not share Firebase Analytics or Firebase Crashlytics data with non-Google third parties for advertising.
+
+Firebase is separate from Google AdMob / Google Mobile Ads SDK. Advertising-related collection, processing, and sharing by Google AdMob is described separately in the App’s Google AdMob / Google Mobile Ads SDK Notice and in the App’s Privacy Policy.
+
+Privacy Policy
+The App’s data disclosures and user choices are described in the App’s Privacy Policy.
+
+Most current version (web):
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+Attribution
+Firebase, Firebase Analytics, Firebase Crashlytics, Google, Google Play, and related marks are trademarks or registered trademarks of Google LLC or its affiliates. This notice is provided for transparency, provenance, and compliance recordkeeping. No additional attribution is intended to modify Google’s or Firebase’s applicable terms or trademark rules.
+
+No endorsement
+Google and Firebase are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Firebase configuration files, project identifiers, SDK versions, package identifiers, and build-variant settings may be maintained internally for App operation, release management, diagnostics, and compliance records. Sensitive configuration values, if any, should not be displayed in public notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

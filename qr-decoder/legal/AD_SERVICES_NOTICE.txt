@@ -1,0 +1,44 @@
+GOOGLE ADMOB — THIRD-PARTY SERVICE NOTICE
+
+The App uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising.
+
+In the current build, the App implements App Open ads only. The App does not currently implement banner ads, interstitial ads, rewarded ads, or native ads.
+
+Data Handling
+Google AdMob and related Google services may collect and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance. Depending on configuration, region, and user choices, this may include:
+
+* Advertising/device identifiers (e.g., Advertising ID or equivalent identifiers)
+* IP address and approximate location inferred from IP
+* Device/technical information (device model, OS/app version, diagnostics/performance)
+* App interactions and advertising events (e.g., app launch, ad requests, impressions, clicks, interaction signals) and anti-fraud signals
+
+Google processes such information under its own terms and privacy policies and, depending on the service, configuration, region, and legal context, may act as an independent controller, service provider/processor, or under other applicable Google terms and policies. The App’s data disclosures and user choices are described in the App’s Privacy Policy.
+
+Privacy Policy
+Most current version (web):
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+User Choices / Consent
+Where available, you can manage advertising consent and choices via the App’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” or “Advertising” in system settings to reset/delete Advertising ID or limit ad personalization).
+
+References (Google)
+
+* Mobile Ads SDK disclosure guidance (Google Play requirements):
+  https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+* Google Play “Data safety” disclosure guidance (Play Console requirements):
+  https://support.google.com/googleplay/android-developer/answer/10787469
+
+Terms & Policies
+Use of Google AdMob / Google Mobile Ads SDK is governed by Google’s applicable terms and policies, including:
+
+* AdMob Terms of Service:
+  https://developers.google.com/admob/terms
+
+* Google Mobile Ads SDK Terms of Service:
+  https://developers.google.com/ad-manager/mobile-ads-sdk/terms
+
+* Google Privacy Policy:
+  https://policies.google.com/privacy
+
+Note: Links and policy names may change over time; refer to Google’s official documentation for the most current versions.

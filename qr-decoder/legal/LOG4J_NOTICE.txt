@@ -1,0 +1,44 @@
+APACHE LOG4J — THIRD-PARTY OPEN SOURCE NOTICE
+Last Updated: June 15, 2026
+
+The App includes Apache Log4j (“Log4j”), an open source logging library from The Apache Software Foundation, where used by bundled libraries or App functionality.
+
+Project / source
+
+* Apache Log4j: https://logging.apache.org/log4j/2.x/
+
+Component used in the current build
+
+* org.apache.logging.log4j:log4j-api
+* Version: 2.26.0
+
+License
+Use of Apache Log4j is governed by the Apache License, Version 2.0.
+
+* Apache Log4j: https://logging.apache.org/log4j/2.x/
+* Apache Log4j downloads / release artifacts: https://logging.apache.org/log4j/2.x/download.html
+* Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+NOTICE preservation
+Apache Log4j release artifacts may include a NOTICE file containing copyright attribution notices, trademark notices, and other required attribution information. Where applicable, the Studio preserves Apache Log4j license and notice information in the App’s Third-Party Notices and/or related legal/license files.
+
+The full text of the Apache License, Version 2.0 is provided in the App as LICENSE_APACHE_2_0.txt or an equivalent in-app “Apache 2.0” view.
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, Apache Log4j is used in the App in compliance with the Apache License, Version 2.0 and applicable Apache Log4j notice requirements for the version included in the build.
+
+The Studio is responsible for maintaining applicable license text and NOTICE attribution information for Apache Log4j and for verifying the resolved dependency graph before each production release.
+
+Attribution
+Apache Log4j is developed by The Apache Software Foundation.
+
+Apache, Apache Log4j, Log4j, the Apache feather logo, and related Apache marks are trademarks or registered trademarks of The Apache Software Foundation. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+
+No endorsement
+The Apache Software Foundation and the Apache Log4j project are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, logging support, or in-app notice display purposes. The Apache Log4j library itself is governed by its applicable upstream license and notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

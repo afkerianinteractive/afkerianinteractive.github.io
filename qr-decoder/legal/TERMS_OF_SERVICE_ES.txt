@@ -1,0 +1,163 @@
+TÉRMINOS DE USO
+QR DECODER
+Fecha de entrada en vigor: 15 de junio de 2026
+Última actualización: 15 de junio de 2026
+
+Versión más reciente (web):
+https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
+
+Estos Términos se proporcionan dentro de la aplicación y también pueden estar disponibles en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
+
+1. ACUERDO VINCULANTE
+   Estos Términos de Uso («Términos») constituyen un contrato vinculante entre tú («Usuario») y AFK GAMES STUDIO («el Estudio», «nosotros» o «nuestro»). Al descargar, instalar, acceder o utilizar QR Decoder (la «App»), aceptas estos Términos. Si no estás de acuerdo, no uses la App. Podemos modificar estos Términos de vez en cuando; si continúas usando la App después de la fecha de entrada en vigor de los Términos actualizados, aceptas los Términos actualizados.
+
+2. ELEGIBILIDAD
+   La App no está dirigida a menores de 13 años, y no puedes usar la App si eres menor de 13 años. Declaras que tienes al menos 13 años. Si eres menor de edad en tu jurisdicción, declaras que cuentas con el permiso de un padre, madre o tutor legal para usar la App y que dicho padre, madre o tutor ha revisado y aceptado estos Términos en tu nombre.
+
+3. CONCESIÓN DE LICENCIA Y RESTRICCIONES
+
+3.1 Licencia. Sujeto a tu cumplimiento de estos Términos, el Estudio te concede una licencia limitada, no exclusiva, intransferible, no sublicenciable y revocable para instalar y usar la App en dispositivos compatibles que poseas o controles, con fines personales, domésticos, educativos, comerciales internos, de productividad o de utilidad, siempre que no revendas, alojes, sublicencies ni proporciones la App o los servicios generados por la App a terceros, salvo en lo expresamente permitido por estos Términos.
+
+3.2 Restricciones. Salvo en lo expresamente permitido por la legislación aplicable, no podrás, y aceptas no:
+
+(a) copiar, reproducir, distribuir, ejecutar públicamente, exhibir públicamente, modificar, traducir ni crear obras derivadas de la App;
+
+(b) vender, alquilar, arrendar, prestar, sublicenciar, ceder, alojar, revender, explotar comercialmente ni transferir de otro modo la App o el acceso a la App;
+
+(c) usar la App para prestar servicios alojados, de oficina de servicios, de servicio gestionado, automatizados o de procesamiento masivo a terceros sin el permiso previo por escrito del Estudio;
+
+(d) realizar ingeniería inversa, descompilar, desensamblar ni intentar derivar el código fuente, las ideas subyacentes, los algoritmos, la estructura o la organización de la App, salvo en la medida en que dicha restricción esté prohibida por la legislación aplicable;
+
+(e) eludir, deshabilitar ni interferir con funciones relacionadas con la seguridad, la entrega de publicidad, la medición, los flujos de consentimiento, la analítica, los informes de fallos, los sistemas de prevención de fraude u otras protecciones técnicas;
+
+(f) eliminar, alterar u ocultar avisos de propiedad, avisos de derechos de autor, avisos de marcas, avisos de atribución, avisos de código abierto o avisos de terceros contenidos en la App o mostrados por ella;
+
+(g) usar la App de cualquier manera ilícita, fraudulenta, abusiva, infractora, engañosa, dañina o no autorizada;
+
+(h) usar la App para crear, escanear, tratar, almacenar, extraer, distribuir o compartir contenido que infrinja la legislación aplicable, los derechos de terceros, las políticas de la plataforma, los derechos de privacidad, los derechos de propiedad intelectual o estos Términos;
+
+(i) usar la App para crear, distribuir o facilitar códigos QR maliciosos, enlaces de phishing, malware, flujos de robo de credenciales, enlaces engañosos, seguimiento no autorizado, spam u otra actividad técnica dañina;
+
+(j) interferir, perturbar, dañar, sobrecargar o menoscabar la App, los SDK de terceros, los sistemas de publicidad, los sistemas de analítica, los sistemas de informes de fallos, los sistemas de consentimiento, los servicios del sistema operativo o cualquier infraestructura relacionada.
+
+4. PROPIEDAD INTELECTUAL; CONTENIDO DEL USUARIO; SALIDAS DE LA APP
+
+4.1 Titularidad. La App y todo el contenido y los materiales asociados, incluidos, entre otros, el software, la interfaz de usuario y el diseño visual, las marcas, los logotipos, la documentación, las plantillas, la configuración, los flujos de trabajo y los materiales creados por el Estudio (en conjunto, los «Materiales del Estudio»), son propiedad del Estudio o de sus licenciantes y están protegidos por la propiedad intelectual y otras leyes. El Estudio se reserva todos los derechos no concedidos expresamente a ti.
+
+4.2 Contenido del usuario. Entre tú y el Estudio, conservas los derechos que ostentes legalmente sobre los códigos QR, códigos de barras, documentos, imágenes, texto, archivos, archivos comprimidos, identificaciones, salidas de escaneo, salidas de OCR, registros de inventario, códigos QR generados, archivos exportados y demás contenido que selecciones, escanees, crees, trates, guardes, exportes o compartas a través de la App («Contenido del Usuario»). Estos Términos no transfieren al Estudio la titularidad de tu Contenido del Usuario.
+
+4.3 Responsabilidad por el Contenido del Usuario. Eres el único responsable de tu Contenido del Usuario y de tu uso de la App. Declaras y garantizas que tienes todos los derechos, permisos, consentimientos y la autoridad legal necesarios para escanear, capturar, tratar, almacenar, editar, extraer, exportar, compartir o usar de otro modo cualquier Contenido del Usuario a través de la App.
+
+4.4 Utilidad local. La App está diseñada como una utilidad local (local-first). El Contenido del Usuario puede tratarse y almacenarse en tu dispositivo, en el almacenamiento controlado por la App, en ubicaciones seleccionadas por el usuario o mediante los mecanismos de acceso a archivos del sistema Android. La App no es un servicio de almacenamiento en la nube, un servicio de copia de seguridad, una caja fuerte segura, un servicio de verificación de identidad, un sistema de registros legales, un repositorio de registros regulados ni un sistema de conservación de pruebas.
+
+4.5 Salidas de la App. Los códigos QR, los resultados de escaneo, los resultados de OCR, las salidas de escaneo de ID, las salidas de documentos, las conversiones de archivos, las salidas de ZIP/archivos, las exportaciones de inventario y otras salidas de la App pueden ser incompletas, inexactas, estar corruptas, mal leídas, degradadas, ser incompatibles, inseguras o inadecuadas para tu finalidad prevista. Eres el único responsable de revisar y verificar todas las salidas de la App antes de confiar en ellas.
+
+5. LIMITACIONES DE LAS HERRAMIENTAS DE ESCANEO, OCR, ID, ARCHIVOS Y ZIP
+
+5.1 Escaneo de QR y códigos de barras. Los códigos QR y de barras pueden contener enlaces, comandos, cargas de contacto, cargas Wi-Fi, texto, identificadores de producto u otros datos. La App puede decodificar y mostrar dicho contenido, pero el Estudio no verifica la seguridad, autenticidad, legalidad, exactitud, titularidad ni el destino de ningún código escaneado.
+
+5.2 Enlaces y contenido externo. Si abres un enlace, sitio web, archivo, app, dirección de correo electrónico, número de teléfono, ubicación de mapa, enlace de pago u otro destino a partir de contenido escaneado o introducido por el usuario, lo haces bajo tu propio riesgo. Los destinos externos están controlados por terceros y pueden estar sujetos a términos, políticas de privacidad, prácticas de seguridad y riesgos independientes.
+
+5.3 Escaneo de documentos y OCR. Las funciones de escaneo de documentos y OCR se proporcionan únicamente por comodidad. La salida de OCR puede contener errores de reconocimiento, errores de formato, omisiones, sustituciones u otras inexactitudes. Debes revisar y verificar los resultados de OCR antes de usarlos, exportarlos, compartirlos, almacenarlos o confiar en ellos.
+
+5.4 Flujos de escaneo de ID. Los flujos de escaneo de ID se proporcionan como funciones de utilidad local para la captura, revisión u organización de documentos dirigida por el usuario. La App no verifica la identidad, no autentica documentos gubernamentales, no determina el estatus legal, no valida la edad, no confirma autorizaciones, no realiza comprobaciones de antecedentes ni proporciona cumplimiento de requisitos de conozca-a-su-cliente, empleo, finanzas, inmigración, seguridad o verificación de identidad regulada.
+
+5.5 Visor de archivos / editor de texto. Las funciones de visualización y edición de archivos dependen del tipo de archivo, la codificación, los permisos, la integridad del archivo, el tamaño del archivo, las capacidades del dispositivo y el comportamiento del sistema operativo. El Estudio no garantiza que ningún archivo se abra, renderice, edite, guarde, exporte ni conserve el formato correctamente. Eres responsable de mantener copias de seguridad de los archivos importantes antes de editarlos o procesarlos.
+
+5.6 Herramientas de ZIP y archivos. Las funciones de ZIP/archivos, incluidos los ZIP protegidos con contraseña, los ZIP cifrados, los ZIP divididos, la extracción y las funciones de exportación, se proporcionan únicamente por comodidad. Las operaciones de archivos pueden fallar, pueden no admitir todos los formatos de archivo o métodos de cifrado y pueden producir resultados parciales, incompatibles, corruptos, sobrescritos o inutilizables. Eres responsable de verificar el contenido de los archivos comprimidos, mantener copias de seguridad y asegurarte de tener la autoridad legal para acceder a cualquier archivo comprimido o extraerlo.
+
+5.7 Sin garantía de malware ni de seguridad. La App no es software antivirus, software de detección de malware, software de protección de endpoints, software forense ni una herramienta de certificación de seguridad. El Estudio no garantiza que los códigos QR escaneados, los enlaces, los archivos, los documentos, los archivos comprimidos, el contenido extraído ni los destinos externos sean seguros, legítimos, estén libres de malware ni no sean engañosos.
+
+5.8 Sin asesoramiento profesional. La App no proporciona asesoramiento legal, financiero, fiscal, médico, de seguridad, de cumplimiento, de verificación de identidad, de gestión de registros, forense ni profesional. Debes obtener el asesoramiento profesional adecuado antes de confiar en las salidas de la App para fines regulados, críticos para la seguridad, legales, financieros, probatorios o sensibles al cumplimiento.
+
+6. PRIVACIDAD; DATOS
+   Tu uso de la App se rige por nuestra Política de Privacidad, que se incorpora por referencia y forma parte de estos Términos. La Política de Privacidad está disponible en la App y en:
+
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+La App está diseñada como una utilidad local (local-first). El historial de escaneos de QR, el contenido del creador de QR, las salidas de escaneo de documentos, el texto de OCR, las salidas de escaneo de ID, los datos del visor/editor de archivos, las salidas de ZIP/archivos, los registros de inventario, los ajustes y los datos locales relacionados pueden almacenarse en tu dispositivo, en el almacenamiento controlado por la App, en ubicaciones seleccionadas por el usuario o mediante los mecanismos de acceso a archivos del sistema Android. Por lo general, desinstalar la App elimina los datos de la App almacenados localmente, sujeto a la configuración de copia de seguridad de tu dispositivo y sistema operativo.
+
+La App puede integrar SDK/servicios de terceros, incluidos Google AdMob / Google Mobile Ads SDK, Google User Messaging Platform (UMP), Firebase Analytics, Firebase Crashlytics y Google ML Kit o componentes de escáner de los servicios de Google Play. Dichos SDK/servicios pueden recopilar y tratar cierta información, como identificadores de publicidad, identificadores de dispositivo u otros identificadores, ubicación aproximada inferida a partir de la IP, interacciones con la app, señales de consentimiento, diagnósticos, registros de fallos y señales técnicas, según se describe en la Política de Privacidad y en los Avisos de terceros de la App.
+
+7. SERVICIOS DE TERCEROS; ANUNCIOS; CÓDIGO ABIERTO
+
+7.1 Servicios de terceros. La App puede interoperar con o incluir servicios de terceros, SDK, bibliotecas, servicios del sistema operativo, proveedores de archivos, proveedores de almacenamiento, sitios web, enlaces, escáneres, servicios de analítica, servicios de informes de fallos, servicios de publicidad, servicios de gestión de consentimiento u otras integraciones («Servicios de Terceros»). Los Servicios de Terceros los proporcionan sus respectivos proveedores y pueden estar sujetos a términos y políticas independientes. El Estudio no es responsable de los Servicios de Terceros y no garantiza su disponibilidad, exactitud, legalidad, seguridad, prácticas de privacidad, compatibilidad ni rendimiento.
+
+7.2 Anuncios y consentimiento. La App utiliza Google AdMob / Google Mobile Ads SDK para mostrar publicidad. En la versión actual, la App implementa únicamente anuncios de apertura de la app (App Open). Las versiones futuras pueden incluir formatos de anuncios diferentes o adicionales si se divulgan según lo exija la legislación aplicable, las normas de la plataforma, la Política de Privacidad y los Avisos de terceros.
+
+El tratamiento relacionado con la publicidad puede implicar la recopilación, el tratamiento y la compartición de información por parte de terceros con fines de entrega de anuncios, medición, limitación de frecuencia, prevención de fraude, seguridad y cumplimiento de políticas, según se describe en la Política de Privacidad y en los Avisos de terceros. Cuando esté disponible o se requiera, el consentimiento de publicidad y las opciones de privacidad pueden gestionarse mediante Google User Messaging Platform (UMP), los ajustes del dispositivo o los controles de la plataforma aplicables.
+
+7.3 Compartición y exportación dirigidas por el usuario. Si decides compartir, exportar, copiar, guardar, imprimir, enviar, subir, abrir o transmitir Contenido del Usuario o salidas de la App a través de otra app, servicio, sitio web, proveedor de archivos, ubicación de almacenamiento, herramienta de comunicación o función del sistema operativo, esa acción la diriges tú. El destino receptor puede tratar el contenido bajo sus propios términos, política de privacidad, prácticas de seguridad y reglas de conservación.
+
+7.4 Código abierto. La App puede incluir componentes de software de código abierto licenciados bajo las licencias de código abierto aplicables, incluidas, entre otras, la Licencia Apache 2.0 y otras licencias identificadas en la sección de Avisos de terceros o Licencias de la App. Los avisos y textos de licencia requeridos se proporcionan en la sección «Avisos de terceros» o «Licencias» de la App. En caso de conflicto entre estos Términos y una licencia de código abierto aplicable, la licencia de código abierto prevalece únicamente respecto del componente de código abierto.
+
+8. USOS PROHIBIDOS
+   No puedes usar la App para:
+
+(a) infringir cualquier ley, reglamento, orden judicial, política de plataforma, derecho de propiedad intelectual, derecho de privacidad, derecho de imagen, obligación contractual o derecho de terceros aplicable;
+
+(b) escanear, capturar, tratar, almacenar, exportar o compartir información personal, documentos de identidad, información confidencial, registros comerciales, información regulada o contenido de terceros sin todos los derechos, permisos, consentimientos y la autoridad legal requeridos;
+
+(c) crear, distribuir, codificar, promover o facilitar códigos QR, códigos de barras, enlaces, archivos, documentos o archivos comprimidos maliciosos, engañosos, de phishing, fraudulentos, infractores, dañinos, de spam, de malware, de robo de credenciales, de seguimiento no autorizado o que infrinjan políticas;
+
+(d) suplantar a otra persona o entidad, tergiversar la identidad o la autorización, falsificar documentos, alterar registros de forma ilícita o usar los flujos de escaneo de ID con fines ilegales, engañosos o no autorizados;
+
+(e) eludir, deshabilitar o interferir con los sistemas de publicidad, los flujos de consentimiento, la analítica, los informes de fallos, las funciones de seguridad, los sistemas de prevención de fraude o las limitaciones técnicas;
+
+(f) usar la App en un contexto crítico para la seguridad, de emergencia, médico, legal, financiero, policial, de selección de personal, de inmigración, de verificación de edad, de control de acceso, de verificación de identidad regulada, forense, probatorio o crítico para el cumplimiento, sin verificación independiente y la revisión profesional adecuada;
+
+(g) usar la App para infringir los términos, las políticas o los derechos de Google, Android, Google Play, Firebase, AdMob, ML Kit, los fabricantes de dispositivos, los proveedores de archivos, los proveedores de almacenamiento, los sitios web u otros terceros.
+
+9. EXENCIÓN DE GARANTÍAS
+   EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY, LA APP Y TODOS LOS MATERIALES DEL ESTUDIO SE PROPORCIONAN «TAL CUAL» Y «SEGÚN DISPONIBILIDAD», SIN GARANTÍAS DE NINGÚN TIPO, YA SEAN EXPRESAS, IMPLÍCITAS O LEGALES, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO, TITULARIDAD, NO INFRACCIÓN, GOCE PACÍFICO, EXACTITUD, FIABILIDAD, DISPONIBILIDAD, SEGURIDAD, COMPATIBILIDAD, CONSERVACIÓN DE DATOS, FUNCIONAMIENTO SIN ERRORES O USO ININTERRUMPIDO. ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSIÓN DE CIERTAS GARANTÍAS, POR LO QUE ES POSIBLE QUE ALGUNAS DE LAS EXCLUSIONES ANTERIORES NO SE APLIQUEN A TI.
+
+SIN LIMITAR LO ANTERIOR, EL ESTUDIO NO GARANTIZA QUE: (A) NINGÚN CÓDIGO QR, CÓDIGO DE BARRAS, DOCUMENTO, RESULTADO DE OCR, SALIDA DE ESCANEO DE ID, ARCHIVO, ARCHIVO COMPRIMIDO, CONTENIDO EXTRAÍDO, CÓDIGO QR GENERADO, REGISTRO DE INVENTARIO, EXPORTACIÓN, ENLACE O DESTINO EXTERNO SERÁ EXACTO, COMPLETO, SEGURO, LÍCITO, NO ENGAÑOSO, LIBRE DE MALWARE, COMPATIBLE, CONSERVADO O ADECUADO PARA TU FINALIDAD; (B) LA APP DETECTARÁ CONTENIDO MALICIOSO, ENGAÑOSO, INFRACTOR O INSEGURO; O (C) LA APP CUMPLIRÁ ALGÚN REQUISITO REGULATORIO, PROFESIONAL, PROBATORIO, COMERCIAL, DE SEGURIDAD, DE VERIFICACIÓN DE IDENTIDAD, DE MANTENIMIENTO DE REGISTROS O DE CUMPLIMIENTO.
+
+10. LIMITACIÓN DE RESPONSABILIDAD
+    EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY:
+
+(a) EN NINGÚN CASO EL ESTUDIO SERÁ RESPONSABLE DE DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI DE NINGUNA PÉRDIDA DE BENEFICIOS, INGRESOS, DATOS, ARCHIVOS, DOCUMENTOS, ARCHIVOS COMPRIMIDOS, HISTORIAL DE ESCANEOS, SALIDAS DE OCR, SALIDAS DE ESCANEO DE ID, FONDO DE COMERCIO, OPORTUNIDAD DE NEGOCIO, INTERRUPCIÓN DEL NEGOCIO, FUNCIONALIDAD DEL DISPOSITIVO U OTRAS PÉRDIDAS INTANGIBLES, DERIVADAS DE LA APP O DE ESTOS TÉRMINOS O RELACIONADAS CON ELLOS, INCLUSO SI SE HA ADVERTIDO DE LA POSIBILIDAD DE TALES DAÑOS; Y
+
+(b) LA RESPONSABILIDAD TOTAL AGREGADA DEL ESTUDIO POR TODAS LAS RECLAMACIONES DERIVADAS DE LA APP O DE ESTOS TÉRMINOS O RELACIONADAS CON ELLOS NO SUPERARÁ LA MAYOR DE (I) LAS CANTIDADES QUE HAYAS PAGADO AL ESTUDIO POR LA APP (SI LAS HUBIERA) EN LOS DOCE (12) MESES INMEDIATAMENTE ANTERIORES AL HECHO QUE DIO ORIGEN A LA RECLAMACIÓN O (II) DIEZ DÓLARES ESTADOUNIDENSES (US $10,00).
+
+Nada en estos Términos limita ni excluye la responsabilidad por fraude, dolo, negligencia grave, o lesiones personales o muerte, en la medida en que dicha limitación o exclusión esté prohibida por la legislación aplicable. ALGUNAS JURISDICCIONES NO PERMITEN LIMITACIONES DE RESPONSABILIDAD, POR LO QUE ES POSIBLE QUE ALGUNAS DE LAS LIMITACIONES ANTERIORES NO SE APLIQUEN A TI.
+
+11. RESOLUCIÓN DE CONTROVERSIAS; ARBITRAJE VINCULANTE; RENUNCIA A ACCIONES COLECTIVAS
+    LEE ESTA SECCIÓN ATENTAMENTE. AFECTA A TUS DERECHOS LEGALES.
+
+11.1 Resolución informal y Notificación de controversia. Antes de iniciar un arbitraje o cualquier procedimiento judicial (excepto en un tribunal de reclamaciones menores), aceptas enviar primero al Estudio una Notificación de controversia por escrito a afkgames.helpdesk@gmail.com con el asunto «Notificación de controversia – QR Decoder». La Notificación debe incluir (a) tu nombre y datos de contacto, (b) una descripción de la controversia y (c) la reparación que solicitas. Las partes acuerdan intentar de buena fe resolver la controversia dentro de los treinta (30) días posteriores a la recepción de la Notificación.
+
+11.2 Acuerdo de arbitraje. Si la controversia no se resuelve dentro del periodo de 30 días, tú y el Estudio acordáis que cualquier disputa, reclamación o controversia derivada de la App o de estos Términos o relacionada con ellos se resolverá mediante arbitraje vinculante administrado por la American Arbitration Association («AAA») conforme a sus Reglas de Arbitraje del Consumidor, según se modifiquen en estos Términos. El laudo podrá ser ejecutado ante cualquier tribunal de jurisdicción competente.
+
+11.3 Lugar y procedimiento del arbitraje. El arbitraje se llevará a cabo de forma remota por videoconferencia o teléfono, salvo que el árbitro determine que es necesaria una audiencia presencial. Si se requiere una audiencia presencial, esta se celebrará en el Condado de Orange, Florida, salvo que las reglas de la AAA o el árbitro dispongan lo contrario. El árbitro tiene autoridad exclusiva para resolver cualquier disputa relativa a la interpretación, aplicabilidad, exigibilidad o formación de este acuerdo de arbitraje, salvo que los tribunales de jurisdicción competente puedan determinar la exigibilidad de la Renuncia a Acciones Colectivas.
+
+11.4 Tasas y costes. El pago de las tasas de arbitraje se regirá por las Reglas de Arbitraje del Consumidor de la AAA y la legislación aplicable.
+
+11.5 Reclamaciones menores. Cualquiera de las partes puede entablar una acción individual ante un tribunal de reclamaciones menores en lugar del arbitraje, siempre que la acción permanezca en el tribunal de reclamaciones menores y se tramite únicamente de forma individual.
+
+11.6 Renuncia a acciones colectivas. TÚ Y EL ESTUDIO ACORDÁIS QUE CADA UNO PODRÁ PRESENTAR RECLAMACIONES CONTRA EL OTRO ÚNICAMENTE A TÍTULO INDIVIDUAL Y NO COMO DEMANDANTE O MIEMBRO DE UNA CLASE EN UN SUPUESTO PROCEDIMIENTO COLECTIVO, CONSOLIDADO O REPRESENTATIVO. EL ÁRBITRO NO PODRÁ CONSOLIDAR RECLAMACIONES NI PRESIDIR NINGUNA FORMA DE PROCEDIMIENTO COLECTIVO O REPRESENTATIVO.
+
+11.7 Exclusión voluntaria. Puedes excluirte de este acuerdo de arbitraje dentro de los treinta (30) días posteriores a tu primer uso de la App enviando un correo a afkgames.helpdesk@gmail.com con el asunto «Exclusión de arbitraje» e indicando (a) tu nombre, (b) la dirección de correo electrónico que utilizas (si la hubiera) y (c) una declaración clara de que deseas excluirte del arbitraje. Si te excluyes, tú y el Estudio acordáis que las controversias se resolverán ante los tribunales según lo establecido en la Sección 13.1, y la Renuncia a Acciones Colectivas de la Sección 11.6 no se aplicará a ti.
+
+11.8 Indisponibilidad del administrador. Si la AAA no está disponible para administrar el arbitraje, las partes cooperarán razonablemente para seleccionar un administrador de arbitraje alternativo que aplique reglas de arbitraje del consumidor sustancialmente similares a las Reglas de Arbitraje del Consumidor de la AAA.
+
+12. TERMINACIÓN
+    El Estudio puede terminar tu licencia de uso de la App y, cuando sea técnicamente posible, suspender o restringir el acceso a las funciones de la App, si infringes estos Términos o si el Estudio determina razonablemente que tu uso es ilícito, dañino, abusivo, fraudulento, infractor, sensible a la seguridad, contrario a las políticas o de otro modo perjudicial para el Estudio, los usuarios, terceros, las plataformas, los sistemas de publicidad, los sistemas de analítica o los proveedores de servicios. Tras la terminación, debes cesar todo uso de la App y eliminar cualquier copia en tu posesión o control. Las Secciones 3.2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 y 14 sobreviven a la terminación.
+
+13. DISPOSICIONES GENERALES
+
+13.1 Legislación aplicable; jurisdicción. Estos Términos se rigen por las leyes del Estado de Florida (EE. UU.), sin tener en cuenta los principios de conflicto de leyes. En la medida en que una controversia no esté sujeta a arbitraje (incluido el caso de que te excluyas válidamente conforme a la Sección 11.7), aceptas que dicha acción se entablará exclusivamente ante los tribunales estatales o federales ubicados en el Condado de Orange, Florida, y consientes la jurisdicción personal y la competencia territorial allí. Los derechos imperativos de protección al consumidor que no puedan renunciarse conforme a la legislación aplicable no se ven afectados.
+
+13.2 Divisibilidad. Si alguna disposición de estos Términos se considera inválida o inaplicable, dicha disposición se aplicará en la máxima medida permisible y las disposiciones restantes permanecerán en pleno vigor y efecto.
+
+13.3 Acuerdo completo. Estos Términos, junto con la Política de Privacidad y los Avisos de terceros, constituyen el acuerdo completo entre tú y el Estudio respecto de la App y sustituyen todos los acuerdos y entendimientos previos o contemporáneos.
+
+13.4 Cesión. No puedes ceder ni transferir estos Términos sin el consentimiento previo por escrito del Estudio. El Estudio puede ceder estos Términos, incluidos todos los derechos y obligaciones, en relación con una fusión, adquisición, venta de activos, reorganización societaria o por imperativo legal.
+
+13.5 Sin renuncia. El hecho de que el Estudio no haga cumplir algún derecho o disposición de estos Términos no constituirá una renuncia a dicho derecho o disposición.
+
+13.6 Interpretación. Los encabezados se incluyen solo por comodidad y no afectan a la interpretación. La palabra «incluido» significa «incluido, entre otros». Las referencias a la App incluyen la App y cualquier función relacionada, actualización, documentación, archivos locales, salidas generadas y materiales legales dentro de la app, según corresponda.
+
+14. CONTACTO
+    AFK GAMES STUDIO
+    Correo electrónico: afkgames.helpdesk@gmail.com

@@ -1,0 +1,48 @@
+ZXING — THIRD-PARTY OPEN SOURCE NOTICE
+Last Updated: June 15, 2026
+
+The App includes ZXing (“ZXing” / “Zebra Crossing”), an open source multi-format 1D/2D barcode image processing library, where used by the App for QR code or barcode-related functionality.
+
+Project / source
+
+* ZXing: https://github.com/zxing/zxing
+* ZXing project site: https://zxing.github.io/zxing/
+
+Component used in the current build
+
+* com.google.zxing:core
+* Version: 3.5.4
+
+License
+Use of ZXing is governed by the Apache License, Version 2.0.
+
+* ZXing source: https://github.com/zxing/zxing
+* ZXing license: https://github.com/zxing/zxing/blob/master/LICENSE
+* ZXing Maven artifact: https://central.sonatype.com/artifact/com.google.zxing/core
+* Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+NOTICE preservation
+ZXing release artifacts may include license, copyright, attribution, or notice information. Where applicable, the Studio preserves ZXing license and notice information in the App’s Third-Party Notices and/or related legal/license files.
+
+The full text of the Apache License, Version 2.0 is provided in the App as LICENSE_APACHE_2_0.txt or an equivalent in-app “Apache 2.0” view.
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, ZXing is used in the App in compliance with the Apache License, Version 2.0 and applicable ZXing notice requirements for the version included in the build.
+
+The Studio uses ZXing to support user-directed QR code or barcode-related functionality where implemented by the App. The Studio does not claim that QR codes, barcodes, scan results, generated codes, decoded content, encoded content, exported results, or related outputs are guaranteed to be accurate, complete, safe, secure, compatible, readable by all devices, free of malicious content, or suitable for any regulated, evidentiary, archival, professional, security-critical, or high-risk purpose.
+
+The Studio is responsible for maintaining applicable license text and attribution records for ZXing and for verifying the resolved dependency graph before each production release.
+
+Attribution
+ZXing is developed by the ZXing authors and contributors.
+
+ZXing, Zebra Crossing, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+
+No endorsement
+The ZXing project, its author(s), and its contributors are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, QR/barcode functionality, QR generation, scan result handling, or in-app notice display purposes. The ZXing library itself is governed by its applicable upstream license and notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

@@ -1,0 +1,44 @@
+OPENJDK DESUGAR JDK LIBS — THIRD-PARTY OPEN SOURCE NOTICE
+Last Updated: June 15, 2026
+
+The App includes desugar_jdk_libs, an open source Android core library desugaring dependency containing a small subset of OpenJDK libraries simplified for use on older Android runtimes.
+
+Project / source
+
+* desugar_jdk_libs: https://github.com/google/desugar_jdk_libs
+* Android core library desugaring: https://developer.android.com/studio/write/java8-support-table
+
+Component used in the current build
+
+* com.android.tools:desugar_jdk_libs
+* Version: 2.1.5
+
+License
+Use of desugar_jdk_libs is governed by the GNU General Public License, version 2, with the Classpath Exception, where applicable to the included OpenJDK-derived source files and components.
+
+* desugar_jdk_libs source: https://github.com/google/desugar_jdk_libs
+* OpenJDK GPLv2 + Classpath Exception: https://openjdk.org/legal/gplv2+ce.html
+
+Classpath Exception note
+The Classpath Exception permits linking the covered library with independent modules to produce an executable, regardless of the license terms of those independent modules, provided that the applicable conditions of each linked independent module are satisfied.
+
+The full text of the GNU General Public License, version 2, with the Classpath Exception is provided in the App as LICENSE_GPL_2_0_WITH_CLASSPATH_EXCEPTION.txt or an equivalent in-app “GPLv2 + Classpath Exception” view.
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, desugar_jdk_libs is used in the App only to provide compatibility for supported Java standard library APIs on older Android runtimes through Android core library desugaring.
+
+The Studio does not claim ownership over OpenJDK-derived source code, desugar_jdk_libs, or any upstream runtime/library components included under their applicable open source licenses. The Studio is responsible for maintaining applicable license text, attribution records, and compliance documentation for the version included in the build.
+
+Attribution
+desugar_jdk_libs contains a subset of OpenJDK libraries simplified for use on older runtimes.
+
+OpenJDK, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+
+No endorsement
+Google, Oracle, OpenJDK contributors, and any upstream OpenJDK-related projects are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, compatibility support, or in-app notice display purposes. The desugar_jdk_libs dependency itself is governed by its applicable upstream license and notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

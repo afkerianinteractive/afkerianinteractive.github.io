@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="robots" content="noindex" />
+  <title>Legal Document Viewer — QR Decoder | AFK GAMES STUDIO</title>
+  <style>
+    :root{
+      --primary:#0f172a;
+      --text:#111827;
+      --muted:#4b5563;
+      --bg:#ffffff;
+      --surface:#f9fafb;
+      --border:#e5e7eb;
+      --highlight:#eff6ff;
+      --link:#2563eb;
+      --error:#b91c1c;
+    }
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height:1.65;
+    }
+    .wrap{ max-width: 980px; margin: 0 auto; padding: 60px 22px 80px; }
+    .header{ border-bottom: 4px solid var(--primary); padding-bottom: 20px; margin-bottom: 26px; text-align: center; }
+    h1{ margin: 0 0 8px; font-size: 1.7rem; letter-spacing: -0.02em; text-transform: uppercase; color: var(--primary); font-weight: 900; }
+    .meta{ color: var(--muted); font-size: .9rem; text-transform: uppercase; font-weight: 700; letter-spacing: .06em; }
+    .card{ background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+    .notice{ border: 2px solid var(--primary); background: var(--highlight); border-radius: 12px; padding: 18px; margin-top: 4px; }
+    p{ margin: 0 0 14px; color: var(--muted); }
+    a{ color: var(--link); font-weight: 700; text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+
+    /* Verbatim document block — fetched from the source .txt and shown as text */
+    .doc{
+      margin: 0;
+      background: #ffffff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      color: var(--text);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 0.86rem;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-wrap: anywhere;
+      tab-size: 4;
+    }
+    .status{ color: var(--muted); font-size: .92rem; }
+    .error-box{ border: 2px solid var(--error); background: #fef2f2; color: #7f1d1d; border-radius: 12px; padding: 18px; }
+    .error-box h2{ margin: 0 0 10px; font-size: 1.05rem; color: var(--error); text-transform: uppercase; letter-spacing:.05em; }
+    .source-line{ margin-top: 14px; font-size: .85rem; }
+
+    footer{ margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--border); text-align: center; font-size: .9rem; color: var(--muted); }
+
+    .site-nav{ display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:26px; }
+    .site-nav a{
+      display:inline-block; padding:8px 18px; font-size:.82rem; font-weight:700;
+      text-transform:uppercase; letter-spacing:.05em; text-decoration:none; border-radius:8px;
+      border:1px solid var(--border); color:var(--muted); background:var(--surface);
+      transition:background .2s,color .2s,border-color .2s;
+    }
+    .site-nav a:hover{ background:var(--highlight); color:var(--primary); border-color:var(--primary); text-decoration:none; }
+    .site-nav a:focus-visible{ outline:2px solid var(--link); outline-offset:2px; }
+
+    @media (max-width: 600px){
+      .wrap{ padding: 40px 14px 64px; }
+      h1{ font-size: 1.4rem; }
+      .doc{ font-size: 0.82rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1 id="doc-title">Legal Document Viewer</h1>
+      <div class="meta">QR Decoder | AFK GAMES STUDIO</div>
+    </div>
+
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="../index.html">Homepage</a>
+      <a href="third-party-notices.html">&larr; Third-Party Notices</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+    </nav>
+
+    <div class="card">
+      <p id="status" class="status" role="status" aria-live="polite">Loading document&hellip;</p>
+      <div id="content"></div>
+
+      <footer>
+        <div><strong>AFK GAMES STUDIO</strong></div>
+        <div>Contact: <a href="mailto:afkgames.helpdesk@gmail.com">afkgames.helpdesk@gmail.com</a></div>
+      </footer>
+    </div>
+  </div>
+
+  <script>
+    // Strict hardcoded whitelist. The viewer NEVER builds a file path from the
+    // raw query value — it only looks the key up in this map and fetches the
+    // fixed filename from the local ./legal/ folder. No external URLs, no path
+    // traversal, no arbitrary file access.
+    var WHITELIST = {
+      "admob":          { file: "AD_SERVICES_NOTICE.txt",                       title: "Google AdMob / Google Mobile Ads SDK Notice" },
+      "firebase":       { file: "FIREBASE_NOTICE.txt",                          title: "Firebase Analytics / Crashlytics Notice" },
+      "mlkit":          { file: "GOOGLE_MLKIT_SCANNER_NOTICE.txt",              title: "Google ML Kit / Document Scanner Notice" },
+      "apache-poi":     { file: "APACHE_POI_NOTICE.txt",                        title: "Apache POI Notice" },
+      "log4j":          { file: "LOG4J_NOTICE.txt",                             title: "Apache Log4j Notice" },
+      "desugar":        { file: "OPENJDK_DESUGAR_NOTICE.txt",                   title: "OpenJDK / desugar_jdk_libs Notice" },
+      "zip4j":          { file: "ZIP4J_NOTICE.txt",                             title: "Zip4j Notice" },
+      "zxing":          { file: "ZXING_NOTICE.txt",                             title: "ZXing Notice" },
+      "apache":         { file: "LICENSE_APACHE_2_0.txt",                       title: "Apache License 2.0 (Full Text)" },
+      "epl":            { file: "LICENSE_EPL_1_0.txt",                          title: "Eclipse Public License 1.0 (Full Text)" },
+      "gpl":            { file: "LICENSE_GPL_2_0_WITH_CLASSPATH_EXCEPTION.txt", title: "GNU GPLv2 with Classpath Exception (Full Text)" }
+    };
+
+    var statusEl = document.getElementById("status");
+    var contentEl = document.getElementById("content");
+    var titleEl = document.getElementById("doc-title");
+
+    function showError(heading, message) {
+      statusEl.style.display = "none";
+      var box = document.createElement("div");
+      box.className = "error-box";
+      var h = document.createElement("h2");
+      h.textContent = heading;
+      var p = document.createElement("p");
+      p.textContent = message;
+      var back = document.createElement("p");
+      back.className = "source-line";
+      var a = document.createElement("a");
+      a.href = "third-party-notices.html";
+      a.textContent = "Return to Third-Party Notices";
+      back.appendChild(a);
+      box.appendChild(h);
+      box.appendChild(p);
+      box.appendChild(back);
+      contentEl.appendChild(box);
+    }
+
+    function getDocKey() {
+      try {
+        return new URLSearchParams(window.location.search).get("doc") || "";
+      } catch (e) {
+        var m = /[?&]doc=([^&]*)/.exec(window.location.search || "");
+        return m ? decodeURIComponent(m[1]) : "";
+      }
+    }
+
+    (function init() {
+      var key = getDocKey();
+      if (!key) {
+        document.title = "Document Not Found — QR Decoder | AFK GAMES STUDIO";
+        titleEl.textContent = "Document Not Found";
+        showError("No document specified",
+          "This viewer expects a known document key (for example: legal-viewer.html?doc=firebase). " +
+          "Please open a notice from the Third-Party Notices page.");
+        return;
+      }
+      // Own-property check guards against prototype keys like "__proto__".
+      if (!Object.prototype.hasOwnProperty.call(WHITELIST, key)) {
+        document.title = "Document Not Found — QR Decoder | AFK GAMES STUDIO";
+        titleEl.textContent = "Document Not Found";
+        showError("Unknown document",
+          'The requested document key "' + key + '" is not recognized. ' +
+          "Please open a notice from the Third-Party Notices page.");
+        return;
+      }
+
+      var entry = WHITELIST[key];
+      var path = "legal/" + entry.file; // fixed filename from the whitelist only
+      document.title = entry.title + " — QR Decoder | AFK GAMES STUDIO";
+      titleEl.textContent = entry.title;
+
+      fetch(path, { cache: "no-cache" })
+        .then(function (res) {
+          if (!res.ok) throw new Error("HTTP " + res.status);
+          return res.text();
+        })
+        .then(function (text) {
+          statusEl.style.display = "none";
+          var notice = document.createElement("div");
+          notice.className = "notice";
+          var pre = document.createElement("pre");
+          pre.className = "doc";
+          pre.textContent = text; // verbatim, rendered as plain text (safe + exact)
+          notice.appendChild(pre);
+          contentEl.appendChild(notice);
+        })
+        .catch(function () {
+          // Most commonly happens when opened directly from disk (file://),
+          // where fetch is blocked by the browser. Offer the raw file link,
+          // which works in that context.
+          statusEl.style.display = "none";
+          var box = document.createElement("div");
+          box.className = "error-box";
+          var h = document.createElement("h2");
+          h.textContent = "Unable to load automatically";
+          var p = document.createElement("p");
+          p.textContent = "The document could not be loaded automatically. This can happen when the " +
+            "page is opened directly from disk (file://). It works normally when served over HTTP/HTTPS " +
+            "(including GitHub Pages). You can open the raw text file directly below.";
+          var line = document.createElement("p");
+          line.className = "source-line";
+          var a = document.createElement("a");
+          a.href = path;
+          a.textContent = "Open " + entry.file;
+          line.appendChild(a);
+          box.appendChild(h);
+          box.appendChild(p);
+          box.appendChild(line);
+          contentEl.appendChild(box);
+        });
+    })();
+  </script>
+</body>
+</html>

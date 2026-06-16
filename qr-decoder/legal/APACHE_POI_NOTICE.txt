@@ -1,0 +1,44 @@
+APACHE POI — THIRD-PARTY OPEN SOURCE NOTICE
+Last Updated: June 15, 2026
+
+The App includes Apache POI OOXML (“Apache POI”), an open source library from The Apache Software Foundation, to support Office/OOXML document or spreadsheet-related functionality where used by the App.
+
+Project / source
+
+* Apache POI: https://poi.apache.org
+
+Component used in the current build
+
+* org.apache.poi:poi-ooxml
+* Version: 5.5.1
+
+License
+Use of Apache POI is governed by the Apache License, Version 2.0.
+
+* Apache POI legal information: https://poi.apache.org/legal.html
+* Apache POI downloads / release artifacts: https://poi.apache.org/download.html
+* Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+
+NOTICE preservation
+Apache POI release artifacts may include a NOTICE file containing copyright attribution notices and other required attribution information. Where applicable, the Studio preserves Apache POI license and notice information in the App’s Third-Party Notices and/or related legal/license files.
+
+The full text of the Apache License, Version 2.0 is provided in the App as LICENSE_APACHE_2_0.txt or an equivalent in-app “Apache 2.0” view.
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, Apache POI is used in the App in compliance with the Apache License, Version 2.0 and applicable Apache POI notice requirements for the version included in the build.
+
+The Studio is responsible for maintaining applicable license text and NOTICE attribution information for Apache POI and for verifying the resolved dependency graph before each production release.
+
+Attribution
+Apache POI is developed by The Apache Software Foundation.
+
+Apache, Apache POI, POI, and the Apache feather logo are trademarks or registered trademarks of The Apache Software Foundation. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+
+No endorsement
+The Apache Software Foundation and the Apache POI project are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, or in-app notice display purposes. The Apache POI library itself is governed by its applicable upstream license and notices.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

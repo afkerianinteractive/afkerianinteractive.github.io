@@ -1,0 +1,246 @@
+POLÍTICA DE PRIVACIDAD — QR DECODER
+Fecha de entrada en vigor: 15 de junio de 2026
+Última actualización: 15 de junio de 2026
+
+Versión más reciente (web):
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+Esta Política de Privacidad se proporciona dentro de la aplicación y también puede estar disponible en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
+
+1. ALCANCE; ENTIDAD; FUNCIONES
+   Esta Política de Privacidad describe cómo AFK GAMES STUDIO («el Estudio», «nosotros» o «nuestro») trata la información en relación con la aplicación móvil QR Decoder (la «App»).
+
+La App está diseñada como una utilidad local (local-first) para el escaneo de códigos QR/de barras, la creación de códigos QR, el escaneo de documentos, el OCR, los flujos de escaneo de identificaciones, los flujos de inventario/escaneo por lotes, la visualización/edición de archivos y las herramientas de ZIP/archivos comprimidos.
+
+No exigimos el registro de una cuenta y no te pedimos que envíes nombres legales, direcciones físicas, credenciales de cuenta ni datos de tarjetas de pago al Estudio con fines de creación de cuentas, gestión de cuentas o procesamiento de pagos. Sin embargo, según cómo uses la App, el contenido que tú selecciones —como códigos QR, códigos de barras, documentos, escaneos de identificaciones, archivos o archivos comprimidos— puede contener información personal o sensible, incluidos nombres, direcciones, datos de contacto, identificadores, contenido de documentos, credenciales, información de pago u otra información.
+
+La App utiliza SDK y servicios de terceros que pueden recopilar y tratar cierta información de forma automática, entre ellos:
+
+* Google AdMob / Google Mobile Ads SDK (anuncios y medición)
+* Google User Messaging Platform (UMP) (flujo de consentimiento / opciones de privacidad cuando se requiere o está disponible)
+* Firebase Analytics (medición del uso de la app)
+* Firebase Crashlytics (informes de fallos y diagnóstico de estabilidad)
+* Google ML Kit o componentes de escáner de los servicios de Google Play, según corresponda al escaneo de códigos de barras, al reconocimiento de texto y a las funciones de escaneo de documentos
+
+Para cierto tratamiento por terceros, Google puede actuar como proveedor de servicios/encargado del tratamiento, como responsable independiente o bajo otros términos y políticas de Google aplicables, según el servicio, la configuración, la región y el contexto legal. Véase la Sección 6.
+
+2. INFORMACIÓN TRATADA EN TU DISPOSITIVO (LOCAL-FIRST)
+
+2.1 Datos de QR, códigos de barras, documentos, OCR, ID, archivos y ZIP
+La App puede tratar y almacenar cierta información localmente en tu dispositivo para ofrecer su funcionalidad principal, incluidos:
+
+* Datos de escaneo de QR: códigos QR, códigos de barras, URL, texto, cargas Wi-Fi, cargas tipo contacto, códigos de producto u otro contenido incluido en los códigos que escaneas
+* Datos del creador de QR: texto, URL, cargas Wi-Fi, cargas tipo contacto u otro contenido que introduces para generar códigos QR
+* Datos de inventario / escaneo por lotes: valores de código escaneados, marcas de tiempo, recuentos, listas y registros de inventario exportados
+* Datos de escaneo de documentos / OCR: imágenes de documentos, PDF generados, texto reconocido y resultados de escaneo relacionados
+* Datos de escaneo de ID: imágenes de documentos de identidad, PDF, texto extraído o resultados de escaneo locales relacionados creados por tu uso del flujo de escaneo de identificaciones
+* Datos del visor de archivos / editor de texto: archivos que seleccionas mediante el selector de archivos del sistema Android, archivos almacenados en el almacenamiento interno de la App y el contenido de texto o documentos que decides ver o editar
+* Datos de la herramienta de ZIP / archivos: nombres de archivos comprimidos, contenido de archivos comprimidos, archivos extraídos, ubicaciones de salida seleccionadas por el usuario y datos de procesamiento temporales necesarios para las operaciones normales de ZIP
+* Ajustes de la App e historial local: preferencias, historial reciente de escaneos, registros locales guardados y el estado de las funciones necesario para operar la App
+
+La App no te exige crear una cuenta con el Estudio para usar estas funciones.
+
+2.2 Acceso a la cámara
+El acceso a la cámara se utiliza para escanear códigos QR y de barras, capturar documentos, dar soporte a flujos relacionados con OCR y dar soporte a flujos de escaneo de identificaciones. Las imágenes de la cámara se procesan para la función seleccionada por el usuario y no se suben a servidores operados por el Estudio.
+
+Eres responsable del contenido que decidas escanear, capturar, guardar, exportar o compartir a través de la App. Los códigos QR, códigos de barras, documentos, identificaciones, archivos y archivos comprimidos pueden contener información personal, confidencial o sensible.
+
+2.3 Almacenamiento local y copia de seguridad de Android
+La App es local-first. El contenido del usuario se almacena generalmente en tu dispositivo, en el almacenamiento controlado por la App, en ubicaciones seleccionadas por el usuario o mediante el marco de acceso a archivos del sistema Android.
+
+Algunos datos locales de la App pueden ser elegibles para la copia de seguridad del sistema operativo Android o para la copia de seguridad del dispositivo/cuenta según la configuración de tu dispositivo, la versión del sistema operativo, la configuración de tu cuenta de Google, la configuración del fabricante y la configuración de copia de seguridad aplicable. El Estudio no opera su propio servicio de copia de seguridad en la nube para tu contenido de QR, documentos, OCR, ID, archivos o ZIP.
+
+2.4 Acceso a archivos / selector del sistema Android
+La App utiliza los mecanismos de acceso a archivos del sistema Android, como el selector del sistema / Storage Access Framework, para los archivos y carpetas seleccionados por el usuario. La App no está diseñada para escanear todo el almacenamiento de tu dispositivo sin tu selección y no requiere acceso amplio a todos los archivos.
+
+2.5 Contraseñas de ZIP
+Si usas funciones de ZIP/archivos protegidos con contraseña, las contraseñas que introduces se utilizan para intentar la operación de archivo solicitada. La App está diseñada para no almacenar las contraseñas de ZIP como credenciales de cuenta. Eres responsable de mantener seguras las contraseñas de tus archivos comprimidos.
+
+2.6 Controles del usuario (eliminación local)
+Puedes eliminar los datos locales de la App mediante los controles disponibles en la aplicación, incluida la eliminación del historial de escaneos cuando esté disponible, la eliminación de archivos generados/exportados, la eliminación de archivos de ubicaciones de almacenamiento seleccionadas por el usuario, el borrado del almacenamiento de la App desde los ajustes de Android o la desinstalación de la App. Por lo general, desinstalar la App elimina los datos de la App almacenados localmente, sujeto a la configuración de copia de seguridad de tu dispositivo y sistema operativo.
+
+3. INFORMACIÓN TRATADA POR TERCEROS (RECOPILACIÓN AUTOMATIZADA)
+   La App integra SDK de terceros para publicidad, consentimiento, analítica, informes de fallos y ciertas operaciones de SDK relacionadas con el escáner/documentos/OCR. Estos SDK pueden recopilar o tratar distintas categorías de información para distintos fines.
+
+En particular, Firebase Analytics y Firebase Crashlytics se utilizan para la medición de la app, los informes de fallos y el diagnóstico disponibles para el Estudio. Google AdMob / Google Mobile Ads SDK se utiliza para publicidad y puede recopilar, tratar y compartir automáticamente cierta información con fines de publicidad, medición, limitación de frecuencia, seguridad y prevención de fraude.
+
+Los SDK de terceros pueden recopilar, recibir o tratar automáticamente información como:
+
+A) Identificadores de dispositivo u otros identificadores
+
+* ID de publicidad o identificadores equivalentes
+* Identificadores de instancia de la app
+* Identificadores de dispositivo o identificadores técnicos utilizados para medición, diagnóstico, prevención de fraude, operación del servicio o publicidad
+
+B) Ubicación aproximada
+
+* Dirección IP y ubicación aproximada inferida a partir de la IP
+
+C) Interacciones con la app
+
+* Eventos de interacción y uso de la app, como aperturas de la app, pantallas vistas, uso de funciones y señales de interacción
+* Eventos de publicidad, como solicitudes de anuncios, impresiones, clics, señales de interacción, limitación de frecuencia y señales antifraude
+* Señales de consentimiento o de elección de privacidad cuando UMP está disponible o se requiere
+
+D) Diagnóstico
+
+* Datos del dispositivo/técnicos como el modelo del dispositivo, la versión de hardware/SO, el idioma, la zona horaria, la versión de la app, la versión del SDK, señales de rendimiento y diagnóstico
+
+E) Registros de fallos
+
+* Informes de fallos e información de diagnóstico relacionada, como trazas de pila y señales del estado del fallo, tratados a través de Firebase Crashlytics para diagnosticar y corregir problemas de estabilidad
+
+F) Métricas y señales técnicas de SDK de escáner / documentos / OCR
+
+* Los componentes de Google de escáner, códigos de barras, reconocimiento de texto o escáner de documentos pueden tratar métricas de SDK, diagnósticos, información del dispositivo/técnica o señales de operación del servicio, según el SDK, la configuración del dispositivo, los servicios del sistema operativo, la región y las políticas de Google aplicables
+
+No operamos nuestros propios servidores de cuentas de usuario para estas funciones. Los terceros tratan la información bajo sus propios términos y políticas y, en algunos casos, como responsables independientes o como proveedores de servicios/encargados del tratamiento, según el servicio y el contexto legal.
+
+4. CÓMO SE UTILIZA LA INFORMACIÓN
+   Utilizamos la información, o permitimos que terceros la utilicen, para:
+
+* Proporcionar y mantener la funcionalidad de la App, incluidos el escaneo de QR/códigos de barras, la creación de QR, el escaneo de documentos, el OCR, los flujos de escaneo de identificaciones, los flujos de inventario/escaneo por lotes, la visualización/edición de archivos y las operaciones de ZIP/archivos
+* Almacenar el historial local de escaneos, los ajustes, los archivos generados y las salidas seleccionadas por el usuario
+* Mostrar, medir y optimizar anuncios; prevenir el fraude y el abuso; hacer cumplir las políticas
+* Solicitar y gestionar el consentimiento de publicidad o las opciones de privacidad cuando se requiere o está disponible
+* Medir y comprender el uso de la app mediante analítica/medición
+* Mantener la seguridad y la estabilidad, incluidos la resolución de problemas, los informes de fallos y el diagnóstico de rendimiento
+* Mejorar la fiabilidad y la experiencia del usuario de la App
+* Cumplir las obligaciones legales
+
+5. BASES JURÍDICAS (EEE/RU)
+   Cuando se aplica el RGPD/RGPD del RU, el tratamiento puede llevarse a cabo sobre la base de:
+
+* Consentimiento: para la publicidad personalizada y cierto tratamiento basado en el consentimiento cuando se requiere; las elecciones de consentimiento se gestionan mediante UMP cuando está disponible
+* Intereses legítimos: tratamiento limitado para seguridad, prevención de fraude, medición, diagnóstico de fallos, mejora de la App y estabilidad, sujeto a tus derechos y a la legislación aplicable
+* Necesidad contractual: tratamiento local necesario para ofrecer la experiencia principal de la App, como escanear códigos, crear códigos QR, guardar el historial local, abrir archivos seleccionados por el usuario y realizar operaciones de ZIP
+* Obligaciones legales: tratamiento necesario para cumplir las leyes aplicables, las normas de la plataforma, las solicitudes de cumplimiento o las obligaciones legales
+
+6. DIVULGACIÓN; SERVICIOS DE TERCEROS
+
+6.1 SDK de terceros y proveedores de servicios
+La App utiliza SDK de terceros y proveedores de servicios que recopilan o tratan la información descrita en esta Política de Privacidad, entre ellos:
+
+* Google AdMob / Google Mobile Ads SDK
+* Google User Messaging Platform (UMP)
+* Firebase Analytics
+* Firebase Crashlytics
+* Google ML Kit o componentes de escáner de los servicios de Google Play, según corresponda
+
+Estos servicios son proporcionados por Google LLC o servicios relacionados de Google. Tu uso de estos servicios está sujeto a los términos y políticas de privacidad de Google.
+
+Según el servicio, la configuración, la región y el contexto legal, Google puede tratar cierta información como proveedor de servicios/encargado del tratamiento, como responsable independiente o bajo otros términos y políticas de Google aplicables.
+
+El Estudio utiliza Firebase Analytics y Firebase Crashlytics para consultar la información de analítica, informes de fallos y diagnóstico de la App. El Estudio no utiliza Firebase Analytics ni Firebase Crashlytics para vender información personal ni para crear perfiles de cuenta de usuario operados por el Estudio.
+
+6.2 Google AdMob / Google Mobile Ads SDK
+La App utiliza Google AdMob / Google Mobile Ads SDK para mostrar publicidad. En la versión actual, la App implementa únicamente anuncios de apertura de la app (App Open). Google AdMob y los servicios de Google relacionados pueden recopilar, tratar y compartir automáticamente cierta información para la entrega de anuncios, la medición, la limitación de frecuencia, la prevención de fraude, la seguridad y el cumplimiento de políticas.
+
+Según la configuración, la región y las elecciones del usuario, esto puede incluir la dirección IP, el ID de publicidad o identificadores equivalentes, el app set ID u otros identificadores de dispositivo/cuenta, las interacciones con la app, los eventos de publicidad, información de diagnóstico, señales de rendimiento, la ubicación aproximada inferida a partir de la IP y señales antifraude.
+
+El tratamiento relacionado con la publicidad puede considerarse «compartición» según algunas leyes de privacidad y según la Seguridad de los Datos de Google Play, dependiendo del tipo de datos, la finalidad y la configuración. Cuando se requiere o está disponible, las elecciones del usuario pueden gestionarse mediante las «Opciones de privacidad» de UMP o los ajustes de publicidad del dispositivo.
+
+6.3 Google User Messaging Platform (UMP)
+La App utiliza Google User Messaging Platform (UMP) para ofrecer flujos de consentimiento y opciones de privacidad cuando se requiere o está disponible. UMP puede tratar el estado del consentimiento y señales técnicas relacionadas según sea necesario para presentar, almacenar y aplicar tus elecciones.
+
+6.4 Firebase Analytics
+La App utiliza Firebase Analytics para la medición del uso de la app y la analítica disponible para el Estudio. Firebase Analytics puede recopilar y tratar eventos de interacción con la app, eventos del ciclo de vida de la app, identificadores de instancia de la app, el ID de publicidad cuando esté disponible/configurado, ubicación aproximada inferida a partir de la IP enmascarada, información del dispositivo/técnica y señales de analítica relacionadas.
+
+El Estudio utiliza Firebase Analytics para comprender el uso general de la App, la interacción con las funciones, el contexto de estabilidad y las tendencias de medición agregadas. La App no requiere el registro de una cuenta con el Estudio para Firebase Analytics, y el Estudio no utiliza Firebase Analytics para mantener perfiles de cuenta de usuario creados por el Estudio.
+
+Según la implementación actual de la App, el Estudio no registra intencionadamente eventos de analítica personalizados, no establece ID de usuario controlados por el Estudio ni define propiedades de usuario creadas por el Estudio en Firebase Analytics. Los datos de Firebase Analytics son tratados por Google/Firebase bajo los términos y políticas de Google aplicables. El Estudio no comparte datos de Firebase Analytics con terceros ajenos a Google con fines publicitarios.
+
+6.5 Firebase Crashlytics
+La App utiliza Firebase Crashlytics para los informes de fallos y el diagnóstico de estabilidad disponibles para el Estudio. Crashlytics puede recopilar y tratar registros de fallos, trazas de pila, el estado relevante de la aplicación, metadatos del dispositivo, el estado de la app, identificadores de instalación de Crashlytics, identificadores de instalación de Firebase e información de diagnóstico relacionada cuando se producen fallos o eventos de estabilidad.
+
+El Estudio utiliza Crashlytics para identificar, priorizar y corregir fallos y problemas de estabilidad. Según la implementación actual de la App, el Estudio no adjunta intencionadamente claves personalizadas, registros personalizados, ID de usuario de texto libre, informes no fatales ni datos de interfaz de fallos de prueba a los informes de Crashlytics.
+
+Los datos de Crashlytics son tratados por Google/Firebase bajo los términos y políticas de Google aplicables para informes de fallos y diagnóstico. El Estudio no comparte datos de Crashlytics con terceros ajenos a Google con fines publicitarios.
+
+6.6 Componentes de escáner de Google / ML Kit / escáner de documentos
+La App puede utilizar Google ML Kit o componentes de escáner de los servicios de Google Play para ofrecer escaneo de códigos de barras, reconocimiento de texto, escaneo de documentos y funciones relacionadas con OCR.
+
+Cuando se implementa con componentes en el dispositivo, las funciones de escáner y reconocimiento compatibles están diseñadas para procesar las entradas admitidas en el dispositivo. Google ML Kit y los componentes de los servicios de Google Play pueden, aun así, tratar métricas de SDK, diagnósticos, información del dispositivo/técnica o señales de operación del servicio, según se describe en la documentación y las políticas de Google aplicables.
+
+El Estudio no opera sus propios servidores para subir tu contenido de QR escaneado, documentos, texto de OCR, resultados de escaneo de identificaciones, archivos o contenido de ZIP.
+
+6.7 Compartición / exportación dirigida por el usuario
+Si decides compartir, exportar, copiar, guardar, imprimir, enviar o abrir contenido generado por la App a través de otra app o servicio, esa acción la diriges tú. La app, el servicio, el proveedor de almacenamiento o el destino del dispositivo receptor puede tratar el contenido bajo sus propios términos y política de privacidad.
+
+6.8 Código abierto
+La App puede incluir componentes de código abierto regidos por sus respectivas licencias. Véase la sección «Avisos de terceros» o «Licencias» de la App.
+
+7. TUS OPCIONES; DERECHOS DE PRIVACIDAD
+
+7.1 Consentimiento y preferencias de anuncios (UMP)
+Cuando esté disponible, puedes revisar o cambiar las elecciones de consentimiento de anuncios mediante el control «Opciones de privacidad» dentro de la app o un control equivalente que muestra las elecciones de UMP. Según tu región y tus elecciones, los anuncios pueden ser personalizados o no personalizados. Cierto tratamiento puede seguir produciéndose para la medición, la seguridad, la prevención de fraude, la limitación de frecuencia y el cumplimiento de políticas, según lo permitan la legislación aplicable y las normas de la plataforma.
+
+7.2 Controles del dispositivo
+Según tu dispositivo y tu región, es posible que puedas restablecer o eliminar tu ID de publicidad y limitar la personalización de anuncios mediante los ajustes del dispositivo, por ejemplo, buscando «Anuncios» o «Publicidad» en los ajustes del sistema.
+
+7.3 Controles locales de la App
+Puedes gestionar los datos locales de la App mediante los controles disponibles en la aplicación, como la eliminación del historial de escaneos cuando esté disponible, la eliminación de códigos QR generados, la eliminación de salidas de documentos/OCR/ID, la eliminación de archivos locales/exportados, el borrado del almacenamiento de la App desde los ajustes de Android o la desinstalación de la App.
+
+7.4 California (CCPA/CPRA)
+No «vendemos» información personal a cambio de dinero. Según cómo se defina «compartir» en la legislación aplicable, ciertas divulgaciones relacionadas con la publicidad pueden considerarse «compartición» para publicidad conductual entre contextos. Cuando se requiere, ofrecemos una opción para excluirte de dicha «venta» o «compartición» mediante las «Opciones de privacidad» dentro de la app o los ajustes del dispositivo aplicables.
+
+Los residentes de California también pueden tener derechos a acceder a cierta información personal, eliminarla o corregirla, sujeto a verificación y a las excepciones legales.
+
+7.5 EEE/RU y otras regiones
+Sujeto a la legislación aplicable, es posible que tengas derecho a acceder a cierta información personal, eliminarla, corregirla, restringirla, oponerte a ella u obtener una copia. Para presentar una solicitud aplicable al tratamiento controlado por el Estudio, contáctanos como se describe en la Sección 13.
+
+Ten en cuenta que es posible que no podamos acceder ni eliminar la información en poder de terceros directamente. En esos casos, debes utilizar los controles proporcionados por el tercero, la plataforma aplicable o los ajustes de tu dispositivo.
+
+8. CONSERVACIÓN DE DATOS
+
+* Los datos locales de escaneo de QR, datos del creador de QR, datos de inventario/escaneo por lotes, datos de escaneo de documentos/OCR, datos de escaneo de ID, datos del visor de archivos, salidas de ZIP/archivos, ajustes de la App e historial local se conservan en tu dispositivo hasta que los elimines mediante los controles disponibles en la aplicación, elimines los archivos correspondientes, borres el almacenamiento de la App o desinstales la App, sujeto a la configuración de copia de seguridad de tu dispositivo y sistema operativo.
+* Los archivos seleccionados por el usuario y los archivos exportados pueden permanecer en las ubicaciones que elijas hasta que los elimines.
+* Los archivos o salidas compartidos, copiados, exportados, impresos, enviados o abiertos a través de otra app o servicio pueden permanecer con la app, el servicio, el proveedor de almacenamiento o el destino del dispositivo receptor según los términos, ajustes y política de privacidad de dicho proveedor.
+* Pueden crearse datos de procesamiento temporales durante el escaneo, la edición, la exportación, el OCR, el escaneo de ID o las operaciones de ZIP/archivos, y pueden borrarse según el comportamiento de la App, el comportamiento del sistema operativo, los controles de almacenamiento disponibles o la acción del usuario.
+* Las contraseñas de ZIP introducidas para operaciones de archivos cifrados se utilizan para la operación solicitada y no están destinadas a almacenarse como credenciales de cuenta.
+* La conservación de datos por terceros se rige por las propias políticas y ajustes de dichos terceros, y es posible que el Estudio no controle directamente los periodos de conservación de terceros.
+
+9. PRIVACIDAD DE LOS MENORES
+   La App no está dirigida a menores de 13 años y no recopilamos a sabiendas información personal de menores de 13 años. Si crees que un menor ha proporcionado información a través de la App, contáctanos y adoptaremos las medidas adecuadas conforme a la legislación aplicable.
+
+10. SEGURIDAD
+    Utilizamos medidas administrativas y técnicas razonables diseñadas para proteger la información. No obstante, ningún método de transmisión o almacenamiento es 100 % seguro.
+
+Eres responsable de revisar el contenido que escaneas, creas, guardas, exportas o compartes a través de la App. Los códigos QR, códigos de barras, documentos, identificaciones, archivos y archivos comprimidos pueden contener información sensible. Usa precaución al escanear códigos desconocidos, abrir archivos desconocidos, extraer archivos comprimidos, compartir archivos generados o almacenar documentos sensibles en tu dispositivo.
+
+11. TRANSFERENCIAS INTERNACIONALES
+    Si usas la App fuera de los Estados Unidos, la información tratada por los socios externos puede transferirse y tratarse en países distintos al tuyo, incluidos los Estados Unidos, sujeto a las salvaguardas y políticas de los socios y a la legislación aplicable.
+
+12. ELIMINACIÓN DE DATOS (CÓMO ELIMINAR DATOS)
+
+12.1 Historial local de escaneos y datos controlados por la App
+Como la App es local-first, la mayor parte del contenido de la App se almacena localmente en tu dispositivo o en ubicaciones que tú seleccionas. Puedes eliminar el historial local de escaneos y los datos locales controlados por la App mediante los controles disponibles en la aplicación cuando se ofrezcan.
+
+12.2 Archivos generados, exportados o seleccionados por el usuario
+Los códigos QR generados, los archivos exportados, los PDF, las salidas de OCR, las salidas de escaneo de ID, las exportaciones de inventario, los archivos de ZIP extraídos y los archivos guardados en ubicaciones seleccionadas por el usuario pueden permanecer donde los hayas guardado hasta que los elimines. Puedes eliminar dichos archivos a través de la App cuando haya controles disponibles, a través del gestor de archivos de Android, a través del proveedor de almacenamiento donde se guardaron los archivos o a través de otra app que gestione esa ubicación.
+
+12.3 Almacenamiento de la App en Android
+Puedes eliminar el almacenamiento de la App usando los ajustes del sistema Android para borrar el almacenamiento de la App o desinstalando la App. Por lo general, desinstalar la App elimina los datos de la App almacenados localmente, sujeto a la configuración de copia de seguridad de tu dispositivo y sistema operativo.
+
+12.4 Copia de seguridad / datos restaurados de Android
+Algunos datos locales de la App pueden incluirse en la copia de seguridad del sistema operativo Android o en los datos restaurados según tu dispositivo, sistema operativo, cuenta de Google, configuración del fabricante y configuración de copia de seguridad. Para gestionar o eliminar las copias de seguridad, utiliza los controles de copia de seguridad y de cuenta proporcionados por tu dispositivo, sistema operativo o proveedor de cuenta.
+
+12.5 Datos de terceros
+Cierta información puede ser tratada por SDK y servicios de terceros, incluidos Google AdMob, Google UMP, Firebase Analytics, Firebase Crashlytics y los componentes de escáner/OCR de Google.
+
+El Estudio utiliza Firebase Analytics y Firebase Crashlytics para analítica, informes de fallos y diagnóstico. El Estudio puede consultar la analítica y la información de fallos relacionadas en Firebase Console, pero el Estudio no utiliza Firebase Analytics ni Crashlytics para vender información personal ni compartir datos con terceros ajenos a Google con fines publicitarios.
+
+Google AdMob / Google Mobile Ads SDK puede recopilar, tratar y compartir cierta información con fines de publicidad, medición, limitación de frecuencia, prevención de fraude, seguridad y cumplimiento de políticas.
+
+Es posible que el Estudio no pueda acceder, eliminar ni controlar directamente todos los datos en poder de los proveedores externos. Cuando esté disponible, utiliza:
+
+* El control «Opciones de privacidad» o el control de UMP equivalente de la App para gestionar el consentimiento/las elecciones de publicidad
+* Los ajustes de tu dispositivo, como restablecer/eliminar el ID de publicidad o limitar la personalización de anuncios
+* Los propios controles, términos y políticas de privacidad del tercero
+
+12.6 Solicitudes
+Si tienes una solicitud de privacidad o eliminación que se aplique al tratamiento controlado por el Estudio, contáctanos con los datos de la Sección 13.
+
+13. CONTACTO
+    AFK GAMES STUDIO
+    Correo electrónico: afkgames.helpdesk@gmail.com

@@ -1,0 +1,70 @@
+GOOGLE ML KIT / DOCUMENT SCANNER — THIRD-PARTY SERVICE NOTICE
+Last Updated: June 15, 2026
+
+The App uses certain Google ML Kit and Google Play services scanner components provided by Google LLC (“Google”) to support barcode scanning, QR scanning, text recognition, document scanning, and OCR-related workflows.
+
+Service / source
+
+* Google ML Kit: https://developers.google.com/ml-kit
+* ML Kit Barcode Scanning: https://developers.google.com/ml-kit/vision/barcode-scanning
+* ML Kit Text Recognition: https://developers.google.com/ml-kit/vision/text-recognition
+* ML Kit Document Scanner: https://developers.google.com/ml-kit/vision/doc-scanner
+
+Components used in the current build
+
+* com.google.mlkit:barcode-scanning
+
+* Version: 17.3.0
+
+* com.google.mlkit:text-recognition
+
+* Version: 16.0.1
+
+* com.google.android.gms:play-services-mlkit-document-scanner
+
+* Version: 16.0.0
+
+Terms
+Use of Google ML Kit, Google Play services scanner components, and related Google SDKs is subject to Google’s then-current terms and policies, including:
+
+* ML Kit Terms & Privacy: https://developers.google.com/ml-kit/terms
+* Google APIs Terms of Service: https://developers.google.com/terms
+* Google Privacy Policy: https://policies.google.com/privacy
+* Google Terms of Service: https://policies.google.com/terms
+* ML Kit Android Data Disclosure Guidance: https://developers.google.com/ml-kit/android-data-disclosure
+* ML Kit Document Scanner: https://developers.google.com/ml-kit/vision/doc-scanner
+* ML Kit Document Scanner for Android: https://developers.google.com/ml-kit/vision/doc-scanner/android
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, the App uses Google ML Kit and Google Play services scanner components to provide user-directed scanning and recognition functionality, including QR/barcode scanning, text recognition, document scanning, and OCR-related workflows.
+
+The Studio does not operate its own servers to upload scanned QR content, barcode content, camera frames, document images, OCR text, ID scan outputs, files, or ZIP/archive contents.
+
+Where implemented with on-device components, supported ML Kit scanner and recognition features are designed to process supported inputs on the device. The Studio is responsible for informing users about Google’s processing of ML Kit metrics data where required by applicable law and platform rules.
+
+Data / privacy note
+Google ML Kit APIs may process input data such as images, video frames, or text on-device and may not send that input data or resultant outputs to Google servers, except as otherwise described by Google’s applicable terms, documentation, or service-specific behavior.
+
+Google ML Kit APIs may contact Google servers from time to time to receive items such as bug fixes, updated models, and hardware accelerator compatibility information. Google ML Kit APIs may also send metrics about the performance and utilization of the APIs in the App to Google.
+
+ML Kit Android SDKs may collect device information, application information, device or other identifiers, performance metrics, diagnostics, and usage analytics as described in Google’s ML Kit Android data disclosure guidance. Google states that the data listed in that guidance is encrypted in transit using HTTPS and is not transferred to third parties.
+
+For the Google Play services ML Kit Document Scanner component, models, scanning logic, UI flow, and related resources may be delivered through Google Play services. The document scanner flow is user-directed, and Google documentation states that users retain control over the scanning process and can send digitized files back to the App.
+
+The App’s data disclosures and user choices are described in the App’s Privacy Policy.
+
+Privacy Policy
+Most current version (web):
+https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+
+Attribution
+Google, Google ML Kit, Google Play, Google Play services, Android, Firebase, and related marks are trademarks or registered trademarks of Google LLC or its affiliates. This notice is provided for transparency, provenance, and compliance recordkeeping. No additional attribution is intended to modify Google’s applicable terms, policies, or trademark rules.
+
+No endorsement
+Google is not affiliated with, and does not endorse, AFK GAMES STUDIO or the App.
+
+Organization note
+Google ML Kit and Google Play services scanner components may be referenced internally by Gradle module names, package names, SDK names, feature names, or App feature names for Android build, dependency management, scanner implementation, OCR implementation, document scanning, ID scan workflows, and in-app notice display purposes.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.
