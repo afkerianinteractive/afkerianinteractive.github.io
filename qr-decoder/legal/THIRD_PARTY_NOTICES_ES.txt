@@ -104,10 +104,10 @@ Componentes de Android / AndroidX / Jetpack / Compose
 
 * CameraX
   Módulos:
-  androidx.camera:camera-core — 1.6.3
-  androidx.camera:camera-camera2 — 1.6.3
-  androidx.camera:camera-lifecycle — 1.6.3
-  androidx.camera:camera-view — 1.6.3
+  androidx.camera:camera-core — 1.6.1
+  androidx.camera:camera-camera2 — 1.6.1
+  androidx.camera:camera-lifecycle — 1.6.1
+  androidx.camera:camera-view — 1.6.1
   Propósito: vista previa de la cámara, gestión del ciclo de vida de la cámara e integración de la cámara para flujos relacionados con QR/códigos de barras/documentos
   Licencia principal: Licencia Apache 2.0
 
@@ -134,7 +134,7 @@ Componentes de tiempo de ejecución de Kotlin / Coroutines / relacionados con la
 
 * Kotlinx Coroutines Play Services
   Módulo: org.jetbrains.kotlinx:kotlinx-coroutines-play-services
-  Versión: 1.11.2
+  Versión: 1.11.0
   Propósito: integración de corrutinas con las tareas de los servicios de Google Play
   Licencia principal: Licencia Apache 2.0
 
@@ -478,7 +478,7 @@ Este aviso se basa en la lista de dependencias proporcionada para la compilació
 * Android Gradle Plugin: 9.2.1
 * Kotlin: 2.4.0
 * Compose BOM: 2026.05.01
-* CameraX: 1.6.3
+* CameraX: 1.6.1
 * ML Kit Barcode Scanning: 17.3.0
 * ML Kit Text Recognition: 16.0.1
 * Google Play services ML Kit Document Scanner: 16.0.0
