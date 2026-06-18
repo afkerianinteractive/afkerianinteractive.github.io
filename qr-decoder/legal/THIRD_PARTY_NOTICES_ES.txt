@@ -468,31 +468,3 @@ https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
 Soporte / Contacto
 AFK GAMES STUDIO
 Soporte: afkgames.helpdesk@gmail.com
-
-=======================================================================
-G. MANTENIMIENTO DE REGISTROS / NOTA DE LANZAMIENTO
-===================================================
-
-Este aviso se basa en la lista de dependencias proporcionada para la compilación de QR Decoder utilizando las siguientes versiones destacadas:
-
-* Android Gradle Plugin: 9.2.1
-* Kotlin: 2.4.0
-* Compose BOM: 2026.05.01
-* CameraX: 1.6.1
-* ML Kit Barcode Scanning: 17.3.0
-* ML Kit Text Recognition: 16.0.1
-* Google Play services ML Kit Document Scanner: 16.0.0
-* ZXing Core: 3.5.4
-* Apache POI OOXML: 5.5.1
-* Apache Log4j API: 2.26.0
-* Room: 2.8.4
-* RichEditor Compose: 1.0.0-rc14
-* AndroidX DocumentFile: 1.1.0
-* Zip4j: 2.11.6
-* Google Mobile Ads SDK: 25.3.0
-* Google User Messaging Platform: 4.0.0
-* Firebase BoM: 34.14.1
-* Firebase Analytics: gestionada por Firebase BoM
-* Firebase Crashlytics: gestionada por Firebase BoM
-
-Antes de cada lanzamiento de producción, el Estudio debe verificar el grafo de dependencias de tiempo de ejecución resuelto, el manifiesto combinado, los avisos empaquetados y cualquier obligación de licencia de dependencias transitivas.

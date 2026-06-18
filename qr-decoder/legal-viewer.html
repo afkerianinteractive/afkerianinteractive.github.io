@@ -154,6 +154,28 @@
       }
     }
 
+    function appendLegalTextWithContactLinks(container, text) {
+      var contactPattern = /\[afkgames\.helpdesk@gmail\.com\]\(mailto:afkgames\.helpdesk@gmail\.com\)|\[afkgames\.helpdesk@gmail\.com\]|mailto:afkgames\.helpdesk@gmail\.com|\bafkgames\.helpdesk@gmail\.com\b/g;
+      var lastIndex = 0;
+      var match;
+
+      while ((match = contactPattern.exec(text)) !== null) {
+        if (match.index > lastIndex) {
+          container.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+        }
+
+        var link = document.createElement("a");
+        link.href = "mailto:afkgames.helpdesk@gmail.com";
+        link.textContent = "afkgames.helpdesk@gmail.com";
+        container.appendChild(link);
+        lastIndex = contactPattern.lastIndex;
+      }
+
+      if (lastIndex < text.length) {
+        container.appendChild(document.createTextNode(text.slice(lastIndex)));
+      }
+    }
+
     (function init() {
       var key = getDocKey();
       if (!key) {
@@ -190,7 +212,7 @@
           notice.className = "notice";
           var pre = document.createElement("pre");
           pre.className = "doc";
-          pre.textContent = text; // verbatim, rendered as plain text (safe + exact)
+          appendLegalTextWithContactLinks(pre, text);
           notice.appendChild(pre);
           contentEl.appendChild(notice);
         })
