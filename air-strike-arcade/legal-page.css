@@ -108,6 +108,22 @@ h1 {
 .document-meta p { margin: 0 0 4px; }
 .document-meta p:last-child { margin-bottom: 0; }
 
+.doc {
+  margin: 0;
+  padding: 18px;
+  overflow-wrap: anywhere;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #ffffff;
+  color: var(--text);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  word-break: break-word;
+  tab-size: 4;
+}
+
 .section { margin-top: 28px; }
 .section:first-of-type { margin-top: 0; }
 
@@ -202,5 +218,6 @@ footer div + div { margin-top: 4px; }
   .wrap { padding: 40px 14px 64px; }
   h1 { font-size: 1.6rem; }
   .card, .document { padding: 16px; }
+  .doc { font-size: 0.82rem; }
   .notice-link { align-items: flex-start; }
 }
