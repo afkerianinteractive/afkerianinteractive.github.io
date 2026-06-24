@@ -1,109 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apache License 2.0 - Air Strike Arcade | AFK GAMES STUDIO</title>
-  <style>
-    :root{
-      --primary:#1e3a8a;
-      --text-main:#111827;
-      --text-muted:#4b5563;
-      --bg-body:#ffffff;
-      --surface:#f9fafb;
-      --border:#e5e7eb;
-      --highlight:#eff6ff;
-      --link:#2563eb;
-    }
-    *{ box-sizing:border-box; }
-    body{
-      margin:0;
-      background:var(--bg-body);
-      color:var(--text-main);
-      font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      line-height:1.6;
-    }
-    .wrap{
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 56px 22px 80px;
-    }
-    .header{
-      border-bottom: 4px solid var(--primary);
-      padding-bottom: 18px;
-      margin-bottom: 18px;
-    }
-    h1{
-      margin: 0 0 8px;
-      font-size: 1.75rem;
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      color: var(--primary);
-      font-weight: 900;
-    }
-    .meta{
-      color: var(--text-muted);
-      font-size: .92rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: .06em;
-    }
-    .top-links{
-      margin: 16px 0 26px;
-      color: var(--text-muted);
-      font-size: .98rem;
-    }
-    .top-links a{
-      color: var(--link);
-      font-weight: 800;
-      text-decoration: none;
-    }
-    .top-links a:hover{ text-decoration: underline; }
-
-    .card{
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-    }
-
-    /* Verbatim document block (1:1) */
-    .doc{
-      margin-top: 14px;
-      background:#ffffff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      color: var(--text-main);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 0.92rem;
-      line-height: 1.55;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-
-    a{ color: var(--link); }
-  </style>
-</head>
-
-<body>
-  <div class="wrap">
-    <div class="header">
-      <h1>Apache License 2.0</h1>
-      <div class="meta">Air Strike Arcade | AFK GAMES STUDIO</div>
-    </div>
-
-    <div class="top-links">
-      <a href="terms-of-service.html">Terms of Service</a>
-      &nbsp;•&nbsp;
-      <a href="privacy-policy.html">Privacy Policy</a>
-      &nbsp;•&nbsp;
-      <a href="third-party-notices.html">Third-Party Notices</a>
-    </div>
-
-    <div class="card">
-      <!-- 1:1 VERBATIM COPY (matches your offline TXT) -->
-      <pre class="doc">Apache License
+Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -133,8 +28,8 @@
       source, and configuration files.
 
       "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but not
-      limited to compiled object code, generated documentation,
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
       and conversions to other media types.
 
       "Work" shall mean the work of authorship, whether in Source or
@@ -303,8 +198,4 @@
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.</pre>
-    </div>
-  </div>
-</body>
-</html>
+   limitations under the License.

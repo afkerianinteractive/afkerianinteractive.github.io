@@ -1,0 +1,206 @@
+:root {
+  --primary: #0f172a;
+  --text: #111827;
+  --muted: #4b5563;
+  --bg: #ffffff;
+  --surface: #f9fafb;
+  --border: #e5e7eb;
+  --highlight: #eff6ff;
+  --link: #2563eb;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.65;
+}
+
+.wrap {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 60px 22px 80px;
+}
+
+.header {
+  margin-bottom: 26px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid var(--primary);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: var(--primary);
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 26px;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 8px 18px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  border-color: var(--primary);
+  background: var(--highlight);
+  color: var(--primary);
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+
+.intro {
+  margin: 0 0 20px;
+  color: var(--muted);
+}
+
+.document {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.document-meta {
+  margin: 0 0 22px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+
+.document-meta p { margin: 0 0 4px; }
+.document-meta p:last-child { margin-bottom: 0; }
+
+.section { margin-top: 28px; }
+.section:first-of-type { margin-top: 0; }
+
+h2 {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--primary);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 20px 0 8px;
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+p { margin: 0 0 14px; color: var(--muted); }
+ul, ol { margin: 0 0 14px; padding-left: 24px; color: var(--muted); }
+li { margin: 0 0 8px; }
+li:last-child { margin-bottom: 0; }
+
+.parenthetical {
+  padding-left: 2.2em;
+  list-style: none;
+  counter-reset: item;
+}
+
+.parenthetical > li {
+  position: relative;
+  counter-increment: item;
+}
+
+.parenthetical > li::before {
+  position: absolute;
+  right: calc(100% + 0.45em);
+  content: "(" counter(item, lower-alpha) ")";
+}
+
+a { color: var(--link); font-weight: 700; }
+a:hover { text-decoration: underline; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+
+.notice-links {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0;
+}
+
+.notice-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.notice-link:hover {
+  border-color: var(--primary);
+  background: var(--highlight);
+  text-decoration: none;
+  transform: translateX(3px);
+}
+
+.notice-link small { color: var(--muted); font-weight: 600; }
+.notice-link span:last-child { color: var(--link); font-weight: 900; }
+
+.legal-emphasis { color: var(--text); font-weight: 800; }
+
+footer {
+  margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+footer div + div { margin-top: 4px; }
+
+@media (max-width: 600px) {
+  .wrap { padding: 40px 14px 64px; }
+  h1 { font-size: 1.6rem; }
+  .card, .document { padding: 16px; }
+  .notice-link { align-items: flex-start; }
+}

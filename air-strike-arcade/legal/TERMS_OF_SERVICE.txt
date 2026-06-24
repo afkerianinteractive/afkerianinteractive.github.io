@@ -1,158 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms of Service - Air Strike Arcade | AFK GAMES STUDIO</title>
-  <style>
-    :root{
-      --primary:#1e3a8a;
-      --text-main:#111827;
-      --text-muted:#4b5563;
-      --bg-body:#ffffff;
-      --surface:#f9fafb;
-      --border:#e5e7eb;
-      --highlight:#eff6ff;
-      --link:#2563eb;
-    }
-    *{ box-sizing:border-box; }
-    body{
-      margin:0;
-      background:var(--bg-body);
-      color:var(--text-main);
-      font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      line-height:1.6;
-    }
-    .wrap{
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 56px 22px 80px;
-    }
-    .header{
-      border-bottom: 4px solid var(--primary);
-      padding-bottom: 18px;
-      margin-bottom: 18px;
-      text-align:center;
-    }
-    h1{
-      margin: 0 0 8px;
-      font-size: 1.75rem;
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      color: var(--primary);
-      font-weight: 900;
-    }
-    .meta{
-      color: var(--text-muted);
-      font-size: .92rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: .06em;
-    }
-    .top-links{
-      margin: 16px 0 26px;
-      color: var(--text-muted);
-      font-size: .98rem;
-      text-align:center;
-    }
-    .top-links a{
-      color: var(--link);
-      font-weight: 800;
-      text-decoration: none;
-    }
-    .top-links a:hover{ text-decoration: underline; }
-
-    .card{
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-    }
-
-    .doc{
-      margin: 0;
-      background:#ffffff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      color: var(--text-main);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 0.92rem;
-      line-height: 1.55;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-
-    a{ color: var(--link); }
-  </style>
-</head>
-
-<body>
-  <div class="wrap">
-    <div class="header">
-      <h1>Terms of Service</h1>
-      <div class="meta">Air Strike Arcade | AFK GAMES STUDIO</div>
-    </div>
-
-    <div class="top-links">
-      <a href="terms-of-use.html">Terms of Service</a>
-      &nbsp;•&nbsp;
-      <a href="privacy-policy.html">Privacy Policy</a>
-      &nbsp;•&nbsp;
-      <a href="third-party-notices.html">Third-Party Notices</a>
-    </div>
-
-    <div class="card">
-      <!-- 1:1 VERBATIM COPY (matches your offline TXT) -->
-      <pre class="doc">AIR STRIKE ARCADE
+AIR STRIKE ARCADE
 TERMS OF SERVICE
-Effective Date: February 15, 2026
+Effective Date: February 19, 2026
+Last Updated: February 19, 2026
+
+These Terms are provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
 
 1. BINDING AGREEMENT
 These Terms of Service (“Terms”) constitute a binding contract between you (“User”) and AFK GAMES STUDIO (“Studio,” “we,” “us,” or “our”). By downloading, installing, accessing, or using Air Strike Arcade (the “App”), you agree to these Terms. If you do not agree, do not use the App. We may modify these Terms from time to time; if you continue to use the App after the effective date of updated Terms, you accept the updated Terms.
 
-
 2. ELIGIBILITY
 The App is not directed to children under 13, and you may not use the App if you are under 13. You represent that you are at least 13 years old. If you are a minor in your jurisdiction, you represent that you have permission from a parent or legal guardian to use the App and that such parent or guardian has reviewed and agreed to these Terms on your behalf.
 
-
 3. LICENSE GRANT & RESTRICTIONS
 3.1 License. Subject to your compliance with these Terms, the Studio grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the App for your personal, non-commercial entertainment purposes on compatible devices you own or control. All rights not expressly granted to you are reserved by the Studio.
+
 3.2 Restrictions. Except as expressly permitted by applicable law, you may not, and you agree not to:
 (a) copy, reproduce, distribute, publicly perform, publicly display, modify, translate, or create derivative works of the App;
 (b) sell, rent, lease, lend, sublicense, assign, or otherwise transfer the App or access to the App;
 (c) reverse engineer, decompile, disassemble, or attempt to derive the source code, underlying ideas, algorithms, structure, or organization of the App, except to the extent such restriction is prohibited by applicable law;
-(d) circumvent, disable, or interfere with security-related features, advertising delivery, measurement, consent flows, or fraud-prevention systems;
+(d) circumvent, disable, or interfere with security-related features, advertising delivery, measurement, consent flows, analytics, crash reporting, or fraud-prevention systems;
 (e) use cheats, automation software, bots, exploits, hacks, or otherwise interfere with the normal operation of the App;
 (f) remove, alter, or obscure proprietary notices (including copyright, trademark, and attribution notices) contained in or displayed by the App.
 
-
 4. INTELLECTUAL PROPERTY; AI-GENERATED AND LICENSED ASSETS; VIRTUAL ITEMS
 4.1 Ownership. The App and all associated content and materials, including without limitation software, audiovisual works, user interface and visual design, trademarks, logos, artwork, images, sound effects, music, and documentation (collectively, “Studio Materials”), are owned by the Studio or its licensors and are protected by intellectual property and other laws. All rights not expressly granted to you are reserved by the Studio.
-4.2 AI-Generated Music (Suno). The App may incorporate music/audio tracks generated using Suno under a Studio-held paid subscription plan in effect at the time of generation (“Suno Assets”). Suno Assets are used under the applicable commercial terms of the subscription/plan held by the Studio at the time of generation. You may not extract, record, reproduce, distribute, publicly perform, or commercially exploit Suno Assets outside the App, except as expressly permitted by applicable law.
+
+4.2 AI-Generated Music (Suno). The App may incorporate certain music/audio tracks generated using Suno under a Studio-held paid subscription plan in effect at the time of generation (“Suno Assets”). Suno Assets are used under the applicable commercial terms of the subscription/plan held by the Studio at the time of generation. You may not extract, reproduce, distribute, publicly perform, or commercially exploit Suno Assets outside the App, except as expressly permitted by applicable law.
+
 4.3 Third-Party Sound Effects (Pixabay). The App may include certain sound effects sourced from third-party libraries such as Pixabay and used under the applicable license terms available at the time of download (“Third-Party SFX”). You may not extract, redistribute, resell, or otherwise use Third-Party SFX outside the App except as permitted by applicable law and the applicable third-party license.
+
 4.4 No Endorsement. Third-party providers (including Suno and Pixabay) are not affiliated with, and do not endorse, the Studio or the App.
+
 4.5 Virtual Items. The App may include virtual in-game currency or items (“Virtual Items”). Virtual Items are licensed, not sold, have no real-world monetary value, are non-transferable, and are not redeemable for cash or tangible goods. The Studio may modify, manage, or remove Virtual Items to the maximum extent permitted by applicable law (for example, to maintain balance, prevent fraud, or fix errors). Nothing in this section limits mandatory consumer rights that cannot be waived under applicable law.
 
-
 5. PRIVACY; DATA
-Your use of the App is governed by our Privacy Policy, which is incorporated by reference and made part of these Terms. The Privacy Policy is available in the App and via the Studio’s official distribution channels (including the website link referenced in the App and/or store listing).
+Your use of the App is governed by our Privacy Policy, which is incorporated by reference and made part of these Terms. The Privacy Policy is available in the App and at:
+https://afkgamesstudio.github.io/air-strike-arcade/privacy-policy.html
 
+The App is designed as an offline-first experience; gameplay progress, settings, and single-player opponent/CPU difficulty and behavior settings are stored locally on your device. You can delete local App data using the App’s in-game deletion control (e.g., a “Wipe Memory” / “Reset” button), device/OS controls (e.g., clearing storage/data), and/or by uninstalling the App, subject to your device and operating system backup settings.
 
-
-The App is designed as an offline-first experience; gameplay progress, settings, and single-player opponent/CPU (“ZERO”) data are stored locally on your device. The App provides an in-app control to delete local App data (for example, a “Delete Data” option accessible from the main menu), and you may also delete local App data using device/OS controls (e.g., clearing storage/data) and/or by uninstalling the App, subject to your device and operating system backup settings.
-
-The App may integrate third-party partners (e.g., Google AdMob and Google Play Services) that may collect or receive certain data as described in the Privacy Policy, including for advertising, consent management (Google UMP), measurement, and fraud prevention.
+The App may integrate third-party SDKs/services (including Google AdMob, Google UMP, Firebase Analytics, Firebase Crashlytics, and Google Play services) that may collect and process certain information (such as device identifiers, IP-derived approximate location, app interactions, diagnostics, consent state, and crash logs) as described in the Privacy Policy and in the App’s Third-Party Notices.
 
 6. THIRD-PARTY SERVICES; OPEN SOURCE; NOTICES
-6.1 Third-Party Services. The App may interoperate with or include third-party services, SDKs, or integrations (“Third-Party Services”), including advertising and consent-related services. Third-Party Services are provided by their respective providers and may be subject to separate terms and policies. The Studio is not responsible for Third-Party Services and does not warrant their availability, accuracy, or performance.
-6.2 Open Source. The App may include open source software components licensed under applicable open source licenses (e.g., Apache License 2.0). Required notices and license texts are provided in the App’s “Third-Party Notices” section. In the event of a conflict between these Terms and an applicable open source license, the open source license governs solely with respect to the open source component.
-6.3 Third-Party Notices. Additional attributions and notices for third-party assets, SDKs, and services may be provided in the App’s Licenses/Notices or Third-Party Notices sections and/or in accompanying notice files. Those notices are provided for attribution and compliance and do not modify these Terms.
+6.1 Third-Party Services. The App may interoperate with or include third-party services, SDKs, or integrations (“Third-Party Services”), including advertising, consent/privacy options, analytics, and crash reporting services. Third-Party Services are provided by their respective providers and may be subject to separate terms and policies. The Studio is not responsible for Third-Party Services and does not warrant their availability, accuracy, or performance.
 
+6.2 Open Source. The App may include open source software components licensed under applicable open source licenses (e.g., Apache License 2.0). Required notices and license texts are provided in the App’s “Third-Party Notices” section. In the event of a conflict between these Terms and an applicable open source license, the open source license governs solely with respect to the open source component.
+
+6.3 Third-Party Notices. Additional attributions and notices for third-party assets, SDKs, and services may be provided in the App’s Licenses/Notices or Third-Party Notices sections and/or in accompanying notice files. Those notices are provided for attribution and compliance and do not modify these Terms.
 
 7. DISCLAIMER OF WARRANTIES
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP AND ALL STUDIO MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND QUIET ENJOYMENT. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
-
 
 8. LIMITATION OF LIABILITY
 TO THE MAXIMUM EXTENT PERMITTED BY LAW:
@@ -160,36 +57,40 @@ TO THE MAXIMUM EXTENT PERMITTED BY LAW:
 (b) THE STUDIO’S TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF (I) THE AMOUNTS YOU PAID TO THE STUDIO FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM OR (II) TEN U.S. DOLLARS (US $10.00).
 Nothing in these Terms limits or excludes liability for fraud, willful misconduct, gross negligence, or personal injury or death to the extent such limitation or exclusion is prohibited by applicable law. SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS OF LIABILITY, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
 
-
 9. DISPUTE RESOLUTION; BINDING ARBITRATION; CLASS ACTION WAIVER
 PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS.
-9.1 Informal Resolution and Notice of Dispute. Before initiating arbitration or any court proceeding (except small claims court), you agree to first send the Studio a written Notice of Dispute to afkstudios.dev@gmail.com with the subject line “Notice of Dispute – Air Strike Arcade.” The Notice must include (a) your name and contact information, (b) a description of the dispute, and (c) the relief you seek. The parties agree to attempt in good faith to resolve the dispute within thirty (30) days after the Notice is received.
+9.1 Informal Resolution and Notice of Dispute. Before initiating arbitration or any court proceeding (except small claims court), you agree to first send the Studio a written Notice of Dispute to afkgames.helpdesk@gmail.com with the subject line “Notice of Dispute – Air Strike Arcade.” The Notice must include (a) your name and contact information, (b) a description of the dispute, and (c) the relief you seek. The parties agree to attempt in good faith to resolve the dispute within thirty (30) days after the Notice is received.
+
 9.2 Agreement to Arbitrate. If the dispute is not resolved within the 30-day period, you and the Studio agree that any dispute, claim, or controversy arising out of or relating to the App or these Terms will be resolved by binding arbitration administered by the American Arbitration Association (“AAA”) under its Consumer Arbitration Rules, as modified by these Terms. Judgment on the award may be entered in any court of competent jurisdiction.
+
 9.3 Arbitration Location and Procedure. Arbitration will be conducted remotely by video or telephone unless the arbitrator determines an in-person hearing is necessary. If an in-person hearing is required, it will take place in Orange County, Florida, unless the AAA rules or the arbitrator provide otherwise. The arbitrator has exclusive authority to resolve any dispute relating to the interpretation, applicability, enforceability, or formation of this arbitration agreement, except that courts of competent jurisdiction may determine the enforceability of the Class Action Waiver.
+
 9.4 Fees and Costs. Payment of arbitration fees will be governed by the AAA Consumer Arbitration Rules and applicable law.
+
 9.5 Small Claims. Either party may bring an individual action in small claims court in lieu of arbitration, provided the action remains in small claims court and proceeds only on an individual basis.
+
 9.6 Class Action Waiver. YOU AND THE STUDIO AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING. THE ARBITRATOR MAY NOT CONSOLIDATE CLAIMS OR PRESIDE OVER ANY FORM OF CLASS OR REPRESENTATIVE PROCEEDING.
-9.7 Opt-Out. You may opt out of this arbitration agreement within thirty (30) days of your first use of the App by emailing afkstudios.dev@gmail.com with the subject line “Arbitration Opt-Out” and providing (a) your name, (b) the email address you use (if any), and (c) a clear statement that you wish to opt out of arbitration. If you opt out, you and the Studio agree that disputes will be resolved in court as set forth in Section 11.1, and the Class Action Waiver in Section 9.6 will not apply to you.
+
+9.7 Opt-Out. You may opt out of this arbitration agreement within thirty (30) days of your first use of the App by emailing afkgames.helpdesk@gmail.com with the subject line “Arbitration Opt-Out – Air Strike Arcade” and providing (a) your name, (b) the email address you use (if any), and (c) a clear statement that you wish to opt out of arbitration. If you opt out, you and the Studio agree that disputes will be resolved in court as set forth in Section 11.1, and the Class Action Waiver in Section 9.6 will not apply to you.
+
 9.8 Administrator Unavailability. If AAA is unavailable to administer arbitration, the parties will reasonably cooperate to select an alternative arbitration administrator that applies consumer arbitration rules substantially similar to the AAA Consumer Arbitration Rules.
 
-
 10. TERMINATION
-The Studio may suspend or terminate your access to the App and this license at any time if you violate these Terms or if the Studio reasonably determines your use is unlawful, harmful, or abusive. Upon termination, you must cease all use of the App and delete any copies in your possession or control. Sections 3.2, 4, 6, 7, 8, 9, 10, 11, and 12 survive termination.
-
+The Studio may suspend or terminate your access to the App and this license at any time if you violate these Terms or if the Studio reasonably determines your use is unlawful, harmful, or abusive. Upon termination, you must cease all use of the App and delete any copies in your possession or control. Sections 3.2, 4, 5, 6, 7, 8, 9, 10, 11, and 12 survive termination.
 
 11. GENERAL TERMS
 11.1 Governing Law; Venue. These Terms are governed by the laws of the State of Florida, USA, without regard to conflict of laws principles. To the extent a dispute is not subject to arbitration (including if you validly opt out under Section 9.7), you agree that any such action will be brought exclusively in the state or federal courts located in Orange County, Florida, and you consent to personal jurisdiction and venue there. Mandatory consumer protection rights that cannot be waived under applicable law remain unaffected.
-11.2 Severability. If any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the remaining provisions will remain in full force and effect.
-11.3 Entire Agreement. These Terms, together with the Privacy Policy and Third-Party Notices, constitute the entire agreement between you and the Studio regarding the App and supersede all prior or contemporaneous agreements and understandings.
-11.4 Assignment. You may not assign or transfer these Terms without the Studio’s prior written consent. The Studio may assign these Terms (including all rights and obligations) in connection with a merger, acquisition, sale of assets, or by operation of law.
-11.5 No Waiver. The Studio’s failure to enforce any right or provision of these Terms will not constitute a waiver of such right or provision.
-11.6 Interpretation. Headings are for convenience only and do not affect interpretation. The word “including” means “including without limitation.”
 
+11.2 Severability. If any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the remaining provisions will remain in full force and effect.
+
+11.3 Entire Agreement. These Terms, together with the Privacy Policy and Third-Party Notices, constitute the entire agreement between you and the Studio regarding the App and supersede all prior or contemporaneous agreements and understandings.
+
+11.4 Assignment. You may not assign or transfer these Terms without the Studio’s prior written consent. The Studio may assign these Terms (including all rights and obligations) in connection with a merger, acquisition, sale of assets, or by operation of law.
+
+11.5 No Waiver. The Studio’s failure to enforce any right or provision of these Terms will not constitute a waiver of such right or provision.
+
+11.6 Interpretation. Headings are for convenience only and do not affect interpretation. The word “including” means “including without limitation.”
 
 12. CONTACT
 AFK GAMES STUDIO
-Email: afkgames.helpdesk@gmail.com</pre>
-    </div>
-  </div>
-</body>
-</html>
+Email: afkgames.helpdesk@gmail.com
