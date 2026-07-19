@@ -8,7 +8,7 @@ https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
 Esta Política de Privacidad se proporciona dentro de la aplicación y también puede estar disponible en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
 
 1. ALCANCE; ENTIDAD; FUNCIONES
-   Esta Política de Privacidad describe cómo AFK GAMES STUDIO («el Estudio», «nosotros» o «nuestro») trata la información en relación con la aplicación móvil QR Decoder (la «App»).
+   Esta Política de Privacidad describe cómo AFKERIAN INTERACTIVE («el Estudio», «nosotros» o «nuestro») trata la información en relación con la aplicación móvil QR Decoder (la «App»).
 
 La App está diseñada como una utilidad local (local-first) para el escaneo de códigos QR/de barras, la creación de códigos QR, el escaneo de documentos, el OCR, los flujos de escaneo de identificaciones, los flujos de inventario/escaneo por lotes, la visualización/edición de archivos y las herramientas de ZIP/archivos comprimidos.
 
@@ -242,5 +242,5 @@ Es posible que el Estudio no pueda acceder, eliminar ni controlar directamente t
 Si tienes una solicitud de privacidad o eliminación que se aplique al tratamiento controlado por el Estudio, contáctanos con los datos de la Sección 13.
 
 13. CONTACTO
-    AFK GAMES STUDIO
+    AFKERIAN INTERACTIVE
     Correo electrónico: afkgames.helpdesk@gmail.com

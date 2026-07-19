@@ -6,7 +6,7 @@ Last Updated: February 19, 2026
 These Terms are provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
 
 1. BINDING AGREEMENT
-These Terms of Service (“Terms”) constitute a binding contract between you (“User”) and AFK GAMES STUDIO (“Studio,” “we,” “us,” or “our”). By downloading, installing, accessing, or using Air Strike Arcade (the “App”), you agree to these Terms. If you do not agree, do not use the App. We may modify these Terms from time to time; if you continue to use the App after the effective date of updated Terms, you accept the updated Terms.
+These Terms of Service (“Terms”) constitute a binding contract between you (“User”) and AFKERIAN INTERACTIVE (“Studio,” “we,” “us,” or “our”). By downloading, installing, accessing, or using Air Strike Arcade (the “App”), you agree to these Terms. If you do not agree, do not use the App. We may modify these Terms from time to time; if you continue to use the App after the effective date of updated Terms, you accept the updated Terms.
 
 2. ELIGIBILITY
 The App is not directed to children under 13, and you may not use the App if you are under 13. You represent that you are at least 13 years old. If you are a minor in your jurisdiction, you represent that you have permission from a parent or legal guardian to use the App and that such parent or guardian has reviewed and agreed to these Terms on your behalf.
@@ -92,5 +92,5 @@ The Studio may suspend or terminate your access to the App and this license at a
 11.6 Interpretation. Headings are for convenience only and do not affect interpretation. The word “including” means “including without limitation.”
 
 12. CONTACT
-AFK GAMES STUDIO
+AFKERIAN INTERACTIVE
 Email: afkgames.helpdesk@gmail.com

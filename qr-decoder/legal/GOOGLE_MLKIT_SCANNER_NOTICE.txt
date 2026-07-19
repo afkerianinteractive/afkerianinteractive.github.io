@@ -61,7 +61,7 @@ Attribution
 Google, Google ML Kit, Google Play, Google Play services, Android, Firebase, and related marks are trademarks or registered trademarks of Google LLC or its affiliates. This notice is provided for transparency, provenance, and compliance recordkeeping. No additional attribution is intended to modify Google’s applicable terms, policies, or trademark rules.
 
 No endorsement
-Google is not affiliated with, and does not endorse, AFK GAMES STUDIO or the App.
+Google is not affiliated with, and does not endorse, AFKERIAN INTERACTIVE or the App.
 
 Organization note
 Google ML Kit and Google Play services scanner components may be referenced internally by Gradle module names, package names, SDK names, feature names, or App feature names for Android build, dependency management, scanner implementation, OCR implementation, document scanning, ID scan workflows, and in-app notice display purposes.

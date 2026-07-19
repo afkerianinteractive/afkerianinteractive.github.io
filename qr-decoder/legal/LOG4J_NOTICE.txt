@@ -35,7 +35,7 @@ Apache Log4j is developed by The Apache Software Foundation.
 Apache, Apache Log4j, Log4j, the Apache feather logo, and related Apache marks are trademarks or registered trademarks of The Apache Software Foundation. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
 
 No endorsement
-The Apache Software Foundation and the Apache Log4j project are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+The Apache Software Foundation and the Apache Log4j project are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
 
 Organization note
 Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, logging support, or in-app notice display purposes. The Apache Log4j library itself is governed by its applicable upstream license and notices.

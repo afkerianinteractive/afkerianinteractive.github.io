@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0f172a" />
   <meta name="robots" content="noindex" />
-  <title>Legal Document Viewer — QR Decoder | AFK GAMES STUDIO</title>
+  <title>Legal Document Viewer — QR Decoder | AFKERIAN INTERACTIVE</title>
   <style>
     :root{
       --primary:#0f172a;
@@ -81,7 +81,7 @@
   <div class="wrap">
     <div class="header">
       <h1 id="doc-title">Legal Document Viewer</h1>
-      <div class="meta">QR Decoder | AFK GAMES STUDIO</div>
+      <div class="meta">QR Decoder | AFKERIAN INTERACTIVE</div>
     </div>
 
     <nav class="site-nav" aria-label="Site navigation">
@@ -96,7 +96,7 @@
       <div id="content"></div>
 
       <footer>
-        <div><strong>AFK GAMES STUDIO</strong></div>
+        <div><strong>AFKERIAN INTERACTIVE</strong></div>
         <div>Contact: <a href="mailto:afkgames.helpdesk@gmail.com">afkgames.helpdesk@gmail.com</a></div>
       </footer>
     </div>
@@ -179,7 +179,7 @@
     (function init() {
       var key = getDocKey();
       if (!key) {
-        document.title = "Document Not Found — QR Decoder | AFK GAMES STUDIO";
+        document.title = "Document Not Found — QR Decoder | AFKERIAN INTERACTIVE";
         titleEl.textContent = "Document Not Found";
         showError("No document specified",
           "This viewer expects a known document key (for example: legal-viewer.html?doc=firebase). " +
@@ -188,7 +188,7 @@
       }
       // Own-property check guards against prototype keys like "__proto__".
       if (!Object.prototype.hasOwnProperty.call(WHITELIST, key)) {
-        document.title = "Document Not Found — QR Decoder | AFK GAMES STUDIO";
+        document.title = "Document Not Found — QR Decoder | AFKERIAN INTERACTIVE";
         titleEl.textContent = "Document Not Found";
         showError("Unknown document",
           'The requested document key "' + key + '" is not recognized. ' +
@@ -198,7 +198,7 @@
 
       var entry = WHITELIST[key];
       var path = "legal/" + entry.file; // fixed filename from the whitelist only
-      document.title = entry.title + " — QR Decoder | AFK GAMES STUDIO";
+      document.title = entry.title + " — QR Decoder | AFKERIAN INTERACTIVE";
       titleEl.textContent = entry.title;
 
       fetch(path, { cache: "no-cache" })

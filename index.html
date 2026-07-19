@@ -3,544 +3,638 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AFK GAMES STUDIO - Official Corporate Portal and Legal Repository.">
-  <meta name="theme-color" content="#020617">
-  <title>AFK GAMES STUDIO | Official Corporate Portal</title>
+  <meta name="description" content="AFKERIAN INTERACTIVE — independent studio building offline-first mobile games and utility apps. Official portal for Privacy Policies, Terms of Service, and third-party notices for QR Decoder, XO Arcade, Air Strike Arcade, and Tap Odyssey.">
+  <meta name="theme-color" content="#05070a">
+  <meta name="color-scheme" content="dark">
+  <title>AFKERIAN INTERACTIVE | Official Studio Portal</title>
+
+  <link rel="canonical" href="https://afkgamesstudio.github.io/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE">
+  <meta property="og:title" content="AFKERIAN INTERACTIVE | Official Studio Portal">
+  <meta property="og:description" content="Independent studio building offline-first mobile games and utility apps. Official source for Privacy Policies, Terms of Service, and third-party notices.">
+  <meta property="og:url" content="https://afkgamesstudio.github.io/">
+  <meta property="og:image" content="https://afkgamesstudio.github.io/assets/og-social-card.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AFKERIAN INTERACTIVE | Official Studio Portal">
+  <meta name="twitter:description" content="Independent studio building offline-first mobile games and utility apps. Official source for Privacy Policies, Terms of Service, and third-party notices.">
+  <meta name="twitter:image" content="https://afkgamesstudio.github.io/assets/og-social-card.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="assets/favicon-16.png" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="assets/favicon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Security & referrer posture (static host; no server headers available on GitHub Pages) -->
+  <!-- frame-ancestors is intentionally omitted: it has no effect via <meta> per spec and GitHub Pages does not allow real response headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "AFKERIAN INTERACTIVE",
+    "url": "https://afkgamesstudio.github.io/",
+    "logo": "https://afkgamesstudio.github.io/assets/afkerian-logo.png",
+    "email": "mailto:afkgames.helpdesk@gmail.com",
+    "description": "Independent studio building offline-first mobile games and utility apps."
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AFKERIAN INTERACTIVE",
+    "url": "https://afkgamesstudio.github.io/"
+  }
+  </script>
 
   <style>
+    /* ============================================================
+       TOKENS
+       ============================================================ */
     :root {
-      /* --- Enterprise Color System --- */
-      --primary: #3b82f6;
-      --primary-glow: rgba(59, 130, 246, 0.5);
-      --accent: #8b5cf6;
-      
-      /* --- Surface Colors (Glassmorphism) --- */
-      --bg-body: #020617; /* Slate 950 */
-      --bg-card: rgba(15, 23, 42, 0.6); /* Slate 900 with Alpha */
-      --bg-card-hover: rgba(30, 41, 59, 0.8);
-      
-      /* --- Typography & Borders --- */
-      --text-main: #f8fafc;
-      --text-muted: #94a3b8;
-      --border-color: rgba(148, 163, 184, 0.1);
-      --border-highlight: rgba(59, 130, 246, 0.3);
+      /* Surfaces — onyx, not generic slate */
+      --ink-950: #05070a;
+      --ink-900: #0a0e15;
+      --ink-800: #10151f;
+      --ink-700: #171d2b;
+      --line: rgba(233, 237, 245, 0.09);
+      --line-strong: rgba(233, 237, 245, 0.18);
 
-      /* --- Physics & Spacing --- */
-      --radius-lg: 24px;
-      --radius-icon: 22%; /* Superellipse approximation */
-      
-      /* --- Multi-Layer Shadow System --- */
-      --shadow-card-rest: 
-        0 1px 2px rgba(0, 0, 0, 0.3),
-        0 8px 16px -4px rgba(0, 0, 0, 0.2),
-        0 20px 40px -12px rgba(0, 0, 0, 0.4);
-      
-      --shadow-card-hover: 
-        0 2px 4px rgba(0, 0, 0, 0.2),
-        0 16px 32px -8px rgba(59, 130, 246, 0.35),
-        0 40px 80px -20px rgba(59, 130, 246, 0.5);
-      
-      --shadow-icon:
-        0 4px 8px rgba(0, 0, 0, 0.3),
-        0 12px 24px rgba(0, 0, 0, 0.4);
-      
-      --shadow-icon-hover:
-        0 6px 12px rgba(0, 0, 0, 0.25),
-        0 16px 32px rgba(59, 130, 246, 0.3);
+      /* Brand blue — sampled from the AFKERIAN mark */
+      --blue-300: #7fb6ff;
+      --blue-400: #4da2ff;
+      --blue-500: #0d7cff;
+      --blue-600: #0058c9;
+      --blue-glow: rgba(13, 124, 255, 0.35);
 
+      /* Text */
+      --ash-100: #eef1f7;
+      --ash-300: #c2cadb;
+      --ash-500: #97a2b8;
+      --ash-700: #5b6376;
+
+      --amber: #ffb020;
+      --amber-bg: rgba(255, 176, 32, 0.1);
+
+      /* Type */
+      --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+      --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+      --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.0625rem);
+      --step-1: clamp(1.125rem, 1.06rem + 0.32vw, 1.3125rem);
+      --step-2: clamp(1.4rem, 1.28rem + 0.6vw, 1.75rem);
+      --step-3: clamp(1.75rem, 1.55rem + 1vw, 2.25rem);
+      --step-4: clamp(2.25rem, 1.9rem + 1.75vw, 3.25rem);
+      --step-5: clamp(2.75rem, 2.15rem + 3vw, 4.5rem);
+
+      /* Space scale */
+      --sp-1: 0.25rem; --sp-2: 0.5rem; --sp-3: 0.75rem; --sp-4: 1rem;
+      --sp-5: 1.5rem; --sp-6: 2rem; --sp-7: 3rem; --sp-8: 4rem;
+      --sp-9: 6rem; --sp-10: 8rem;
+
+      --radius-sm: 6px;
+      --radius-md: 10px;
+
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
       --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-      --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+      --dur-fast: 150ms;
+      --dur-base: 260ms;
+      --dur-slow: 480ms;
+
+      --shadow-card:
+        0 1px 2px rgba(0,0,0,0.4),
+        0 12px 28px -8px rgba(0,0,0,0.55);
+      --shadow-card-hover:
+        0 1px 2px rgba(0,0,0,0.4),
+        0 20px 44px -10px rgba(13,124,255,0.28);
     }
 
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
     * { box-sizing: border-box; }
+    html { color-scheme: dark; }
 
     body {
-      font-family: 'Inter', system-ui, sans-serif;
-      color: var(--text-main);
-      background: var(--bg-body);
       margin: 0;
-      line-height: 1.6;
+      font-family: var(--font-body);
+      font-size: var(--step-0);
+      color: var(--ash-300);
+      background: var(--ink-950);
+      line-height: 1.65;
       -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
 
-    /* --- Skip Link for Accessibility --- */
+    img { max-width: 100%; display: block; }
+
+    h1, h2, h3 {
+      font-family: var(--font-display);
+      color: var(--ash-100);
+      margin: 0;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+    }
+
+    p { margin: 0 0 var(--sp-4); max-width: 65ch; }
+
+    a { color: var(--blue-400); }
+    a:focus-visible,
+    button:focus-visible,
+    [tabindex]:focus-visible {
+      outline: 2px solid var(--blue-400);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+
     .skip-link {
       position: absolute;
       top: -100%;
-      left: 16px;
+      left: var(--sp-4);
       z-index: 999;
-      padding: 12px 24px;
-      background: var(--primary);
+      padding: 12px 22px;
+      background: var(--blue-500);
       color: #fff;
       font-weight: 700;
       font-size: 0.9rem;
-      border-radius: 0 0 12px 12px;
+      border-radius: 0 0 10px 10px;
       text-decoration: none;
-      transition: top 0.2s ease;
+      transition: top var(--dur-base) var(--ease-out);
     }
+    .skip-link:focus { top: 0; }
 
-    .skip-link:focus {
-      top: 0;
-    }
-
-    /* --- Cinematic Background --- */
     .bg-ambient {
       position: fixed;
       inset: 0;
       z-index: -1;
-      background: 
-        radial-gradient(circle at 15% 0%, rgba(59, 130, 246, 0.08), transparent 40%),
-        radial-gradient(circle at 85% 100%, rgba(139, 92, 246, 0.08), transparent 40%),
-        linear-gradient(to bottom, #020617 0%, #0f172a 100%);
+      background:
+        radial-gradient(ellipse 900px 480px at 50% -8%, rgba(13,124,255,0.16), transparent 60%),
+        radial-gradient(ellipse 640px 420px at 100% 30%, rgba(13,124,255,0.06), transparent 55%),
+        linear-gradient(180deg, #05070a 0%, #070a10 55%, #05070a 100%);
+    }
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.5;
+      background-image:
+        linear-gradient(rgba(233,237,245,0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(233,237,245,0.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: radial-gradient(ellipse 70% 55% at 50% 0%, #000 40%, transparent 90%);
     }
 
-    .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding-inline: clamp(1.25rem, 4vw, 2.5rem);
+    }
 
-    /* --- Header Architecture --- */
-    header {
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--blue-400);
+    }
+    .eyebrow::before {
+      content: '';
+      background: var(--blue-500);
+      clip-path: polygon(0 0, 100% 50%, 0 100%);
+      width: 10px;
+      height: 10px;
+    }
+
+    /* ============================================================
+       HEADER
+       ============================================================ */
+    header[role="banner"] {
       position: sticky;
       top: 0;
       z-index: 100;
-      padding: 24px 0;
-      background: rgba(2, 6, 23, 0.85);
-      backdrop-filter: blur(20px);
-      -webkit-backdrop-filter: blur(20px);
-      border-bottom: 1px solid var(--border-color);
+      background: rgba(5, 7, 10, 0.82);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
     }
 
     .header-inner {
       display: flex;
       align-items: center;
-      gap: 32px;
+      justify-content: space-between;
+      gap: var(--sp-5);
+      padding-block: var(--sp-3);
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: var(--sp-3);
+      text-decoration: none;
+      border-radius: var(--radius-sm);
     }
 
     .logo {
-      height: 144px; 
+      height: 56px;
       width: auto;
-      filter: drop-shadow(0 0 15px rgba(59, 130, 246, 0.3));
-      transition: transform 0.3s var(--ease-spring), filter 0.3s ease;
-      border-radius: 8px;
     }
 
-    .logo:hover { 
-      transform: scale(1.02); 
-      filter: drop-shadow(0 0 20px rgba(59, 130, 246, 0.5));
-    }
-
-    .logo:focus-visible {
-      outline: 3px solid var(--primary);
-      outline-offset: 4px;
-      transform: scale(1.02);
-    }
-
-    .brand-identity { display: flex; flex-direction: column; }
-
+    .brand-identity { display: flex; flex-direction: column; line-height: 1.2; }
     .brand-identity h1 {
-      font-size: 1.8rem;
-      font-weight: 800;
-      margin: 0;
-      letter-spacing: -0.02em;
-      background: linear-gradient(135deg, #fff 0%, #94a3b8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: var(--ash-100);
     }
-
     .brand-tagline {
-      font-size: 0.85rem;
-      font-weight: 500;
+      font-size: 0.72rem;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--primary);
-      margin-top: 4px;
+      letter-spacing: 0.1em;
+      color: var(--ash-500);
+      margin-top: 2px;
     }
 
-    /* --- Main Layout --- */
-    main { padding: 80px 0 120px; }
+    .primary-nav ul {
+      list-style: none;
+      display: flex;
+      gap: var(--sp-6);
+      margin: 0;
+      padding: 0;
+    }
+    .primary-nav a {
+      color: var(--ash-300);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 6px 2px;
+      border-bottom: 2px solid transparent;
+      transition: color var(--dur-fast) var(--ease-out), border-color var(--dur-fast) var(--ease-out);
+    }
+    .primary-nav a:hover { color: var(--ash-100); border-color: var(--line-strong); }
+    .primary-nav a:focus-visible { outline-offset: 4px; }
 
-    .hero-section {
-      text-align: center;
-      margin-bottom: 60px;
-      max-width: 800px;
-      margin-left: auto;
-      margin-right: auto;
+    @media (max-width: 640px) {
+      .primary-nav { display: none; }
     }
 
-    .section-title {
-      font-size: 2.5rem;
-      font-weight: 800;
-      margin-bottom: 16px;
-      color: #fff;
-      letter-spacing: -0.03em;
+    /* ============================================================
+       HERO
+       ============================================================ */
+    .hero {
+      padding-block: clamp(var(--sp-8), 8vw, var(--sp-10)) var(--sp-9);
+      border-bottom: 1px solid var(--line);
     }
 
-    .section-desc {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      line-height: 1.7;
+    .hero-grid {
+      display: grid;
+      gap: var(--sp-6);
+      max-width: 62rem;
     }
 
-    /* --- Card Grid System --- */
+    .hero h2 {
+      font-size: var(--step-5);
+      margin-top: var(--sp-4);
+      max-width: 18ch;
+    }
+
+    .hero h2 .accent { color: var(--blue-400); }
+
+    .hero-lede {
+      font-size: var(--step-1);
+      color: var(--ash-300);
+      max-width: 58ch;
+      margin-top: var(--sp-4);
+    }
+
+    .fact-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1px;
+      margin-top: var(--sp-8);
+      background: var(--line);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .fact {
+      background: var(--ink-900);
+      padding: var(--sp-5) var(--sp-4);
+    }
+    .fact dt {
+      font-family: var(--font-display);
+      font-size: var(--step-2);
+      font-weight: 700;
+      color: var(--ash-100);
+    }
+    .fact dd {
+      margin: 4px 0 0;
+      font-size: 0.8rem;
+      color: var(--ash-500);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-weight: 600;
+    }
+
+    /* ============================================================
+       SECTION HEADS
+       ============================================================ */
+    .section { padding-block: var(--sp-9); }
+    .section-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: var(--sp-4);
+      margin-bottom: var(--sp-7);
+    }
+    .section-head h2 { font-size: var(--step-3); }
+    .section-head .section-desc {
+      color: var(--ash-500);
+      font-size: 0.95rem;
+      max-width: 32ch;
+      margin: 0;
+    }
+
+    /* ============================================================
+       PORTFOLIO GRID
+       ============================================================ */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 32px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: var(--sp-6);
     }
 
-    /* --- Staggered entrance animation --- */
     .card {
-      background: var(--bg-card);
-      border-radius: var(--radius-lg);
-      border: 1px solid var(--border-color);
+      background: var(--ink-900);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transition: all 0.4s var(--ease-smooth);
-      position: relative;
-      box-shadow: var(--shadow-card-rest);
-      opacity: 0;
-      transform: translateY(24px);
-      animation: cardReveal 0.6s var(--ease-smooth) forwards;
+      box-shadow: var(--shadow-card);
+      transition: transform var(--dur-base) var(--ease-out),
+                  border-color var(--dur-base) var(--ease-out),
+                  box-shadow var(--dur-base) var(--ease-out);
     }
-
-    .card:nth-child(1) { animation-delay: 0.08s; }
-    .card:nth-child(2) { animation-delay: 0.16s; }
-    .card:nth-child(3) { animation-delay: 0.24s; }
-    .card:nth-child(4) { animation-delay: 0.32s; }
-
-    @keyframes cardReveal {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
-
-    /* Gradient border glow effect */
-    .card::before {
-      content: '';
-      position: absolute;
-      inset: -1px;
-      border-radius: var(--radius-lg);
-      padding: 1px;
-      background: linear-gradient(
-        135deg,
-        transparent 0%,
-        var(--primary) 50%,
-        var(--accent) 100%
-      );
-      -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-      -webkit-mask-composite: xor;
-      mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
-      mask-composite: exclude;
-      opacity: 0;
-      transition: opacity 0.5s ease;
-      pointer-events: none;
-      z-index: -1;
-    }
-
     .card:hover {
-      background: var(--bg-card-hover);
-      transform: translateY(-8px) scale(1.01);
-      border-color: var(--border-highlight);
+      transform: translateY(-4px);
+      border-color: var(--line-strong);
       box-shadow: var(--shadow-card-hover);
     }
-
-    .card:hover::before {
-      opacity: 1;
-    }
-
-    /* ACCESSIBILITY: Card focus-within for keyboard nav */
     .card:focus-within {
-      border-color: var(--border-highlight);
-      box-shadow: 
-        0 0 0 2px rgba(59, 130, 246, 0.3),
-        var(--shadow-card-rest);
+      border-color: var(--blue-500);
+      box-shadow: 0 0 0 1px var(--blue-500), var(--shadow-card);
     }
 
-    /* Banner Area */
     .card-banner {
-      height: 180px;
-      width: 100%;
-      overflow: hidden;
       position: relative;
-      background: #0f172a;
+      height: 168px;
+      overflow: hidden;
+      background: var(--ink-800);
+      clip-path: polygon(0 0, 100% 0, 100% 88%, 92% 100%, 0 100%);
     }
-
-    /* Skeleton shimmer loader */
-    .card-banner::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 0.03) 0%,
-        rgba(255, 255, 255, 0.08) 50%,
-        rgba(255, 255, 255, 0.03) 100%
-      );
-      background-size: 200% 100%;
-      animation: shimmer 1.5s infinite;
-      pointer-events: none;
-      z-index: 1;
-    }
-
-    @keyframes shimmer {
-      0% { background-position: -200% 0; }
-      100% { background-position: 200% 0; }
-    }
-
     .card-banner img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.6s var(--ease-smooth), opacity 0.3s ease;
-      opacity: 0.9;
-      position: relative;
-      z-index: 2;
+      transition: transform var(--dur-slow) var(--ease-out);
     }
+    .card:hover .card-banner img { transform: scale(1.06); }
 
-    .card-banner img[loading="lazy"] {
-      animation: fadeInImage 0.4s ease-out forwards;
-    }
-
-    @keyframes fadeInImage {
-      from { opacity: 0; }
-      to { opacity: 0.9; }
-    }
-
-    .card-banner:hover img { 
-      transform: scale(1.08); 
-      opacity: 1; 
-    }
-
-    /* The "Overlap" Header Layout */
     .card-header {
-      padding: 0 24px;
-      margin-top: -40px;
+      padding: 0 var(--sp-5);
+      margin-top: -34px;
       display: flex;
       align-items: flex-end;
-      gap: 20px;
+      gap: var(--sp-4);
       position: relative;
       z-index: 2;
     }
-
     .app-icon {
-      width: 88px;
-      height: 88px;
-      border-radius: var(--radius-icon);
-      border: 3px solid rgba(15, 23, 42, 0.8);
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      border: 3px solid var(--ink-900);
       background: #000;
-      box-shadow: var(--shadow-icon);
       object-fit: cover;
-      transition: transform 0.3s var(--ease-spring), box-shadow 0.3s ease;
-    }
-    
-    .app-icon:hover { 
-      transform: scale(1.05) rotate(-3deg);
-      box-shadow: var(--shadow-icon-hover);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
     }
 
-    /* Card Body */
     .card-body {
-      padding: 20px 24px 28px;
+      padding: var(--sp-4) var(--sp-5) var(--sp-6);
       flex-grow: 1;
       display: flex;
       flex-direction: column;
     }
-
     .app-title {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       font-weight: 700;
-      color: #fff;
-      margin: 12px 0 8px;
-      line-height: 1.2;
+      color: var(--ash-100);
+      margin: var(--sp-3) 0 var(--sp-2);
     }
-
     .app-desc {
-      font-size: 0.95rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
+      font-size: 0.9rem;
+      color: var(--ash-500);
+      margin-bottom: var(--sp-5);
       flex-grow: 1;
-      line-height: 1.65;
     }
 
-    /* Legal Action Buttons */
-    .legal-stack {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
+    .legal-stack { display: flex; flex-direction: column; gap: 6px; }
     .btn-legal {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 12px 16px;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.05);
-      border-radius: 12px;
-      color: var(--text-muted);
+      gap: var(--sp-3);
+      padding: 10px 14px;
+      background: var(--ink-800);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--line-strong);
+      border-radius: var(--radius-sm);
+      color: var(--ash-300);
       text-decoration: none;
-      font-size: 0.85rem;
+      font-size: 0.83rem;
       font-weight: 600;
-      transition: all 0.2s var(--ease-smooth);
+      transition: background var(--dur-fast) var(--ease-out),
+                  border-left-color var(--dur-fast) var(--ease-out),
+                  color var(--dur-fast) var(--ease-out),
+                  padding-left var(--dur-fast) var(--ease-out);
     }
-
-    .btn-legal:hover {
-      background: rgba(59, 130, 246, 0.1);
-      border-color: rgba(59, 130, 246, 0.3);
-      color: #fff;
-      transform: translateX(4px);
-    }
-
+    .btn-legal:hover,
     .btn-legal:focus-visible {
-      outline: 2px solid var(--primary);
-      outline-offset: 2px;
-      box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
-      background: rgba(59, 130, 246, 0.1);
-      color: #fff;
+      background: var(--ink-700);
+      border-left-color: var(--blue-500);
+      color: var(--ash-100);
+      padding-left: 18px;
+      text-decoration: none;
     }
+    .btn-legal .arrow { color: var(--blue-400); font-weight: 900; }
 
-    /* Coming Soon Badge */
     .badge-coming-soon {
       display: inline-block;
-      padding: 4px 10px;
-      font-size: 0.65rem;
+      padding: 3px 9px;
+      font-size: 0.62rem;
       font-weight: 700;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: #fbbf24;
-      background: rgba(251, 191, 36, 0.1);
-      border: 1px solid rgba(251, 191, 36, 0.25);
-      border-radius: 100px;
-      margin-left: 12px;
+      letter-spacing: 0.09em;
+      color: var(--amber);
+      background: var(--amber-bg);
+      border: 1px solid rgba(255,176,32,0.3);
+      border-radius: 4px;
+      margin-left: 10px;
       vertical-align: middle;
     }
-
-    /* Disabled legal buttons */
     .btn-legal--disabled {
       pointer-events: none;
-      opacity: 0.3;
-      cursor: not-allowed;
-      user-select: none;
+      opacity: 0.35;
     }
 
-    .btn-legal--disabled:hover {
-      background: rgba(255, 255, 255, 0.03);
-      border-color: rgba(255, 255, 255, 0.05);
-      color: var(--text-muted);
-      transform: none;
+    /* ============================================================
+       ABOUT
+       ============================================================ */
+    .about {
+      background: var(--ink-900);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: var(--sp-8);
+      align-items: start;
+    }
+    @media (max-width: 860px) {
+      .about-layout { grid-template-columns: 1fr; }
+    }
+    .about-copy p { color: var(--ash-300); font-size: var(--step-0); }
+    .about-copy p:last-child { margin-bottom: 0; }
+
+    .values {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: var(--line);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    @media (max-width: 480px) {
+      .values { grid-template-columns: 1fr; }
+    }
+    .value {
+      background: var(--ink-800);
+      padding: var(--sp-5);
+    }
+    .value h3 {
+      font-size: 0.95rem;
+      color: var(--blue-300);
+      margin-bottom: 6px;
+    }
+    .value p {
+      font-size: 0.83rem;
+      color: var(--ash-500);
+      margin: 0;
     }
 
-    .btn-legal span:last-child {
-      opacity: 0;
-      transform: translateX(-8px) scale(0.8);
-      transition: all 0.3s var(--ease-spring);
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    footer[role="contentinfo"] {
+      padding-block: var(--sp-8) var(--sp-7);
     }
-    
-    .btn-legal:hover span:last-child,
-    .btn-legal:focus-visible span:last-child {
-      opacity: 1;
-      transform: translateX(0) scale(1);
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr;
+      gap: var(--sp-7);
+      padding-bottom: var(--sp-7);
+      border-bottom: 1px solid var(--line);
     }
-
-    /* --- Footer --- */
-    footer {
-      background: #020617;
-      border-top: 1px solid var(--border-color);
-      padding: 60px 0;
-      text-align: center;
+    @media (max-width: 720px) {
+      .footer-grid { grid-template-columns: 1fr; gap: var(--sp-6); }
     }
-
+    .footer-brand .logo { height: 34px; margin-bottom: var(--sp-3); }
+    .footer-brand p {
+      font-size: 0.85rem;
+      color: var(--ash-500);
+      max-width: 32ch;
+    }
     .jurisdiction-badge {
       display: inline-block;
-      padding: 6px 12px;
-      border: 1px solid var(--border-color);
+      padding: 5px 11px;
+      border: 1px solid var(--line-strong);
       border-radius: 100px;
-      font-size: 0.7rem;
+      font-size: 0.66rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--ash-500);
+    }
+    .footer-col h3 {
+      font-size: 0.72rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--text-muted);
-      margin-bottom: 20px;
+      color: var(--ash-500);
+      margin-bottom: var(--sp-4);
     }
-
-    footer p { color: var(--text-muted); font-size: 0.9rem; margin: 8px 0; }
-    footer a { 
-      color: var(--primary); 
-      text-decoration: none; 
-      font-weight: 500;
-      transition: color 0.2s ease;
+    .footer-col ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+    .footer-col a {
+      color: var(--ash-300);
+      text-decoration: none;
+      font-size: 0.88rem;
     }
-    footer a:hover { 
-      text-decoration: underline; 
-      color: #fff; 
+    .footer-col a:hover { color: var(--ash-100); text-decoration: underline; }
+
+    .footer-bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: var(--sp-3);
+      padding-top: var(--sp-5);
+      font-size: 0.8rem;
+      color: var(--ash-500);
     }
+    .footer-bottom a { color: var(--ash-500); }
 
-    footer a:focus-visible {
-      outline: 2px solid var(--primary);
-      outline-offset: 2px;
-      border-radius: 4px;
-    }
-
-    /* --- Mobile Responsive --- */
-    @media (max-width: 768px) {
-      .header-inner {
-        flex-direction: column;
-        gap: 16px;
-        text-align: center;
-      }
-      
-      .logo {
-        height: 112px;
-      }
-
-      .card-header {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-top: -44px;
-      }
-
-      .app-title { margin-top: 16px; }
-      .grid { grid-template-columns: 1fr; }
-      
-      .section-title { font-size: 2rem; }
-
-      main { padding: 48px 0 80px; }
-      .hero-section { margin-bottom: 40px; }
-    }
-
-    /* Small mobile refinements */
-    @media (max-width: 400px) {
-      .container { padding: 0 16px; }
-      .card-body { padding: 16px 18px 24px; }
-      .card-header { padding: 0 18px; }
-      .brand-identity h1 { font-size: 1.4rem; }
-      .section-title { font-size: 1.65rem; }
-      .section-desc { font-size: 1rem; }
-    }
-
-    /* --- Reduce motion for accessibility --- */
+    /* ============================================================
+       REDUCED MOTION
+       ============================================================ */
     @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
+      *, *::before, *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
       }
-      .card {
-        opacity: 1;
-        transform: none;
-      }
+    }
+
+    /* ============================================================
+       MOBILE REFINEMENTS
+       ============================================================ */
+    @media (max-width: 480px) {
+      .container { padding-inline: 1.1rem; }
+      .card-header { padding-inline: var(--sp-4); }
+      .card-body { padding: var(--sp-4) var(--sp-4) var(--sp-5); }
     }
   </style>
 </head>
@@ -548,183 +642,278 @@
 
   <a href="#main-content" class="skip-link">Skip to main content</a>
   <div class="bg-ambient" aria-hidden="true"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
 
   <header role="banner">
-    <div class="container">
-      <div class="header-inner">
-        <img src="assets/afk-logo.png" alt="AFK GAMES STUDIO Logo" class="logo" tabindex="0">
+    <div class="container header-inner">
+      <a href="#main-content" class="brand-link">
+        <img src="assets/afkerian-logo.png" alt="" class="logo" width="320" height="294">
         <div class="brand-identity">
-          <h1>AFK GAMES STUDIO</h1>
-          <div class="brand-tagline">Enterprise Compliance Portal</div>
+          <h1>AFKERIAN INTERACTIVE</h1>
+          <div class="brand-tagline">Studio Legal &amp; Portfolio Portal</div>
         </div>
-      </div>
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main id="main-content" class="container" role="main">
-    <div class="hero-section">
-      <h2 class="section-title">Global Portfolio</h2>
-      <p class="section-desc">Official legal repository for AFK GAMES STUDIO applications. Centralized access to privacy policies, terms of service, and third-party attributions for each published title.</p>
-    </div>
+  <main id="main-content" role="main">
 
-    <div class="grid" role="list">
-      
-      <article class="card" role="listitem">
-        <div class="card-banner">
-          <img 
-            src="assets/qr-decoder-banner.png" 
-            alt="QR Decoder promotional banner showing scanning interface"
-            loading="lazy"
-            width="800"
-            height="400"
-          >
-        </div>
-        <div class="card-header">
-          <img 
-            src="assets/qrdecoder_icon.png" 
-            alt="QR Decoder App Icon" 
-            class="app-icon"
-            loading="lazy"
-            width="88"
-            height="88"
-          >
-        </div>
-        <div class="card-body">
-          <h2 class="app-title">QR Decoder</h2>
-          <p class="app-desc">Offline-first scanning suite with QR scan and generation for WiFi, contacts, and custom payloads. Includes document scanning with automatic edge detection, on-device OCR powered by Google ML Kit, batch scanning for inventory workflows, ID front and back merge into a single organized page, and export to PDF and Word. Built-in file viewer supports PDF, TXT, Word, Excel, PowerPoint, and JSON formats. No cloud uploads, no external servers, and no background data transmission.</p>
-          <nav class="legal-stack" aria-label="QR Decoder legal documents">
-            <a href="qr-decoder/privacy-policy.html" class="btn-legal">
-              <span>Privacy Policy</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="qr-decoder/terms-of-service.html" class="btn-legal">
-              <span>Terms of Service</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="qr-decoder/third-party-notices.html" class="btn-legal">
-              <span>Third-Party Notices</span><span aria-hidden="true">→</span>
-            </a>
-          </nav>
-        </div>
-      </article>
+    <section class="hero">
+      <div class="container hero-grid">
+        <span class="eyebrow">Official Studio Portal</span>
+        <h2>Built offline-first.<br>Played <span class="accent">anywhere.</span></h2>
+        <p class="hero-lede">AFKERIAN INTERACTIVE designs and publishes mobile games and utility apps engineered around on-device processing and data minimization. This portal is the official source for our Privacy Policies, Terms of Service, and third-party attributions.</p>
 
-      <article class="card" role="listitem">
-        <div class="card-banner">
-          <img 
-            src="assets/xo-arcade-banner.png" 
-            alt="XO Arcade promotional banner showing game grid"
-            loading="lazy"
-            width="800"
-            height="400"
-          >
-        </div>
-        <div class="card-header">
-          <img 
-            src="assets/xoarcade_icon.png" 
-            alt="XO Arcade App Icon" 
-            class="app-icon"
-            loading="lazy"
-            width="88"
-            height="88"
-          >
-        </div>
-        <div class="card-body">
-          <h2 class="app-title">XO Arcade: Infinity Edition</h2>
-          <p class="app-desc">Strategic grid combat system featuring the proprietary offline ZERO Protocol AI engine. No cloud processing, no external servers, and no user data collection.</p>
-          <nav class="legal-stack" aria-label="XO Arcade legal documents">
-            <a href="xo-arcade/privacy-policy.html" class="btn-legal">
-              <span>Privacy Policy</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="xo-arcade/terms-of-use.html" class="btn-legal">
-              <span>Terms of Use</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="xo-arcade/third-party-notices.html" class="btn-legal">
-              <span>Third-Party Notices</span><span aria-hidden="true">→</span>
-            </a>
-          </nav>
-        </div>
-      </article>
+        <dl class="fact-strip">
+          <div class="fact">
+            <dt>4</dt>
+            <dd>Published Applications</dd>
+          </div>
+          <div class="fact">
+            <dt>Offline</dt>
+            <dd>First Architecture</dd>
+          </div>
+          <div class="fact">
+            <dt>On-Device</dt>
+            <dd>Scan &amp; OCR Processing</dd>
+          </div>
+          <div class="fact">
+            <dt>FL, USA</dt>
+            <dd>Statutory Jurisdiction</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
 
-      <article class="card" role="listitem">
-        <div class="card-banner">
-          <img 
-            src="assets/air-strike-banner.png" 
-            alt="Air Strike Arcade promotional banner showing aerial combat"
-            loading="lazy"
-            width="800"
-            height="400"
-          >
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section-head">
+          <h2>Portfolio</h2>
+          <p class="section-desc">Every title below links directly to its Privacy Policy, Terms, and third-party notices.</p>
         </div>
-        <div class="card-header">
-          <img 
-            src="assets/airstrike_icon.png" 
-            alt="Air Strike App Icon" 
-            class="app-icon"
-            loading="lazy"
-            width="88"
-            height="88"
-          >
-        </div>
-        <div class="card-body">
-          <h2 class="app-title">Air Strike Arcade</h2>
-          <p class="app-desc">Fast-paced neon hockey arcade with local multiplayer and offline-first architecture. No cloud uploads, no external servers, and no background data transmission.</p>
-          <nav class="legal-stack" aria-label="Air Strike Arcade legal documents">
-            <a href="air-strike-arcade/privacy-policy.html" class="btn-legal">
-              <span>Privacy Policy</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="air-strike-arcade/terms-of-service.html" class="btn-legal">
-              <span>Terms of Service</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="air-strike-arcade/third-party-notices.html" class="btn-legal">
-              <span>Third-Party Notices</span><span aria-hidden="true">→</span>
-            </a>
-          </nav>
-        </div>
-      </article>
 
-      <article class="card" role="listitem">
-        <div class="card-banner">
-          <img 
-            src="assets/tap-odyssey-banner.png" 
-            alt="Tap Odyssey promotional banner showing game world"
-            loading="lazy"
-            width="800"
-            height="400"
-          >
-        </div>
-        <div class="card-header">
-          <img 
-            src="assets/tapodyssey_icon.png" 
-            alt="Tap Odyssey App Icon" 
-            class="app-icon"
-            loading="lazy"
-            width="88"
-            height="88"
-          >
-        </div>
-        <div class="card-body">
-          <h2 class="app-title">Tap Odyssey</h2>
-          <p class="app-desc">Rhythmic arcade experience with skin customization, world exploration logic, and strict data minimization. No cloud uploads, no external servers, and no background data transmission.</p>
-          <nav class="legal-stack" aria-label="Tap Odyssey legal documents">
-            <a href="tap-odyssey/privacy-policy.html" class="btn-legal">
-              <span>Privacy Policy</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="tap-odyssey/terms-of-use.html" class="btn-legal">
-              <span>Terms of Use</span><span aria-hidden="true">→</span>
-            </a>
-            <a href="tap-odyssey/third-party-notices.html" class="btn-legal">
-              <span>Third-Party Notices</span><span aria-hidden="true">→</span>
-            </a>
-          </nav>
-        </div>
-      </article>
+        <div class="grid" role="list">
 
-    </div>
+          <article class="card" role="listitem">
+            <div class="card-banner">
+              <img
+                src="assets/qr-decoder-banner.jpg"
+                alt="QR Decoder promotional banner showing scanning interface"
+                loading="lazy"
+                width="1024"
+                height="500"
+              >
+            </div>
+            <div class="card-header">
+              <img
+                src="assets/qrdecoder_icon.jpg"
+                alt="QR Decoder App Icon"
+                class="app-icon"
+                loading="lazy"
+                width="72"
+                height="72"
+              >
+            </div>
+            <div class="card-body">
+              <h3 class="app-title">QR Decoder</h3>
+              <p class="app-desc">Offline-first scanning suite with QR scan and generation for WiFi, contacts, and custom payloads. Includes document scanning with automatic edge detection, on-device OCR powered by Google ML Kit, batch scanning for inventory workflows, ID front and back merge into a single organized page, and export to PDF and Word. Built-in file viewer supports PDF, TXT, Word, Excel, PowerPoint, and JSON formats. No cloud uploads, no external servers, and no background data transmission.</p>
+              <nav class="legal-stack" aria-label="QR Decoder legal documents">
+                <a href="qr-decoder/privacy-policy.html" class="btn-legal">
+                  <span>Privacy Policy</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="qr-decoder/terms-of-service.html" class="btn-legal">
+                  <span>Terms of Service</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="qr-decoder/third-party-notices.html" class="btn-legal">
+                  <span>Third-Party Notices</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-banner">
+              <img
+                src="assets/xo-arcade-banner.jpg"
+                alt="XO Arcade promotional banner showing game grid"
+                loading="lazy"
+                width="1024"
+                height="500"
+              >
+            </div>
+            <div class="card-header">
+              <img
+                src="assets/xoarcade_icon.jpg"
+                alt="XO Arcade App Icon"
+                class="app-icon"
+                loading="lazy"
+                width="72"
+                height="72"
+              >
+            </div>
+            <div class="card-body">
+              <h3 class="app-title">XO Arcade: Infinity Edition</h3>
+              <p class="app-desc">Strategic grid combat system featuring the proprietary offline ZERO Protocol AI engine. No cloud processing, no external servers, and no user data collection.</p>
+              <nav class="legal-stack" aria-label="XO Arcade legal documents">
+                <a href="xo-arcade/privacy-policy.html" class="btn-legal">
+                  <span>Privacy Policy</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="xo-arcade/terms-of-use.html" class="btn-legal">
+                  <span>Terms of Use</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="xo-arcade/third-party-notices.html" class="btn-legal">
+                  <span>Third-Party Notices</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-banner">
+              <img
+                src="assets/air-strike-banner.jpg"
+                alt="Air Strike Arcade promotional banner showing aerial combat"
+                loading="lazy"
+                width="1024"
+                height="500"
+              >
+            </div>
+            <div class="card-header">
+              <img
+                src="assets/airstrike_icon.jpg"
+                alt="Air Strike App Icon"
+                class="app-icon"
+                loading="lazy"
+                width="72"
+                height="72"
+              >
+            </div>
+            <div class="card-body">
+              <h3 class="app-title">Air Strike Arcade</h3>
+              <p class="app-desc">Fast-paced neon hockey arcade with local multiplayer and offline-first architecture. No cloud uploads, no external servers, and no background data transmission.</p>
+              <nav class="legal-stack" aria-label="Air Strike Arcade legal documents">
+                <a href="air-strike-arcade/privacy-policy.html" class="btn-legal">
+                  <span>Privacy Policy</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="air-strike-arcade/terms-of-service.html" class="btn-legal">
+                  <span>Terms of Service</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="air-strike-arcade/third-party-notices.html" class="btn-legal">
+                  <span>Third-Party Notices</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+          <article class="card" role="listitem">
+            <div class="card-banner">
+              <img
+                src="assets/tap-odyssey-banner.jpg"
+                alt="Tap Odyssey promotional banner showing game world"
+                loading="lazy"
+                width="1024"
+                height="500"
+              >
+            </div>
+            <div class="card-header">
+              <img
+                src="assets/tapodyssey_icon.jpg"
+                alt="Tap Odyssey App Icon"
+                class="app-icon"
+                loading="lazy"
+                width="72"
+                height="72"
+              >
+            </div>
+            <div class="card-body">
+              <h3 class="app-title">Tap Odyssey</h3>
+              <p class="app-desc">Rhythmic arcade experience with skin customization, world exploration logic, and strict data minimization. No cloud uploads, no external servers, and no background data transmission.</p>
+              <nav class="legal-stack" aria-label="Tap Odyssey legal documents">
+                <a href="tap-odyssey/privacy-policy.html" class="btn-legal">
+                  <span>Privacy Policy</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="tap-odyssey/terms-of-use.html" class="btn-legal">
+                  <span>Terms of Use</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+                <a href="tap-odyssey/third-party-notices.html" class="btn-legal">
+                  <span>Third-Party Notices</span><span class="arrow" aria-hidden="true">&rarr;</span>
+                </a>
+              </nav>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-layout">
+        <div class="about-copy">
+          <span class="eyebrow">About</span>
+          <h2 style="font-size: var(--step-3); margin-top: var(--sp-4);">AFKERIAN INTERACTIVE</h2>
+          <p style="margin-top: var(--sp-5);">AFKERIAN INTERACTIVE is an independent studio building mobile games and utility applications. The current portfolio spans genres — from the grid-strategy combat of XO Arcade: Infinity Edition, to the neon local-multiplayer hockey of Air Strike Arcade, to the rhythm and world exploration of Tap Odyssey — alongside QR Decoder, an offline scanning and document utility with on-device OCR.</p>
+          <p>Every title in this portfolio is designed around the same engineering discipline: keep core functionality local to the device, minimize what is collected, and disclose plainly what third-party services are used for advertising, analytics, and crash reporting. This portal exists to make that documentation easy to find.</p>
+        </div>
+
+        <div class="values">
+          <div class="value">
+            <h3>Offline-First</h3>
+            <p>Core gameplay and utility features are designed to run without a live cloud dependency.</p>
+          </div>
+          <div class="value">
+            <h3>On-Device Processing</h3>
+            <p>Document scanning and OCR in QR Decoder run locally via Google ML Kit, not on remote servers.</p>
+          </div>
+          <div class="value">
+            <h3>Data Minimization</h3>
+            <p>No account registration is required, and we do not directly collect names or addresses.</p>
+          </div>
+          <div class="value">
+            <h3>Transparent Compliance</h3>
+            <p>Every title publishes its Privacy Policy, Terms, and third-party notices on this portal.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
-  <footer role="contentinfo">
+  <footer role="contentinfo" id="contact">
     <div class="container">
-      <div class="jurisdiction-badge">Statutory Jurisdiction: Orange County, Florida, USA</div>
-      <p>&copy; 2026 AFK GAMES STUDIO. All rights reserved.</p>
-      <p>Contact: <a href="mailto:afkgames.helpdesk@gmail.com">afkgames.helpdesk@gmail.com</a></p>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/afkerian-logo.png" alt="AFKERIAN INTERACTIVE" class="logo" width="320" height="294">
+          <p>Independent studio building offline-first mobile games and utility apps.</p>
+          <span class="jurisdiction-badge">Statutory Jurisdiction: Orange County, Florida, USA</span>
+        </div>
+        <div class="footer-col">
+          <h3>Portfolio</h3>
+          <ul>
+            <li><a href="qr-decoder/privacy-policy.html">QR Decoder</a></li>
+            <li><a href="xo-arcade/privacy-policy.html">XO Arcade: Infinity Edition</a></li>
+            <li><a href="air-strike-arcade/privacy-policy.html">Air Strike Arcade</a></li>
+            <li><a href="tap-odyssey/privacy-policy.html">Tap Odyssey</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="mailto:afkgames.helpdesk@gmail.com">afkgames.helpdesk@gmail.com</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 AFKERIAN INTERACTIVE. All rights reserved.</span>
+      </div>
     </div>
   </footer>
 </body>

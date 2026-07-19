@@ -37,7 +37,7 @@ Zip4j is developed by its upstream author(s) and contributors.
 Zip4j, Java, Android, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
 
 No endorsement
-The Zip4j project, its author(s), and its contributors are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+The Zip4j project, its author(s), and its contributors are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
 
 Organization note
 Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, ZIP/archive functionality, or in-app notice display purposes. The Zip4j library itself is governed by its applicable upstream license and notices.

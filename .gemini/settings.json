@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "C:\\Users\\afk-j\\.local\\mcp\\github\\v1.6.0\\github-mcp-server.exe",
+      "args": ["stdio", "--read-only"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "$GITHUB_PERSONAL_ACCESS_TOKEN"
+      }
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@0.0.78"]
+    }
+  }
+}

@@ -3,7 +3,7 @@ Version: 1.0
 Last Updated: June 15, 2026
 
 1. SCOPE
-   This Third-Party Notices document applies to QR Decoder (the “App”), developed and distributed by AFK GAMES STUDIO (“Studio”).
+   This Third-Party Notices document applies to QR Decoder (the “App”), developed and distributed by AFKERIAN INTERACTIVE (“Studio”).
 
 It identifies (i) third-party open source software, (ii) third-party services/SDKs, (iii) Google/Firebase/advertising/scanner-related SDKs, and (iv) certain license texts and provider-specific notices included in or used by the App.
 
@@ -466,7 +466,7 @@ Most current version (web):
 https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
 
 Support / Contact
-AFK GAMES STUDIO
+AFKERIAN INTERACTIVE
 Support: [afkgames.helpdesk@gmail.com](mailto:afkgames.helpdesk@gmail.com)
 
 =======================================================================

@@ -9,7 +9,7 @@ https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
 Estos Términos se proporcionan dentro de la aplicación y también pueden estar disponibles en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
 
 1. ACUERDO VINCULANTE
-   Estos Términos de Uso («Términos») constituyen un contrato vinculante entre tú («Usuario») y AFK GAMES STUDIO («el Estudio», «nosotros» o «nuestro»). Al descargar, instalar, acceder o utilizar QR Decoder (la «App»), aceptas estos Términos. Si no estás de acuerdo, no uses la App. Podemos modificar estos Términos de vez en cuando; si continúas usando la App después de la fecha de entrada en vigor de los Términos actualizados, aceptas los Términos actualizados.
+   Estos Términos de Uso («Términos») constituyen un contrato vinculante entre tú («Usuario») y AFKERIAN INTERACTIVE («el Estudio», «nosotros» o «nuestro»). Al descargar, instalar, acceder o utilizar QR Decoder (la «App»), aceptas estos Términos. Si no estás de acuerdo, no uses la App. Podemos modificar estos Términos de vez en cuando; si continúas usando la App después de la fecha de entrada en vigor de los Términos actualizados, aceptas los Términos actualizados.
 
 2. ELEGIBILIDAD
    La App no está dirigida a menores de 13 años, y no puedes usar la App si eres menor de 13 años. Declaras que tienes al menos 13 años. Si eres menor de edad en tu jurisdicción, declaras que cuentas con el permiso de un padre, madre o tutor legal para usar la App y que dicho padre, madre o tutor ha revisado y aceptado estos Términos en tu nombre.
@@ -159,5 +159,5 @@ Nada en estos Términos limita ni excluye la responsabilidad por fraude, dolo, n
 13.6 Interpretación. Los encabezados se incluyen solo por comodidad y no afectan a la interpretación. La palabra «incluido» significa «incluido, entre otros». Las referencias a la App incluyen la App y cualquier función relacionada, actualización, documentación, archivos locales, salidas generadas y materiales legales dentro de la app, según corresponda.
 
 14. CONTACTO
-    AFK GAMES STUDIO
+    AFKERIAN INTERACTIVE
     Correo electrónico: afkgames.helpdesk@gmail.com

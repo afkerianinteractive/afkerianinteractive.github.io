@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://afkgamesstudio.github.io/sitemap.xml

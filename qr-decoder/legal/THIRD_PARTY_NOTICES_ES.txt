@@ -3,7 +3,7 @@ Versión: 1.0
 Última actualización: 15 de junio de 2026
 
 1. ALCANCE
-   Este documento de Avisos de terceros se aplica a QR Decoder (la «App»), desarrollada y distribuida por AFK GAMES STUDIO («el Estudio»).
+   Este documento de Avisos de terceros se aplica a QR Decoder (la «App»), desarrollada y distribuida por AFKERIAN INTERACTIVE («el Estudio»).
 
 Identifica (i) software de código abierto de terceros, (ii) servicios/SDK de terceros, (iii) SDK relacionados con Google/Firebase/publicidad/escáner y (iv) ciertos textos de licencia y avisos específicos de proveedores incluidos o utilizados por la App.
 
@@ -466,5 +466,5 @@ Versión más reciente (web):
 https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
 
 Soporte / Contacto
-AFK GAMES STUDIO
+AFKERIAN INTERACTIVE
 Soporte: afkgames.helpdesk@gmail.com

@@ -1,0 +1,21 @@
+# AFKERIAN INTERACTIVE — website project-local Codex MCP configuration.
+# Scope: this repository only. The global ~/.codex/config.toml (Android/Unity/Afker
+# tooling such as node_repl and jetbrains-android-studio) is NOT modified by this file.
+# No credentials are stored in the repository.
+
+# GitHub — official github-mcp-server v1.6.0 Windows binary (stdio), READ-ONLY mode.
+# Write/deploy tools are not exposed (--read-only). Enabling writes requires explicit
+# OWNER approval and a separate configuration.
+# Auth: the existing GITHUB_PERSONAL_ACCESS_TOKEN host environment variable is FORWARDED
+# to the server via env_vars (Codex passthrough). The token is NEVER stored in the repo.
+[mcp_servers.github]
+command = 'C:\Users\afk-j\.local\mcp\github\v1.6.0\github-mcp-server.exe'
+args = ["stdio", "--read-only"]
+env_vars = ["GITHUB_PERSONAL_ACCESS_TOKEN"]
+
+# Playwright — Microsoft official MCP server, version-pinned. Local/preview QA only
+# (responsive, interaction, accessibility, console, performance checks against a local
+# or preview build). Not for production traffic.
+[mcp_servers.playwright]
+command = "npx"
+args = ["-y", "@playwright/mcp@0.0.78"]

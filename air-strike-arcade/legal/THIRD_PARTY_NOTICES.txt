@@ -3,7 +3,7 @@ Version: 1.2
 Last Updated: February 19, 2026
 
 1. SCOPE
-This Third-Party Notices document applies to Air Strike Arcade (the “App”), developed and distributed by AFK GAMES STUDIO (“Studio”).
+This Third-Party Notices document applies to Air Strike Arcade (the “App”), developed and distributed by AFKERIAN INTERACTIVE (“Studio”).
 It identifies (i) third-party open source software, (ii) third-party services/SDKs, and (iii) certain third-party or licensed creative assets included in or used by the App.
 
 These notices are provided for attribution and statutory compliance only. They do not modify the App’s Terms of Service or Privacy Policy.
@@ -118,5 +118,5 @@ Privacy Policy
 For information on data practices, identifiers, consent controls, and user choices (including UMP/Privacy Options where available), refer to the App’s Privacy Policy.
 
 Support / Contact
-AFK GAMES STUDIO
+AFKERIAN INTERACTIVE
 Support: afkgames.helpdesk@gmail.com

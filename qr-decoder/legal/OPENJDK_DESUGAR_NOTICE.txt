@@ -35,7 +35,7 @@ desugar_jdk_libs contains a subset of OpenJDK libraries simplified for use on ol
 OpenJDK, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
 
 No endorsement
-Google, Oracle, OpenJDK contributors, and any upstream OpenJDK-related projects are not affiliated with, and do not endorse, AFK GAMES STUDIO or the App.
+Google, Oracle, OpenJDK contributors, and any upstream OpenJDK-related projects are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
 
 Organization note
 Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, compatibility support, or in-app notice display purposes. The desugar_jdk_libs dependency itself is governed by its applicable upstream license and notices.
