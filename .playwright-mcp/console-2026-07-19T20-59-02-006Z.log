@@ -1,0 +1,3 @@
+[ 1083427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8934/manifest.webmanifest:0
+[ 1091034ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8934/assets/favicon-32.png:0
+[ 1091049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8934/assets/favicon-16.png:0

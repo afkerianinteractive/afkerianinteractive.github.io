@@ -1,0 +1,180 @@
+/* ============================================================
+   Shared stylesheet for the AFKERIAN INTERACTIVE website's own
+   legal pages: privacy-policy.html and terms-of-use.html
+   (These apply to the website only, not to individual products.)
+   ============================================================ */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('fonts/inter/Inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('fonts/inter/Inter-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url('fonts/space-grotesk/SpaceGrotesk-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url('fonts/space-grotesk/SpaceGrotesk-latin-ext.woff2') format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+:root {
+  --ink-950: #05070a;
+  --ink-900: #0a0e15;
+  --ink-800: #10151f;
+  --line: rgba(233, 237, 245, 0.09);
+  --line-strong: rgba(233, 237, 245, 0.18);
+  --blue-300: #7fb6ff;
+  --blue-400: #4da2ff;
+  --blue-500: #0d7cff;
+  --ash-100: #eef1f7;
+  --ash-300: #c2cadb;
+  --ash-500: #97a2b8;
+  --font-display: 'Space Grotesk', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --radius-md: 10px;
+}
+
+* { box-sizing: border-box; }
+html { color-scheme: dark; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--ash-300);
+  background: var(--ink-950);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--blue-400); }
+a:focus-visible {
+  outline: 2px solid var(--blue-400);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 999;
+  padding: 12px 22px;
+  background: var(--blue-500);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 0 0 10px 10px;
+  text-decoration: none;
+}
+.skip-link:focus { top: 0; }
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-inline: clamp(1.25rem, 4vw, 2.5rem);
+}
+
+header[role="banner"] {
+  border-bottom: 1px solid var(--line);
+  background: var(--ink-950);
+}
+.legal-header-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-block: 1rem;
+}
+.legal-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+.legal-header-inner .logo { height: 36px; width: auto; }
+.legal-brand .brand-name {
+  font-family: var(--font-display);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--ash-100);
+  text-decoration: none;
+}
+
+main {
+  padding-block: clamp(2rem, 6vw, 3rem);
+}
+
+.doc-title {
+  font-family: var(--font-display);
+  color: var(--ash-100);
+  font-size: clamp(1.6rem, 1.4rem + 1vw, 2.1rem);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.01em;
+}
+.doc-meta {
+  color: var(--ash-500);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  margin: 0 0 2rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1.5rem;
+}
+
+article h2 {
+  font-family: var(--font-display);
+  color: var(--ash-100);
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem;
+  letter-spacing: -0.005em;
+}
+article h2:first-of-type { margin-top: 0; }
+article p { margin: 0 0 1rem; max-width: 68ch; }
+article ul { margin: 0 0 1rem; padding-left: 1.25rem; max-width: 68ch; }
+article li { margin-bottom: 0.4rem; }
+article strong { color: var(--ash-100); }
+
+.contact-line {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-weight: 600;
+  color: var(--ash-100);
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.back-link:hover { text-decoration: underline; }
+
+footer[role="contentinfo"] {
+  border-top: 1px solid var(--line);
+  padding-block: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--ash-500);
+}
