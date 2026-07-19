@@ -457,14 +457,14 @@ Política de Privacidad
 Para información sobre prácticas de datos, identificadores, controles de consentimiento, procesamiento local-first, uso de la cámara, flujos de OCR/documentos/ID, procesamiento de archivos/ZIP, analítica, diagnóstico, publicidad y elecciones del usuario, consulta la Política de Privacidad de la App.
 
 Versión más reciente (web):
-https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 Términos de Uso
 Para restricciones de uso, responsabilidad por el contenido del usuario, exenciones de escáner/OCR/ID/archivos/ZIP, exenciones de garantía, limitación de responsabilidad, servicios de terceros y términos de controversias, consulta los Términos de Uso de la App.
 
 Versión más reciente (web):
-https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
+https://afkerianinteractive.github.io/qr-decoder/terms-of-service.html
 
 Soporte / Contacto
 AFKERIAN INTERACTIVE
-Soporte: afkgames.helpdesk@gmail.com
+Soporte: afkerian.support@gmail.com

@@ -16,7 +16,7 @@ Google processes such information under its own terms and privacy policies and, 
 
 Privacy Policy
 Most current version (web):
-https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 User Choices / Consent
 Where available, you can manage advertising consent and choices via the App’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” or “Advertising” in system settings to reset/delete Advertising ID or limit ad personalization).

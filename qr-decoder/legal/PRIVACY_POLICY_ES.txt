@@ -3,7 +3,7 @@ Fecha de entrada en vigor: 15 de junio de 2026
 Última actualización: 15 de junio de 2026
 
 Versión más reciente (web):
-https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 Esta Política de Privacidad se proporciona dentro de la aplicación y también puede estar disponible en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
 
@@ -243,4 +243,4 @@ Si tienes una solicitud de privacidad o eliminación que se aplique al tratamien
 
 13. CONTACTO
     AFKERIAN INTERACTIVE
-    Correo electrónico: afkgames.helpdesk@gmail.com
+    Correo electrónico: afkerian.support@gmail.com

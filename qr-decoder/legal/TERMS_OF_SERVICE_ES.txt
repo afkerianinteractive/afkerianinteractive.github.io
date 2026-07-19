@@ -4,7 +4,7 @@ Fecha de entrada en vigor: 15 de junio de 2026
 Última actualización: 15 de junio de 2026
 
 Versión más reciente (web):
-https://afkgamesstudio.github.io/qr-decoder/terms-of-service.html
+https://afkerianinteractive.github.io/qr-decoder/terms-of-service.html
 
 Estos Términos se proporcionan dentro de la aplicación y también pueden estar disponibles en el sitio web del Estudio. Si una copia web difiere de la copia incluida en la versión instalada en tu dispositivo, prevalece la copia incluida en la aplicación para esa versión.
 
@@ -73,7 +73,7 @@ Estos Términos se proporcionan dentro de la aplicación y también pueden estar
 6. PRIVACIDAD; DATOS
    Tu uso de la App se rige por nuestra Política de Privacidad, que se incorpora por referencia y forma parte de estos Términos. La Política de Privacidad está disponible en la App y en:
 
-https://afkgamesstudio.github.io/qr-decoder/privacy-policy.html
+https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 La App está diseñada como una utilidad local (local-first). El historial de escaneos de QR, el contenido del creador de QR, las salidas de escaneo de documentos, el texto de OCR, las salidas de escaneo de ID, los datos del visor/editor de archivos, las salidas de ZIP/archivos, los registros de inventario, los ajustes y los datos locales relacionados pueden almacenarse en tu dispositivo, en el almacenamiento controlado por la App, en ubicaciones seleccionadas por el usuario o mediante los mecanismos de acceso a archivos del sistema Android. Por lo general, desinstalar la App elimina los datos de la App almacenados localmente, sujeto a la configuración de copia de seguridad de tu dispositivo y sistema operativo.
 
@@ -125,7 +125,7 @@ Nada en estos Términos limita ni excluye la responsabilidad por fraude, dolo, n
 11. RESOLUCIÓN DE CONTROVERSIAS; ARBITRAJE VINCULANTE; RENUNCIA A ACCIONES COLECTIVAS
     LEE ESTA SECCIÓN ATENTAMENTE. AFECTA A TUS DERECHOS LEGALES.
 
-11.1 Resolución informal y Notificación de controversia. Antes de iniciar un arbitraje o cualquier procedimiento judicial (excepto en un tribunal de reclamaciones menores), aceptas enviar primero al Estudio una Notificación de controversia por escrito a afkgames.helpdesk@gmail.com con el asunto «Notificación de controversia – QR Decoder». La Notificación debe incluir (a) tu nombre y datos de contacto, (b) una descripción de la controversia y (c) la reparación que solicitas. Las partes acuerdan intentar de buena fe resolver la controversia dentro de los treinta (30) días posteriores a la recepción de la Notificación.
+11.1 Resolución informal y Notificación de controversia. Antes de iniciar un arbitraje o cualquier procedimiento judicial (excepto en un tribunal de reclamaciones menores), aceptas enviar primero al Estudio una Notificación de controversia por escrito a afkerian.support@gmail.com con el asunto «Notificación de controversia – QR Decoder». La Notificación debe incluir (a) tu nombre y datos de contacto, (b) una descripción de la controversia y (c) la reparación que solicitas. Las partes acuerdan intentar de buena fe resolver la controversia dentro de los treinta (30) días posteriores a la recepción de la Notificación.
 
 11.2 Acuerdo de arbitraje. Si la controversia no se resuelve dentro del periodo de 30 días, tú y el Estudio acordáis que cualquier disputa, reclamación o controversia derivada de la App o de estos Términos o relacionada con ellos se resolverá mediante arbitraje vinculante administrado por la American Arbitration Association («AAA») conforme a sus Reglas de Arbitraje del Consumidor, según se modifiquen en estos Términos. El laudo podrá ser ejecutado ante cualquier tribunal de jurisdicción competente.
 
@@ -137,7 +137,7 @@ Nada en estos Términos limita ni excluye la responsabilidad por fraude, dolo, n
 
 11.6 Renuncia a acciones colectivas. TÚ Y EL ESTUDIO ACORDÁIS QUE CADA UNO PODRÁ PRESENTAR RECLAMACIONES CONTRA EL OTRO ÚNICAMENTE A TÍTULO INDIVIDUAL Y NO COMO DEMANDANTE O MIEMBRO DE UNA CLASE EN UN SUPUESTO PROCEDIMIENTO COLECTIVO, CONSOLIDADO O REPRESENTATIVO. EL ÁRBITRO NO PODRÁ CONSOLIDAR RECLAMACIONES NI PRESIDIR NINGUNA FORMA DE PROCEDIMIENTO COLECTIVO O REPRESENTATIVO.
 
-11.7 Exclusión voluntaria. Puedes excluirte de este acuerdo de arbitraje dentro de los treinta (30) días posteriores a tu primer uso de la App enviando un correo a afkgames.helpdesk@gmail.com con el asunto «Exclusión de arbitraje» e indicando (a) tu nombre, (b) la dirección de correo electrónico que utilizas (si la hubiera) y (c) una declaración clara de que deseas excluirte del arbitraje. Si te excluyes, tú y el Estudio acordáis que las controversias se resolverán ante los tribunales según lo establecido en la Sección 13.1, y la Renuncia a Acciones Colectivas de la Sección 11.6 no se aplicará a ti.
+11.7 Exclusión voluntaria. Puedes excluirte de este acuerdo de arbitraje dentro de los treinta (30) días posteriores a tu primer uso de la App enviando un correo a afkerian.support@gmail.com con el asunto «Exclusión de arbitraje» e indicando (a) tu nombre, (b) la dirección de correo electrónico que utilizas (si la hubiera) y (c) una declaración clara de que deseas excluirte del arbitraje. Si te excluyes, tú y el Estudio acordáis que las controversias se resolverán ante los tribunales según lo establecido en la Sección 13.1, y la Renuncia a Acciones Colectivas de la Sección 11.6 no se aplicará a ti.
 
 11.8 Indisponibilidad del administrador. Si la AAA no está disponible para administrar el arbitraje, las partes cooperarán razonablemente para seleccionar un administrador de arbitraje alternativo que aplique reglas de arbitraje del consumidor sustancialmente similares a las Reglas de Arbitraje del Consumidor de la AAA.
 
@@ -160,4 +160,4 @@ Nada en estos Términos limita ni excluye la responsabilidad por fraude, dolo, n
 
 14. CONTACTO
     AFKERIAN INTERACTIVE
-    Correo electrónico: afkgames.helpdesk@gmail.com
+    Correo electrónico: afkerian.support@gmail.com
