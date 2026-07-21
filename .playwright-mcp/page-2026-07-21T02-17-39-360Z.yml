@@ -1,0 +1,152 @@
+- generic [active] [ref=f8e1]:
+  - link "Skip to main content" [ref=f8e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f8e4]:
+    - generic [ref=f8e5]:
+      - link "AFKERIAN INTERACTIVE Independent Interactive Studio" [ref=f8e6] [cursor=pointer]:
+        - /url: "#main-content"
+        - generic [ref=f8e7]:
+          - heading "AFKERIAN INTERACTIVE" [level=1] [ref=f8e8]
+          - generic [ref=f8e9]: Independent Interactive Studio
+      - group [ref=f8e10]:
+        - generic "Open menu" [ref=f8e11] [cursor=pointer]
+  - main [ref=f8e12]:
+    - generic [ref=f8e14]:
+      - generic [ref=f8e15]: Independent Studio
+      - heading "Built to run without the cloud." [level=2] [ref=f8e16]
+      - paragraph [ref=f8e17]: AFKERIAN INTERACTIVE makes arcade, strategy, and rhythm games, along with utility apps that work without an internet connection. Every title runs on your device, not someone else's server.
+      - link "See the work" [ref=f8e18] [cursor=pointer]:
+        - /url: "#work"
+        - text: See the work
+        - generic [ref=f8e19]: ↓
+    - generic [ref=f8e21]:
+      - generic [ref=f8e22]:
+        - generic [ref=f8e23]: Selected Work
+        - heading "Four titles, one foundation." [level=2] [ref=f8e24]
+        - paragraph [ref=f8e25]: "Arcade, strategy, and rhythm games, plus one utility app. All four are built the same way: designed to run on your device and stay offline whenever possible."
+      - generic [ref=f8e26]:
+        - article [ref=f8e27]:
+          - img "QR Decoder app screens showing QR scanning, document scanning, QR code creation, ID scanning, and barcode inventory tools" [ref=f8e29]
+          - generic [ref=f8e30]:
+            - generic [ref=f8e32]:
+              - paragraph [ref=f8e33]: Utility · Offline Scanning
+              - heading "QR Decoder" [level=3] [ref=f8e34]
+            - paragraph [ref=f8e35]: "A scanning toolkit that works without the internet: QR code generation, document capture with text recognition built into the app, ID merging, and batch scanning for inventory work. Nothing is uploaded to a server."
+            - generic [ref=f8e36]:
+              - link "Privacy Policy" [ref=f8e37] [cursor=pointer]:
+                - /url: qr-decoder/privacy-policy.html
+              - link "Terms of Service" [ref=f8e38] [cursor=pointer]:
+                - /url: qr-decoder/terms-of-service.html
+              - link "Third-Party Notices" [ref=f8e39] [cursor=pointer]:
+                - /url: qr-decoder/third-party-notices.html
+        - article [ref=f8e40]:
+          - 'img "XO Arcade: Infinity Edition logo art with the tagline Master the grid, Defeat ZERO" [ref=f8e42]'
+          - generic [ref=f8e43]:
+            - generic [ref=f8e45]:
+              - paragraph [ref=f8e46]: Strategy · Grid Combat
+              - 'heading "XO Arcade: Infinity Edition" [level=3] [ref=f8e47]'
+            - paragraph [ref=f8e48]: A strategy game played on a grid, featuring the studio's own ZERO Protocol AI engine. Everything runs on your phone, with no cloud processing and no user data collected.
+            - generic [ref=f8e49]:
+              - link "Privacy Policy" [ref=f8e50] [cursor=pointer]:
+                - /url: xo-arcade/privacy-policy.html
+              - link "Terms of Service" [ref=f8e51] [cursor=pointer]:
+                - /url: xo-arcade/terms-of-service.html
+              - link "Third-Party Notices" [ref=f8e52] [cursor=pointer]:
+                - /url: xo-arcade/third-party-notices.html
+        - article [ref=f8e53]:
+          - img "Air Strike Arcade key art showing the robot character and glowing hockey pucks" [ref=f8e55]
+          - generic [ref=f8e56]:
+            - generic [ref=f8e58]:
+              - paragraph [ref=f8e59]: Arcade · Two-Player
+              - heading "Air Strike Arcade" [level=3] [ref=f8e60]
+            - paragraph [ref=f8e61]: A fast neon hockey arcade game built for two players sharing one device. It runs completely offline, with no external servers and nothing sent in the background.
+            - generic [ref=f8e62]:
+              - link "Privacy Policy" [ref=f8e63] [cursor=pointer]:
+                - /url: air-strike-arcade/privacy-policy.html
+              - link "Terms of Service" [ref=f8e64] [cursor=pointer]:
+                - /url: air-strike-arcade/terms-of-service.html
+              - link "Third-Party Notices" [ref=f8e65] [cursor=pointer]:
+                - /url: air-strike-arcade/third-party-notices.html
+        - article [ref=f8e66]:
+          - img "Tap Odyssey title art with the eagle, bat, dragon, viking, and witch characters" [ref=f8e68]
+          - generic [ref=f8e69]:
+            - generic [ref=f8e71]:
+              - paragraph [ref=f8e72]: Rhythm · Exploration
+              - heading "Tap Odyssey" [level=3] [ref=f8e73]
+            - paragraph [ref=f8e74]: A rhythm game with skins to unlock and worlds to explore, built around collecting as little data as possible.
+            - generic [ref=f8e75]:
+              - link "Privacy Policy" [ref=f8e76] [cursor=pointer]:
+                - /url: tap-odyssey/privacy-policy.html
+              - link "Terms of Service" [ref=f8e77] [cursor=pointer]:
+                - /url: tap-odyssey/terms-of-service.html
+              - link "Third-Party Notices" [ref=f8e78] [cursor=pointer]:
+                - /url: tap-odyssey/third-party-notices.html
+    - generic [ref=f8e80]:
+      - generic [ref=f8e81]:
+        - generic [ref=f8e82]: Studio
+        - heading "Who we are." [level=2] [ref=f8e83]
+      - generic [ref=f8e84]:
+        - paragraph [ref=f8e85]: "AFKERIAN INTERACTIVE is an independent studio that builds mobile games and utility apps. Our four titles cover different genres: a grid-based strategy game, a two-player arcade game, a rhythm game, and QR Decoder, a document and scanning utility with text recognition built into the app."
+        - paragraph [ref=f8e86]: "Every title follows the same approach: keep core features working on the device itself, collect as little information as possible, and say plainly which third-party services handle things like advertising, analytics, or crash reporting."
+    - generic [ref=f8e88]:
+      - generic [ref=f8e89]:
+        - generic [ref=f8e90]: Principles
+        - heading "How we build." [level=2] [ref=f8e91]
+      - generic [ref=f8e92]:
+        - generic [ref=f8e95]:
+          - heading "Creativity" [level=3] [ref=f8e96]
+          - paragraph [ref=f8e97]: Strategy, two-player arcade, and rhythm games, all from one studio. We would rather build different things well than repeat one formula four times.
+        - generic [ref=f8e100]:
+          - heading "Runs on your device" [level=3] [ref=f8e101]
+          - paragraph [ref=f8e102]: Core gameplay and utility features are designed to run directly on your phone, including the document text recognition in QR Decoder, which uses Google ML Kit locally instead of sending images to a server.
+        - generic [ref=f8e105]:
+          - heading "Privacy" [level=3] [ref=f8e106]
+          - paragraph [ref=f8e107]: You do not need to create an account, and we do not directly collect your name or address. Anything a third-party SDK processes is explained plainly in each Privacy Policy.
+        - generic [ref=f8e110]:
+          - heading "Performance" [level=3] [ref=f8e111]
+          - paragraph [ref=f8e112]: Nothing waits on a network round trip. Scanning, gameplay, and progress all run locally, so there is no live cloud dependency slowing things down.
+        - generic [ref=f8e115]:
+          - heading "Transparency" [level=3] [ref=f8e116]
+          - paragraph [ref=f8e117]: Every title publishes its Privacy Policy, Terms, and third-party notices in the open, reachable from this site in a couple of clicks.
+    - generic [ref=f8e119]:
+      - generic [ref=f8e120]:
+        - generic [ref=f8e121]: Contact
+        - heading "Get in touch." [level=2] [ref=f8e122]
+      - link "afkerian.support@gmail.com" [ref=f8e123] [cursor=pointer]:
+        - /url: mailto:afkerian.support@gmail.com
+      - paragraph [ref=f8e124]: For support, privacy requests, or any question about an AFKERIAN INTERACTIVE title.
+  - contentinfo [ref=f8e125]:
+    - generic [ref=f8e126]:
+      - generic [ref=f8e127]:
+        - generic [ref=f8e128]:
+          - img "AFKERIAN INTERACTIVE" [ref=f8e129]
+          - paragraph [ref=f8e130]: Independent studio building mobile games and utility apps that work offline.
+          - generic [ref=f8e131]: "Statutory Jurisdiction: Orange County, Florida, USA"
+        - generic [ref=f8e132]:
+          - heading "Products" [level=3] [ref=f8e133]
+          - list [ref=f8e134]:
+            - listitem [ref=f8e135]:
+              - link "QR Decoder" [ref=f8e136] [cursor=pointer]:
+                - /url: qr-decoder/privacy-policy.html
+            - listitem [ref=f8e137]:
+              - 'link "XO Arcade: Infinity Edition" [ref=f8e138] [cursor=pointer]':
+                - /url: xo-arcade/privacy-policy.html
+            - listitem [ref=f8e139]:
+              - link "Air Strike Arcade" [ref=f8e140] [cursor=pointer]:
+                - /url: air-strike-arcade/privacy-policy.html
+            - listitem [ref=f8e141]:
+              - link "Tap Odyssey" [ref=f8e142] [cursor=pointer]:
+                - /url: tap-odyssey/privacy-policy.html
+        - generic [ref=f8e143]:
+          - heading "Legal" [level=3] [ref=f8e144]
+          - list [ref=f8e145]:
+            - listitem [ref=f8e146]:
+              - link "Website Privacy Policy" [ref=f8e147] [cursor=pointer]:
+                - /url: privacy-policy.html
+            - listitem [ref=f8e148]:
+              - link "Website Terms of Service" [ref=f8e149] [cursor=pointer]:
+                - /url: terms-of-service.html
+            - listitem [ref=f8e150]:
+              - link "afkerian.support@gmail.com" [ref=f8e151] [cursor=pointer]:
+                - /url: mailto:afkerian.support@gmail.com
+      - generic [ref=f8e152]: © 2026 AFKERIAN INTERACTIVE. All rights reserved.

@@ -1,0 +1,114 @@
+- generic [active] [ref=f1e1]:
+  - link "Skip to main content" [ref=f1e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f1e3]:
+    - link "AFKERIAN INTERACTIVE" [ref=f1e5] [cursor=pointer]:
+      - /url: index.html
+    - navigation "Legal pages" [ref=f1e8]:
+      - paragraph [ref=f1e9]:
+        - link "Home" [ref=f1e10] [cursor=pointer]:
+          - /url: index.html
+        - text: ·
+        - link "Website Privacy Policy" [ref=f1e11] [cursor=pointer]:
+          - /url: privacy-policy.html
+        - text: ·
+        - link "Website Terms of Service" [ref=f1e12] [cursor=pointer]:
+          - /url: terms-of-service.html
+  - main [ref=f1e13]:
+    - generic [ref=f1e14]:
+      - heading "Website Terms of Service" [level=1] [ref=f1e15]
+      - paragraph [ref=f1e16]: "Effective date: July 19, 2026Last updated: July 19, 2026"
+      - article [ref=f1e17]:
+        - heading "1. Acceptance of These Terms" [level=2] [ref=f1e18]
+        - paragraph [ref=f1e19]:
+          - text: These Website Terms of Service govern access to and use of
+          - link "https://afkerianinteractive.github.io/" [ref=f1e20] [cursor=pointer]:
+            - /url: index.html
+          - text: .
+        - paragraph [ref=f1e21]: By accessing or using this website, you agree to these Terms. If you do not agree, please discontinue use of the website.
+        - paragraph [ref=f1e22]: These Terms apply only to the AFKERIAN INTERACTIVE website. Individual applications and products may be governed by separate Terms of Service, Privacy Policies, licenses, and Third Party Notices.
+        - heading "2. Website Purpose" [level=2] [ref=f1e23]
+        - paragraph [ref=f1e24]: This website provides information about AFKERIAN INTERACTIVE, its products, its creative and technical work, contact methods, and legal documentation.
+        - paragraph [ref=f1e25]: The website does not provide user accounts, purchases, subscriptions, cloud storage, financial services, or professional advice.
+        - paragraph [ref=f1e26]: Information presented on the website is provided for general informational purposes. Product features, availability, presentation, and documentation may change over time.
+        - heading "3. Product Specific Terms" [level=2] [ref=f1e27]
+        - paragraph [ref=f1e28]: QR Decoder, XO Arcade, Air Strike Arcade, Tap Odyssey, and any future products may have their own legal terms and policies.
+        - paragraph [ref=f1e29]: When you access or use a particular product, the documents identified for that product govern your use of it. These Website Terms do not replace a product's separate Terms of Service, Privacy Policy, license, or Third Party Notices.
+        - paragraph [ref=f1e30]: If these Website Terms conflict with terms expressly provided for a specific product, the product specific terms control with respect to that product.
+        - heading "4. Intellectual Property" [level=2] [ref=f1e31]
+        - paragraph [ref=f1e32]: Unless otherwise stated, the website and its original content, branding, logo, design, text, graphics, arrangement, and presentation are owned by or licensed to AFKERIAN INTERACTIVE and are protected by applicable intellectual property laws.
+        - paragraph [ref=f1e33]: Product names, third party software, external artwork, trademarks, service names, and other materials owned by third parties remain the property of their respective owners.
+        - paragraph [ref=f1e34]: Nothing in these Terms transfers ownership of any intellectual property to a website visitor.
+        - heading "5. Limited Permission to Use the Website" [level=2] [ref=f1e35]
+        - paragraph [ref=f1e36]: AFKERIAN INTERACTIVE grants you a limited, revocable, nonexclusive, nontransferable permission to access and view the public website for lawful personal or informational purposes.
+        - paragraph [ref=f1e37]: You may link to publicly available pages as long as the link is lawful, accurate, and does not falsely imply sponsorship, partnership, endorsement, or affiliation.
+        - paragraph [ref=f1e38]: No other rights are granted except those required for ordinary use of the public website.
+        - heading "6. Prohibited Conduct" [level=2] [ref=f1e39]
+        - paragraph [ref=f1e40]: "You may not use the website to:"
+        - list [ref=f1e41]:
+          - listitem [ref=f1e42]: Violate applicable law or the rights of another person.
+          - listitem [ref=f1e43]: Introduce malware, malicious code, automated attacks, or harmful content.
+          - listitem [ref=f1e44]: Attempt to disrupt, overload, disable, or interfere with the website or its hosting infrastructure.
+          - listitem [ref=f1e45]: Misrepresent your identity or falsely claim affiliation with AFKERIAN INTERACTIVE.
+          - listitem [ref=f1e46]: Use AFKERIAN INTERACTIVE branding in a misleading or unauthorized manner.
+          - listitem [ref=f1e47]: Remove or obscure copyright, trademark, attribution, or legal notices.
+          - listitem [ref=f1e48]: Collect information from the website through abusive or excessively burdensome automated activity.
+          - listitem [ref=f1e49]: Use the website to facilitate fraud, infringement, harassment, or other unlawful conduct.
+        - paragraph [ref=f1e50]: Reasonable access for ordinary browsing, indexing by legitimate search engines, accessibility tools, and good faith security review is not prohibited.
+        - heading "7. External Services and Links" [level=2] [ref=f1e51]
+        - paragraph [ref=f1e52]: The website may link to GitHub, Google Play, email services, third party providers, or other external resources.
+        - paragraph [ref=f1e53]: External services are operated independently and may have their own terms, privacy policies, availability, security practices, and content.
+        - paragraph [ref=f1e54]: AFKERIAN INTERACTIVE does not control and is not responsible for external services. A link does not necessarily represent sponsorship, endorsement, partnership, or approval.
+        - heading "8. Accuracy and Availability" [level=2] [ref=f1e55]
+        - paragraph [ref=f1e56]: We aim to keep website information accurate and understandable. However, content may occasionally be incomplete, outdated, or affected by technical errors.
+        - paragraph [ref=f1e57]: We may correct, update, reorganize, or remove website content when reasonably necessary.
+        - paragraph [ref=f1e58]: We do not promise that the website will always be available, uninterrupted, secure, or free from errors. GitHub Pages and other infrastructure providers may experience maintenance, outages, or changes outside our control.
+        - heading "9. No Warranties" [level=2] [ref=f1e59]
+        - paragraph [ref=f1e60]: To the maximum extent permitted by applicable law, the website is provided on an "as is" and "as available" basis.
+        - paragraph [ref=f1e61]: AFKERIAN INTERACTIVE makes no express or implied warranty regarding the website's continuous availability, accuracy, completeness, fitness for a particular purpose, merchantability, noninfringement, or freedom from technical errors.
+        - paragraph [ref=f1e62]: Nothing in these Terms excludes a warranty or consumer right that cannot lawfully be excluded.
+        - heading "10. Limitation of Liability" [level=2] [ref=f1e63]
+        - paragraph [ref=f1e64]: To the maximum extent permitted by applicable law, AFKERIAN INTERACTIVE will not be liable for indirect, incidental, special, consequential, exemplary, or punitive damages arising from or connected with use of, or inability to use, this website.
+        - paragraph [ref=f1e65]: This includes losses caused by reliance on website information, external links, service interruption, device incompatibility, unauthorized third party activity, or events outside our reasonable control.
+        - paragraph [ref=f1e66]: Nothing in these Terms limits liability that cannot legally be limited or excluded.
+        - paragraph [ref=f1e67]: Legal rights and remedies that cannot be waived under applicable law remain unaffected.
+        - heading "11. Privacy" [level=2] [ref=f1e68]
+        - paragraph [ref=f1e69]: "Use of this website is also subject to the Website Privacy Policy available at:"
+        - paragraph [ref=f1e70]:
+          - link "https://afkerianinteractive.github.io/privacy-policy.html" [ref=f1e71] [cursor=pointer]:
+            - /url: privacy-policy.html
+        - paragraph [ref=f1e72]: The Privacy Policy explains that AFKERIAN INTERACTIVE does not use cookies, analytics, advertising trackers, or browser storage on this website and describes the limited information that may be handled when a visitor voluntarily sends an email.
+        - heading "12. Changes to the Website or Terms" [level=2] [ref=f1e73]
+        - paragraph [ref=f1e74]: We may update the website and these Terms when practices, content, services, or legal requirements change.
+        - paragraph [ref=f1e75]: Updated Terms will be posted on this page with a revised effective date. Changes apply prospectively from publication unless applicable law requires otherwise.
+        - paragraph [ref=f1e76]: Continued use of the website after updated Terms are published constitutes acceptance to the extent permitted by applicable law.
+        - heading "13. Governing Law and Venue" [level=2] [ref=f1e77]
+        - paragraph [ref=f1e78]: These Terms are governed by the laws of the State of Florida, United States, without regard to conflict of law principles.
+        - paragraph [ref=f1e79]: To the extent permitted by applicable law, disputes relating specifically to this website will be brought in a court of competent jurisdiction located in Orange County, Florida.
+        - paragraph [ref=f1e80]: Nothing in this section prevents the application of mandatory consumer protections or jurisdictional rights that cannot legally be waived.
+        - heading "14. Severability" [level=2] [ref=f1e81]
+        - paragraph [ref=f1e82]: If any provision of these Terms is found invalid, unlawful, or unenforceable, that provision will be applied to the greatest extent permitted or separated from the remaining Terms.
+        - paragraph [ref=f1e83]: The remaining provisions will continue in effect.
+        - heading "15. No Waiver" [level=2] [ref=f1e84]
+        - paragraph [ref=f1e85]: A failure by AFKERIAN INTERACTIVE to enforce a provision of these Terms does not waive the right to enforce that provision later.
+        - paragraph [ref=f1e86]: A waiver is effective only when clearly provided by AFKERIAN INTERACTIVE in writing.
+        - heading "16. Entire Agreement" [level=2] [ref=f1e87]
+        - paragraph [ref=f1e88]: These Website Terms and the Website Privacy Policy constitute the agreement governing use of this website.
+        - paragraph [ref=f1e89]: They do not replace the separate legal documents governing individual applications or products.
+        - heading "17. Contact" [level=2] [ref=f1e90]
+        - paragraph [ref=f1e91]: "Questions concerning these Website Terms may be sent to:"
+        - paragraph [ref=f1e92]:
+          - strong [ref=f1e93]: AFKERIAN INTERACTIVE
+          - text: "Email:"
+          - link "afkerian.support@gmail.com" [ref=f1e94] [cursor=pointer]:
+            - /url: mailto:afkerian.support@gmail.com
+          - text: "Website:"
+          - link "https://afkerianinteractive.github.io/" [ref=f1e95] [cursor=pointer]:
+            - /url: index.html
+      - paragraph [ref=f1e96]:
+        - link "Website Privacy Policy" [ref=f1e97] [cursor=pointer]:
+          - /url: privacy-policy.html
+      - link "← Back to homepage" [ref=f1e98] [cursor=pointer]:
+        - /url: index.html
+  - contentinfo [ref=f1e99]:
+    - generic [ref=f1e100]: © 2026 AFKERIAN INTERACTIVE. All rights reserved.

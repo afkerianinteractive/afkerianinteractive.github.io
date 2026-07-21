@@ -1,0 +1,120 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to main content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=f2e3]:
+    - link "AFKERIAN INTERACTIVE" [ref=f2e5] [cursor=pointer]:
+      - /url: index.html
+    - navigation "Legal pages" [ref=f2e8]:
+      - paragraph [ref=f2e9]:
+        - link "Home" [ref=f2e10] [cursor=pointer]:
+          - /url: index.html
+        - text: ·
+        - link "Website Privacy Policy" [ref=f2e11] [cursor=pointer]:
+          - /url: privacy-policy.html
+        - text: ·
+        - link "Website Terms of Service" [ref=f2e12] [cursor=pointer]:
+          - /url: terms-of-service.html
+  - main [ref=f2e13]:
+    - generic [ref=f2e14]:
+      - heading "Website Privacy Policy" [level=1] [ref=f2e15]
+      - paragraph [ref=f2e16]: "Effective date: July 19, 2026Last updated: July 19, 2026"
+      - article [ref=f2e17]:
+        - heading "1. Overview" [level=2] [ref=f2e18]
+        - paragraph [ref=f2e19]:
+          - text: This Website Privacy Policy explains how AFKERIAN INTERACTIVE handles information in connection with
+          - link "https://afkerianinteractive.github.io/" [ref=f2e20] [cursor=pointer]:
+            - /url: index.html
+          - text: .
+        - paragraph [ref=f2e21]: This policy applies only to this website. It does not replace the separate Privacy Policies provided for QR Decoder, XO Arcade, Air Strike Arcade, Tap Odyssey, or any other product published by AFKERIAN INTERACTIVE. Each product has its own policy describing the practices that apply to that product.
+        - heading "2. Information We Collect" [level=2] [ref=f2e22]
+        - paragraph [ref=f2e23]: AFKERIAN INTERACTIVE does not operate user accounts, registration systems, comment sections, subscription forms, contact forms, payment systems, or databases through this website.
+        - paragraph [ref=f2e24]: We do not directly collect personal information from visitors simply because they browse the website.
+        - paragraph [ref=f2e25]: You may voluntarily provide information if you contact us by email. That information may include your email address, your name if you choose to provide it, the contents of your message, and any attachments you decide to send.
+        - paragraph [ref=f2e26]: Please do not send sensitive personal information that is not necessary for your request.
+        - heading "3. Cookies and Tracking Technologies" [level=2] [ref=f2e27]
+        - paragraph [ref=f2e28]: AFKERIAN INTERACTIVE does not set or use cookies on this website.
+        - paragraph [ref=f2e29]: We do not use analytics services, advertising trackers, tracking pixels, fingerprinting, behavioral profiling, browser identifiers, localStorage, sessionStorage, IndexedDB, or similar technologies to monitor visitors.
+        - paragraph [ref=f2e30]: We do not sell personal information. We do not share personal information for targeted advertising or cross context behavioral advertising.
+        - paragraph [ref=f2e31]: Because we do not use tracking technologies, browser based Do Not Track signals do not change how this website operates.
+        - heading "4. GitHub Pages Hosting" [level=2] [ref=f2e32]
+        - paragraph [ref=f2e33]: This website is hosted through GitHub Pages, a service provided by GitHub.
+        - paragraph [ref=f2e34]: GitHub states that when a GitHub Pages website is visited, the visitor's Internet Protocol address is logged and stored by GitHub for security purposes, regardless of whether the visitor is signed into GitHub.
+        - paragraph [ref=f2e35]: This technical processing is performed by GitHub as the hosting provider. AFKERIAN INTERACTIVE does not receive a visitor level database of those Internet Protocol addresses through this website.
+        - paragraph [ref=f2e36]: "Information processed by GitHub is governed by GitHub's own policies:"
+        - paragraph [ref=f2e37]:
+          - text: "GitHub Pages information:"
+          - link "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" [ref=f2e38] [cursor=pointer]:
+            - /url: https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages
+        - paragraph [ref=f2e39]:
+          - text: "GitHub Privacy Statement:"
+          - link "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" [ref=f2e40] [cursor=pointer]:
+            - /url: https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement
+        - heading "5. Email Communications" [level=2] [ref=f2e41]
+        - paragraph [ref=f2e42]:
+          - text: If you contact AFKERIAN INTERACTIVE at
+          - link "afkerian.support@gmail.com" [ref=f2e43] [cursor=pointer]:
+            - /url: mailto:afkerian.support@gmail.com
+          - text: ", we will use the information you provide to review and respond to your message, provide support, investigate technical or security concerns, maintain appropriate business records, and comply with applicable legal obligations."
+        - paragraph [ref=f2e44]: "Email communications are delivered using Gmail, a service provided by Google. Google may process email related information under its own Privacy Policy:"
+        - paragraph [ref=f2e45]:
+          - link "https://policies.google.com/privacy" [ref=f2e46] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy
+        - paragraph [ref=f2e47]: We do not use support emails for unrelated advertising. We do not sell or rent email addresses.
+        - heading "6. How Information May Be Disclosed" [level=2] [ref=f2e48]
+        - paragraph [ref=f2e49]: "Information voluntarily submitted by email may be disclosed only when reasonably necessary:"
+        - list [ref=f2e50]:
+          - listitem [ref=f2e51]: To service providers that support email delivery, hosting, security, or technical operations.
+          - listitem [ref=f2e52]: To investigate fraud, abuse, security incidents, or violations of applicable terms.
+          - listitem [ref=f2e53]: To comply with a valid legal obligation, court order, or lawful government request.
+          - listitem [ref=f2e54]: To protect the rights, safety, property, or security of AFKERIAN INTERACTIVE, our users, or others.
+          - listitem [ref=f2e55]: In connection with a legitimate business reorganization, transfer, or succession, subject to applicable law.
+        - paragraph [ref=f2e56]: We do not disclose personal information for targeted advertising.
+        - heading "7. Retention" [level=2] [ref=f2e57]
+        - paragraph [ref=f2e58]: Email communications and related records are retained only for as long as reasonably necessary to respond to the request, provide support, maintain security, resolve disputes, satisfy legitimate administrative needs, and comply with applicable legal obligations.
+        - paragraph [ref=f2e59]: No fixed retention period is promised because the appropriate period may depend on the nature of the communication and any applicable obligations.
+        - heading "8. Data Security" [level=2] [ref=f2e60]
+        - paragraph [ref=f2e61]: AFKERIAN INTERACTIVE uses reasonable administrative and technical precautions appropriate to the limited information handled through email communications.
+        - paragraph [ref=f2e62]: No method of electronic transmission or storage is completely secure. We cannot guarantee absolute security, but we work to limit access and use information only for legitimate purposes described in this policy.
+        - heading "9. Children's Privacy" [level=2] [ref=f2e63]
+        - paragraph [ref=f2e64]: This website provides general information about AFKERIAN INTERACTIVE and its products. It is not designed to collect personal information from children.
+        - paragraph [ref=f2e65]:
+          - text: We do not knowingly request personal information from children through this website. A parent or legal guardian who believes that a child has sent personal information to us may contact
+          - link "afkerian.support@gmail.com" [ref=f2e66] [cursor=pointer]:
+            - /url: mailto:afkerian.support@gmail.com
+          - text: to request review or deletion.
+        - paragraph [ref=f2e67]: Separate products may have their own audience information and privacy disclosures. Please review the Privacy Policy associated with the relevant product.
+        - heading "10. External Links" [level=2] [ref=f2e68]
+        - paragraph [ref=f2e69]: This website may contain links to application stores, service providers, legal documents, social platforms, or other external websites.
+        - paragraph [ref=f2e70]: AFKERIAN INTERACTIVE does not control the privacy, security, availability, or content practices of external services. Visiting an external website is subject to that provider's own terms and privacy policies.
+        - heading "11. Privacy Requests" [level=2] [ref=f2e71]
+        - paragraph [ref=f2e72]: Depending on applicable law and the information involved, you may have rights relating to personal information you voluntarily submit to us.
+        - paragraph [ref=f2e73]:
+          - text: You may contact
+          - link "afkerian.support@gmail.com" [ref=f2e74] [cursor=pointer]:
+            - /url: mailto:afkerian.support@gmail.com
+          - text: to request access, correction, or deletion of information contained in your direct communications with AFKERIAN INTERACTIVE.
+        - paragraph [ref=f2e75]: We may need to verify that a request relates to the person making it. We may retain information when required by law or when reasonably necessary for security, dispute resolution, or the protection of legal rights.
+        - heading "12. International Visitors" [level=2] [ref=f2e76]
+        - paragraph [ref=f2e77]: This website is available on the public internet and may be accessed from different countries.
+        - paragraph [ref=f2e78]: GitHub, Google, and other infrastructure providers may process technical or communication data in locations where they operate, subject to their own policies and applicable safeguards.
+        - heading "13. Changes to This Policy" [level=2] [ref=f2e79]
+        - paragraph [ref=f2e80]: We may update this Website Privacy Policy when the website, applicable practices, or legal requirements change.
+        - paragraph [ref=f2e81]: The revised policy will be posted on this page with an updated effective date. Changes apply prospectively from the date they are published unless applicable law requires otherwise.
+        - heading "14. Contact" [level=2] [ref=f2e82]
+        - paragraph [ref=f2e83]: "Questions or requests concerning this Website Privacy Policy may be sent to:"
+        - paragraph [ref=f2e84]:
+          - strong [ref=f2e85]: AFKERIAN INTERACTIVE
+          - text: "Email:"
+          - link "afkerian.support@gmail.com" [ref=f2e86] [cursor=pointer]:
+            - /url: mailto:afkerian.support@gmail.com
+          - text: "Website:"
+          - link "https://afkerianinteractive.github.io/" [ref=f2e87] [cursor=pointer]:
+            - /url: index.html
+        - paragraph [ref=f2e88]: For information about a specific application, please use the Privacy Policy linked from that product's section on the AFKERIAN INTERACTIVE website.
+      - paragraph [ref=f2e89]:
+        - link "Website Terms of Service" [ref=f2e90] [cursor=pointer]:
+          - /url: terms-of-service.html
+      - link "← Back to homepage" [ref=f2e91] [cursor=pointer]:
+        - /url: index.html
+  - contentinfo [ref=f2e92]:
+    - generic [ref=f2e93]: © 2026 AFKERIAN INTERACTIVE. All rights reserved.
