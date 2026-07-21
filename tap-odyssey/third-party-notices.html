@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Third-Party Notices for Tap Odyssey by AFKERIAN INTERACTIVE." />
+  <link rel="canonical" href="https://afkerianinteractive.github.io/tap-odyssey/third-party-notices.html" />
   <title>Third-Party Notices - Tap Odyssey | AFKERIAN INTERACTIVE</title>
   <style>
     :root{
@@ -177,7 +179,9 @@
       margin-bottom:26px;
     }
     .site-nav a{
-      display:inline-block;
+      display:inline-flex;
+      align-items:center;
+      min-height:44px;
       padding:8px 18px;
       font-size:.82rem;
       font-weight:700;
@@ -190,7 +194,8 @@
       background:var(--surface, #f9fafb);
       transition:background .2s,color .2s,border-color .2s;
     }
-    .site-nav a:hover{
+    .site-nav a:hover,
+    .site-nav a[aria-current="page"]{
       background:var(--highlight, #eff6ff);
       color:var(--primary, #0f172a);
       border-color:var(--primary, #0f172a);
@@ -207,9 +212,11 @@
     </div>
 
     <nav class="site-nav" aria-label="Site navigation">
-      <a href="../index.html">Homepage</a>
+      <a href="index.html">Product Home</a>
+      <a href="../index.html">AFKERIAN Home</a>
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-of-service.html">Terms of Service</a>
+      <a href="third-party-notices.html" aria-current="page">Third-Party Notices</a>
     </nav>
 
     <div class="card">
