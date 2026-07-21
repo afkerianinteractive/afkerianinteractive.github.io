@@ -27,12 +27,12 @@ The full text of the GNU General Public License, version 2, with the Classpath E
 Good-faith statement
 To the best of the Studio’s knowledge and good-faith belief, desugar_jdk_libs is used in the App only to provide compatibility for supported Java standard library APIs on older Android runtimes through Android core library desugaring.
 
-The Studio does not claim ownership over OpenJDK-derived source code, desugar_jdk_libs, or any upstream runtime/library components included under their applicable open source licenses. The Studio is responsible for maintaining applicable license text, attribution records, and compliance documentation for the version included in the build.
+The Studio does not claim ownership over OpenJDK-derived source code, desugar_jdk_libs, or any upstream runtime/library components included under their applicable open source licenses. The Studio maintains the applicable license text, attribution records, and technical documentation for the version included in the build; this statement is not a legal conclusion about compliance.
 
 Attribution
 desugar_jdk_libs contains a subset of OpenJDK libraries simplified for use on older runtimes.
 
-OpenJDK, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+OpenJDK, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, provenance, license information, and technical recordkeeping.
 
 No endorsement
 Google, Oracle, OpenJDK contributors, and any upstream OpenJDK-related projects are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
@@ -41,4 +41,4 @@ Organization note
 Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, compatibility support, or in-app notice display purposes. The desugar_jdk_libs dependency itself is governed by its applicable upstream license and notices.
 
 Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+This notice is provided for provenance and technical recordkeeping; it does not claim legal approval or compliance.

@@ -4,7 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Implementation-stage Terms of Service for QR Decoder, including user responsibilities and verified ad behavior; owner configuration and legal review remain pending." />
   <title>Terms of Service &mdash; QR Decoder | AFKERIAN INTERACTIVE</title>
+  <link rel="canonical" href="https://afkerianinteractive.github.io/qr-decoder/terms-of-service.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE" />
+  <meta property="og:title" content="Terms of Service | QR Decoder" />
+  <meta property="og:description" content="QR Decoder terms aligned to verified implementation evidence; production configuration, regional QA and legal review remain pending." />
+  <meta property="og:url" content="https://afkerianinteractive.github.io/qr-decoder/terms-of-service.html" />
+  <meta property="og:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Terms of Service | QR Decoder" />
+  <meta name="twitter:description" content="QR Decoder Terms of Service implementation reference; owner configuration and legal review remain pending." />
+  <meta name="twitter:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <style>
     :root{
       --primary:#0f172a;        /* Navy / Slate */
@@ -62,6 +79,7 @@
       border-radius: 12px;
       padding: 18px;
       margin-top: 4px;
+      overflow-wrap: anywhere;
     }
     h2{
       margin: 0 0 12px;
@@ -77,6 +95,8 @@
     a{ color: var(--link); font-weight: 700; text-decoration: none; }
     a:hover{ text-decoration: underline; }
     a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+    .skip-link{ position:absolute; left:1rem; top:-5rem; z-index:10; padding:10px 16px; background:var(--primary); color:#fff; border-radius:0 0 8px 8px; }
+    .skip-link:focus{ top:0; }
 
     /* Verbatim document blocks (1:1 copies of the approved source .txt) */
     .legal-text, .doc{
@@ -205,7 +225,8 @@
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <main class="wrap" id="main-content">
     <div class="header">
       <h1>Terms of Service</h1>
       <div class="meta">QR Decoder | AFKERIAN INTERACTIVE</div>
@@ -213,12 +234,18 @@
 
     <nav class="site-nav" aria-label="Site navigation">
       <a href="../index.html">Homepage</a>
+      <a href="index.html">Product Overview</a>
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="third-party-notices.html">Third-Party Notices</a>
     </nav>
 
     <div class="card">
-      <p>This page provides the <strong>Terms of Service</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). The full text below is reproduced verbatim from the official document.</p>
+      <p>This page provides the <strong>Terms of Service</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). It reflects verified implementation evidence and the corresponding in-app legal source.</p>
+      <div class="notice" role="note">
+        <strong>Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION.</strong>
+        <p>Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation and qualified legal review remain pending. This page does not state production readiness or legal approval.</p>
+        <p lang="es">Consulta los <a href="legal/TERMS_OF_SERVICE_ES.txt" hreflang="es">Términos del Servicio completos en español</a>.</p>
+      </div>
 
       <div class="notice">
         <pre class="legal-text">TERMS OF SERVICE
@@ -228,6 +255,8 @@ Last Updated: June 15, 2026
 
 Most current version (web):
 https://afkerianinteractive.github.io/qr-decoder/terms-of-service.html
+
+Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION. These Terms reflect verified implementation evidence, but they are not a statement of legal approval or production readiness. Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation, and qualified legal review remain pending.
 
 These Terms are provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
 
@@ -306,9 +335,9 @@ The App may integrate third-party SDKs/services, including Google AdMob / Google
 
 7.1 Third-Party Services. The App may interoperate with or include third-party services, SDKs, libraries, operating system services, file providers, storage providers, websites, links, scanners, analytics services, crash-reporting services, advertising services, consent-management services, or other integrations (“Third-Party Services”). Third-Party Services are provided by their respective providers and may be subject to separate terms and policies. The Studio is not responsible for Third-Party Services and does not warrant their availability, accuracy, legality, security, privacy practices, compatibility, or performance.
 
-7.2 Ads and Consent. The App uses Google AdMob / Google Mobile Ads SDK to display advertising. In the current build, the App implements App Open ads only. Future builds may include different or additional ad formats if disclosed as required by applicable law, platform rules, the Privacy Policy, and Third-Party Notices.
+7.2 Ads and Consent. The App uses Google AdMob / Google Mobile Ads SDK to display advertising. In the verified implementation, the App implements an anchored adaptive banner only on the Home screen, occasional interstitial ads only on eligible module-to-Home exits, and an optional rewarded ad that removes banner and interstitial ads for exactly 60 minutes; the App does not implement App Open ads or native ads. Ads are not shown while scanning, editing, saving, or exporting. An ad failure does not block navigation or destroy work. The 60-minute benefit does not disable UMP, analytics, crash reporting, the voluntary rewarded entry point, or all network activity. Ad availability is not guaranteed and third-party ad services may be unavailable or return errors. Future builds may include different or additional ad formats if disclosed as required by applicable law, platform rules, the Privacy Policy, and Third-Party Notices.
 
-Advertising-related processing may involve third-party collection, processing, and sharing of information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance, as described in the Privacy Policy and Third-Party Notices. Where available or required, advertising consent and privacy choices may be managed through Google User Messaging Platform (UMP), device settings, or applicable platform controls.
+Advertising-related processing may involve third-party collection, processing, and sharing of information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance, as described in the Privacy Policy and Third-Party Notices. Google User Messaging Platform (UMP) gates advertising only; it does not gate Firebase Analytics or Firebase Crashlytics. Where available or required, advertising consent and privacy choices may be managed through UMP, device settings, or applicable platform controls.
 
 7.3 User-Directed Sharing and Export. If you choose to share, export, copy, save, print, send, upload, open, or transmit User Content or App outputs through another app, service, website, file provider, storage location, communication tool, or operating system function, that action is user-directed. The receiving destination may process the content under its own terms, privacy policy, security practices, and retention rules.
 
@@ -391,6 +420,6 @@ Nothing in these Terms limits or excludes liability for fraud, willful misconduc
         <div>Contact: <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></div>
       </footer>
     </div>
-  </div>
+  </main>
 </body>
 </html>

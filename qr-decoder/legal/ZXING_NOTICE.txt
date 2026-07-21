@@ -27,7 +27,7 @@ ZXing release artifacts may include license, copyright, attribution, or notice i
 The full text of the Apache License, Version 2.0 is provided in the App as LICENSE_APACHE_2_0.txt or an equivalent in-app “Apache 2.0” view.
 
 Good-faith statement
-To the best of the Studio’s knowledge and good-faith belief, ZXing is used in the App in compliance with the Apache License, Version 2.0 and applicable ZXing notice requirements for the version included in the build.
+This notice identifies ZXing and its published license for the version included in the build. It does not constitute a legal conclusion that every attribution or distribution obligation has been satisfied.
 
 The Studio uses ZXing to support user-directed QR code or barcode-related functionality where implemented by the App. The Studio does not claim that QR codes, barcodes, scan results, generated codes, decoded content, encoded content, exported results, or related outputs are guaranteed to be accurate, complete, safe, secure, compatible, readable by all devices, free of malicious content, or suitable for any regulated, evidentiary, archival, professional, security-critical, or high-risk purpose.
 
@@ -36,7 +36,7 @@ The Studio is responsible for maintaining applicable license text and attributio
 Attribution
 ZXing is developed by the ZXing authors and contributors.
 
-ZXing, Zebra Crossing, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, license compliance, provenance, and compliance recordkeeping.
+ZXing, Zebra Crossing, Java, Android, Google, and related marks may be trademarks or registered trademarks of their respective owners. This notice is provided for attribution, provenance, license information, and technical recordkeeping.
 
 No endorsement
 The ZXing project, its author(s), and its contributors are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
@@ -45,4 +45,4 @@ Organization note
 Package names, dependency names, file names, and internal build references may have been changed or organized for Android build, dependency management, QR/barcode functionality, QR generation, scan result handling, or in-app notice display purposes. The ZXing library itself is governed by its applicable upstream license and notices.
 
 Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+This notice is provided for provenance and technical recordkeeping; it does not claim legal approval or compliance.

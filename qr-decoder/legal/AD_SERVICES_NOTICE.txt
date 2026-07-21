@@ -1,8 +1,8 @@
 GOOGLE ADMOB — THIRD-PARTY SERVICE NOTICE
 
-The App uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising.
+The App uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising. The verified implementation remains pending production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation, and qualified legal review; this notice does not state production readiness or legal approval.
 
-In the current build, the App implements App Open ads only. The App does not currently implement banner ads, interstitial ads, rewarded ads, or native ads.
+In the verified implementation, the App uses an anchored adaptive banner only on the Home screen, occasional interstitials only on eligible module-to-Home exits, and an optional rewarded ad that removes banners and interstitials for exactly 60 minutes. The App does not implement App Open ads or native ads. Ads are not shown while scanning, editing, saving, or exporting. Ad failures do not block navigation or destroy work. The 60-minute benefit does not disable UMP, Firebase Analytics, Firebase Crashlytics, the voluntary rewarded entry point, or all network activity.
 
 Data Handling
 Google AdMob and related Google services may collect and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance. Depending on configuration, region, and user choices, this may include:
@@ -19,7 +19,7 @@ Most current version (web):
 https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 User Choices / Consent
-Where available, you can manage advertising consent and choices via the App’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” or “Advertising” in system settings to reset/delete Advertising ID or limit ad personalization).
+The App requests consent information through Google UMP at each launch. UMP gates advertising only and exposes the App’s “Privacy Options” entry point when UMP reports that it is required; UMP does not gate Firebase Analytics or Firebase Crashlytics. Where available, you can also use device settings (e.g., search “Ads” or “Advertising” in system settings to reset/delete Advertising ID or limit ad personalization).
 
 References (Google)
 

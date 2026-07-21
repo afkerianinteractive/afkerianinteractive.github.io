@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="QR Decoder is a local-first scanning and document utility whose verified implementation remains pending owner configuration, runtime QA and legal review.">
+  <meta name="theme-color" content="#05070a">
+  <meta name="color-scheme" content="dark">
+  <title>QR Decoder | AFKERIAN INTERACTIVE</title>
+
+  <link rel="canonical" href="https://afkerianinteractive.github.io/qr-decoder/">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE">
+  <meta property="og:title" content="QR Decoder | Local-First Scanning Utility">
+  <meta property="og:description" content="Local-first scanning and document tools with verified advertising and telemetry disclosures; owner configuration, runtime QA and legal review remain pending.">
+  <meta property="og:url" content="https://afkerianinteractive.github.io/qr-decoder/">
+  <meta property="og:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="QR Decoder | AFKERIAN INTERACTIVE">
+  <meta name="twitter:description" content="Verified QR Decoder implementation disclosures; owner configuration, runtime QA and legal review remain pending.">
+  <meta name="twitter:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <link rel="preload" href="../assets/fonts/inter/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../assets/fonts/space-grotesk/SpaceGrotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+  <style>
+    @font-face {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400 800;
+      font-display: swap;
+      src: url("../assets/fonts/inter/Inter-latin.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: "Space Grotesk";
+      font-style: normal;
+      font-weight: 500 700;
+      font-display: swap;
+      src: url("../assets/fonts/space-grotesk/SpaceGrotesk-latin.woff2") format("woff2");
+    }
+
+    :root {
+      --ink-950: #05070a;
+      --ink-900: #0a0e15;
+      --ink-800: #101722;
+      --line: rgba(233, 237, 245, 0.12);
+      --line-strong: rgba(233, 237, 245, 0.23);
+      --blue-300: #7fb6ff;
+      --blue-400: #4da2ff;
+      --blue-500: #0d7cff;
+      --ash-100: #eef1f7;
+      --ash-300: #c2cadb;
+      --ash-500: #97a2b8;
+      --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+      --font-body: "Inter", system-ui, sans-serif;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; }
+    html { color-scheme: dark; }
+    body {
+      margin: 0;
+      background: var(--ink-950);
+      color: var(--ash-300);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: var(--blue-300); }
+    a:focus-visible {
+      outline: 2px solid var(--blue-400);
+      outline-offset: 3px;
+      border-radius: 4px;
+    }
+    h1, h2, h3 {
+      color: var(--ash-100);
+      font-family: var(--font-display);
+      line-height: 1.15;
+      margin: 0;
+    }
+    p { max-width: 68ch; }
+    .container {
+      width: min(100% - 2.25rem, 1120px);
+      margin-inline: auto;
+    }
+    .skip-link {
+      position: absolute;
+      top: -6rem;
+      left: 1rem;
+      z-index: 20;
+      padding: 0.7rem 1rem;
+      background: var(--blue-500);
+      color: #fff;
+      font-weight: 800;
+      text-decoration: none;
+    }
+    .skip-link:focus { top: 0; }
+
+    header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(5, 7, 10, 0.96);
+    }
+    .site-header {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-block: 1rem;
+    }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--ash-100);
+      font-family: var(--font-display);
+      font-size: 0.92rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .brand img { width: 40px; height: 37px; object-fit: contain; }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem 1rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      color: var(--ash-300);
+      font-size: 0.88rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    nav a:hover { color: var(--ash-100); }
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding-block: clamp(3rem, 8vw, 6rem);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      width: 19rem;
+      height: 19rem;
+      right: -8rem;
+      top: -7rem;
+      opacity: 0.16;
+      background:
+        linear-gradient(90deg, var(--blue-400) 0 18%, transparent 18% 36%, var(--blue-400) 36% 54%, transparent 54%),
+        linear-gradient(var(--blue-400) 0 18%, transparent 18% 36%, var(--blue-400) 36% 54%, transparent 54%);
+      transform: rotate(9deg);
+    }
+    .hero-grid { display: grid; gap: 2rem; align-items: center; }
+    .eyebrow {
+      color: var(--blue-400);
+      font-family: var(--font-display);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: clamp(2.6rem, 9vw, 5.2rem);
+      letter-spacing: -0.035em;
+      margin-top: 0.75rem;
+    }
+    .lede {
+      color: var(--ash-300);
+      font-size: clamp(1.08rem, 2vw, 1.3rem);
+      margin: 1rem 0 0;
+    }
+    .hero-media {
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      background: var(--ink-900);
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    }
+    .hero-media img { width: 100%; height: auto; }
+
+    .section { padding-block: clamp(2.75rem, 7vw, 5rem); }
+    .section + .section { border-top: 1px solid var(--line); }
+    .section-head { margin-bottom: 1.75rem; }
+    .section-head h2 { font-size: clamp(1.7rem, 4vw, 2.5rem); margin-top: 0.45rem; }
+    .section-head p { color: var(--ash-500); margin-bottom: 0; }
+    .card-grid { display: grid; gap: 1rem; }
+    .card {
+      padding: 1.25rem;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--ink-900);
+    }
+    .card h3 { font-size: 1.15rem; margin-bottom: 0.55rem; }
+    .card p { color: var(--ash-500); margin: 0; }
+    .fact-strip {
+      display: grid;
+      gap: 1px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--line);
+    }
+    .fact {
+      padding: 1.2rem;
+      background: var(--ink-900);
+    }
+    .fact strong { display: block; color: var(--ash-100); font-family: var(--font-display); }
+    .fact span { color: var(--ash-500); font-size: 0.92rem; }
+    .benefit {
+      border-left: 4px solid var(--blue-500);
+      background: var(--ink-800);
+      padding: 1.25rem 1.4rem;
+      margin-top: 1.25rem;
+    }
+    .benefit strong { color: var(--ash-100); }
+    .benefit p { margin: 0.35rem 0 0; color: var(--ash-300); }
+    .status-note {
+      margin-top: 1rem;
+      border: 1px solid rgba(127, 182, 255, 0.45);
+      border-left: 4px solid var(--blue-400);
+      border-radius: var(--radius);
+      background: rgba(13, 124, 255, 0.08);
+      padding: 1rem 1.1rem;
+      color: var(--ash-300);
+      overflow-wrap: anywhere;
+    }
+    .status-note strong,
+    .status-note .status-heading { color: var(--ash-100); }
+    .status-note .status-heading { font-size: 1rem; }
+    .status-note p { margin: 0.35rem 0 0; }
+    .legal-links {
+      display: grid;
+      gap: 0.75rem;
+    }
+    .legal-links a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      min-height: 54px;
+      padding: 0.8rem 1rem;
+      border: 1px solid var(--line-strong);
+      border-radius: 9px;
+      background: var(--ink-900);
+      color: var(--ash-100);
+      font-weight: 750;
+      text-decoration: none;
+    }
+    .legal-links a::after { content: "Open"; color: var(--blue-300); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .legal-links a:hover { border-color: var(--blue-400); }
+    footer {
+      border-top: 1px solid var(--line);
+      color: var(--ash-500);
+      padding-block: 2rem;
+      font-size: 0.88rem;
+    }
+    footer p { margin: 0.35rem 0; }
+
+    @media (min-width: 760px) {
+      .site-header { flex-direction: row; align-items: center; justify-content: space-between; }
+      .hero-grid { grid-template-columns: minmax(0, 0.82fr) minmax(22rem, 1.18fr); }
+      .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .fact-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .legal-links { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header>
+    <div class="container site-header">
+      <a class="brand" href="../index.html">
+        <img src="../assets/afkerian-logo.png" alt="" width="320" height="294">
+        <span>AFKERIAN INTERACTIVE</span>
+      </a>
+      <nav aria-label="QR Decoder">
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+          <li><a href="third-party-notices.html">Third-Party Notices</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Local-First Utility</span>
+          <h1>QR Decoder</h1>
+          <p class="lede">Practical scanning, document, OCR, QR and barcode tools with clear boundaries between local working content and third-party network services.</p>
+        </div>
+        <div class="hero-media">
+          <img src="../assets/qr-decoder-banner.jpg" alt="QR Decoder screens for scanning, document capture, QR creation, ID workflows and barcode inventory" width="1024" height="500">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="status-title">
+      <div class="container">
+        <div class="status-note" role="note">
+          <h2 class="status-heading" id="status-title">Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION</h2>
+          <p>The behavior described on this page is verified in the application implementation, but production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation and qualified legal review remain pending. This page does not state that QR Decoder is production-ready or legally approved.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="processing-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Processing Boundaries</span>
+          <h2 id="processing-title">Core work stays local.</h2>
+          <p>Scanning, OCR, document processing, QR values and barcode workflows are designed to run on the device. QR Decoder also uses network-connected services for advertising, consent, analytics and crash reporting.</p>
+        </div>
+        <div class="fact-strip">
+          <div class="fact"><strong>Local working content</strong><span>Scans, documents, extracted text, QR values and barcodes.</span></div>
+          <div class="fact"><strong>Google services</strong><span>AdMob, UMP, Firebase Analytics, Firebase Crashlytics and scanner components.</span></div>
+          <div class="fact"><strong>No account required</strong><span>Current core workflows do not require an AFKERIAN INTERACTIVE account.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="ads-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Advertising</span>
+          <h2 id="ads-title">Limited to specific moments.</h2>
+          <p>Advertising is kept away from scanning, editing, saving and exporting. An ad failure does not block navigation or destroy work.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><h3>Home banner</h3><p>An anchored adaptive banner may appear only on the Home screen.</p></article>
+          <article class="card"><h3>Eligible returns to Home</h3><p>Occasional interstitial ads may appear only on eligible module-to-Home exits.</p></article>
+          <article class="card"><h3>Voluntary reward</h3><p>A rewarded ad is optional. Ad availability is not guaranteed.</p></article>
+          <article class="card"><h3>Formats not used</h3><p>QR Decoder does not use App Open ads or native ads in the current implementation.</p></article>
+        </div>
+        <div class="benefit">
+          <strong>Exactly 60 minutes without banners or interstitials</strong>
+          <p>Earning the rewarded benefit suppresses banner and interstitial requests for 60 minutes. It does not disable UMP, Firebase Analytics, Firebase Crashlytics, the voluntary rewarded entry point or all network activity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Third-Party Services</span>
+          <h2 id="services-title">What communicates over the network.</h2>
+          <p>These services have different purposes and controls. UMP gates advertising only and provides Privacy Options when required. It does not gate Analytics or Crashlytics in the current app.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><h3>Google Mobile Ads</h3><p>Ad requests may involve technical and advertising signals for delivery, measurement, frequency capping, security and fraud prevention after UMP allows ad requests.</p></article>
+          <article class="card"><h3>Google UMP</h3><p>Consent information is requested at each launch. UMP gates advertising only, and Privacy Options appears when UMP reports that the entry point is required.</p></article>
+          <article class="card"><h3>Firebase Analytics</h3><p>Automatic SDK collection is enabled by default and is not gated by UMP. No application-authored Analytics events, user IDs or user properties were identified.</p></article>
+          <article class="card"><h3>Firebase Crashlytics</h3><p>Crashlytics collection is enabled only in release builds. No application-authored custom logs, keys, user IDs, non-fatal reports or user-content reporting were identified.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" lang="es" aria-labelledby="resumen-es-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Resumen técnico en español</span>
+          <h2 id="resumen-es-title">Límites claros entre el trabajo local y los servicios de red.</h2>
+          <p>El escaneo, el OCR y el procesamiento de documentos se realizan de forma local, pero QR Decoder no funciona completamente sin conexión.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card"><h3>Publicidad</h3><p>La App implementa un banner adaptativo anclado solo en Inicio, intersticiales ocasionales solo en salidas elegibles de un módulo hacia Inicio y un anuncio recompensado voluntario. No utiliza anuncios App Open ni nativos.</p></article>
+          <article class="card"><h3>Beneficio de 60 minutos</h3><p>La recompensa concede exactamente 60 minutos sin banners ni intersticiales. No desactiva UMP, Analytics, Crashlytics, el acceso voluntario al anuncio recompensado ni toda la actividad de red.</p></article>
+          <article class="card"><h3>Protección del trabajo</h3><p>No se muestran anuncios mientras se escanea, edita, guarda o exporta. Un fallo publicitario no bloquea la navegación ni destruye el trabajo.</p></article>
+          <article class="card"><h3>Consentimiento y telemetría</h3><p>UMP controla únicamente la publicidad. Analytics mantiene la recopilación automática del SDK sin eventos creados por la App; Crashlytics funciona solo en compilaciones release y no se identificaron registros ni contenido de usuario añadidos por la App.</p></article>
+        </div>
+        <div class="status-note" role="note">
+          <strong>Estado: IMPLEMENTED_PENDING_OWNER_CONFIGURATION</strong>
+          <p>Siguen pendientes los identificadores de producción de AdMob, la publicación de mensajes UMP, las pruebas regionales, la conciliación de Seguridad de los Datos de Google Play y la revisión legal. Esta página no afirma que la App esté preparada para producción ni aprobada legalmente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="legal-title">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Legal and Privacy</span>
+          <h2 id="legal-title">Read the full documents.</h2>
+          <p>The documents below describe local processing, third-party services, user responsibilities and open-source attributions in detail.</p>
+        </div>
+        <div class="legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+          <a href="third-party-notices.html">Third-Party Notices</a>
+        </div>
+        <p lang="es">Documentos completos en español: <a href="legal/PRIVACY_POLICY_ES.txt" hreflang="es">Política de Privacidad</a>, <a href="legal/TERMS_OF_SERVICE_ES.txt" hreflang="es">Términos del Servicio</a> y <a href="legal/THIRD_PARTY_NOTICES_ES.txt" hreflang="es">Avisos de Terceros</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <strong>AFKERIAN INTERACTIVE</strong>
+      <p>Support and privacy questions: <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></p>
+      <p><a href="../privacy-policy.html">Website Privacy Policy</a> &middot; <a href="../terms-of-service.html">Website Terms of Service</a></p>
+    </div>
+  </footer>
+</body>
+</html>

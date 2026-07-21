@@ -4,7 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Implementation-stage Third-Party Notices for QR Decoder with verified SDK versions and behavior; owner configuration and legal review remain pending." />
   <title>Third-Party Notices &mdash; QR Decoder | AFKERIAN INTERACTIVE</title>
+  <link rel="canonical" href="https://afkerianinteractive.github.io/qr-decoder/third-party-notices.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE" />
+  <meta property="og:title" content="Third-Party Notices | QR Decoder" />
+  <meta property="og:description" content="Verified QR Decoder SDK and service notices; production configuration, regional QA, Play disclosure reconciliation and legal review remain pending." />
+  <meta property="og:url" content="https://afkerianinteractive.github.io/qr-decoder/third-party-notices.html" />
+  <meta property="og:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Third-Party Notices | QR Decoder" />
+  <meta name="twitter:description" content="QR Decoder dependency and service implementation reference; owner configuration and legal review remain pending." />
+  <meta name="twitter:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <style>
     :root{
       --primary:#0f172a;        /* Navy / Slate */
@@ -62,6 +79,7 @@
       border-radius: 12px;
       padding: 18px;
       margin-top: 4px;
+      overflow-wrap: anywhere;
     }
     h2{
       margin: 0 0 12px;
@@ -77,6 +95,8 @@
     a{ color: var(--link); font-weight: 700; text-decoration: none; }
     a:hover{ text-decoration: underline; }
     a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+    .skip-link{ position:absolute; left:1rem; top:-5rem; z-index:10; padding:10px 16px; background:var(--primary); color:#fff; border-radius:0 0 8px 8px; }
+    .skip-link:focus{ top:0; }
 
     /* Verbatim document blocks (1:1 copies of the approved source .txt) */
     .legal-text, .doc{
@@ -205,7 +225,8 @@
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <main class="wrap" id="main-content">
     <div class="header">
       <h1>Third-Party Notices</h1>
       <div class="meta">QR Decoder | AFKERIAN INTERACTIVE</div>
@@ -213,24 +234,32 @@
 
     <nav class="site-nav" aria-label="Site navigation">
       <a href="../index.html">Homepage</a>
+      <a href="index.html">Product Overview</a>
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="terms-of-service.html">Terms of Service</a>
     </nav>
 
     <div class="card">
-      <p>This page provides the <strong>Third-Party Notices</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). The general notice below is reproduced verbatim from the official document; individual service notices and full license texts are linked at the bottom of this page.</p>
+      <p>This page provides the <strong>Third-Party Notices</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). The general notice reflects verified dependency and implementation evidence; individual service notices and full license texts are linked at the bottom of this page.</p>
+      <div class="notice" role="note">
+        <strong>Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION.</strong>
+        <p>Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation and qualified legal review remain pending. This page does not state production readiness, legal approval or license compliance.</p>
+        <p lang="es">Consulta los <a href="legal/THIRD_PARTY_NOTICES_ES.txt" hreflang="es">Avisos de Terceros completos en español</a>.</p>
+      </div>
 
       <div class="notice">
         <pre class="doc">QR DECODER — THIRD-PARTY NOTICES
 Version: 1.0
 Last Updated: June 15, 2026
 
+Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION. This notice reflects verified dependency and implementation evidence, but it is not a statement of legal approval or production readiness. Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation, and qualified legal review remain pending.
+
 1. SCOPE
    This Third-Party Notices document applies to QR Decoder (the “App”), developed and distributed by AFKERIAN INTERACTIVE (“Studio”).
 
 It identifies (i) third-party open source software, (ii) third-party services/SDKs, (iii) Google/Firebase/advertising/scanner-related SDKs, and (iv) certain license texts and provider-specific notices included in or used by the App.
 
-These notices are provided for attribution, license compliance, provenance, and statutory compliance only. They do not modify the App’s Terms of Service or Privacy Policy.
+These notices are provided for attribution, provenance, license information, and technical recordkeeping only. They do not modify the App’s Terms of Service or Privacy Policy and do not claim legal approval or compliance.
 
 Privacy-related disclosures, including advertising identifiers, IP-derived approximate location, app interactions, advertising events, analytics signals, diagnostics, consent signals, crash reporting, scanner/OCR SDK metrics, and user choices, are described in the App’s Privacy Policy and in the applicable provider notices/policies.
 
@@ -284,13 +313,13 @@ Android / AndroidX / Jetpack / Compose Components
 
 * AndroidX Lifecycle Runtime KTX
   Module: androidx.lifecycle:lifecycle-runtime-ktx
-  Version: 2.10.0
+  Version: 2.11.0
   Purpose: lifecycle-aware runtime utilities
   Primary License: Apache License 2.0
 
 * AndroidX Lifecycle Runtime Compose
   Module: androidx.lifecycle:lifecycle-runtime-compose
-  Version: 2.10.0
+  Version: 2.11.0
   Purpose: lifecycle-aware Compose integration
   Primary License: Apache License 2.0
 
@@ -308,7 +337,7 @@ Android / AndroidX / Jetpack / Compose Components
 
 * Jetpack Compose BOM / UI / Graphics / Tooling / Preview / Test Manifest / Test JUnit4 / Material3
   Modules:
-  androidx.compose:compose-bom — 2026.05.01
+  androidx.compose:compose-bom — 2026.06.01
   androidx.compose.ui:ui
   androidx.compose.ui:ui-graphics
   androidx.compose.ui:ui-tooling
@@ -351,7 +380,7 @@ Android / AndroidX / Jetpack / Compose Components
 Kotlin / Coroutines / Build-Related Runtime Components
 
 * Kotlin Standard Library / Kotlin Runtime Components
-  Version family: Kotlin 2.4.0
+  Version family: Kotlin 2.4.10
   Purpose: Kotlin language runtime support
   Primary License: Apache License 2.0
 
@@ -386,7 +415,7 @@ Barcode / QR / Image / File / ZIP / Document Components
 
 * Apache Log4j API
   Module: org.apache.logging.log4j:log4j-api
-  Version: 2.26.0
+  Version: 2.26.1
   Purpose: logging API dependency where required by dependent libraries or App code
   Primary License: Apache License 2.0
   Additional Notice: LOG4J_NOTICE.txt
@@ -444,11 +473,11 @@ The App build may use development or build-time tooling that is not necessarily 
 
 * Android Gradle Plugin
   Plugin: com.android.application
-  Version: 9.2.1
+  Version: 9.3.0
 
 * Kotlin Compose Compiler Plugin
   Plugin: org.jetbrains.kotlin.plugin.compose
-  Version: 2.4.0
+  Version: 2.4.10
 
 * Kotlin Symbol Processing (KSP)
   Plugin: com.google.devtools.ksp
@@ -456,7 +485,7 @@ The App build may use development or build-time tooling that is not necessarily 
 
 * Google Services Gradle Plugin
   Plugin: com.google.gms.google-services
-  Version: 4.4.4
+  Version: 4.5.0
 
 * Firebase Crashlytics Gradle Plugin
   Plugin: com.google.firebase.crashlytics
@@ -481,17 +510,17 @@ The App uses certain Google-provided SDKs and services for advertising, consent,
 
 Google SDKs and services are provided by Google LLC and/or related Google services and may be subject to separate Google terms, policies, service-specific terms, data processing terms, and privacy documentation.
 
-These provider/service notices are not open source license notices. They are included for transparency, user information, and compliance recordkeeping.
+These provider/service notices are not open source license notices. They are included for transparency, user information, and technical recordkeeping without claiming legal approval or compliance.
 
 B.2 Included Google Services/SDKs
 
 * Google AdMob / Google Mobile Ads SDK
   Module: com.google.android.gms:play-services-ads
-  Version: 25.3.0
+  Version: 25.4.0
   Category: Third-Party Service / SDK (Advertising)
   Provider: Google LLC
   Purpose: Ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance
-  Current App Use: App Open ads only in the current build
+  Current App Use: anchored adaptive banner only on Home; occasional interstitials only on eligible module-to-Home exits; voluntary rewarded ad granting exactly 60 minutes without banners or interstitials; no App Open or native ads; no ads while scanning, editing, saving, or exporting; ad failures do not block navigation or destroy work
   Data/Privacy: May automatically collect, process, and share IP address, advertising/device identifiers, app interactions, advertising events, diagnostics/performance signals, approximate location inferred from IP, and anti-fraud signals, depending on configuration, region, and user choices.
   Additional Notice: AD_SERVICES_NOTICE.txt
 
@@ -500,28 +529,28 @@ B.2 Included Google Services/SDKs
   Version: 4.0.0
   Category: Third-Party Service / SDK (Consent / Privacy Options)
   Provider: Google LLC
-  Purpose: Consent collection and privacy options flow where required or available
+  Purpose: consent information request at each launch, advertising gate, and Privacy Options flow when required; UMP does not gate Analytics or Crashlytics
   Data/Privacy: May process consent state and related device/technical signals as described in the Privacy Policy and Google’s policies.
   Related Notice: AD_SERVICES_NOTICE.txt and/or this Third-Party Notices document
 
 * Firebase Analytics
   Module: com.google.firebase:firebase-analytics
-  Version: managed by Firebase BoM 34.14.1
+  Version: managed by Firebase BoM 34.16.0
   Category: Third-Party Service / SDK (Analytics / Measurement)
   Provider: Google LLC / Firebase
   Purpose: App usage measurement and analytics available to the Studio
   Data/Privacy: May collect and process app interaction events, app lifecycle events, app-instance identifiers, Advertising ID where available/configured, masked IP-derived coarse location, device/technical information, and related analytics signals, as described in the Privacy Policy and Google/Firebase policies.
-  Studio Use: The Studio uses Firebase Analytics to understand general App usage, feature engagement, stability context, and aggregate measurement trends. The Studio does not use Firebase Analytics to sell personal information or to share data with non-Google third parties for advertising.
+  Studio Use: automatic default SDK collection is enabled and is not gated by UMP. No application-authored Analytics events, Studio-controlled user IDs, or Studio-created user properties were identified. The Studio does not use Firebase Analytics to sell personal information or to share data with non-Google third parties for advertising.
   Additional Notice: FIREBASE_NOTICE.txt
 
 * Firebase Crashlytics
   Module: com.google.firebase:firebase-crashlytics
-  Version: managed by Firebase BoM 34.14.1
+  Version: managed by Firebase BoM 34.16.0
   Category: Third-Party Service / SDK (Diagnostics / Crash Reporting)
   Provider: Google LLC / Firebase
   Purpose: Crash reporting and stability diagnostics available to the Studio
   Data/Privacy: May collect and process crash logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, and related diagnostic information when crashes or stability events occur.
-  Studio Use: The Studio uses Crashlytics to identify, prioritize, and fix crashes and stability issues. Crash logs are not shared by the Studio with non-Google third parties for advertising.
+  Studio Use: Crashlytics is enabled only in release builds and is not gated by UMP. No application-authored custom logs, keys, user IDs, non-fatal reports, or user-content reporting were identified. Crash logs are not shared by the Studio with non-Google third parties for advertising.
   Additional Notice: FIREBASE_NOTICE.txt
 
 * Google ML Kit Barcode Scanning
@@ -654,7 +683,7 @@ The Studio does not operate its own servers to upload or host user QR content, d
 D.2 Third-Party SDK Data
 Third-party SDKs may process technical, diagnostic, analytics, advertising, consent, or service-operation data as described in the App’s Privacy Policy and in applicable provider policies.
 
-Firebase Analytics and Firebase Crashlytics are used by the Studio for analytics, crash reporting, and diagnostics. Google AdMob / Google Mobile Ads SDK is used for advertising and may collect, process, and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance.
+Firebase Analytics uses automatic default SDK collection with no application-authored events identified. Firebase Crashlytics is enabled only in release builds, with no application-authored logs or user-content reporting identified. Neither service is gated by UMP. Google AdMob / Google Mobile Ads SDK is used for advertising and may collect, process, and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance.
 
 D.3 User-Directed Sharing / Export
 If the user chooses to share, export, copy, save, print, send, upload, open, or transmit App-generated content or user-selected content through another app, service, website, file provider, storage location, communication tool, or operating system function, that action is user-directed. The receiving destination may process the content under its own terms, privacy policy, security practices, and retention rules.
@@ -698,23 +727,23 @@ G. RECORDKEEPING / RELEASE NOTE
 
 This notice is based on the dependency list provided for the QR Decoder build using the following notable versions:
 
-* Android Gradle Plugin: 9.2.1
-* Kotlin: 2.4.0
-* Compose BOM: 2026.05.01
+* Android Gradle Plugin: 9.3.0
+* Kotlin: 2.4.10
+* Compose BOM: 2026.06.01
 * CameraX: 1.6.1
 * ML Kit Barcode Scanning: 17.3.0
 * ML Kit Text Recognition: 16.0.1
 * Google Play services ML Kit Document Scanner: 16.0.0
 * ZXing Core: 3.5.4
 * Apache POI OOXML: 5.5.1
-* Apache Log4j API: 2.26.0
+* Apache Log4j API: 2.26.1
 * Room: 2.8.4
 * RichEditor Compose: 1.0.0-rc14
 * AndroidX DocumentFile: 1.1.0
 * Zip4j: 2.11.6
-* Google Mobile Ads SDK: 25.3.0
+* Google Mobile Ads SDK: 25.4.0
 * Google User Messaging Platform: 4.0.0
-* Firebase BoM: 34.14.1
+* Firebase BoM: 34.16.0
 * Firebase Analytics: managed by Firebase BoM
 * Firebase Crashlytics: managed by Firebase BoM
 
@@ -823,6 +852,6 @@ Before each production release, the Studio should verify the resolved runtime de
         <div>Contact: <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></div>
       </footer>
     </div>
-  </div>
+  </main>
 </body>
 </html>

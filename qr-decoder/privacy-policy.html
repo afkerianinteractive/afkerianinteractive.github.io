@@ -4,7 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Implementation-stage Privacy Policy for QR Decoder, covering local processing, advertising, UMP, Analytics and release-only Crashlytics; owner configuration and legal review remain pending." />
   <title>Privacy Policy &mdash; QR Decoder | AFKERIAN INTERACTIVE</title>
+  <link rel="canonical" href="https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE" />
+  <meta property="og:title" content="Privacy Policy | QR Decoder" />
+  <meta property="og:description" content="Verified QR Decoder privacy implementation details; production configuration, regional QA, Play disclosure reconciliation and legal review remain pending." />
+  <meta property="og:url" content="https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html" />
+  <meta property="og:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_ES" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Privacy Policy | QR Decoder" />
+  <meta name="twitter:description" content="QR Decoder privacy implementation reference; owner configuration and legal review remain pending." />
+  <meta name="twitter:image" content="https://afkerianinteractive.github.io/assets/qr-decoder-banner.jpg" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
   <style>
     :root{
       --primary:#0f172a;        /* Navy / Slate */
@@ -62,6 +79,7 @@
       border-radius: 12px;
       padding: 18px;
       margin-top: 4px;
+      overflow-wrap: anywhere;
     }
     h2{
       margin: 0 0 12px;
@@ -77,6 +95,8 @@
     a{ color: var(--link); font-weight: 700; text-decoration: none; }
     a:hover{ text-decoration: underline; }
     a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
+    .skip-link{ position:absolute; left:1rem; top:-5rem; z-index:10; padding:10px 16px; background:var(--primary); color:#fff; border-radius:0 0 8px 8px; }
+    .skip-link:focus{ top:0; }
 
     /* Verbatim document blocks (1:1 copies of the approved source .txt) */
     .legal-text, .doc{
@@ -205,7 +225,8 @@
   </style>
 </head>
 <body>
-  <div class="wrap">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <main class="wrap" id="main-content">
     <div class="header">
       <h1>Privacy Policy</h1>
       <div class="meta">QR Decoder | AFKERIAN INTERACTIVE</div>
@@ -213,12 +234,18 @@
 
     <nav class="site-nav" aria-label="Site navigation">
       <a href="../index.html">Homepage</a>
+      <a href="index.html">Product Overview</a>
       <a href="terms-of-service.html">Terms of Service</a>
       <a href="third-party-notices.html">Third-Party Notices</a>
     </nav>
 
     <div class="card">
-      <p>This page provides the <strong>Privacy Policy</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). The full text below is reproduced verbatim from the official document.</p>
+      <p>This page provides the <strong>Privacy Policy</strong> for <strong>QR Decoder</strong>, developed by <strong>AFKERIAN INTERACTIVE</strong> (&ldquo;Studio&rdquo;). It reflects verified implementation evidence and the corresponding in-app legal source.</p>
+      <div class="notice" role="note">
+        <strong>Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION.</strong>
+        <p>Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation and qualified legal review remain pending. This page does not state production readiness or legal approval.</p>
+        <p lang="es">Consulta la <a href="legal/PRIVACY_POLICY_ES.txt" hreflang="es">Política de Privacidad completa en español</a>.</p>
+      </div>
 
       <div class="notice">
         <pre class="legal-text">PRIVACY POLICY — QR DECODER
@@ -228,12 +255,14 @@ Last Updated: June 15, 2026
 Most current version (web):
 https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
+Implementation status: IMPLEMENTED_PENDING_OWNER_CONFIGURATION. This document reflects verified implementation evidence, but it is not a statement of legal approval or production readiness. Production AdMob identifiers, published UMP messages, regional runtime QA, Google Play Data Safety reconciliation, and qualified legal review remain pending.
+
 This Privacy Policy is provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
 
 1. SCOPE; ENTITY; ROLES
    This Privacy Policy describes how AFKERIAN INTERACTIVE (“Studio,” “we,” “us,” or “our”) processes information in connection with the mobile application QR Decoder (the “App”).
 
-The App is designed as a local-first utility for QR/barcode scanning, QR creation, document scanning, OCR, ID scan workflows, inventory/batch scan workflows, file viewing/editing, and ZIP/archive tools.
+The App is designed as a local-first utility for QR/barcode scanning, QR creation, document scanning, OCR, ID scan workflows, inventory/batch scan workflows, file viewing/editing, and ZIP/archive tools. Core scanning, OCR, and document processing run locally, but the App is not completely offline because the third-party services described below may use network connections.
 
 We do not require account registration, and we do not ask you to submit legal names, physical addresses, account credentials, or payment card details to the Studio for account-creation, account-management, or payment-processing purposes. However, depending on how you use the App, user-selected content such as QR codes, barcodes, documents, ID scans, files, or archives may contain personal or sensitive information, including names, addresses, contact details, identifiers, document contents, credentials, payment information, or other information.
 
@@ -357,26 +386,26 @@ Depending on the service, configuration, region, and legal context, Google may p
 The Studio uses Firebase Analytics and Firebase Crashlytics to view analytics, crash reporting, and diagnostic information for the App. The Studio does not use Firebase Analytics or Firebase Crashlytics to sell personal information or to create Studio-operated user account profiles.
 
 6.2 Google AdMob / Google Mobile Ads SDK
-The App uses Google AdMob / Google Mobile Ads SDK to display advertising. In the current build, the App implements App Open ads only. Google AdMob and related Google services may automatically collect, process, and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance.
+The App uses Google AdMob / Google Mobile Ads SDK to display advertising. In the verified implementation, the App implements an anchored adaptive banner only on the Home screen, occasional interstitial ads only on eligible module-to-Home exits, and an optional rewarded ad that removes banner and interstitial ads for exactly 60 minutes; the App does not implement App Open ads or native ads. Ads are not shown while scanning, editing, saving, or exporting. An ad failure does not block navigation or destroy work. The 60-minute benefit does not disable UMP, Firebase Analytics, Firebase Crashlytics, the voluntary rewarded entry point, or all network activity. Google AdMob and related Google services may automatically collect, process, and share certain information for ad delivery, measurement, frequency capping, fraud prevention, security, and policy compliance.
 
 Depending on configuration, region, and user choices, this may include IP address, Advertising ID or equivalent identifiers, app set ID or other device/account identifiers, app interactions, advertising events, diagnostic information, performance signals, approximate location inferred from IP, and anti-fraud signals.
 
 Advertising-related processing may be considered “sharing” under some privacy laws and under Google Play Data Safety depending on the data type, purpose, and configuration. Where required or available, user choices may be managed through UMP “Privacy Options” and/or device advertising settings.
 
 6.3 Google User Messaging Platform (UMP)
-The App uses Google User Messaging Platform (UMP) to provide consent and privacy options flows where required or available. UMP may process consent state and related technical signals as needed to present, store, and apply your choices.
+The App requests consent information through Google User Messaging Platform (UMP) at each launch. UMP gates advertising only and provides the in-app Privacy Options entry point when UMP reports that it is required. UMP does not gate Firebase Analytics or Firebase Crashlytics. UMP may process consent state and related technical signals as needed to present, store, and apply your advertising choices.
 
 6.4 Firebase Analytics
-The App uses Firebase Analytics for app usage measurement and analytics available to the Studio. Firebase Analytics may collect and process app interaction events, app lifecycle events, app-instance identifiers, Advertising ID where available/configured, masked IP-derived coarse location, device/technical information, and related analytics signals.
+The App uses Firebase Analytics with the SDK's automatic default collection enabled. This collection is not gated by UMP. Firebase Analytics may collect and process automatically generated app interaction events, app lifecycle events, app-instance identifiers, Advertising ID where available/configured, masked IP-derived coarse location, device/technical information, and related analytics signals.
 
-The Studio uses Firebase Analytics to understand general App usage, feature engagement, stability context, and aggregate measurement trends. The App does not require account registration with the Studio for Firebase Analytics, and the Studio does not use Firebase Analytics to maintain Studio-created user account profiles.
+The Studio may use automatically collected Firebase Analytics measurements to understand general App usage and aggregate trends. The App does not require account registration with the Studio for Firebase Analytics, and the Studio does not use Firebase Analytics to maintain Studio-created user account profiles.
 
-Based on the current App implementation, the Studio does not intentionally log custom analytics events, set Studio-controlled user IDs, or set Studio-created user properties in Firebase Analytics. Firebase Analytics data is processed by Google/Firebase under applicable Google terms and policies. The Studio does not share Firebase Analytics data with non-Google third parties for advertising.
+No application-authored Firebase Analytics events, Studio-controlled user IDs, or Studio-created user properties were identified in the verified implementation. Firebase Analytics data is processed by Google/Firebase under applicable Google terms and policies. The Studio does not share Firebase Analytics data with non-Google third parties for advertising.
 
 6.5 Firebase Crashlytics
-The App uses Firebase Crashlytics for crash reporting and stability diagnostics available to the Studio. Crashlytics may collect and process crash logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, and related diagnostic information when crashes or stability events occur.
+The App enables Firebase Crashlytics only in release builds; it is disabled in debug builds. When enabled, Crashlytics may collect and process crash and ANR logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, native symbols, and related diagnostic information when crashes or stability events occur. Crashlytics is not gated by UMP.
 
-The Studio uses Crashlytics to identify, prioritize, and fix crashes and stability issues. Based on the current App implementation, the Studio does not intentionally attach custom keys, custom logs, free-text user IDs, non-fatal reports, or test-crash UI data to Crashlytics reports.
+The Studio may use Crashlytics to identify, prioritize, and fix crashes and stability issues. No application-authored custom keys, custom logs, free-text user IDs, non-fatal reports, test-crash UI data, or user-content reporting were identified in the verified implementation.
 
 Crashlytics data is processed by Google/Firebase under applicable Google terms and policies for crash reporting and diagnostics. The Studio does not share Crashlytics data with non-Google third parties for advertising.
 
@@ -475,6 +504,6 @@ If you have a privacy or deletion request that applies to Studio-controlled proc
         <div>Contact: <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></div>
       </footer>
     </div>
-  </div>
+  </main>
 </body>
 </html>

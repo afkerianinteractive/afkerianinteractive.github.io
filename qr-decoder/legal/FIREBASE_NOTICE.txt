@@ -1,7 +1,7 @@
 FIREBASE — ANALYTICS / CRASHLYTICS NOTICE
 Last Updated: June 15, 2026
 
-The App uses certain Firebase services provided by Google LLC (“Google” / “Firebase”) for app usage measurement, crash reporting, and stability diagnostics.
+The App uses certain Firebase services provided by Google LLC (“Google” / “Firebase”) for automatic app usage measurement, crash reporting, and stability diagnostics. The verified implementation remains pending owner configuration, regional runtime QA, Google Play Data Safety reconciliation, and qualified legal review; this notice does not state production readiness or legal approval.
 
 Service / source
 
@@ -25,17 +25,17 @@ Use of Firebase and Firebase SDKs is subject to Google’s and Firebase’s then
 * Google Terms of Service: https://policies.google.com/terms
 * Firebase Android Data Disclosure Guidance: https://firebase.google.com/docs/android/play-data-disclosure
 
-Good-faith statement
-To the best of the Studio’s knowledge and good-faith belief, Firebase Analytics and Firebase Crashlytics are used in the App for measurement, crash reporting, and diagnostics available to the Studio. The Studio uses these services to understand general App usage, feature engagement, crash impact, and stability issues, and to improve the App’s reliability.
+Verified implementation statement
+Firebase Analytics automatic default SDK collection is enabled and is not gated by UMP. Firebase Crashlytics is enabled only in release builds, is disabled in debug builds, and is not gated by UMP.
 
-Based on the current App implementation, the App does not require Studio account registration for Firebase Analytics, and the Studio does not intentionally use Firebase Analytics to maintain Studio-created user account profiles. Based on the current App implementation, the Studio does not intentionally log custom Firebase Analytics events, set Studio-controlled user IDs, or set Studio-created user properties.
+The App does not require Studio account registration for Firebase Analytics. No application-authored Firebase Analytics events, Studio-controlled user IDs, or Studio-created user properties were identified in the verified implementation.
 
-Based on the current App implementation, Firebase Crashlytics is used for crash reporting and stability diagnostics. The Studio does not intentionally attach custom keys, custom logs, free-text user IDs, non-fatal reports, or test-crash UI data to Crashlytics reports.
+No application-authored custom keys, custom logs, free-text user IDs, non-fatal reports, test-crash UI data, or user-content reporting were identified in the verified Crashlytics implementation.
 
 Data / privacy note
 Firebase Analytics may collect and process app interaction events, app lifecycle events, app-instance identifiers, Advertising ID where available/configured, masked IP-derived coarse location, device/technical information, and related analytics signals.
 
-Firebase Crashlytics may collect and process crash logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, and related diagnostic information when crashes or stability events occur.
+When enabled in a release build, Firebase Crashlytics may collect and process crash and ANR logs, stack traces, relevant application state, device metadata, app state, Crashlytics installation identifiers, Firebase installation identifiers, native symbols, and related diagnostic information when crashes or stability events occur.
 
 Firebase data is processed by Google/Firebase under applicable Google and Firebase terms and policies. The Studio may view related analytics, crash reporting, and diagnostic information in Firebase Console.
 
@@ -50,13 +50,13 @@ Most current version (web):
 https://afkerianinteractive.github.io/qr-decoder/privacy-policy.html
 
 Attribution
-Firebase, Firebase Analytics, Firebase Crashlytics, Google, Google Play, and related marks are trademarks or registered trademarks of Google LLC or its affiliates. This notice is provided for transparency, provenance, and compliance recordkeeping. No additional attribution is intended to modify Google’s or Firebase’s applicable terms or trademark rules.
+Firebase, Firebase Analytics, Firebase Crashlytics, Google, Google Play, and related marks are trademarks or registered trademarks of Google LLC or its affiliates. This notice is provided for transparency, provenance, and technical recordkeeping. No additional attribution is intended to modify Google’s or Firebase’s applicable terms or trademark rules.
 
 No endorsement
 Google and Firebase are not affiliated with, and do not endorse, AFKERIAN INTERACTIVE or the App.
 
 Organization note
-Firebase configuration files, project identifiers, SDK versions, package identifiers, and build-variant settings may be maintained internally for App operation, release management, diagnostics, and compliance records. Sensitive configuration values, if any, should not be displayed in public notices.
+Firebase configuration files, project identifiers, SDK versions, package identifiers, and build-variant settings may be maintained internally for App operation, release management, diagnostics, and technical records. Sensitive configuration values, if any, should not be displayed in public notices.
 
 Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+This notice is provided for provenance and technical recordkeeping; it does not claim legal approval or compliance.

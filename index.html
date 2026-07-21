@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AFKERIAN INTERACTIVE is an independent studio making arcade, strategy, and rhythm games, plus utility apps that work without an internet connection. See our games, our studio principles, and the Privacy Policy, Terms of Service, and third-party notices for every title.">
+  <meta name="description" content="AFKERIAN INTERACTIVE is an independent studio creating practical apps, thoughtful digital tools, games, and interactive experiences with clear technology and business disclosures.">
   <meta name="theme-color" content="#05070a">
   <meta name="color-scheme" content="dark">
   <title>AFKERIAN INTERACTIVE | Independent Interactive Studio</title>
@@ -15,7 +15,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="AFKERIAN INTERACTIVE">
   <meta property="og:title" content="AFKERIAN INTERACTIVE | Independent Interactive Studio">
-  <meta property="og:description" content="Independent studio making arcade, strategy, and rhythm games, plus utility apps that work without an internet connection. Built to run on your device, not someone else's server.">
+  <meta property="og:description" content="Practical apps, thoughtful digital tools, games, and interactive experiences built with care, clarity, and respect for the people who use them.">
   <meta property="og:url" content="https://afkerianinteractive.github.io/">
   <meta property="og:image" content="https://afkerianinteractive.github.io/assets/og-social-card.jpg">
   <meta property="og:image:width" content="1200">
@@ -25,7 +25,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AFKERIAN INTERACTIVE | Independent Interactive Studio">
-  <meta name="twitter:description" content="Independent studio making arcade, strategy, and rhythm games, plus utility apps that work without an internet connection. Built to run on your device, not someone else's server.">
+  <meta name="twitter:description" content="Practical apps, thoughtful digital tools, games, and interactive experiences built with care, clarity, and respect for the people who use them.">
   <meta name="twitter:image" content="https://afkerianinteractive.github.io/assets/og-social-card.jpg">
 
   <!-- Favicons -->
@@ -36,7 +36,7 @@
 
   <!-- Security & referrer posture (static host; no server headers available on GitHub Pages) -->
   <!-- frame-ancestors is intentionally omitted: it has no effect via <meta> per spec and GitHub Pages does not allow real response headers -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'sha256-R82yLD48lYEb9kG8SfrDL2wtSJgafN2Q2KBjwU5dBF4=' 'sha256-OFsNGAaSlUkQnJdo1n5LQ5Vw4P4eBRcpudnoKPvMAI0='; object-src 'none'; base-uri 'self'; form-action 'none';">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Fonts are self-hosted under assets/fonts (Inter, Space Grotesk, both OFL-1.1). No remote font requests. -->
@@ -51,7 +51,7 @@
     "url": "https://afkerianinteractive.github.io/",
     "logo": "https://afkerianinteractive.github.io/assets/afkerian-logo.png",
     "email": "mailto:afkerian.support@gmail.com",
-    "description": "Independent studio making arcade, strategy, and rhythm games, plus utility apps that work without an internet connection."
+    "description": "Independent studio creating practical apps, thoughtful digital tools, games, and interactive experiences."
   }
   </script>
   <script type="application/ld+json">
@@ -553,6 +553,48 @@
       margin-bottom: var(--sp-2);
     }
     .principle-desc { color: var(--ash-500); font-size: var(--step-0); margin: 0; max-width: 58ch; }
+    .trust-statement {
+      color: var(--ash-300);
+      font-size: var(--step-1);
+      max-width: 62ch;
+      margin-top: var(--sp-3);
+    }
+
+    /* ============================================================
+       PRODUCT SUPPORT - visible business-model disclosure
+       ============================================================ */
+    .support {
+      background: var(--ink-900);
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+    }
+    .support-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: var(--sp-6);
+      align-items: start;
+    }
+    .support-card {
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius-md);
+      background: var(--ink-800);
+      padding: clamp(1.25rem, 3vw, 2rem);
+      box-shadow: var(--shadow-card);
+    }
+    .support-card h3 {
+      font-size: var(--step-2);
+      margin-bottom: var(--sp-4);
+    }
+    .support-card p:last-child { margin-bottom: 0; }
+    .support-note {
+      color: var(--ash-500);
+      font-size: 0.9rem;
+      padding-top: var(--sp-4);
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 720px) {
+      .support-grid { grid-template-columns: 1fr; }
+    }
 
     /* ============================================================
        CONTACT
@@ -594,17 +636,6 @@
     }
     .footer-brand .logo { height: 30px; margin-bottom: var(--sp-3); }
     .footer-brand p { font-size: 0.85rem; color: var(--ash-500); max-width: 32ch; }
-    .jurisdiction-badge {
-      display: inline-block;
-      padding: 5px 11px;
-      border: 1px solid var(--line-strong);
-      border-radius: 100px;
-      font-size: 0.66rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.09em;
-      color: var(--ash-500);
-    }
     .footer-col h3 {
       font-size: 0.72rem;
       font-weight: 700;
@@ -653,6 +684,7 @@
           <li><a href="#work">Work</a></li>
           <li><a href="#studio">Studio</a></li>
           <li><a href="#principles">Principles</a></li>
+          <li><a href="#support">How we keep building</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -664,6 +696,7 @@
             <li><a href="#work">Work</a></li>
             <li><a href="#studio">Studio</a></li>
             <li><a href="#principles">Principles</a></li>
+            <li><a href="#support">How we keep building</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -676,8 +709,8 @@
     <section class="hero">
       <div class="container hero-grid">
         <span class="eyebrow">Independent Studio</span>
-        <h2>Built to run <span class="accent">without the cloud.</span></h2>
-        <p class="hero-lede">AFKERIAN INTERACTIVE makes arcade, strategy, and rhythm games, along with utility apps that work without an internet connection. Every title runs on your device, not someone else's server.</p>
+        <h2>Useful technology. <span class="accent">Honest by design.</span></h2>
+        <p class="hero-lede">AFKERIAN INTERACTIVE is an independent studio creating practical apps, thoughtful digital tools, games and interactive experiences with care, clarity and respect for the people who use them.</p>
         <a href="#work" class="scroll-cue">See the work <span class="arrow" aria-hidden="true">&darr;</span></a>
       </div>
     </section>
@@ -687,7 +720,7 @@
         <div class="section-head">
           <span class="eyebrow">Selected Work</span>
           <h2>Four titles, one foundation.</h2>
-          <p class="section-desc">Arcade, strategy, and rhythm games, plus one utility app. All four are built the same way: designed to run on your device and stay offline whenever possible.</p>
+          <p class="section-desc">Arcade, strategy and rhythm games, plus a practical utility app. Each product explains its features, third-party services and business model in plain language.</p>
         </div>
 
         <div class="portfolio-grid">
@@ -700,12 +733,13 @@
               <div class="portfolio-heading">
                 <img src="assets/qrdecoder_icon.jpg" alt="" class="portfolio-icon" loading="lazy" width="40" height="40">
                 <div>
-                  <p class="portfolio-kicker">Utility &middot; Offline Scanning</p>
+                  <p class="portfolio-kicker">Utility &middot; Local-First Scanning</p>
                   <h3 class="portfolio-title">QR Decoder</h3>
                 </div>
               </div>
-              <p class="portfolio-desc">A scanning toolkit that works without the internet: QR code generation, document capture with text recognition built into the app, ID merging, and batch scanning for inventory work. Nothing is uploaded to a server.</p>
+              <p class="portfolio-desc">A local-first toolkit for QR codes, documents, text recognition, ID workflows and inventory scanning. Core processing runs on the device. Advertising, consent, analytics and crash-reporting services may communicate with Google as explained in the Privacy Policy.</p>
               <div class="portfolio-links">
+                <a href="qr-decoder/">Product Details</a>
                 <a href="qr-decoder/privacy-policy.html">Privacy Policy</a>
                 <a href="qr-decoder/terms-of-service.html">Terms of Service</a>
                 <a href="qr-decoder/third-party-notices.html">Third-Party Notices</a>
@@ -725,7 +759,7 @@
                   <h3 class="portfolio-title">XO Arcade: Infinity Edition</h3>
                 </div>
               </div>
-              <p class="portfolio-desc">A strategy game played on a grid, featuring the studio's own ZERO Protocol AI engine. Everything runs on your phone, with no cloud processing and no user data collected.</p>
+              <p class="portfolio-desc">A strategy game played on a grid, featuring the studio's own ZERO Protocol AI engine. Core gameplay and progress are handled locally; advertising, consent, analytics and crash-reporting services may use network connections.</p>
               <div class="portfolio-links">
                 <a href="xo-arcade/privacy-policy.html">Privacy Policy</a>
                 <a href="xo-arcade/terms-of-service.html">Terms of Service</a>
@@ -746,7 +780,7 @@
                   <h3 class="portfolio-title">Air Strike Arcade</h3>
                 </div>
               </div>
-              <p class="portfolio-desc">A fast neon hockey arcade game built for two players sharing one device. It runs completely offline, with no external servers and nothing sent in the background.</p>
+              <p class="portfolio-desc">A fast neon hockey arcade game built for two players sharing one device. Core gameplay is designed for local play; advertising, consent, analytics and crash-reporting services may use network connections.</p>
               <div class="portfolio-links">
                 <a href="air-strike-arcade/privacy-policy.html">Privacy Policy</a>
                 <a href="air-strike-arcade/terms-of-service.html">Terms of Service</a>
@@ -784,11 +818,12 @@
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Studio</span>
-          <h2>Who we are.</h2>
+          <h2>Useful technology. Honest by design.</h2>
         </div>
         <div class="studio-copy" data-reveal>
-          <p>AFKERIAN INTERACTIVE is an independent studio that builds mobile games and utility apps. Our four titles cover different genres: a grid-based strategy game, a two-player arcade game, a rhythm game, and QR Decoder, a document and scanning utility with text recognition built into the app.</p>
-          <p>Every title follows the same approach: keep core features working on the device itself, collect as little information as possible, and say plainly which third-party services handle things like advertising, analytics, or crash reporting.</p>
+          <p>AFKERIAN INTERACTIVE is an independent studio creating practical apps, thoughtful digital tools, games and interactive experiences with care, clarity and respect for the people who use them.</p>
+          <p>We build tools that solve real problems and experiences that invite curiosity. Our work is guided by a simple idea: technology should help people without asking for blind trust. Every product should explain what it does, why it needs a permission or service, and how it supports its continued development.</p>
+          <p>We want every interaction to feel considered, useful and worthy of your trust. When something changes, our responsibility is to explain it clearly, correct inconsistencies and continue improving.</p>
         </div>
       </div>
     </section>
@@ -798,42 +833,86 @@
         <div class="section-head">
           <span class="eyebrow">Principles</span>
           <h2>How we build.</h2>
+          <p class="trust-statement">Trust is part of the product. We favor local processing for sensitive working content when it is practical, minimize unnecessary data use, explain third-party services plainly and avoid manipulative design. When a product uses network services, advertising, analytics or crash reporting, we say so.</p>
         </div>
         <div class="principles-list">
           <div class="principle" data-reveal>
             <span class="principle-bar" aria-hidden="true"></span>
             <div>
-              <h3 class="principle-title">Creativity</h3>
-              <p class="principle-desc">Strategy, two-player arcade, and rhythm games, all from one studio. We would rather build different things well than repeat one formula four times.</p>
+              <h3 class="principle-title">Respect for people</h3>
+              <p class="principle-desc">Products should respect people's time, attention, work and choices.</p>
             </div>
           </div>
           <div class="principle" data-reveal>
             <span class="principle-bar" aria-hidden="true"></span>
             <div>
-              <h3 class="principle-title">Runs on your device</h3>
-              <p class="principle-desc">Core gameplay and utility features are designed to run directly on your phone, including the document text recognition in QR Decoder, which uses Google ML Kit locally instead of sending images to a server.</p>
+              <h3 class="principle-title">Local-first where verified</h3>
+              <p class="principle-desc">When practical and technically verified, sensitive working content such as scans, documents, OCR output, QR values and barcodes is processed locally. Local-first does not mean that every product is fully offline or has no network services.</p>
             </div>
           </div>
           <div class="principle" data-reveal>
             <span class="principle-bar" aria-hidden="true"></span>
             <div>
-              <h3 class="principle-title">Privacy</h3>
-              <p class="principle-desc">You do not need to create an account, and we do not directly collect your name or address. Anything a third-party SDK processes is explained plainly in each Privacy Policy.</p>
+              <h3 class="principle-title">Data minimization</h3>
+              <p class="principle-desc">We aim to collect or transmit only what an implemented feature or disclosed third-party service needs.</p>
             </div>
           </div>
           <div class="principle" data-reveal>
             <span class="principle-bar" aria-hidden="true"></span>
             <div>
-              <h3 class="principle-title">Performance</h3>
-              <p class="principle-desc">Nothing waits on a network round trip. Scanning, gameplay, and progress all run locally, so there is no live cloud dependency slowing things down.</p>
+              <h3 class="principle-title">Honest disclosure</h3>
+              <p class="principle-desc">We distinguish user-created content from consent communications, advertising, analytics, crash reporting and website hosting.</p>
             </div>
           </div>
           <div class="principle" data-reveal>
             <span class="principle-bar" aria-hidden="true"></span>
             <div>
-              <h3 class="principle-title">Transparency</h3>
-              <p class="principle-desc">Every title publishes its Privacy Policy, Terms, and third-party notices in the open, reachable from this site in a couple of clicks.</p>
+              <h3 class="principle-title">User agency</h3>
+              <p class="principle-desc">Available settings and choices should be easy to find and described without suggesting controls that do not exist.</p>
             </div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="principle-bar" aria-hidden="true"></span>
+            <div>
+              <h3 class="principle-title">Responsible advertising</h3>
+              <p class="principle-desc">Advertising should not interrupt scanning, editing, saving, exporting or the protection of unsaved work.</p>
+            </div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="principle-bar" aria-hidden="true"></span>
+            <div>
+              <h3 class="principle-title">No manipulative design</h3>
+              <p class="principle-desc">We avoid language and interactions that pressure, shame or deceive people into consenting, viewing an ad or changing a privacy choice.</p>
+            </div>
+          </div>
+          <div class="principle" data-reveal>
+            <span class="principle-bar" aria-hidden="true"></span>
+            <div>
+              <h3 class="principle-title">Accessibility and clarity</h3>
+              <p class="principle-desc">Privacy, terms, advertising and third-party information should be readable, understandable and easy to reach.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section support" id="support">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Product Support</span>
+          <h2>How we keep building.</h2>
+          <p class="section-desc">Some of our free products are supported by carefully limited advertising. We believe that tradeoff should be visible and understandable, not hidden in fine print. Each product explains where advertising appears, which third-party services are involved and what choices are available.</p>
+        </div>
+        <div class="support-grid">
+          <div class="support-card" data-reveal>
+            <h3>Different products, clear models</h3>
+            <p>Not every AFKERIAN INTERACTIVE product uses the same business model. Product pages and legal documents describe the model currently implemented for each title.</p>
+          </div>
+          <div class="support-card" data-reveal>
+            <h3>QR Decoder</h3>
+            <p>QR Decoder may show an anchored adaptive banner only on its Home screen, occasional interstitial ads only on eligible module-to-Home exits and a voluntary rewarded ad. Earning the reward provides exactly 60 minutes without banner or interstitial advertising.</p>
+            <p>Ads do not appear while scanning, editing, saving or exporting. Advertising failures do not block navigation or destroy work.</p>
+            <p class="support-note">The 60-minute benefit changes banner and interstitial availability. It does not disable UMP consent services, Firebase Analytics, Firebase Crashlytics, the voluntary rewarded entry point or all network activity. The implementation remains pending owner configuration, regional runtime QA, Google Play disclosure reconciliation and legal review; this is not a claim of production readiness or legal approval.</p>
           </div>
         </div>
       </div>
@@ -857,13 +936,12 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <img src="assets/afkerian-logo.png" alt="AFKERIAN INTERACTIVE" class="logo" width="320" height="294">
-          <p>Independent studio building mobile games and utility apps that work offline.</p>
-          <span class="jurisdiction-badge">Statutory Jurisdiction: Orange County, Florida, USA</span>
+          <p>Independent studio creating practical software, useful digital tools, games and interactive experiences.</p>
         </div>
         <div class="footer-col">
           <h3>Products</h3>
           <ul>
-            <li><a href="qr-decoder/privacy-policy.html">QR Decoder</a></li>
+            <li><a href="qr-decoder/">QR Decoder</a></li>
             <li><a href="xo-arcade/privacy-policy.html">XO Arcade: Infinity Edition</a></li>
             <li><a href="air-strike-arcade/privacy-policy.html">Air Strike Arcade</a></li>
             <li><a href="tap-odyssey/privacy-policy.html">Tap Odyssey</a></li>
