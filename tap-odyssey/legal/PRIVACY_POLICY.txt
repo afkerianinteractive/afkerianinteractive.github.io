@@ -3,17 +3,17 @@ PRIVACY POLICY
 Product: Tap Odyssey
 Document ID: PRIVACY_POLICY
 Language: en-US
-Effective date: 2026-08-15
-Last updated: 2026-07-22
+Effective Date: July 22, 2026
+Last Updated: July 22, 2026
 Version: 2026-07-22
-Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Operator: Jesus Afkerian
 Contact: afkerian.support@gmail.com
 
 1. SCOPE AND OPERATOR
 
-This Privacy Policy explains how Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE ("AFKERIAN INTERACTIVE," "we," "us," or "our"), handles information in connection with Tap Odyssey (the "App"). It applies to the App and related support communications. It does not govern the general AFKERIAN INTERACTIVE website, Google Play, Google services, or other third-party services under their own policies.
+This Privacy Policy explains how Jesus Afkerian ("operator," "I," "me," or "my") handles information in connection with Tap Odyssey (the "Game"). Jesus Afkerian, an individual, publishes and operates the Game. This Policy applies to the Game and related support communications. It does not govern the general website operated by Jesus Afkerian, Google Play, Google services, or other third-party services under their own policies.
 
-The App does not require users to enter a civil name, postal address, contacts, or payment information during normal gameplay. The inspected source contains no AFKERIAN INTERACTIVE account system, first-party gameplay-profile server, in-app purchase system, user-generated-content service, or social-sharing feature. We may nevertheless receive aggregated or event-level information through provider consoles and information you voluntarily send by support email. A support message can include your email address, message, attachments, and any technical or personal information you choose to provide.
+The Game does not require users to enter a civil name, postal address, contacts, or payment information during normal gameplay. The inspected source contains no first-party account system, gameplay-profile server, Google Play Billing integration, real-money in-app purchase or subscription system, user-generated-content service, or social-sharing feature. The Game does include internal virtual items acquired with gameplay coins stored locally; those coins are not purchased for money, have no cash value, and are not transferable. I may nevertheless receive aggregated or event-level information through provider consoles and information you voluntarily send by support email. A support message can include your email address, message, attachments, and any technical or personal information you choose to provide.
 
 2. ADULT AUDIENCE AND PERMITTED TERRITORY
 
@@ -39,7 +39,9 @@ The App is not completely offline. Advertising, privacy messaging, analytics, cr
 5. ADVERTISING AND PRIVACY MESSAGING
 
 The App uses banner, interstitial, and optional rewarded advertising. App Open and native ads were not identified in the inspected source.
-When an eligible rewarded ad is completed, the App may grant the described optional in-game benefit once for that eligible completion. Availability and successful delivery are not guaranteed.
+Completing an eligible rewarded ad can grant one revive exactly once for that eligible completion. Availability and delivery are not guaranteed.
+
+The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
 
 Advertising operations are gated by the App's current UMP authorization state. UMP may request or display a regional message and may expose Privacy Options when Google reports that an option is required. UMP gates advertising only. It does not disable Analytics, Crashlytics, Firebase Installations, Firebase Sessions, every network request, or information already processed.
 
@@ -78,13 +80,13 @@ Diagnostics: collected through Mobile Ads, Crashlytics, and Sessions and shared 
 
 Device or other identifiers: collected through Mobile Ads, Analytics, Crashlytics, and Installations and shared by Mobile Ads. Purposes include advertising, analytics, installation/session measurement, crash management, security, and fraud prevention.
 
-We do not exchange personal information for money. Certain advertising-related transfers can be treated as a "sale," "sharing," or targeted advertising under some laws even without a monetary exchange. During the preceding 12 months, to the extent the App was used with these SDKs active, the categories described above could have been processed for the stated purposes. This retrospective description does not voluntarily assert that any particular state statute or threshold applies.
+I do not exchange personal information for money. Certain advertising-related transfers can be treated as a "sale," "sharing," or targeted advertising under some laws even without a monetary exchange. During the preceding 12 months, to the extent the App was used with these SDKs active, the categories described above could have been processed for the stated purposes. This retrospective description does not voluntarily assert that any particular state statute or threshold applies.
 
 9. REQUIRED OR OPTIONAL; EPHEMERAL STATUS
 
-Core gameplay does not require a first-party account or submission of personal information to us. SDK processing is not treated as ephemeral because advertising, analytics, fraud-prevention, installation, and crash-management records may persist beyond a real-time request.
+Core gameplay does not require a first-party account or submission of personal information to me. SDK processing is not treated as ephemeral because advertising, analytics, fraud-prevention, installation, and crash-management records may persist beyond a real-time request.
 
-The inspected source does not give every user in every region one control that disables every listed SDK category. We therefore cannot represent all SDK collection as optional. UMP, Google controls, and Android advertising settings each have a limited scope.
+The inspected source does not give every user in every region one control that disables every listed SDK category. I therefore cannot represent all SDK collection as optional. UMP, Google controls, and Android advertising settings each have a limited scope.
 
 10. PROVIDERS AND INTERNATIONAL PROCESSING
 
@@ -110,9 +112,9 @@ Support emails are retained only as reasonably needed to respond, keep appropria
 
 12. U.S. STATE PRIVACY RIGHTS AND OTHER CHOICES
 
-Where an applicable U.S. state privacy law covers the operator and the processing at issue, a resident may have rights to know or access, correct, delete, and obtain a portable copy of covered information, and to opt out of processing legally defined as sale, sharing, targeted advertising, or certain profiling. Sensitive-data limits, authorized-agent requests, nondiscrimination protections, and appeal rights apply only where the governing law provides them. Statutory thresholds, exemptions, verification rules, security restrictions, and records lawfully needed for legal claims or compliance remain applicable. We respond within the period required by the law that actually applies and may be unable to locate or control provider-held records without adequate identifiers, legal authority, or technical access.
+Where an applicable U.S. state privacy law covers the operator and the processing at issue, a resident may have rights to know or access, correct, delete, and obtain a portable copy of covered information, and to opt out of processing legally defined as sale, sharing, targeted advertising, or certain profiling. Sensitive-data limits, authorized-agent requests, nondiscrimination protections, and appeal rights apply only where the governing law provides them. Statutory thresholds, exemptions, verification rules, security restrictions, and records lawfully needed for legal claims or compliance remain applicable. I respond within the period required by the law that actually applies and may be unable to locate or control provider-held records without adequate identifiers, legal authority, or technical access.
 
-Email afkerian.support@gmail.com with the subject "Privacy Request: Tap Odyssey". We may request information reasonably necessary to verify the request and locate relevant records, which may include a device, app-instance, installation, crash, advertising, or support-ticket identifier when relevant. An authorized agent may submit a request where applicable law permits, subject to legally permitted verification. We do not discriminate for exercising an applicable privacy right. No financial-incentive or loyalty program was identified in the inspected App. You may also use UMP Privacy Options when displayed, Google controls, and Android advertising settings for the processing those controls actually cover; no one mechanism controls every purpose.
+Email afkerian.support@gmail.com with the subject "Privacy Request: Tap Odyssey". I may request information reasonably necessary to verify the request and locate relevant records, which may include a device, app-instance, installation, crash, advertising, or support-ticket identifier when relevant. An authorized agent may submit a request where applicable law permits, subject to legally permitted verification. I do not discriminate for exercising an applicable privacy right. No program offering money, cash value, or a benefit in exchange for personal information was identified in the inspected Game; ordinary in-game progression and daily-reward mechanics have no verified cash value. You may also use UMP Privacy Options when displayed, Google controls, and Android advertising settings for the processing those controls actually cover; no one mechanism controls every purpose.
 
 Depending on another applicable law and its scope, thresholds, and exemptions, a person may have other rights concerning processing. Rights are not identical everywhere, and this Policy does not claim that a held or excluded market is authorized.
 
@@ -120,11 +122,11 @@ Depending on another applicable law and its scope, thresholds, and exemptions, a
 
 The operator does not intentionally solicit direct submissions from minors through normal gameplay. A person under 18, below the applicable local age of majority, or otherwise lacking contractual capacity is not authorized to use the App. Because the App does not independently verify age and the identified SDKs automatically process technical information, processing could occur if a minor uses the App contrary to its intended audience and Terms.
 
-A parent or guardian may contact afkerian.support@gmail.com if they believe information associated with a minor has been processed. Any action depends on reasonable verification and our legal and technical ability to identify, access, control, or direct deletion of the information.
+A parent or guardian may contact afkerian.support@gmail.com if they believe information associated with a minor has been processed. Any action depends on reasonable verification and my legal and technical ability to identify, access, control, or direct deletion of the information.
 
 14. SECURITY
 
-We use reasonable measures appropriate to the limited first-party information handled. Google describes encryption in transit for the Mobile Ads and Analytics data identified above. No transmission, software, device, or storage method is completely secure, and we do not guarantee absolute security.
+I use reasonable measures appropriate to the limited first-party information handled. Google describes encryption in transit for the Mobile Ads and Analytics data identified above. No transmission, software, device, or storage method is completely secure, and I do not guarantee absolute security.
 
 15. LEGAL DISCLOSURES
 
@@ -132,11 +134,10 @@ Information may be preserved or disclosed when reasonably necessary to comply wi
 
 16. CHANGES
 
-We may update this Policy when the App, providers, practices, or legal requirements change. Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A material new purpose is not authorized merely because the App remains installed.
+I may update this Policy when the App, providers, practices, or legal requirements change. Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A material new purpose is not authorized merely because the App remains installed.
 
 17. CONTACT
 
 Jesus Afkerian
-publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
 Website: https://afkerianinteractive.github.io/

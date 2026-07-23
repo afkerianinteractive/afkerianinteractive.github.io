@@ -1,6 +1,6 @@
-# GEMINI.md — AFKERIAN INTERACTIVE public website (Gemini / Antigravity executor)
+# GEMINI.md — Jesus Afkerian public website (Gemini / Antigravity executor)
 
-This repository is the **AFKERIAN INTERACTIVE public website** — a static HTML5 + CSS site
+This repository is the **Jesus Afkerian public website** — a static HTML5 + CSS site
 (no JavaScript framework, no build tooling) served via GitHub Pages. `CLAUDE.md` holds the
 full project brief; Gemini should read it for stack, roles, and hard version-control limits.
 

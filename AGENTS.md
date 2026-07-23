@@ -1,6 +1,6 @@
-# AGENTS.md — AFKERIAN INTERACTIVE public website (Codex executor)
+# AGENTS.md — Jesus Afkerian public website (Codex executor)
 
-This repository is the **AFKERIAN INTERACTIVE public website** — a static HTML5 + CSS site
+This repository is the **Jesus Afkerian public website** — a static HTML5 + CSS site
 (no JavaScript framework, no build tooling) served via GitHub Pages. `CLAUDE.md` holds the
 full project brief; Codex should read it for stack, roles, and hard version-control limits.
 

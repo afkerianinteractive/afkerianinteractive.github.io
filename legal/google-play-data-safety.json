@@ -15,6 +15,7 @@
         "interstitial"
       ],
       "rewarded_behavior": "none",
+      "google_play_billing": "No Google Play Billing integration, paid-app flow, real-money in-app purchase, or subscription system was identified in the inspected source or resolved dependencies.",
       "data_safety": [
         {
           "type": "Approximate Location",
@@ -96,6 +97,7 @@
         "interstitial"
       ],
       "rewarded_behavior": "none",
+      "google_play_billing": "No Google Play Billing integration, paid-app flow, real-money in-app purchase, or subscription system was identified in the inspected source or resolved dependencies.",
       "data_safety": [
         {
           "type": "Approximate Location",
@@ -177,7 +179,9 @@
         "interstitial",
         "optional rewarded"
       ],
-      "rewarded_behavior": "one optional in-game benefit per eligible completed rewarded ad",
+      "rewarded_behavior": "one revive exactly once per eligible completed rewarded ad; availability and delivery are not guaranteed",
+      "google_play_billing": "No Google Play Billing integration, paid-app flow, real-money in-app purchase, or subscription system was identified in the inspected source or resolved dependencies.",
+      "local_virtual_economy": "Internal virtual items can be acquired with gameplay coins stored locally. No path to buy those coins for money was identified; they have no verified cash value or transfer mechanism.",
       "data_safety": [
         {
           "type": "Approximate Location",
@@ -254,4 +258,3 @@
     }
   ]
 }
-

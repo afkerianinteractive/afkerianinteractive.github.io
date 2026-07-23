@@ -3,17 +3,17 @@ TERMS OF SERVICE
 Product: XO Arcade: Infinity Edition
 Document ID: TERMS_OF_SERVICE
 Language: en-US
-Effective date: 2026-08-15
-Last updated: 2026-07-22
+Effective Date: July 22, 2026
+Last Updated: July 22, 2026
 Version: 2026-07-22
-Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Operator: Jesus Afkerian
 Contact: afkerian.support@gmail.com
 
 1. CONTRACT AND OPERATOR
 
-These Terms of Service ("Terms") govern XO Arcade: Infinity Edition (the "App"). They form an agreement between you and Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE ("AFKERIAN INTERACTIVE," "we," "us," or "our").
+These Terms of Service ("Terms") govern XO Arcade: Infinity Edition (the "Game"). They form an agreement between you and Jesus Afkerian ("operator," "I," "me," or "my"). Jesus Afkerian, an individual, publishes and operates the Game.
 
-If you disagree, do not download, install, access, or use the App. If it is installed, stop using and uninstall it. To the maximum extent permitted by law, downloading, installing, accessing, or using after these Terms and a reasonably conspicuous notice are made available manifests agreement. This does not guarantee enforceability in every circumstance.
+If you disagree, do not download, install, access, or use the Game. If it is installed, stop using and uninstall it. To the maximum extent permitted by law, downloading, installing, accessing, or using after these Terms and a reasonably conspicuous notice are made available manifests agreement. Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law. This does not guarantee enforceability in every circumstance.
 
 2. ADULT ELIGIBILITY
 
@@ -30,24 +30,26 @@ Public access to the App website or documents does not authorize use elsewhere. 
 
 4. LIMITED LICENSE
 
-Subject to these Terms and law, we grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the App on a compatible device for lawful, noncommercial entertainment.
+Subject to these Terms and law, I grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the App on a compatible device for lawful, noncommercial entertainment.
 
 The App is licensed, not sold. No ownership in the App, brand, code, audiovisual content, or other materials transfers to you. Third-party materials remain subject to their licenses and notices.
 
 5. APP FUNCTION, LOCAL DATA, AND BACKUPS
 
-Core gameplay, game progress, and settings are handled primarily on the device. Local information may include progress, scores, preferences, and ordinary game state. It may be lost through uninstall, clear-data actions, corruption, device loss, updates, incompatibility, or operating-system behavior. Android backup or transfer may copy or restore supported preferences depending on settings. We do not guarantee backup, synchronization, restoration, or recovery.
+Core gameplay, game progress, and settings are handled primarily on the device. Local information may include progress, scores, preferences, and ordinary game state. It may be lost through uninstall, clear-data actions, corruption, device loss, updates, incompatibility, or operating-system behavior. Android backup or transfer may copy or restore supported preferences depending on settings. I do not guarantee backup, synchronization, restoration, or recovery.
 
 Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud prevention use network connections. The App is not completely offline.
 
-No account, subscription, or in-app purchase system was identified in the inspected App. These Terms do not create purchase or refund rights for a transaction that does not exist, without limiting rights arising from any separate transaction or mandatory law.
+No first-party account system, Google Play Billing integration, real-money in-app purchase, or subscription system was identified in the inspected Game. These Terms do not create purchase or refund rights for a transaction that does not exist, without limiting rights arising from any separate transaction or mandatory law.
 
 6. ADVERTISING
 
 The App uses banner and interstitial advertising. Rewarded, App Open, and native ads were not identified in the inspected source.
 
+The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
 
-Ads and privacy messages use Google services. Availability, content, suitability, timing, measurement, and delivery can depend on region, device, network, provider systems, user choices, and publisher or provider configuration. We do not guarantee any ad or reward. In the inspected implementation, ad failure does not block ordinary gameplay continuation.
+
+Ads and privacy messages use Google services. Availability, content, suitability, timing, measurement, and delivery can depend on region, device, network, provider systems, user choices, and publisher or provider configuration. I do not guarantee any ad or reward. In the inspected implementation, ad failure does not block ordinary gameplay continuation.
 
 You may not manipulate ads, consent signals, impressions, clicks, rewards, identifiers, measurement, frequency controls, or anti-fraud systems.
 
@@ -71,11 +73,11 @@ https://afkerianinteractive.github.io/xo-arcade/third-party-notices.html
 
 10. UPDATES AND AVAILABILITY
 
-We may correct, update, change, suspend, or discontinue the App or a feature when reasonably necessary. We do not promise permanent availability of the App, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
+I may correct, update, change, suspend, or discontinue the App or a feature when reasonably necessary. I do not promise permanent availability of the App, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
 
 11. THIRD-PARTY SERVICES
 
-Google Play, Google, advertising, analytics and crash providers, device manufacturers, network operators, and linked resources operate under separate terms. We do not control their independent systems or promise their availability or conduct. A link does not imply endorsement or partnership.
+Google Play, Google, advertising, analytics and crash providers, device manufacturers, network operators, and linked resources operate under separate terms. I do not control their independent systems or promise their availability or conduct. A link does not imply endorsement or partnership.
 
 12. EXPORT CONTROLS AND SANCTIONS
 
@@ -83,31 +85,31 @@ You may not download, access, export, reexport, transfer, or use the App in viol
 
 13. SUPPORT AND FEEDBACK
 
-Support is offered at our discretion through afkerian.support@gmail.com. Do not send sensitive information unless reasonably necessary. If you submit feedback, you permit us to use it without restriction or payment, while retaining rights you already hold. This does not authorize use of confidential or third-party material.
+Support is offered at my discretion through afkerian.support@gmail.com. Do not send sensitive information unless reasonably necessary. If you submit feedback, you permit me to use it without restriction or payment, while retaining rights you already hold. This does not authorize use of confidential or third-party material.
 
 14. SUSPENSION AND TERMINATION
 
-Your license ends automatically if you materially breach these Terms. We may suspend or terminate access we control when reasonably necessary for unlawful conduct, security, abuse, provider requirements, or discontinuation. On termination, stop using and uninstall. Provisions that should survive by nature will survive.
+Your license ends automatically if you materially breach these Terms. I may suspend or terminate access I control when reasonably necessary for unlawful conduct, security, abuse, provider requirements, or discontinuation. On termination, stop using and uninstall. Provisions that should survive by nature will survive.
 
 15. DISCLAIMERS
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." WE DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." I DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
 
-We do not warrant preservation of progress, correction of defects, or continuing availability of services, ads, rewards, updates, or content. Nonwaivable warranties and consumer rights remain unaffected.
+I do not warrant preservation of progress, correction of defects, or continuing availability of services, ads, rewards, updates, or content. Nonwaivable warranties and consumer rights remain unaffected.
 
 16. LIMITATION OF LIABILITY
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN, AFKERIAN INTERACTIVE, AND THEIR APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROGRESS, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN AND HIS APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROGRESS, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THEIR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APP DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, HIS TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APP DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
 
 Nothing excludes or limits liability for fraud or fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, statutory privacy or consumer remedies, or other liability that cannot lawfully be excluded or limited.
 
 17. NARROW INDEMNITY
 
-To the extent permitted by law, you will indemnify Jesus Afkerian and AFKERIAN INTERACTIVE against third-party claims and direct losses to the extent caused by your unlawful use, material breach, infringement of a third party's rights, or malicious interference.
+To the extent permitted by law, you will indemnify Jesus Afkerian against third-party claims and direct losses to the extent caused by your unlawful use, material breach, infringement of a third party's rights, or malicious interference.
 
-This is subject to causation, reasonable mitigation, prompt notice where practicable, and your reasonable control of the defense with qualified counsel, while allowing our participation at our expense. It excludes losses caused by our fraud, willful misconduct, gross negligence where nonwaivable, or other conduct for which indemnity cannot lawfully be required.
+This is subject to causation, reasonable mitigation, prompt notice where practicable, and your reasonable control of the defense with qualified counsel, while allowing my participation at my expense. It excludes losses caused by my fraud, willful misconduct, gross negligence where nonwaivable, or other conduct for which indemnity cannot lawfully be required.
 
 18. MANDATORY RIGHTS
 
@@ -121,17 +123,16 @@ These Terms contain no mandatory arbitration agreement, arbitration delegation, 
 
 20. CHANGES
 
-We may update these Terms prospectively. Material changes will be made reasonably conspicuous and identify an effective date. Continued access or use after that notice and date manifests agreement to the maximum extent permitted by law. Merely retaining the App installed, without access or use, is not agreement.
+I may update these Terms prospectively. Material changes will be made reasonably conspicuous and identify an effective date. Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law.
 
 If you disagree, stop using and uninstall before updated Terms take effect.
 
 21. GENERAL
 
-If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; we may assign them with a lawful transfer of the App or related rights, subject to mandatory law. Neither these Terms nor App use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. We are not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the App without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
+If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; I may assign them with a lawful transfer of the App or related rights, subject to mandatory law. Neither these Terms nor App use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. I am not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the App without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
 
 22. CONTACT
 
 Jesus Afkerian
-publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
 Website: https://afkerianinteractive.github.io/

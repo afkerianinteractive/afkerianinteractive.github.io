@@ -1,7 +1,7 @@
-# CLAUDE.md — AFKERIAN INTERACTIVE public website
+# CLAUDE.md — Jesus Afkerian public website
 
 ## Project
-This repository is the **AFKERIAN INTERACTIVE public website** (the AFK Games Studio
+This repository is the **Jesus Afkerian public website** (the website
 public/statutory site: landing page plus per-app legal assets such as privacy policies,
 terms, and developer verification). It is a **static site**.
 

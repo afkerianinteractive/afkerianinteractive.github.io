@@ -1,4 +1,4 @@
-# AFKERIAN INTERACTIVE — website project-local Codex MCP configuration.
+# Jesus Afkerian — website project-local Codex MCP configuration.
 # Scope: this repository only. The global ~/.codex/config.toml (Android/Unity/Afker
 # tooling such as node_repl and jetbrains-android-studio) is NOT modified by this file.
 # No credentials are stored in the repository.

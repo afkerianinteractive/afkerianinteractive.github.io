@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate and compare AFKERIAN INTERACTIVE canonical legal TXT files.
+"""Validate and compare Jesus Afkerian canonical legal TXT files.
 
 Normalization is intentionally narrow:
 1. remove one optional UTF-8 BOM;
@@ -45,6 +45,16 @@ CORE_IDS = {
     "WEBSITE_TERMS_OF_SERVICE",
     "PERMITTED_TERRITORY",
 }
+DISPLAY_DATES = {
+    "2026-07-22": {
+        "en-US": "July 22, 2026",
+        "es-419": "22 de julio de 2026",
+    }
+}
+LEGACY_PUBLIC_IDENTITIES = re.compile(
+    r"\b(?:AFKERIAN\s+INTERACTIVE|AFK\s+GAMES\s+STUDIO|JAfkerian)\b",
+    flags=re.I,
+)
 
 
 def load_json(path: Path) -> Any:
@@ -192,6 +202,17 @@ def validate() -> int:
 
     if manifest.get("schema_version") != 1:
         errors.append("manifest schema_version must be 1")
+    if manifest.get("operator") != {
+        "legal_name": "Jesus Afkerian",
+        "publishing_name": "Jesus Afkerian",
+        "contact": "afkerian.support@gmail.com",
+    }:
+        errors.append("manifest operator identity must identify only Jesus Afkerian")
+    if len(manifest.get("documents", [])) != 38:
+        errors.append(
+            f"manifest expected 38 canonical TXT documents, "
+            f"found {len(manifest.get('documents', []))}"
+        )
 
     for entry in manifest.get("documents", []):
         identity = (entry["product_id"], entry["document_id"], entry["language"])
@@ -253,10 +274,10 @@ def validate() -> int:
             declared_language = metadata_value(content, language, "Language", "Idioma")
             declared_version = metadata_value(content, language, "Version", "Versión")
             declared_effective = metadata_value(
-                content, language, "Effective date", "Fecha de entrada en vigor"
+                content, language, "Effective Date", "Fecha efectiva"
             )
             declared_updated = metadata_value(
-                content, language, "Last updated", "Última actualización"
+                content, language, "Last Updated", "Última actualización"
             )
             expected_language = language
             if declared_language != expected_language:
@@ -266,10 +287,85 @@ def validate() -> int:
                 )
             if declared_version != entry["version"]:
                 errors.append(f"{canonical}: version metadata mismatch")
-            if declared_effective != entry["effective_date"]:
+            expected_display = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
+            if expected_display is None:
+                errors.append(
+                    f"{canonical}: no localized display date for {entry['effective_date']!r}"
+                )
+            if declared_effective != expected_display:
                 errors.append(f"{canonical}: effective-date metadata mismatch")
-            if declared_updated != entry["last_updated"]:
+            expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
+            if declared_updated != expected_updated:
                 errors.append(f"{canonical}: last-updated metadata mismatch")
+            if LEGACY_PUBLIC_IDENTITIES.search(content):
+                errors.append(f"{canonical}: legacy public identity in first-party text")
+            if entry["product_id"] in {
+                "xo-arcade",
+                "air-strike-arcade",
+                "tap-odyssey",
+            }:
+                if language == "en-US" and entry["document_id"] in {
+                    "PRIVACY_POLICY",
+                    "TERMS_OF_SERVICE",
+                    "THIRD_PARTY_NOTICES",
+                }:
+                    identity_sentence = (
+                        "Jesus Afkerian, an individual, publishes and operates the Game."
+                    )
+                    if identity_sentence not in content:
+                        errors.append(f"{canonical}: missing exact individual operator statement")
+                if language == "es-419" and entry["document_id"] in {
+                    "PRIVACY_POLICY",
+                    "TERMS_OF_SERVICE",
+                    "THIRD_PARTY_NOTICES",
+                }:
+                    identity_sentence = (
+                        "Jesus Afkerian, persona física, publica y opera el Juego."
+                    )
+                    if identity_sentence not in content:
+                        errors.append(f"{canonical}: falta declaración exacta de operador")
+                if language == "en-US" and entry["document_id"] in {
+                    "PRIVACY_POLICY",
+                    "TERMS_OF_SERVICE",
+                }:
+                    monetization = (
+                        "The Game is currently offered without a purchase price and is "
+                        "supported by advertising. Jesus Afkerian may receive advertising "
+                        "revenue through Google AdMob. Advertising revenue is not an amount "
+                        "paid by the user."
+                    )
+                    if monetization not in content:
+                        errors.append(f"{canonical}: missing exact monetization statement")
+                if language == "es-419" and entry["document_id"] in {
+                    "PRIVACY_POLICY",
+                    "TERMS_OF_SERVICE",
+                }:
+                    monetization = (
+                        "El Juego se ofrece actualmente sin precio de compra y se financia "
+                        "mediante publicidad. Jesus Afkerian puede recibir ingresos "
+                        "publicitarios a través de Google AdMob. Los ingresos publicitarios "
+                        "no son una cantidad pagada por el usuario."
+                    )
+                    if monetization not in content:
+                        errors.append(f"{canonical}: falta declaración de monetización")
+                if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
+                    assent = (
+                        "Publication alone, silence, inaction, or keeping the Game installed "
+                        "does not constitute acceptance of updated Terms. Continued access or "
+                        "use after reasonably conspicuous notice and the stated effective date "
+                        "is the conduct relied upon as assent, to the maximum extent permitted "
+                        "by law."
+                    )
+                    if assent not in content:
+                        errors.append(f"{canonical}: missing exact updated-Terms assent language")
+                if language == "en-US" and entry["document_id"] == "THIRD_PARTY_NOTICES":
+                    records = (
+                        "Jesus Afkerian maintains private purchase, subscription, license, "
+                        "or provenance records for the third-party materials identified in "
+                        "this notice, where applicable."
+                    )
+                    if records not in content:
+                        errors.append(f"{canonical}: missing private provenance-record statement")
 
             if entry.get("requires_bilingual"):
                 bilingual.setdefault(
@@ -358,6 +454,22 @@ def validate() -> int:
         errors.append(f"untracked canonical TXT: {path}")
     for path in sorted(tracked - actual):
         errors.append(f"manifest points to absent TXT: {path}")
+
+    canonical_routes = [
+        entry["html_route"]
+        for entry in manifest["documents"]
+        if entry.get("html_route")
+    ]
+    alias_routes = [
+        alias
+        for entry in manifest["documents"]
+        for alias in entry.get("aliases", [])
+    ]
+    if len(canonical_routes) != 36 or len(alias_routes) != 3:
+        errors.append(
+            "legal route inventory must contain 36 canonical routes and 3 aliases "
+            f"(found {len(canonical_routes)} and {len(alias_routes)})"
+        )
 
     duplicate_names = [
         path.relative_to(ROOT).as_posix()
@@ -452,6 +564,31 @@ def validate() -> int:
         for label, pattern in forbidden_patterns.items():
             if re.search(pattern, content):
                 errors.append(f"{path.relative_to(ROOT).as_posix()}: {label}")
+        if path.suffix.lower() == ".html" and LEGACY_PUBLIC_IDENTITIES.search(content):
+            errors.append(
+                f"{path.relative_to(ROOT).as_posix()}: legacy public identity in HTML"
+            )
+
+    home_html = (ROOT / "index.html").read_text(encoding="utf-8")
+    json_ld_blocks = re.findall(
+        r'<script\s+type="application/ld\+json">\s*(.*?)\s*</script>',
+        home_html,
+        flags=re.I | re.S,
+    )
+    if len(json_ld_blocks) != 1:
+        errors.append(f"index.html must expose exactly one JSON-LD block, found {len(json_ld_blocks)}")
+    else:
+        try:
+            json_ld = json.loads(json_ld_blocks[0])
+        except json.JSONDecodeError as exc:
+            errors.append(f"index.html JSON-LD is invalid: {exc}")
+        else:
+            if json_ld.get("@type") != "Person" or json_ld.get("name") != "Jesus Afkerian":
+                errors.append("index.html JSON-LD must identify Jesus Afkerian as Person")
+            if "alternateName" in json_ld:
+                errors.append("index.html JSON-LD must not expose a commercial alternate name")
+    if re.search(r'"@type"\s*:\s*"Organization"', home_html):
+        errors.append("index.html must not expose Organization JSON-LD")
 
     if QR_BASELINE_PATH.is_file():
         baseline = load_json(QR_BASELINE_PATH)
@@ -482,7 +619,8 @@ def validate() -> int:
         return 1
     print(
         f"Validation passed: {len(manifest['documents'])} canonical TXT documents, "
-        f"{len(seen_identity)} unique identities."
+        f"{len(seen_identity)} unique identities, "
+        f"{len(canonical_routes) + len(alias_routes)} legal routes."
     )
     return 0
 

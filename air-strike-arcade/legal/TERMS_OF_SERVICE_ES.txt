@@ -3,17 +3,17 @@ TÉRMINOS DEL SERVICIO
 Producto: Air Strike Arcade
 ID del documento: TERMS_OF_SERVICE
 Idioma: es-419
-Fecha de entrada en vigor: 2026-08-15
-Última actualización: 2026-07-22
+Fecha efectiva: 22 de julio de 2026
+Última actualización: 22 de julio de 2026
 Versión: 2026-07-22
-Operador: Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE
+Operador: Jesus Afkerian
 Contacto: afkerian.support@gmail.com
 
 1. CONTRATO Y OPERADOR
 
-Estos Términos del Servicio («Términos») rigen Air Strike Arcade (la «App»). Constituyen un acuerdo entre tú y Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE («AFKERIAN INTERACTIVE», «nosotros» o «nuestro»).
+Estos Términos del Servicio («Términos») rigen Air Strike Arcade (el «Juego»). Constituyen un acuerdo entre tú y Jesus Afkerian («operador», «yo» o «mi»). Jesus Afkerian, persona física, publica y opera el Juego.
 
-Si no estás de acuerdo, no descargues, instales, accedas ni uses. Si ya está instalada, deja de usar y desinstala. En la máxima medida permitida, descargar, instalar, acceder o usar después de que estos Términos y un aviso razonablemente visible estén disponibles manifiesta aceptación. Esto no garantiza exigibilidad en toda circunstancia.
+Si no estás de acuerdo, no descargues, instales, accedas ni uses el Juego. Si ya está instalado, deja de usarlo y desinstálalo. En la máxima medida permitida por la ley, descargar, instalar, acceder o usar después de que estos Términos y un aviso razonablemente visible estén disponibles manifiesta aceptación. La mera publicación, el silencio, la inacción o mantener el Juego instalado no constituyen aceptación de Términos actualizados. El acceso o uso continuado después de un aviso razonablemente visible y de la fecha efectiva indicada es la conducta en la que se basa la aceptación, en la máxima medida permitida por la ley. Esto no garantiza exigibilidad en toda circunstancia.
 
 2. ELEGIBILIDAD ADULTA
 
@@ -30,24 +30,25 @@ El acceso público al sitio o documentos no autoriza el uso en otro lugar. La di
 
 4. LICENCIA LIMITADA
 
-Sujeto a estos Términos y la ley, otorgamos a una persona elegible dentro del Territorio una licencia limitada, personal, revocable, no exclusiva, intransferible y no sublicenciable para instalar y usar en un dispositivo compatible con fines lícitos, personales y no comerciales.
+Sujeto a estos Términos y la ley, otorgo a una persona elegible dentro del Territorio una licencia limitada, personal, revocable, no exclusiva, intransferible y no sublicenciable para instalar y usar en un dispositivo compatible con fines lícitos, personales y no comerciales.
 
 La App se licencia, no se vende. No se transfiere propiedad sobre App, marca, código, contenido audiovisual ni materiales. Los terceros siguen sujetos a sus licencias y avisos.
 
 5. FUNCIÓN, DATOS LOCALES Y COPIAS
 
-La jugabilidad principal y los ajustes se gestionan principalmente en el dispositivo. Puede incluir progreso, puntuaciones, preferencias y estado del juego. Puede perderse por desinstalación, borrado, corrupción, pérdida, actualización, incompatibilidad o sistema. Copias o transferencias de Android pueden copiar o restaurar preferencias según ajustes. No garantizamos copia, sincronización, restauración ni recuperación.
+La jugabilidad principal y los ajustes se gestionan principalmente en el dispositivo. Puede incluir progreso, puntuaciones, preferencias y estado del juego. Puede perderse por desinstalación, borrado, corrupción, pérdida, actualización, incompatibilidad o sistema. Copias o transferencias de Android pueden copiar o restaurar preferencias según ajustes. No garantizo copia, sincronización, restauración ni recuperación.
 
 Publicidad, mensajes de privacidad, análisis, fallos, medición, seguridad y fraude usan red. La App no es totalmente offline.
 
-No se identificó un sistema de cuentas, suscripciones o compras dentro de la App inspeccionada. Estos Términos no crean derechos de compra o reembolso para una transacción inexistente, sin limitar derechos nacidos de otra transacción o de la ley obligatoria.
+No se identificó en el Juego inspeccionado un sistema propio de cuentas, integración de Google Play Billing, compras dentro de la App con dinero real ni suscripciones. Estos Términos no crean derechos de compra o reembolso para una transacción inexistente, sin limitar derechos nacidos de otra transacción o de la ley obligatoria.
 
 6. PUBLICIDAD
 
 La App usa anuncios de banner e intersticiales. No se identificaron anuncios recompensados, App Open ni nativos en el código inspeccionado.
 
+El Juego se ofrece actualmente sin precio de compra y se financia mediante publicidad. Jesus Afkerian puede recibir ingresos publicitarios a través de Google AdMob. Los ingresos publicitarios no son una cantidad pagada por el usuario.
 
-Los anuncios y mensajes usan Google. Disponibilidad, contenido, idoneidad, momento, medición y entrega dependen de región, dispositivo, red, proveedor, elecciones y configuración del publicador o proveedor. No garantizamos anuncios ni recompensas. En lo inspeccionado, el fallo no impide continuar normalmente.
+Los anuncios y mensajes usan Google. Disponibilidad, contenido, idoneidad, momento, medición y entrega dependen de región, dispositivo, red, proveedor, elecciones y configuración del publicador o proveedor. No garantizo anuncios ni recompensas. En lo inspeccionado, el fallo no impide continuar normalmente.
 
 No puedes manipular anuncios, señales, impresiones, clics, recompensas, identificadores, medición, frecuencia ni antifraude.
 
@@ -71,11 +72,11 @@ https://afkerianinteractive.github.io/air-strike-arcade/third-party-notices-es.h
 
 10. ACTUALIZACIONES Y DISPONIBILIDAD
 
-Podemos corregir, actualizar, cambiar, suspender o discontinuar la App o una función cuando sea razonable. No prometemos disponibilidad permanente de App, anuncios, recompensas, red, contenido, actualizaciones, compatibilidad o soporte. Puede exigirse actualizar. Los derechos obligatorios permanecen.
+Puedo corregir, actualizar, cambiar, suspender o discontinuar la App o una función cuando sea razonable. No prometo disponibilidad permanente de App, anuncios, recompensas, red, contenido, actualizaciones, compatibilidad o soporte. Puede exigirse actualizar. Los derechos obligatorios permanecen.
 
 11. SERVICIOS DE TERCEROS
 
-Google Play, Google, proveedores, fabricantes, redes y recursos enlazados operan bajo términos propios. No controlamos sus sistemas ni prometemos disponibilidad o conducta. Un enlace no implica respaldo ni sociedad.
+Google Play, Google, proveedores, fabricantes, redes y recursos enlazados operan bajo términos propios. No controlo sus sistemas ni prometo disponibilidad o conducta. Un enlace no implica respaldo ni sociedad.
 
 12. CONTROLES DE EXPORTACIÓN Y SANCIONES
 
@@ -87,17 +88,17 @@ El soporte se ofrece a discreción en afkerian.support@gmail.com. No envíes inf
 
 14. SUSPENSIÓN Y TERMINACIÓN
 
-La licencia termina automáticamente por incumplimiento material. Podemos suspender o terminar acceso bajo nuestro control por conducta ilícita, seguridad, abuso, exigencias de proveedor o discontinuación. Al terminar, deja de usar y desinstala. Sobreviven las cláusulas que deban hacerlo por naturaleza.
+La licencia termina automáticamente por incumplimiento material. Puedo suspender o terminar acceso bajo mi control por conducta ilícita, seguridad, abuso, exigencias de proveedor o discontinuación. Al terminar, deja de usar y desinstala. Sobreviven las cláusulas que deban hacerlo por naturaleza.
 
 15. EXCLUSIONES DE GARANTÍAS
 
-EN LA MÁXIMA MEDIDA PERMITIDA, LA APP SE OFRECE «TAL CUAL», «SEGÚN DISPONIBILIDAD» Y «CON TODOS SUS DEFECTOS». EXCLUIMOS GARANTÍAS EXPRESAS, IMPLÍCITAS Y LEGALES, INCLUIDAS COMERCIABILIDAD, IDONEIDAD, TÍTULO, NO INFRACCIÓN, DISFRUTE PACÍFICO, EXACTITUD, SEGURIDAD Y FUNCIONAMIENTO ININTERRUMPIDO O SIN ERRORES.
+EN LA MÁXIMA MEDIDA PERMITIDA, LA APP SE OFRECE «TAL CUAL», «SEGÚN DISPONIBILIDAD» Y «CON TODOS SUS DEFECTOS». EXCLUYO GARANTÍAS EXPRESAS, IMPLÍCITAS Y LEGALES, INCLUIDAS COMERCIABILIDAD, IDONEIDAD, TÍTULO, NO INFRACCIÓN, DISFRUTE PACÍFICO, EXACTITUD, SEGURIDAD Y FUNCIONAMIENTO ININTERRUMPIDO O SIN ERRORES.
 
-No garantizamos progreso, corrección de defectos ni disponibilidad de servicios, anuncios, recompensas, actualizaciones o contenido. Los derechos no renunciables permanecen.
+No garantizo progreso, corrección de defectos ni disponibilidad de servicios, anuncios, recompensas, actualizaciones o contenido. Los derechos no renunciables permanecen.
 
 16. LIMITACIÓN DE RESPONSABILIDAD
 
-EN LA MÁXIMA MEDIDA PERMITIDA, JESUS AFKERIAN, AFKERIAN INTERACTIVE Y SUS LICENCIANTES Y PROVEEDORES DE SERVICIOS APLICABLES NO RESPONDERÁN POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI PÉRDIDA DE DATOS, PROGRESO, BENEFICIOS, INGRESOS, REPUTACIÓN, OPORTUNIDADES O USO DEL DISPOSITIVO, CUALQUIERA QUE SEA LA TEORÍA, INCLUIDOS CONTRATO, RESPONSABILIDAD EXTRACONTRACTUAL, NEGLIGENCIA, RESPONSABILIDAD OBJETIVA O LEY. ESTA EXCLUSIÓN SE APLICA AUNQUE SE HUBIERA ADVERTIDO LA POSIBILIDAD Y AUNQUE UN REMEDIO LIMITADO FRACASE EN SU FINALIDAD ESENCIAL, EN LA MEDIDA LÍCITA.
+EN LA MÁXIMA MEDIDA PERMITIDA, JESUS AFKERIAN Y SUS LICENCIANTES Y PROVEEDORES DE SERVICIOS APLICABLES NO RESPONDERÁN POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI PÉRDIDA DE DATOS, PROGRESO, BENEFICIOS, INGRESOS, REPUTACIÓN, OPORTUNIDADES O USO DEL DISPOSITIVO, CUALQUIERA QUE SEA LA TEORÍA, INCLUIDOS CONTRATO, RESPONSABILIDAD EXTRACONTRACTUAL, NEGLIGENCIA, RESPONSABILIDAD OBJETIVA O LEY. ESTA EXCLUSIÓN SE APLICA AUNQUE SE HUBIERA ADVERTIDO LA POSIBILIDAD Y AUNQUE UN REMEDIO LIMITADO FRACASE EN SU FINALIDAD ESENCIAL, EN LA MEDIDA LÍCITA.
 
 EN LA MÁXIMA MEDIDA PERMITIDA, SU RESPONSABILIDAD TOTAL AGREGADA POR TODAS LAS RECLAMACIONES, HECHOS, TEORÍAS, DISPOSITIVOS, DAÑOS Y REPARACIONES RELACIONADAS CON LA APP O ESTOS TÉRMINOS NO SUPERARÁ EL MAYOR ENTRE: (A) LO QUE REALMENTE PAGASTE DIRECTAMENTE A JESUS AFKERIAN POR LA APP DURANTE LOS 12 MESES ANTERIORES AL HECHO; O (B) USD 100. LOS INGRESOS PUBLICITARIOS NO SON PAGOS TUYOS. ES UN ÚNICO LÍMITE AGREGADO, NO POR RECLAMACIÓN, HECHO, TEORÍA, DISPOSITIVO, ANUNCIO, DOCUMENTO O DEMANDADO.
 
@@ -105,9 +106,9 @@ Nada excluye o limita fraude o declaración fraudulenta, dolo, muerte o lesión,
 
 17. INDEMNIZACIÓN LIMITADA
 
-En la medida permitida, indemnizarás a Jesus Afkerian y AFKERIAN INTERACTIVE frente a reclamaciones de terceros y pérdidas directas en la medida causada por uso ilícito, incumplimiento material, infracción ajena o interferencia maliciosa.
+En la medida permitida, indemnizarás a Jesus Afkerian frente a reclamaciones de terceros y pérdidas directas en la medida causada por uso ilícito, incumplimiento material, infracción ajena o interferencia maliciosa.
 
-Está sujeta a causalidad, mitigación, aviso oportuno cuando sea posible y tu control razonable de defensa con asesoría calificada, permitiendo nuestra participación a nuestro costo. Excluye nuestro fraude, dolo, negligencia grave irrenunciable u otra conducta no indemnizable.
+Está sujeta a causalidad, mitigación, aviso oportuno cuando sea posible y tu control razonable de defensa con asesoría calificada, permitiendo mi participación a mi costo. Excluye mi fraude, dolo, negligencia grave irrenunciable u otra conducta no indemnizable.
 
 18. DERECHOS OBLIGATORIOS
 
@@ -121,17 +122,16 @@ No hay arbitraje obligatorio, delegación arbitral, exclusión voluntaria de arb
 
 20. CAMBIOS
 
-Podemos actualizar hacia el futuro. Los cambios materiales serán razonablemente visibles e indicarán fecha. Continuar accediendo o usando después del aviso y fecha manifiesta aceptación en la máxima medida permitida. Mantener instalada sin acceder ni usar no es aceptación.
+Puedo actualizar estos Términos hacia el futuro. Los cambios materiales serán razonablemente visibles e indicarán una fecha efectiva. La mera publicación, el silencio, la inacción o mantener el Juego instalado no constituyen aceptación de Términos actualizados. El acceso o uso continuado después de un aviso razonablemente visible y de la fecha efectiva indicada es la conducta en la que se basa la aceptación, en la máxima medida permitida por la ley.
 
 Si no estás de acuerdo, deja de usar y desinstala antes de la vigencia.
 
 21. DISPOSICIONES GENERALES
 
-Una cláusula inválida se aplicará al máximo lícito o se separará y el resto continúa. No ejercer no es renuncia; debe ser explícita y escrita. No puedes ceder sin consentimiento; podemos ceder con una transferencia lícita de la App o derechos, sujeto a ley. Ni estos Términos ni el uso de la App crean representación, empleo, sociedad, empresa conjunta o franquicia. Salvo licenciantes o proveedores protegidos expresamente por una exclusión o limitación, no existen terceros beneficiarios. No respondemos por demora o incumplimiento causado por hechos fuera del control razonable, sujeto a ley irrenunciable. Estos Términos, la Política y las licencias y avisos incorporados forman el acuerdo completo sin desplazar derechos irrenunciables. Sobreviven las cláusulas de propiedad, garantías, responsabilidad, indemnización, derechos obligatorios y las que deban hacerlo por naturaleza.
+Una cláusula inválida se aplicará al máximo lícito o se separará y el resto continúa. No ejercer no es renuncia; debe ser explícita y escrita. No puedes ceder sin consentimiento; puedo ceder con una transferencia lícita de la App o derechos, sujeto a ley. Ni estos Términos ni el uso de la App crean representación, empleo, sociedad, empresa conjunta o franquicia. Salvo licenciantes o proveedores protegidos expresamente por una exclusión o limitación, no existen terceros beneficiarios. No respondo por demora o incumplimiento causado por hechos fuera del control razonable, sujeto a ley irrenunciable. Estos Términos, la Política y las licencias y avisos incorporados forman el acuerdo completo sin desplazar derechos irrenunciables. Sobreviven las cláusulas de propiedad, garantías, responsabilidad, indemnización, derechos obligatorios y las que deban hacerlo por naturaleza.
 
 22. CONTACTO
 
 Jesus Afkerian
-publicando bajo AFKERIAN INTERACTIVE
 Correo: afkerian.support@gmail.com
 Sitio web: https://afkerianinteractive.github.io/

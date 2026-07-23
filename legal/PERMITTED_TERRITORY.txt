@@ -2,12 +2,13 @@ PERMITTED TERRITORY
 
 Document ID: PERMITTED_TERRITORY
 Language: en-US
-Effective date: 2026-08-15
-Last updated: 2026-07-22
+Effective Date: July 22, 2026
+Last Updated: July 22, 2026
 Version: 2026-07-22
-Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Operator: Jesus Afkerian
 
 This list applies to XO Arcade: Infinity Edition, Air Strike Arcade, and Tap Odyssey.
+Jesus Afkerian, an individual, publishes and operates each Game covered by this list.
 
 Permitted jurisdiction:
 United States: only the 50 states and District of Columbia listed below.

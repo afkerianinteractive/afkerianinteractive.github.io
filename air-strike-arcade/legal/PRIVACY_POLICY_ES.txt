@@ -3,17 +3,17 @@ POLÍTICA DE PRIVACIDAD
 Producto: Air Strike Arcade
 ID del documento: PRIVACY_POLICY
 Idioma: es-419
-Fecha de entrada en vigor: 2026-08-15
-Última actualización: 2026-07-22
+Fecha efectiva: 22 de julio de 2026
+Última actualización: 22 de julio de 2026
 Versión: 2026-07-22
-Operador: Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE
+Operador: Jesus Afkerian
 Contacto: afkerian.support@gmail.com
 
 1. ALCANCE Y OPERADOR
 
-Esta Política de Privacidad explica cómo Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE («AFKERIAN INTERACTIVE», «nosotros» o «nuestro»), trata información en relación con Air Strike Arcade (la «App»). Se aplica a la App y a comunicaciones de soporte relacionadas. No rige el sitio general, Google Play, servicios de Google ni otros terceros sujetos a sus propias políticas.
+Esta Política de Privacidad explica cómo Jesus Afkerian («operador», «yo» o «mi») trata información en relación con Air Strike Arcade (el «Juego»). Jesus Afkerian, persona física, publica y opera el Juego. Esta Política se aplica al Juego y a comunicaciones de soporte relacionadas. No rige el sitio general operado por Jesus Afkerian, Google Play, servicios de Google ni otros terceros sujetos a sus propias políticas.
 
-La App no exige introducir nombre civil, dirección postal, contactos ni información de pago durante el juego normal. El código inspeccionado no contiene cuentas de AFKERIAN INTERACTIVE, servidor propio de perfiles de juego, compras dentro de la App, contenido generado por usuarios ni función social para compartir. Aun así, podemos recibir información agregada o por eventos mediante consolas de proveedores e información enviada voluntariamente por correo de soporte. Un mensaje de soporte puede incluir tu dirección de correo, mensaje, archivos adjuntos y cualquier información técnica o personal que decidas proporcionar.
+El Juego no exige introducir nombre civil, dirección postal, contactos ni información de pago durante el juego normal. El código inspeccionado no contiene sistema propio de cuentas, servidor de perfiles de juego, integración de Google Play Billing, sistema de compras dentro de la App con dinero real o suscripciones, servicio de contenido generado por usuarios ni función social para compartir. Aun así, puedo recibir información agregada o por eventos mediante consolas de proveedores e información enviada voluntariamente por correo de soporte. Un mensaje de soporte puede incluir tu dirección de correo, mensaje, archivos adjuntos y cualquier información técnica o personal que decidas proporcionar.
 
 2. PÚBLICO ADULTO Y TERRITORIO PERMITIDO
 
@@ -40,6 +40,7 @@ La App no es totalmente offline. La publicidad, mensajes de privacidad, análisi
 
 La App usa anuncios de banner e intersticiales. No se identificaron anuncios recompensados, App Open ni nativos en el código inspeccionado.
 
+El Juego se ofrece actualmente sin precio de compra y se financia mediante publicidad. Jesus Afkerian puede recibir ingresos publicitarios a través de Google AdMob. Los ingresos publicitarios no son una cantidad pagada por el usuario.
 
 Las operaciones publicitarias están condicionadas por el estado actual de autorización de UMP. UMP puede solicitar o mostrar mensajes regionales y ofrecer Opciones de privacidad cuando Google indique que son necesarias. UMP solo controla publicidad. No desactiva Analytics, Crashlytics, Installations, Sessions, todas las solicitudes de red ni información ya tratada.
 
@@ -78,13 +79,13 @@ Diagnósticos: recopilados por Mobile Ads, Crashlytics y Sessions; compartidos p
 
 Identificadores: recopilados por Mobile Ads, Analytics, Crashlytics e Installations; compartidos por Mobile Ads. Finalidades: publicidad, análisis, medición, gestión de fallos, seguridad y fraude.
 
-No intercambiamos información personal por dinero. Ciertas transferencias publicitarias pueden considerarse «venta», «compartir» o publicidad dirigida bajo algunas leyes aunque no exista pago. Durante los 12 meses anteriores, en la medida en que la App se haya usado con estos SDK activos, las categorías anteriores pudieron tratarse para las finalidades indicadas. Esta descripción retrospectiva no afirma voluntariamente que sea aplicable una ley estatal o uno de sus umbrales.
+No intercambio información personal por dinero. Ciertas transferencias publicitarias pueden considerarse «venta», «compartir» o publicidad dirigida bajo algunas leyes aunque no exista pago. Durante los 12 meses anteriores, en la medida en que la App se haya usado con estos SDK activos, las categorías anteriores pudieron tratarse para las finalidades indicadas. Esta descripción retrospectiva no afirma voluntariamente que sea aplicable una ley estatal o uno de sus umbrales.
 
 9. CARÁCTER OBLIGATORIO U OPCIONAL; TRATAMIENTO EFÍMERO
 
 La jugabilidad principal no exige cuenta propia ni envío de información personal al operador. El tratamiento de SDK no se considera efímero porque los registros de publicidad, análisis, fraude, instalaciones y fallos pueden persistir más allá de una solicitud en tiempo real.
 
-El código inspeccionado no ofrece a toda persona y región un control único que desactive todas las categorías. Por ello no podemos afirmar que toda recopilación sea opcional. UMP, controles de Google y ajustes de Android tienen alcances distintos.
+El código inspeccionado no ofrece a toda persona y región un control único que desactive todas las categorías. Por ello no puedo afirmar que toda recopilación sea opcional. UMP, controles de Google y ajustes de Android tienen alcances distintos.
 
 10. PROVEEDORES Y TRATAMIENTO INTERNACIONAL
 
@@ -110,9 +111,9 @@ Los correos se conservan solo durante el tiempo razonablemente necesario para re
 
 12. DERECHOS ESTATALES DE PRIVACIDAD EN EE. UU. Y OTRAS OPCIONES
 
-Cuando una ley estatal de privacidad aplicable cubra al operador y el tratamiento en cuestión, una persona residente puede tener derechos a conocer o acceder, corregir, eliminar y obtener una copia portátil de la información cubierta, y a excluirse del tratamiento definido legalmente como venta, compartir, publicidad dirigida o determinados perfiles. Las limitaciones sobre datos sensibles, solicitudes mediante representantes autorizados, protección contra discriminación y apelación solo aplican cuando la ley correspondiente las contemple. Siguen vigentes los umbrales, excepciones, reglas de verificación, restricciones de seguridad y registros legalmente necesarios para reclamaciones o cumplimiento. Respondemos dentro del plazo exigido por la ley realmente aplicable y quizá no podamos localizar o controlar registros del proveedor sin identificadores adecuados, autoridad legal o acceso técnico.
+Cuando una ley estatal de privacidad aplicable cubra al operador y el tratamiento en cuestión, una persona residente puede tener derechos a conocer o acceder, corregir, eliminar y obtener una copia portátil de la información cubierta, y a excluirse del tratamiento definido legalmente como venta, compartir, publicidad dirigida o determinados perfiles. Las limitaciones sobre datos sensibles, solicitudes mediante representantes autorizados, protección contra discriminación y apelación solo aplican cuando la ley correspondiente las contemple. Siguen vigentes los umbrales, excepciones, reglas de verificación, restricciones de seguridad y registros legalmente necesarios para reclamaciones o cumplimiento. Respondo dentro del plazo exigido por la ley realmente aplicable y quizá no pueda localizar o controlar registros del proveedor sin identificadores adecuados, autoridad legal o acceso técnico.
 
-Escribe a afkerian.support@gmail.com con el asunto «Solicitud de privacidad: Air Strike Arcade». Podemos pedir información razonablemente necesaria para verificar y localizar registros, como un identificador de dispositivo, instancia, instalación, fallo, publicidad o ticket de soporte cuando sea pertinente. Un representante autorizado puede presentar una solicitud cuando la ley aplicable lo permita, sujeto a verificación legalmente permitida. No discriminamos por ejercer un derecho de privacidad aplicable. No se identificó un programa de incentivos financieros o fidelidad en la App inspeccionada. También puedes usar Opciones de privacidad cuando aparezcan, controles de Google y ajustes de Android para el tratamiento que realmente cubran; ningún mecanismo controla todas las finalidades.
+Escribe a afkerian.support@gmail.com con el asunto «Solicitud de privacidad: Air Strike Arcade». Puedo pedir información razonablemente necesaria para verificar y localizar registros, como un identificador de dispositivo, instancia, instalación, fallo, publicidad o ticket de soporte cuando sea pertinente. Un representante autorizado puede presentar una solicitud cuando la ley aplicable lo permita, sujeto a verificación legalmente permitida. No discrimino por ejercer un derecho de privacidad aplicable. No se identificó un programa de incentivos financieros o fidelidad en la App inspeccionada. También puedes usar Opciones de privacidad cuando aparezcan, controles de Google y ajustes de Android para el tratamiento que realmente cubran; ningún mecanismo controla todas las finalidades.
 
 Según otra ley aplicable, su alcance, umbrales y excepciones, una persona puede tener otros derechos sobre el tratamiento. Los derechos no son idénticos en todas partes y esta Política no afirma que esté autorizado un mercado retenido o excluido.
 
@@ -120,11 +121,11 @@ Según otra ley aplicable, su alcance, umbrales y excepciones, una persona puede
 
 El operador no solicita intencionalmente envíos directos de menores durante el juego normal. Una persona menor de 18 años, por debajo de la mayoría de edad local aplicable o sin capacidad contractual no está autorizada para usar la App. Como la App no verifica la edad de forma independiente y los SDK identificados tratan automáticamente información técnica, podría producirse tratamiento si un menor usa la App en contra de su público previsto y de los Términos.
 
-Un padre, madre o tutor puede escribir a afkerian.support@gmail.com si cree que se trató información asociada con un menor. Cualquier medida depende de una verificación razonable y de nuestra capacidad legal y técnica para identificar, acceder, controlar u ordenar la eliminación de la información.
+Un padre, madre o tutor puede escribir a afkerian.support@gmail.com si cree que se trató información asociada con un menor. Cualquier medida depende de una verificación razonable y de mi capacidad legal y técnica para identificar, acceder, controlar u ordenar la eliminación de la información.
 
 14. SEGURIDAD
 
-Usamos medidas razonables acordes con la limitada información propia tratada. Google describe cifrado en tránsito para los datos indicados de Mobile Ads y Analytics. Ningún método es completamente seguro y no garantizamos seguridad absoluta.
+Uso medidas razonables acordes con la limitada información propia tratada. Google describe cifrado en tránsito para los datos indicados de Mobile Ads y Analytics. Ningún método es completamente seguro y no garantizo seguridad absoluta.
 
 15. DIVULGACIONES LEGALES
 
@@ -132,11 +133,10 @@ La información puede conservarse o divulgarse cuando sea razonablemente necesar
 
 16. CAMBIOS
 
-Podemos actualizar esta Política si cambian App, proveedores, prácticas o ley. Los cambios materiales serán razonablemente visibles y se aplicarán hacia el futuro desde la fecha indicada. Una finalidad nueva no queda autorizada solo porque la App siga instalada.
+Puedo actualizar esta Política si cambian App, proveedores, prácticas o ley. Los cambios materiales serán razonablemente visibles y se aplicarán hacia el futuro desde la fecha indicada. Una finalidad nueva no queda autorizada solo porque la App siga instalada.
 
 17. CONTACTO
 
 Jesus Afkerian
-publicando bajo AFKERIAN INTERACTIVE
 Correo: afkerian.support@gmail.com
 Sitio web: https://afkerianinteractive.github.io/

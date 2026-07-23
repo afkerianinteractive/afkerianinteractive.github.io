@@ -1,6 +1,6 @@
-# AFKERIAN INTERACTIVE
+# Jesus Afkerian
 
-Public website and canonical legal-document repository for software published by Jesus Afkerian under the AFKERIAN INTERACTIVE name.
+Public website and canonical legal-document repository for software published by Jesus Afkerian.
 
 ## Legal document maintenance
 

@@ -3,15 +3,17 @@ AVISOS DE TERCEROS
 Producto: XO Arcade: Infinity Edition
 ID del documento: THIRD_PARTY_NOTICES
 Idioma: es-419
-Fecha de entrada en vigor: 2026-08-15
-Última actualización: 2026-07-22
+Fecha efectiva: 22 de julio de 2026
+Última actualización: 22 de julio de 2026
 Versión: 2026-07-22
-Operador: Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE
+Operador: Jesus Afkerian
 Contacto: afkerian.support@gmail.com
 
 1. FINALIDAD
 
 Este documento identifica software, servicios y fuentes creativas relevantes de terceros usados por XO Arcade: Infinity Edition (la «App»). Proporciona atribución, procedencia, acceso a licencias e información. No amplía la licencia, sustituye Política o Términos, certifica cumplimiento ni otorga derechos sobre material ajeno.
+
+Jesus Afkerian, persona física, publica y opera el Juego. En este aviso, «operador», «yo» y «mi» se refieren a Jesus Afkerian.
 
 2. SOFTWARE DE CÓDIGO ABIERTO
 
@@ -26,6 +28,8 @@ Mobile Ads puede recopilar y compartir automáticamente IP, interacciones, diagn
 4. MATERIAL CREATIVO Y GENERADO
 
 La App puede incluir sonidos, música, voces, imágenes, interfaz u otro material obtenido o generado con las fuentes enumeradas. El operador conserva los registros de procedencia disponibles. Suscripciones, términos y licencias pueden cambiar; controlan los términos y registros aplicables.
+
+Jesus Afkerian mantiene registros privados de compra, suscripción, licencia o procedencia de los materiales de terceros identificados en este aviso, cuando corresponda.
 
 Los resultados generados pueden no ser únicos y quedar sujetos a derechos ajenos o ley obligatoria. Ningún aviso garantiza exclusividad, ausencia de infracción, copyright o disponibilidad del proveedor.
 
@@ -63,12 +67,10 @@ Los términos y políticas del proveedor rigen sus servicios. Las divulgaciones 
 
 7. SIN RESPALDO NI GARANTÍA
 
-Salvo indicación expresa bajo una licencia aplicable, ningún tercero listado está afiliado con Jesus Afkerian, AFKERIAN INTERACTIVE o la App ni los patrocina o respalda. Material y servicios se ofrecen bajo sus propios términos y sin garantía adicional del operador más allá de derechos irrenunciables.
+Salvo indicación expresa bajo una licencia aplicable, ningún tercero listado está afiliado con Jesus Afkerian o la App ni los patrocina o respalda. Material y servicios se ofrecen bajo sus propios términos y sin garantía adicional del operador más allá de derechos irrenunciables.
 
 8. CONTACTO
 
 Jesus Afkerian
-publicando bajo AFKERIAN INTERACTIVE
 Correo: afkerian.support@gmail.com
 Sitio web: https://afkerianinteractive.github.io/
-

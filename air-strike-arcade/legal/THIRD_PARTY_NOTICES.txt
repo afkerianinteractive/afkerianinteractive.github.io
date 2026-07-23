@@ -3,15 +3,17 @@ THIRD-PARTY NOTICES
 Product: Air Strike Arcade
 Document ID: THIRD_PARTY_NOTICES
 Language: en-US
-Effective date: 2026-08-15
-Last updated: 2026-07-22
+Effective Date: July 22, 2026
+Last Updated: July 22, 2026
 Version: 2026-07-22
-Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Operator: Jesus Afkerian
 Contact: afkerian.support@gmail.com
 
 1. PURPOSE
 
-This document identifies material third-party software, services, and creative sources used by Air Strike Arcade (the "App"). It provides attribution, provenance, license access, and service information. It does not expand the App license, replace the Privacy Policy or Terms, certify legal compliance, or grant rights in third-party material.
+This document identifies material third-party software, services, and creative sources used by Air Strike Arcade (the "Game"). It provides attribution, provenance, license access, and service information. It does not expand the Game license, replace the Privacy Policy or Terms, certify legal compliance, or grant rights in third-party material.
+
+Jesus Afkerian, an individual, publishes and operates the Game. In this notice, "operator," "I," "me," and "my" refer to Jesus Afkerian.
 
 2. OPEN-SOURCE SOFTWARE
 
@@ -26,6 +28,8 @@ Mobile Ads may automatically collect and share IP address, product interactions,
 4. CREATIVE AND GENERATED MATERIAL
 
 The App may include sounds, music, voices, images, interface elements, or other material obtained from or generated with the sources listed below. The operator retains provenance records available at acquisition or generation. Subscription status, source terms, and licenses can change; applicable source terms and records control.
+
+Jesus Afkerian maintains private purchase, subscription, license, or provenance records for the third-party materials identified in this notice, where applicable.
 
 Generated output may not be unique and may be subject to third-party rights or mandatory law. No notice guarantees exclusivity, non-infringement, copyrightability, or continuing provider availability.
 
@@ -59,12 +63,10 @@ Provider terms and privacy policies govern provider-controlled services. The App
 
 7. NO ENDORSEMENT OR WARRANTY
 
-Unless an individual notice states otherwise under an applicable license, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian, AFKERIAN INTERACTIVE, or the App. Third-party material and services are provided under their own terms and without additional operator warranty beyond nonwaivable rights.
+Unless an individual notice states otherwise under an applicable license, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian or the Game. Third-party material and services are provided under their own terms and without additional operator warranty beyond nonwaivable rights.
 
 8. CONTACT
 
 Jesus Afkerian
-publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
 Website: https://afkerianinteractive.github.io/
-

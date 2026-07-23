@@ -1,29 +1,29 @@
 WEBSITE TERMS OF SERVICE
 
-Scope: AFKERIAN INTERACTIVE public website
+Scope: Jesus Afkerian public website
 Document ID: WEBSITE_TERMS_OF_SERVICE
 Language: en-US
-Effective date: 2026-08-15
-Last updated: 2026-07-22
+Effective Date: July 22, 2026
+Last Updated: July 22, 2026
 Version: 2026-07-22
-Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Operator: Jesus Afkerian
 Contact: afkerian.support@gmail.com
 
 1. SCOPE AND AGREEMENT
 
-These Terms govern the public Website at https://afkerianinteractive.github.io/. They form an agreement between you and Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE.
+These Terms govern the public Website at https://afkerianinteractive.github.io/. They form an agreement between you and Jesus Afkerian, an individual. In these Terms, "operator," "I," "me," and "my" refer to Jesus Afkerian.
 
-If you disagree, do not access or use the Website. To the maximum extent permitted by law, accessing or using it after these Terms and a reasonably conspicuous notice are available manifests agreement. This does not guarantee enforceability in every circumstance.
+If you disagree, do not access or use the Website. To the maximum extent permitted by law, accessing or using it after these Terms and a reasonably conspicuous notice are available manifests agreement. Publication alone, silence, inaction, or merely leaving a browser tab or saved link in place does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law. This does not guarantee enforceability in every circumstance.
 
 Product Terms, Privacy Policies, licenses, and notices govern individual Apps. Public Website access does not expand a product's Permitted Territory or authorize download or use.
 
 2. INFORMATIONAL PURPOSE
 
-The Website provides information about AFKERIAN INTERACTIVE, products, contact methods, and legal documentation. It is not legal, financial, medical, or other professional advice. Product descriptions can change and do not guarantee availability, approval, compatibility, or release.
+The Website provides information about Jesus Afkerian, products, contact methods, and legal documentation. It is not legal, financial, medical, or other professional advice. Product descriptions can change and do not guarantee availability, approval, compatibility, or release.
 
 3. WEBSITE LICENSE
 
-Subject to these Terms and law, we grant a limited, revocable, nonexclusive, nontransferable permission to view the public Website for lawful personal or informational purposes. The Website is not sold. No ownership transfers.
+Subject to these Terms and law, I grant a limited, revocable, nonexclusive, nontransferable permission to view the public Website for lawful personal or informational purposes. The Website is not sold. No ownership transfers.
 
 4. OWNERSHIP AND THIRD PARTIES
 
@@ -35,11 +35,11 @@ You may not unlawfully copy, exploit, misrepresent, or interfere with the Websit
 
 6. EXTERNAL SERVICES
 
-The Website may link to GitHub, Google Play, email, provider policies, and other independent services. We do not control or guarantee them. Their terms and policies apply. A link does not imply affiliation, sponsorship, or endorsement.
+The Website may link to GitHub, Google Play, email, provider policies, and other independent services. I do not control or guarantee them. Their terms and policies apply. A link does not imply affiliation, sponsorship, or endorsement.
 
 7. AVAILABILITY AND CHANGES
 
-We may correct, update, reorganize, suspend, or remove Website content when reasonably necessary. We do not promise uninterrupted, secure, error-free, or permanent availability. Hosting and external services may change outside our control.
+I may correct, update, reorganize, suspend, or remove Website content when reasonably necessary. I do not promise uninterrupted, secure, error-free, or permanent availability. Hosting and external services may change outside my control.
 
 8. PRIVACY
 
@@ -50,19 +50,19 @@ It applies only to the Website. Each App has a separate policy.
 
 9. DISCLAIMERS
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE WEBSITE IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." WE DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, AVAILABILITY, COMPATIBILITY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION. NONWAIVABLE RIGHTS REMAIN UNAFFECTED.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE WEBSITE IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." I DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, AVAILABILITY, COMPATIBILITY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION. NONWAIVABLE RIGHTS REMAIN UNAFFECTED.
 
 10. LIMITATION OF LIABILITY
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN, AFKERIAN INTERACTIVE, AND THEIR APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN AND HIS APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THEIR TOTAL AGGREGATE LIABILITY FOR ALL WEBSITE-RELATED CLAIMS, EVENTS, THEORIES, DEVICES, DOCUMENTS, DAMAGES, AND RELIEF WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APPLICABLE WEBSITE SERVICE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, DOCUMENT, OR DEFENDANT.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, HIS TOTAL AGGREGATE LIABILITY FOR ALL WEBSITE-RELATED CLAIMS, EVENTS, THEORIES, DEVICES, DOCUMENTS, DAMAGES, AND RELIEF WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APPLICABLE WEBSITE SERVICE DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, DOCUMENT, OR DEFENDANT.
 
 Nothing excludes or limits fraud or fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, statutory privacy or consumer remedies, or other liability that cannot lawfully be limited.
 
 11. NARROW INDEMNITY
 
-To the extent permitted by law, you will indemnify Jesus Afkerian and AFKERIAN INTERACTIVE against third-party claims and direct losses to the extent caused by your unlawful Website use, material breach, infringement of third-party rights, or malicious interference. This is subject to causation, reasonable mitigation, prompt notice where practicable, and reasonable defense control. It excludes our fraud, willful misconduct, gross negligence where nonwaivable, or other non-indemnifiable conduct.
+To the extent permitted by law, you will indemnify Jesus Afkerian against third-party claims and direct losses to the extent caused by your unlawful Website use, material breach, infringement of third-party rights, or malicious interference. This is subject to causation, reasonable mitigation, prompt notice where practicable, and reasonable defense control. It excludes my fraud, willful misconduct, gross negligence where nonwaivable, or other non-indemnifiable conduct.
 
 12. MANDATORY RIGHTS
 
@@ -76,15 +76,14 @@ These Terms contain no mandatory arbitration, arbitration delegation, arbitratio
 
 14. CHANGES TO TERMS
 
-Material updates will be made reasonably conspicuous, state an effective date, and apply prospectively. Continued Website access or use after notice and that date manifests agreement to the maximum extent permitted. If you disagree, stop using the Website.
+Material updates will be made reasonably conspicuous, state an effective date, and apply prospectively. Publication alone, silence, inaction, or merely leaving a browser tab or saved link in place does not constitute acceptance of updated Terms. Continued Website access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law. If you disagree, stop using the Website.
 
 15. GENERAL
 
-Invalid provisions will be enforced to the maximum lawful extent or severed; the remainder continues. Failure to enforce is not waiver. A waiver must be explicit and written. Neither these Terms nor Website use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. We are not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms and the Website Privacy Policy are the entire agreement about Website use and do not replace product documents. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination of Website use.
+Invalid provisions will be enforced to the maximum lawful extent or severed; the remainder continues. Failure to enforce is not waiver. A waiver must be explicit and written. Neither these Terms nor Website use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. I am not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms and the Website Privacy Policy are the entire agreement about Website use and do not replace product documents. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination of Website use.
 
 16. CONTACT
 
 Jesus Afkerian
-publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
 Website: https://afkerianinteractive.github.io/
