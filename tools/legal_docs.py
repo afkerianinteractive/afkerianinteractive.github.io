@@ -24,6 +24,7 @@ MANIFEST_PATH = ROOT / "legal" / "manifest.json"
 QR_BASELINE_PATH = ROOT / "legal" / "qr-regression-baseline.json"
 MARKET_PATH = ROOT / "legal" / "market-review.json"
 MARKET_REPORT_PATH = ROOT / "legal" / "MARKET_REVIEW.md"
+COPY_MAP_PATH = ROOT / "legal" / "android-copy-map.json"
 ALLOWED_MARKET_STATUSES = {
     "APPROVED_FOR_OWNER_ENABLEMENT",
     "DOCUMENT_READY_CONSOLE_UNVERIFIED",
@@ -55,6 +56,36 @@ LEGACY_PUBLIC_IDENTITIES = re.compile(
     r"\b(?:AFKERIAN\s+INTERACTIVE|AFK\s+GAMES\s+STUDIO|JAfkerian)\b",
     flags=re.I,
 )
+REQUESTED_COPY_PATHS = {
+    "xo-arcade/legal/PRIVACY_POLICY.txt",
+    "xo-arcade/legal/TERMS_OF_SERVICE.txt",
+    "xo-arcade/legal/THIRD_PARTY_NOTICES.txt",
+    "xo-arcade/legal/ELEVENLABS_NOTICE.txt",
+    "xo-arcade/legal/KENNEY_NOTICE.txt",
+    "xo-arcade/legal/SUNO_NOTICE.txt",
+    "air-strike-arcade/legal/PRIVACY_POLICY.txt",
+    "air-strike-arcade/legal/TERMS_OF_SERVICE.txt",
+    "air-strike-arcade/legal/THIRD_PARTY_NOTICES.txt",
+    "air-strike-arcade/legal/SUNO_NOTICE.txt",
+    "tap-odyssey/legal/PRIVACY_POLICY.txt",
+    "tap-odyssey/legal/TERMS_OF_SERVICE.txt",
+    "tap-odyssey/legal/THIRD_PARTY_NOTICES.txt",
+    "tap-odyssey/legal/OPENAI_CHATGPT_NOTICE.txt",
+    "tap-odyssey/legal/SUNO_NOTICE.txt",
+}
+OWNER_AUTHORED_NOTICE_PATHS = {
+    "xo-arcade/legal/AD_SERVICES_NOTICE.txt",
+    "xo-arcade/legal/ELEVENLABS_NOTICE.txt",
+    "xo-arcade/legal/KENNEY_NOTICE.txt",
+    "xo-arcade/legal/SUNO_NOTICE.txt",
+    "air-strike-arcade/legal/AD_SERVICES_NOTICE.txt",
+    "air-strike-arcade/legal/PIXABAY_NOTICE.txt",
+    "air-strike-arcade/legal/SUNO_NOTICE.txt",
+    "tap-odyssey/legal/AD_SERVICES_NOTICE.txt",
+    "tap-odyssey/legal/OPENAI_CHATGPT_NOTICE.txt",
+    "tap-odyssey/legal/PIXABAY_NOTICE.txt",
+    "tap-odyssey/legal/SUNO_NOTICE.txt",
+}
 
 
 def load_json(path: Path) -> Any:
@@ -155,12 +186,75 @@ def market_report_text(market: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def copy_map_entry(entry: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "product_id": entry["product_id"],
+        "source_path": entry["canonical_path"],
+        "android_repository": entry["android_repository"],
+        "android_destination": entry["android_destination"],
+        "size_bytes": entry["size_bytes"],
+        "sha256": entry["sha256"],
+        "normalized_sha256": entry["normalized_sha256"],
+    }
+
+
+def copy_map_value(manifest: dict[str, Any]) -> dict[str, Any]:
+    entries = [
+        entry
+        for entry in manifest["documents"]
+        if entry.get("manual_copy_required") and entry.get("android_destination")
+    ]
+    requested = [
+        copy_map_entry(entry)
+        for entry in entries
+        if entry["canonical_path"] in REQUESTED_COPY_PATHS
+    ]
+    additional = [
+        copy_map_entry(entry)
+        for entry in entries
+        if entry["canonical_path"] not in REQUESTED_COPY_PATHS
+    ]
+    return {
+        "schema_version": 1,
+        "generated_on": manifest.get("generated_on"),
+        "status": "OWNER_COPY_REQUIRED_ANDROID_REPOSITORIES_NOT_MODIFIED",
+        "requested_copy_count": len(requested),
+        "additional_consistency_copy_count": len(additional),
+        "total_copy_count": len(requested) + len(additional),
+        "requested_copy_entries": requested,
+        "additional_consistency_entries": additional,
+    }
+
+
 def refresh() -> int:
     manifest = load_json(MANIFEST_PATH)
     failures: list[str] = []
     for entry in manifest["documents"]:
+        canonical = entry["canonical_path"]
+        if (
+            entry["product_id"] in {"xo-arcade", "air-strike-arcade", "tap-odyssey"}
+            and entry["document_id"] in {
+                "PRIVACY_POLICY",
+                "TERMS_OF_SERVICE",
+                "THIRD_PARTY_NOTICES",
+            }
+            and entry["language"] == "es-419"
+        ):
+            entry["manual_copy_required"] = False
+        if canonical in OWNER_AUTHORED_NOTICE_PATHS:
+            entry.update(
+                {
+                    "version": "2026-07-22",
+                    "effective_date": "2026-07-22",
+                    "last_updated": "2026-07-22",
+                    "manual_copy_required": True,
+                    "protected_upstream": False,
+                    "byte_preserved_from_android": False,
+                    "first_party": True,
+                }
+            )
         try:
-            path = safe_repo_path(entry["canonical_path"])
+            path = safe_repo_path(canonical)
         except ValueError as exc:
             failures.append(str(exc))
             continue
@@ -183,11 +277,13 @@ def refresh() -> int:
     dates = [d.get("last_updated") for d in manifest["documents"] if d.get("last_updated")]
     manifest["generated_on"] = max(dates) if dates else None
     write_json(MANIFEST_PATH, manifest)
+    write_json(COPY_MAP_PATH, copy_map_value(manifest))
     market = load_json(MARKET_PATH)
     MARKET_REPORT_PATH.write_text(
         market_report_text(market), encoding="utf-8", newline="\n"
     )
     print(f"Refreshed {len(manifest['documents'])} manifest entries.")
+    print(f"Refreshed {COPY_MAP_PATH.relative_to(ROOT).as_posix()}.")
     print(f"Refreshed {MARKET_REPORT_PATH.relative_to(ROOT).as_posix()}.")
     return 0
 
@@ -247,6 +343,8 @@ def validate() -> int:
                 )
 
         if entry.get("protected_upstream"):
+            if entry.get("category") != "license":
+                errors.append(f"only authentic license text may be protected upstream: {canonical}")
             expected = entry.get("protected_expected_sha256")
             if not expected or current["sha256"] != expected:
                 errors.append(f"protected upstream baseline mismatch: {canonical}")
@@ -271,34 +369,43 @@ def validate() -> int:
                 errors.append(f"{canonical}: invalid UTF-8: {exc}")
                 continue
             language = entry["language"]
-            declared_language = metadata_value(content, language, "Language", "Idioma")
-            declared_version = metadata_value(content, language, "Version", "Versión")
-            declared_effective = metadata_value(
-                content, language, "Effective Date", "Fecha efectiva"
-            )
             declared_updated = metadata_value(
                 content, language, "Last Updated", "Última actualización"
             )
-            expected_language = language
-            if declared_language != expected_language:
-                errors.append(
-                    f"{canonical}: declared language {declared_language!r}, "
-                    f"expected {expected_language!r}"
+            if entry.get("category") != "notice":
+                declared_language = metadata_value(content, language, "Language", "Idioma")
+                declared_version = metadata_value(content, language, "Version", "Versión")
+                declared_effective = metadata_value(
+                    content, language, "Effective Date", "Fecha efectiva"
                 )
-            if declared_version != entry["version"]:
-                errors.append(f"{canonical}: version metadata mismatch")
-            expected_display = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
-            if expected_display is None:
-                errors.append(
-                    f"{canonical}: no localized display date for {entry['effective_date']!r}"
-                )
-            if declared_effective != expected_display:
-                errors.append(f"{canonical}: effective-date metadata mismatch")
+                expected_language = language
+                if declared_language != expected_language:
+                    errors.append(
+                        f"{canonical}: declared language {declared_language!r}, "
+                        f"expected {expected_language!r}"
+                    )
+                if declared_version != entry["version"]:
+                    errors.append(f"{canonical}: version metadata mismatch")
+                expected_display = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
+                if expected_display is None:
+                    errors.append(
+                        f"{canonical}: no localized display date for {entry['effective_date']!r}"
+                    )
+                if declared_effective != expected_display:
+                    errors.append(f"{canonical}: effective-date metadata mismatch")
             expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
             if declared_updated != expected_updated:
                 errors.append(f"{canonical}: last-updated metadata mismatch")
             if LEGACY_PUBLIC_IDENTITIES.search(content):
                 errors.append(f"{canonical}: legacy public identity in first-party text")
+            if entry["product_id"] in {
+                "xo-arcade",
+                "air-strike-arcade",
+                "tap-odyssey",
+            }:
+                product_term_scan = content.replace("App Open", "")
+                if re.search(r"\b(?:App|APP)\b", product_term_scan):
+                    errors.append(f"{canonical}: product term must be Game/Juego, not App")
             if entry["product_id"] in {
                 "xo-arcade",
                 "air-strike-arcade",
@@ -470,6 +577,32 @@ def validate() -> int:
             "legal route inventory must contain 36 canonical routes and 3 aliases "
             f"(found {len(canonical_routes)} and {len(alias_routes)})"
         )
+
+    copy_map = copy_map_value(manifest)
+    if copy_map["requested_copy_count"] != 15:
+        errors.append(
+            "requested Android copy set must contain the nine main TXT and six named "
+            f"notices (found {copy_map['requested_copy_count']})"
+        )
+    if copy_map["additional_consistency_copy_count"] != 5:
+        errors.append(
+            "evidence-required consistency copy set must contain three AdMob and two "
+            f"Pixabay notices (found {copy_map['additional_consistency_copy_count']})"
+        )
+    if copy_map["total_copy_count"] != 20:
+        errors.append(
+            f"complete Android copy set must contain 20 entries, found {copy_map['total_copy_count']}"
+        )
+    if not COPY_MAP_PATH.is_file():
+        errors.append("missing legal/android-copy-map.json")
+    else:
+        try:
+            stored_copy_map = load_json(COPY_MAP_PATH)
+        except (json.JSONDecodeError, OSError) as exc:
+            errors.append(f"cannot read legal/android-copy-map.json: {exc}")
+        else:
+            if stored_copy_map != copy_map:
+                errors.append("stale legal/android-copy-map.json")
 
     duplicate_names = [
         path.relative_to(ROOT).as_posix()

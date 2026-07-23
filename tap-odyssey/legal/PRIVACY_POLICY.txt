@@ -17,7 +17,7 @@ The Game does not require users to enter a civil name, postal address, contacts,
 
 2. ADULT AUDIENCE AND PERMITTED TERRITORY
 
-The App is intended only for adults and is not directed to children. The App does not independently verify age.
+The Game is intended only for adults and is not directed to children. The Game does not independently verify age.
 
 Authorized use requires that a person be at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. Current permitted distribution is limited to Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are not included. Public access to this document does not authorize use elsewhere. The canonical list is:
 https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
@@ -28,22 +28,22 @@ Actual Google Play country availability and audience settings are external to th
 
 Core gameplay, game progress, and settings are handled primarily on the device. This information can include progress, scores, preferences, and ordinary game state. The operator does not receive that local game state through a first-party server identified in the inspected source.
 
-Android backup or device-transfer features may copy supported local preferences when enabled by the operating system, device, or user. Uninstalling, clearing App data, corruption, device loss, and backup or restore behavior can delete, retain, or restore local information. Recovery is not guaranteed.
+Android backup or device-transfer features may copy supported local preferences when enabled by the operating system, device, or user. Uninstalling, clearing Game data, corruption, device loss, and backup or restore behavior can delete, retain, or restore local information. Recovery is not guaranteed.
 
 The inspected manifest and source did not identify permissions for precise location, contacts, microphone, or general shared storage. This describes the inspected version and is not a promise about Android, Google SDK internals, or future versions.
 
 4. NETWORK SERVICES
 
-The App is not completely offline. Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud-prevention services use network connections. The App integrates Google Mobile Ads, Google User Messaging Platform ("UMP"), Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies.
+The Game is not completely offline. Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud-prevention services use network connections. The Game integrates Google Mobile Ads, Google User Messaging Platform ("UMP"), Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies.
 
 5. ADVERTISING AND PRIVACY MESSAGING
 
-The App uses banner, interstitial, and optional rewarded advertising. App Open and native ads were not identified in the inspected source.
+The Game uses banner, interstitial, and optional rewarded advertising. App Open and native ads were not identified in the inspected source.
 Completing an eligible rewarded ad can grant one revive exactly once for that eligible completion. Availability and delivery are not guaranteed.
 
 The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
 
-Advertising operations are gated by the App's current UMP authorization state. UMP may request or display a regional message and may expose Privacy Options when Google reports that an option is required. UMP gates advertising only. It does not disable Analytics, Crashlytics, Firebase Installations, Firebase Sessions, every network request, or information already processed.
+Advertising operations are gated by the Game's current UMP authorization state. UMP may request or display a regional message and may expose Privacy Options when Google reports that an option is required. UMP gates advertising only. It does not disable Analytics, Crashlytics, Firebase Installations, Firebase Sessions, every network request, or information already processed.
 
 A choice against personalized advertising is not a choice against all processing. Contextual or limited ads, measurement, frequency controls, security, diagnostics, and fraud prevention may still require technical information. In the inspected implementation, ad unavailability or failure does not prevent ordinary gameplay continuation or destroy local progress.
 
@@ -68,11 +68,11 @@ These services are not limited by UMP's advertising gate.
 
 8. DATA CATEGORY, SOURCE, PURPOSE, RECIPIENT, AND RETENTION SUMMARY
 
-The automatic sources for the categories below are the device, the App, and the identified Google SDKs. Recipients can include Google LLC and related entities operating the relevant services. Retention is governed by the criteria in Section 11, including provider settings, service purpose, security, fraud prevention, debugging, legal obligations, and valid deletion requests; no single fixed period has been verified for every category.
+The automatic sources for the categories below are the device, the Game, and the identified Google SDKs. Recipients can include Google LLC and related entities operating the relevant services. Retention is governed by the criteria in Section 11, including provider settings, service purpose, security, fraud prevention, debugging, legal obligations, and valid deletion requests; no single fixed period has been verified for every category.
 
 Approximate location: collected and shared through Mobile Ads; collected through Analytics. Purposes can include advertising, analytics, security, and fraud prevention.
 
-App interactions: collected and shared through Mobile Ads and collected through Analytics. Purposes can include advertising, analytics, measurement, frequency control, security, and fraud prevention.
+Game interactions: collected and shared through Mobile Ads and collected through Analytics. Purposes can include advertising, analytics, measurement, frequency control, security, and fraud prevention.
 
 Crash logs: collected through Crashlytics for debugging, stability, and crash management. Whether a Google Play "sharing" exception applies depends on provider role and applicable provider terms and remains unverified.
 
@@ -80,7 +80,7 @@ Diagnostics: collected through Mobile Ads, Crashlytics, and Sessions and shared 
 
 Device or other identifiers: collected through Mobile Ads, Analytics, Crashlytics, and Installations and shared by Mobile Ads. Purposes include advertising, analytics, installation/session measurement, crash management, security, and fraud prevention.
 
-I do not exchange personal information for money. Certain advertising-related transfers can be treated as a "sale," "sharing," or targeted advertising under some laws even without a monetary exchange. During the preceding 12 months, to the extent the App was used with these SDKs active, the categories described above could have been processed for the stated purposes. This retrospective description does not voluntarily assert that any particular state statute or threshold applies.
+I do not exchange personal information for money. Certain advertising-related transfers can be treated as a "sale," "sharing," or targeted advertising under some laws even without a monetary exchange. During the preceding 12 months, to the extent the Game was used with these SDKs active, the categories described above could have been processed for the stated purposes. This retrospective description does not voluntarily assert that any particular state statute or threshold applies.
 
 9. REQUIRED OR OPTIONAL; EPHEMERAL STATUS
 
@@ -90,7 +90,7 @@ The inspected source does not give every user in every region one control that d
 
 10. PROVIDERS AND INTERNATIONAL PROCESSING
 
-Google LLC and related entities provide the services described above. Information can be processed in countries where those providers operate, subject to their terms, policies, contractual measures, and legal requirements. Those processing locations do not expand the App's Permitted Territory. Google may act as a service provider or independent controller depending on product, configuration, and context.
+Google LLC and related entities provide the services described above. Information can be processed in countries where those providers operate, subject to their terms, policies, contractual measures, and legal requirements. Those processing locations do not expand the Game's Permitted Territory. Google may act as a service provider or independent controller depending on product, configuration, and context.
 
 Provider information:
 https://policies.google.com/privacy
@@ -106,7 +106,7 @@ Third-party and license details are in THIRD_PARTY_NOTICES.txt.
 
 Local game data remains subject to the device, operating system, backup settings, and user actions described above. Google controls provider retention under applicable product settings, contracts, and policies. Analytics retention, provider links, and production settings are configuration-dependent and unverified, so this Policy does not state a fixed provider period.
 
-Uninstalling or clearing the App can remove local data, but does not itself delete information already processed by Google or support email providers. Advertising-ID controls do not delete Analytics, Crashlytics, security, or support records. Requests concerning provider-controlled information may need to be directed to that provider.
+Uninstalling or clearing the Game can remove local data, but does not itself delete information already processed by Google or support email providers. Advertising-ID controls do not delete Analytics, Crashlytics, security, or support records. Requests concerning provider-controlled information may need to be directed to that provider.
 
 Support emails are retained only as reasonably needed to respond, keep appropriate records, protect rights and security, resolve disputes, and meet legal obligations. If you do not want to send information by email, do not use email support.
 
@@ -120,7 +120,7 @@ Depending on another applicable law and its scope, thresholds, and exemptions, a
 
 13. CHILDREN, MINORS, AND PERSONS WITHOUT CONTRACTUAL CAPACITY
 
-The operator does not intentionally solicit direct submissions from minors through normal gameplay. A person under 18, below the applicable local age of majority, or otherwise lacking contractual capacity is not authorized to use the App. Because the App does not independently verify age and the identified SDKs automatically process technical information, processing could occur if a minor uses the App contrary to its intended audience and Terms.
+The operator does not intentionally solicit direct submissions from minors through normal gameplay. A person under 18, below the applicable local age of majority, or otherwise lacking contractual capacity is not authorized to use the Game. Because the Game does not independently verify age and the identified SDKs automatically process technical information, processing could occur if a minor uses the Game contrary to its intended audience and Terms.
 
 A parent or guardian may contact afkerian.support@gmail.com if they believe information associated with a minor has been processed. Any action depends on reasonable verification and my legal and technical ability to identify, access, control, or direct deletion of the information.
 
@@ -134,7 +134,7 @@ Information may be preserved or disclosed when reasonably necessary to comply wi
 
 16. CHANGES
 
-I may update this Policy when the App, providers, practices, or legal requirements change. Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A material new purpose is not authorized merely because the App remains installed.
+I may update this Policy when the Game, providers, practices, or legal requirements change. Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A material new purpose is not authorized merely because the Game remains installed.
 
 17. CONTACT
 

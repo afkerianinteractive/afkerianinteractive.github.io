@@ -1,18 +1,19 @@
 GOOGLE ADMOB — THIRD-PARTY SERVICE NOTICE
+Last Updated: July 22, 2026
 
-The App uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising.
+The Game uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising.
 
 Data Handling
 Google AdMob and related Google services may collect and share certain information for ad delivery, measurement, frequency capping, and fraud prevention. Depending on configuration, region, and user choices, this may include:
 - Advertising/device identifiers (e.g., Advertising ID or equivalent)
 - IP address and approximate location inferred from IP
 - Device/technical information (device model, OS/app version, diagnostics/performance)
-- App interactions and advertising events (e.g., app launch, impressions, clicks, interaction signals) and anti-fraud signals
+- Game interactions and advertising events (e.g., app launch, impressions, clicks, interaction signals) and anti-fraud signals
 
-Google processes such information under its own terms and privacy policies and, in some cases, as an independent controller. The App’s data disclosures and user choices are described in the App’s Privacy Policy.
+Google processes such information under its own terms and privacy policies and, in some cases, as an independent controller. The Game’s data disclosures and user choices are described in the Game’s Privacy Policy.
 
 User Choices / Consent
-Where available, you can manage advertising consent and choices via the App’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” in system settings to reset/delete Advertising ID or limit ad personalization).
+Where available, you can manage advertising consent and choices via the Game’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” in system settings to reset/delete Advertising ID or limit ad personalization).
 
 References (Google)
 - Mobile Ads SDK disclosure guidance (Google Play requirements):

@@ -17,7 +17,7 @@ Jesus Afkerian, persona física, publica y opera el Juego. En este aviso, «oper
 
 2. SOFTWARE DE CÓDIGO ABIERTO
 
-La App incluye componentes de Android, AndroidX, Google, Kotlin/Java y relacionados que pueden distribuirse bajo Apache 2.0 u otros términos. La Licencia Apache incluida se reproduce sin modificación en LICENSE_APACHE_2_0.txt. Avisos originales permanecen con sus titulares. Si una licencia contradice este resumen, controla la licencia original. Las licencias protegidas no se traducen ni alteran.
+El Juego incluye componentes de Android, AndroidX, Google, Kotlin/Java y relacionados que pueden distribuirse bajo Apache 2.0 u otros términos. La Licencia Apache incluida se reproduce sin modificación en LICENSE_APACHE_2_0.txt. Avisos originales permanecen con sus titulares. Si una licencia contradice este resumen, controla la licencia original. Las licencias protegidas no se traducen ni alteran.
 
 3. SERVICIOS Y SDK DE GOOGLE
 
@@ -27,7 +27,7 @@ Mobile Ads puede recopilar y compartir automáticamente IP, interacciones, diagn
 
 4. MATERIAL CREATIVO Y GENERADO
 
-La App puede incluir sonidos, música, voces, imágenes, interfaz u otro material obtenido o generado con las fuentes enumeradas. El operador conserva los registros de procedencia disponibles. Suscripciones, términos y licencias pueden cambiar; controlan los términos y registros aplicables.
+El Juego puede incluir sonidos, música, voces, imágenes, interfaz u otro material obtenido o generado con las fuentes enumeradas. El operador conserva los registros de procedencia disponibles. Suscripciones, términos y licencias pueden cambiar; controlan los términos y registros aplicables.
 
 Jesus Afkerian mantiene registros privados de compra, suscripción, licencia o procedencia de los materiales de terceros identificados en este aviso, cuando corresponda.
 

@@ -17,34 +17,34 @@ If you disagree, do not download, install, access, or use the Game. If it is ins
 
 2. ADULT ELIGIBILITY
 
-The App is intended only for adults and is not directed to children. You are authorized only if you are at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. A person below either threshold or otherwise lacking contractual capacity is not authorized. There is no parental or guardian alternative.
+The Game is intended only for adults and is not directed to children. You are authorized only if you are at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. A person below either threshold or otherwise lacking contractual capacity is not authorized. There is no parental or guardian alternative.
 
-The App does not independently verify age. Google Play audience configuration is a separate store setting and is not proven by these Terms.
+The Game does not independently verify age. Google Play audience configuration is a separate store setting and is not proven by these Terms.
 
 3. PERMITTED TERRITORY
 
-The App is authorized for distribution and use only in Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are excluded. The versioned canonical list is incorporated into these Terms:
+The Game is authorized for distribution and use only in Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are excluded. The versioned canonical list is incorporated into these Terms:
 https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
 
-Public access to the App website or documents does not authorize use elsewhere. Actual Google Play production and testing availability is external to these Terms and remains unverified.
+Public access to the Game website or documents does not authorize use elsewhere. Actual Google Play production and testing availability is external to these Terms and remains unverified.
 
 4. LIMITED LICENSE
 
-Subject to these Terms and law, I grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the App on a compatible device for lawful, noncommercial entertainment.
+Subject to these Terms and law, I grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the Game on a compatible device for lawful, noncommercial entertainment.
 
-The App is licensed, not sold. No ownership in the App, brand, code, audiovisual content, or other materials transfers to you. Third-party materials remain subject to their licenses and notices.
+The Game is licensed, not sold. No ownership in the Game, brand, code, audiovisual content, or other materials transfers to you. Third-party materials remain subject to their licenses and notices.
 
-5. APP FUNCTION, LOCAL DATA, AND BACKUPS
+5. GAME FUNCTION, LOCAL DATA, AND BACKUPS
 
 Core gameplay, game progress, and settings are handled primarily on the device. Local information may include progress, scores, preferences, and ordinary game state. It may be lost through uninstall, clear-data actions, corruption, device loss, updates, incompatibility, or operating-system behavior. Android backup or transfer may copy or restore supported preferences depending on settings. I do not guarantee backup, synchronization, restoration, or recovery.
 
-Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud prevention use network connections. The App is not completely offline.
+Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud prevention use network connections. The Game is not completely offline.
 
 No first-party account system, Google Play Billing integration, real-money in-app purchase, or subscription system was identified in the inspected Game. The Game includes internal virtual items acquired with gameplay coins stored locally. Those coins are not purchased for money, have no cash value, are not transferable, and create no ownership, withdrawal, redemption, or refund right. These Terms do not create purchase or refund rights for a real-money transaction that does not exist, without limiting rights arising from any separate transaction or mandatory law.
 
 6. ADVERTISING
 
-The App uses banner, interstitial, and optional rewarded advertising. App Open and native ads were not identified in the inspected source.
+The Game uses banner, interstitial, and optional rewarded advertising. App Open and native ads were not identified in the inspected source.
 Completing an eligible rewarded ad can grant one revive exactly once for that eligible completion. Availability and delivery are not guaranteed.
 
 The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
@@ -58,22 +58,22 @@ You may not manipulate ads, consent signals, impressions, clicks, rewards, ident
 The Privacy Policy is incorporated by reference:
 https://afkerianinteractive.github.io/tap-odyssey/privacy-policy.html
 
-The App uses Google Mobile Ads, UMP, Analytics, Crashlytics, Installations, and Sessions. Agreeing to these Terms is not blanket consent to every privacy activity. Processing, choices, and rights are described in the Privacy Policy and provider policies.
+The Game uses Google Mobile Ads, UMP, Analytics, Crashlytics, Installations, and Sessions. Agreeing to these Terms is not blanket consent to every privacy activity. Processing, choices, and rights are described in the Privacy Policy and provider policies.
 
 8. ACCEPTABLE USE
 
-You may not use the App unlawfully or outside the Permitted Territory; copy, sell, rent, sublicense, distribute, publicly perform, commercially exploit, or create unauthorized derivative works; reverse engineer, decompile, disassemble, bypass, or extract source code except where a restriction is prohibited by mandatory law; evade technical, territorial, security, advertising, privacy, or access controls; interfere with operation, networks, providers, or devices; introduce malicious code; exploit errors, automate interaction, falsify metrics, or manipulate ads or rewards; infringe another person's rights; or misrepresent affiliation, sponsorship, endorsement, or ownership.
+You may not use the Game unlawfully or outside the Permitted Territory; copy, sell, rent, sublicense, distribute, publicly perform, commercially exploit, or create unauthorized derivative works; reverse engineer, decompile, disassemble, bypass, or extract source code except where a restriction is prohibited by mandatory law; evade technical, territorial, security, advertising, privacy, or access controls; interfere with operation, networks, providers, or devices; introduce malicious code; exploit errors, automate interaction, falsify metrics, or manipulate ads or rewards; infringe another person's rights; or misrepresent affiliation, sponsorship, endorsement, or ownership.
 
 9. OWNERSHIP AND THIRD-PARTY MATERIALS
 
-Jesus Afkerian owns or licenses the App's original code, design, brand, and content. Third-party software, services, sounds, music, generated media, tools, and materials are governed by applicable terms, licenses, and notices. Nothing overrides an open-source license or grants rights in a third party's marks or content.
+Jesus Afkerian owns or licenses the Game's original code, design, brand, and content. Third-party software, services, sounds, music, generated media, tools, and materials are governed by applicable terms, licenses, and notices. Nothing overrides an open-source license or grants rights in a third party's marks or content.
 
 See:
 https://afkerianinteractive.github.io/tap-odyssey/third-party-notices.html
 
 10. UPDATES AND AVAILABILITY
 
-I may correct, update, change, suspend, or discontinue the App or a feature when reasonably necessary. I do not promise permanent availability of the App, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
+I may correct, update, change, suspend, or discontinue the Game or a feature when reasonably necessary. I do not promise permanent availability of the Game, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
 
 11. THIRD-PARTY SERVICES
 
@@ -81,7 +81,7 @@ Google Play, Google, advertising, analytics and crash providers, device manufact
 
 12. EXPORT CONTROLS AND SANCTIONS
 
-You may not download, access, export, reexport, transfer, or use the App in violation of applicable U.S. export controls, sanctions, or other trade restrictions, including restrictions involving prohibited persons, destinations, or uses. This clause does not represent that distribution is lawful in any country outside the Permitted Territory.
+You may not download, access, export, reexport, transfer, or use the Game in violation of applicable U.S. export controls, sanctions, or other trade restrictions, including restrictions involving prohibited persons, destinations, or uses. This clause does not represent that distribution is lawful in any country outside the Permitted Territory.
 
 13. SUPPORT AND FEEDBACK
 
@@ -93,7 +93,7 @@ Your license ends automatically if you materially breach these Terms. I may susp
 
 15. DISCLAIMERS
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." I DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE GAME IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." I DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
 
 I do not warrant preservation of progress, correction of defects, or continuing availability of services, ads, rewards, updates, or content. Nonwaivable warranties and consumer rights remain unaffected.
 
@@ -101,7 +101,7 @@ I do not warrant preservation of progress, correction of defects, or continuing 
 
 TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN AND HIS APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROGRESS, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, HIS TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APP DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, HIS TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE GAME OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE GAME DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
 
 Nothing excludes or limits liability for fraud or fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, statutory privacy or consumer remedies, or other liability that cannot lawfully be excluded or limited.
 
@@ -129,7 +129,7 @@ If you disagree, stop using and uninstall before updated Terms take effect.
 
 21. GENERAL
 
-If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; I may assign them with a lawful transfer of the App or related rights, subject to mandatory law. Neither these Terms nor App use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. I am not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the App without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
+If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; I may assign them with a lawful transfer of the Game or related rights, subject to mandatory law. Neither these Terms nor Game use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. I am not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the Game without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
 
 22. CONTACT
 

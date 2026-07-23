@@ -11,13 +11,13 @@ Contacto: afkerian.support@gmail.com
 
 1. FINALIDAD
 
-Este documento identifica software, servicios y fuentes creativas relevantes de terceros usados por XO Arcade: Infinity Edition (la «App»). Proporciona atribución, procedencia, acceso a licencias e información. No amplía la licencia, sustituye Política o Términos, certifica cumplimiento ni otorga derechos sobre material ajeno.
+Este documento identifica software, servicios y fuentes creativas relevantes de terceros usados por XO Arcade: Infinity Edition (el «Juego»). Proporciona atribución, procedencia, acceso a licencias e información. No amplía la licencia, sustituye Política o Términos, certifica cumplimiento ni otorga derechos sobre material ajeno.
 
 Jesus Afkerian, persona física, publica y opera el Juego. En este aviso, «operador», «yo» y «mi» se refieren a Jesus Afkerian.
 
 2. SOFTWARE DE CÓDIGO ABIERTO
 
-La App incluye componentes de Android, AndroidX, Google, Kotlin/Java y relacionados que pueden distribuirse bajo Apache 2.0 u otros términos. La Licencia Apache incluida se reproduce sin modificación en LICENSE_APACHE_2_0.txt. Avisos originales permanecen con sus titulares. Si una licencia contradice este resumen, controla la licencia original. Las licencias protegidas no se traducen ni alteran.
+El Juego incluye componentes de Android, AndroidX, Google, Kotlin/Java y relacionados que pueden distribuirse bajo Apache 2.0 u otros términos. La Licencia Apache incluida se reproduce sin modificación en LICENSE_APACHE_2_0.txt. Avisos originales permanecen con sus titulares. Si una licencia contradice este resumen, controla la licencia original. Las licencias protegidas no se traducen ni alteran.
 
 3. SERVICIOS Y SDK DE GOOGLE
 
@@ -27,7 +27,7 @@ Mobile Ads puede recopilar y compartir automáticamente IP, interacciones, diagn
 
 4. MATERIAL CREATIVO Y GENERADO
 
-La App puede incluir sonidos, música, voces, imágenes, interfaz u otro material obtenido o generado con las fuentes enumeradas. El operador conserva los registros de procedencia disponibles. Suscripciones, términos y licencias pueden cambiar; controlan los términos y registros aplicables.
+El Juego puede incluir sonidos, música, voces, imágenes, interfaz u otro material obtenido o generado con las fuentes enumeradas. El operador conserva los registros de procedencia disponibles. Suscripciones, términos y licencias pueden cambiar; controlan los términos y registros aplicables.
 
 Jesus Afkerian mantiene registros privados de compra, suscripción, licencia o procedencia de los materiales de terceros identificados en este aviso, cuando corresponda.
 
@@ -67,7 +67,7 @@ Los términos y políticas del proveedor rigen sus servicios. Las divulgaciones 
 
 7. SIN RESPALDO NI GARANTÍA
 
-Salvo indicación expresa bajo una licencia aplicable, ningún tercero listado está afiliado con Jesus Afkerian o la App ni los patrocina o respalda. Material y servicios se ofrecen bajo sus propios términos y sin garantía adicional del operador más allá de derechos irrenunciables.
+Salvo indicación expresa bajo una licencia aplicable, ningún tercero listado está afiliado con Jesus Afkerian o el Juego ni los patrocina o respalda. Material y servicios se ofrecen bajo sus propios términos y sin garantía adicional del operador más allá de derechos irrenunciables.
 
 8. CONTACTO
 

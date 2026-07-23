@@ -1,7 +1,7 @@
 PIXABAY — THIRD-PARTY ASSET NOTICE (SOUND EFFECTS)
-Last Updated: February 19, 2026
+Last Updated: July 22, 2026
 
-The App includes certain sound effects obtained from Pixabay (pixabay.com) and incorporated into the App’s audiovisual experience (e.g., UI and gameplay SFX).
+The Game includes certain sound effects obtained from Pixabay (pixabay.com) and incorporated into the Game’s audiovisual experience (e.g., UI and gameplay SFX).
 
 Service / source
 - Pixabay: https://pixabay.com
@@ -12,18 +12,18 @@ Pixabay content is made available under the Pixabay Content License and is subje
 - Pixabay Terms of Service: https://pixabay.com/service/terms/
 
 Scope of use
-Pixabay sound effects are used only as integrated components of the App’s audiovisual experience. They are not distributed as a standalone sound library, stock package, or as a substitute for the original content.
+Pixabay sound effects are used only as integrated components of the Game’s audiovisual experience. They are not distributed as a standalone sound library, stock package, or as a substitute for the original content.
 
 Good-faith statement
-Certain Pixabay content may depict, include, or reference third-party rights (e.g., trademarks or other protected material). The Studio uses Pixabay sound effects in good faith under the applicable license and remains responsible for ensuring the App’s use of such content complies with applicable law and does not infringe third-party rights.
+Certain Pixabay content may depict, include, or reference third-party rights (e.g., trademarks or other protected material). Jesus Afkerian uses Pixabay sound effects in good faith under the applicable license and remains responsible for ensuring the Game’s use of such content complies with applicable law and does not infringe third-party rights.
 
 Attribution
-Attribution is not stated as mandatory under the Pixabay Content License. This notice is provided for provenance and compliance recordkeeping. Where available, the Studio maintains internal records for relevant items (e.g., source page URLs, file names/IDs, and download evidence, including any available license certificates).
+Attribution is not stated as mandatory under the Pixabay Content License. This notice is provided for provenance and compliance recordkeeping. Where available, Jesus Afkerian maintains internal records for relevant items (e.g., source page URLs, file names/IDs, and download evidence, including any available license certificates).
 
 No endorsement; no support
-The App is not affiliated with, endorsed by, or sponsored by Pixabay. Pixabay does not provide warranties, support, or maintenance for the App.
+The Game is not affiliated with, endorsed by, or sponsored by Pixabay. Pixabay does not provide warranties, support, or maintenance for the Game.
 
-Organization note
+File organization note
 File names may have been changed for internal organization; the audio content itself was not modified.
 
 Recordkeeping
