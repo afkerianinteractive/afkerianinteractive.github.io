@@ -1,70 +1,53 @@
-WEBSITE PRIVACY POLICY
+PRIVACY POLICY
+JESUS AFKERIAN PUBLIC WEBSITE
 
-Scope: Jesus Afkerian public website
-Document ID: WEBSITE_PRIVACY_POLICY
-Language: en-US
 Effective Date: July 22, 2026
 Last Updated: July 22, 2026
-Version: 2026-07-22
-Operator: Jesus Afkerian
-Contact: afkerian.support@gmail.com
 
 1. SCOPE
 
-This Policy applies only to https://afkerianinteractive.github.io/ and its static pages (the "Website"). It does not replace a product Privacy Policy. Public access to the Website or a legal TXT file does not authorize download or use of a product outside that product's Permitted Territory.
+This Policy explains how Jesus Afkerian, the individual who publishes and operates this website, processes information related to the public website. It does not govern the apps or games, which have product-specific policies linked from their pages.
 
-Jesus Afkerian, an individual, publishes and operates the Website. In this Policy, "operator," "I," "me," and "my" refer to Jesus Afkerian.
+2. HOSTING AND TECHNICAL LOGS
 
-2. WEBSITE OPERATION
+The website is static and hosted through GitHub Pages. When a page is requested, GitHub and network providers may receive an IP address, date and time, requested resource, user agent, browser or device information, referring information, and security or delivery diagnostics. Jesus Afkerian does not control GitHub's independent logs.
 
-The Website is a static GitHub Pages site. The inspected Website contains no first-party account, registration, payment, comment, subscription, contact form, advertising, or analytics system. It does not set first-party analytics or advertising cookies and does not use browser storage for tracking.
-
-Website scripts provide local navigation, visual effects, and same-origin display of legal TXT documents. Those legal-document requests are ordinary Website requests and are not used by me to create a visitor profile.
-
-3. HOSTING INFORMATION
-
-GitHub operates the hosting infrastructure. Like ordinary web hosting, GitHub and network intermediaries may process technical request information such as IP address, user agent, requested path, timestamps, security events, and diagnostics under their own policies and legal obligations. I do not receive a first-party visitor-level analytics database from the Website implementation inspected.
-
-GitHub information:
+GitHub Privacy Statement:
 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+3. COOKIES, ANALYTICS, AND FORMS
+
+Jesus Afkerian does not embed a first-party account, web form, advertising service, marketing pixel, or first-party web analytics service on this website. Hosting infrastructure and external links may operate under independent policies.
 
 4. EMAIL
 
-If you choose a mailto link or otherwise email afkerian.support@gmail.com, you provide the content, email address, headers, and attachments you send. I use that information to respond, provide support, investigate technical or security concerns, keep appropriate records, protect rights, and meet legal obligations.
-
-Email is handled through Gmail, a Google service, under Google's applicable terms and Privacy Policy:
-https://policies.google.com/privacy
-
-Do not send sensitive information unless reasonably necessary. If you do not want to provide information by email, do not use that channel.
+If you contact support, Jesus Afkerian receives your email address, message, attachments, and any other information you choose to send. It is used to respond, keep appropriate records, prevent abuse, resolve disputes, and protect rights.
 
 5. EXTERNAL LINKS
 
-The Website links to Google Play, GitHub, provider policies, source websites, and other independent resources. Following a link sends an ordinary request to that provider, which may receive technical information and operate under its own policies. A link does not imply affiliation or endorsement.
+Links to Google Play, Google, GitHub, providers, and other pages lead to independent services. Their operators control their own information processing.
 
 6. RETENTION AND DISCLOSURE
 
-I retain support communications only as reasonably needed to respond, keep appropriate business records, protect rights and security, resolve disputes, and meet legal obligations. GitHub, Google, and other providers control their own retention.
-
-Information may be preserved or disclosed when reasonably necessary to comply with applicable law or valid legal process; address fraud, abuse, or security; protect persons, rights, property, or safety; or establish, exercise, or defend legal claims.
+Email is retained for the time reasonably necessary to handle the request, keep appropriate records, prevent abuse, resolve disputes, and meet legal obligations. Information may be preserved or disclosed when reasonably necessary in response to valid legal process, security incidents, or to establish, exercise, or defend legal claims.
 
 7. RIGHTS AND REQUESTS
 
-Depending on applicable law and its scope, thresholds, and exemptions, you may have rights concerning information in your direct communications with me. Email afkerian.support@gmail.com with the subject "Website Privacy Request". I may request information reasonably necessary to verify and locate relevant records. Provider-controlled requests may need to be directed to the provider.
+Depending on your residence, applicable law, thresholds, and exceptions, you may have rights concerning personal information. Send requests to afkerian.support@gmail.com. Information reasonably necessary to verify and answer the request may be required.
 
 8. SECURITY
 
-I use reasonable measures appropriate to the limited first-party information handled. No website, email, transmission, device, or storage method is completely secure, and I do not guarantee absolute security.
+Reasonable measures appropriate to the information controlled are used, but no storage or transmission method is completely secure.
 
-9. CHILDREN AND PRODUCT AUDIENCE
+9. CHILDREN
 
-The Website is informational and does not knowingly solicit personal information from children through a first-party form. The three Games identified on the Website are intended only for adults and have separate eligibility rules. The Website does not independently verify a visitor's age.
+The website presents products intended for adults and is not directed to children. If you believe a child sent information by email, contact Jesus Afkerian.
 
 10. CHANGES
 
-Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A product's Privacy Policy governs that product and can change independently.
+This Policy may be updated when the website, hosting, or applicable requirements change. The updated document will state its effective date.
 
 11. CONTACT
 
 Jesus Afkerian
-Email: afkerian.support@gmail.com
-Website: https://afkerianinteractive.github.io/
+afkerian.support@gmail.com

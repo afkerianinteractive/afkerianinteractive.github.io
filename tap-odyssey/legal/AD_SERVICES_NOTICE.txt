@@ -1,33 +1,32 @@
-GOOGLE ADMOB — THIRD-PARTY SERVICE NOTICE
+GOOGLE ADMOB AND UMP NOTICE
+Tap Odyssey
+
+Effective Date: July 22, 2026
 Last Updated: July 22, 2026
 
-The Game uses Google AdMob (Google Mobile Ads SDK) provided by Google LLC to display advertising.
+1. SERVICE
 
-Data Handling
-Google AdMob and related Google services may collect and share certain information for ad delivery, measurement, frequency capping, and fraud prevention. Depending on configuration, region, and user choices, this may include:
-- Advertising/device identifiers (e.g., Advertising ID or equivalent)
-- IP address and approximate location inferred from IP
-- Device/technical information (device model, OS/app version, diagnostics/performance)
-- Game interactions and advertising events (e.g., app launch, impressions, clicks, interaction signals) and anti-fraud signals
+The Game uses Google AdMob through the Google Mobile Ads SDK to display advertising and Google User Messaging Platform (“UMP”) to manage advertising eligibility and privacy messages.
 
-Google processes such information under its own terms and privacy policies and, in some cases, as an independent controller. The Game’s data disclosures and user choices are described in the Game’s Privacy Policy.
+2. INFORMATION PROCESSING
 
-User Choices / Consent
-Where available, you can manage advertising consent and choices via the Game’s “Privacy Options” (Google UMP) and/or your device settings (e.g., search “Ads” in system settings to reset/delete Advertising ID or limit ad personalization).
+Google states that Mobile Ads automatically processes and shares IP address information that may estimate approximate location, Game and advertising interactions, diagnostic information, and device or account identifiers for advertising, analytics, and fraud prevention. The Game's Privacy Policy provides the product-specific disclosure.
 
-References (Google)
-- Mobile Ads SDK disclosure guidance (Google Play requirements):
-  https://developers.google.com/admob/android/privacy/play-data-disclosure
-- Google Play “Data safety” disclosure guidance (Play Console requirements):
-  https://support.google.com/googleplay/android-developer/answer/10787469
+3. USER CHOICES
 
-Terms & Policies
-Use of Google AdMob / Google Mobile Ads SDK is governed by Google’s applicable terms and policies, including:
-- AdMob Terms of Service:
-  https://developers.google.com/admob/terms
-- Google Mobile Ads SDK Terms of Service:
-  https://developers.google.com/ad-manager/mobile-ads-sdk/terms
-- Google Privacy Policy:
-  https://policies.google.com/privacy
+Where Google reports that Privacy Options are required, the Game provides access to UMP Privacy Options. Android advertising controls and Google account controls may provide additional choices. These controls have different scopes and do not disable all Google services or all network activity.
 
-Note: Links and policy names may change over time; refer to Google’s official documentation for the most current versions.
+4. TERMS AND POLICIES
+
+Google Mobile Ads SDK disclosure:
+https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+Google Mobile Ads SDK Terms:
+https://developers.google.com/ad-manager/mobile-ads-sdk/terms
+
+Google Privacy Policy:
+https://policies.google.com/privacy
+
+5. NO ENDORSEMENT
+
+Google does not operate or endorse the Game merely because its services are integrated.

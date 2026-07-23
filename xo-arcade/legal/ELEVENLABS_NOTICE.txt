@@ -1,27 +1,33 @@
-ELEVENLABS — GENERATED VOICE / SFX NOTICE
+ELEVENLABS GENERATED AUDIO NOTICE
+XO Arcade: Infinity Edition
+
+Effective Date: July 22, 2026
 Last Updated: July 22, 2026
 
-The Game includes certain voice and/or sound effects generated using ElevenLabs (“ElevenLabs”) under a commercial subscription/plan held by Jesus Afkerian and in effect at the time of generation.
+1. SOURCE
 
-Service / source
-- ElevenLabs: https://elevenlabs.io
+The Game includes voice or sound effects generated using ElevenLabs.
 
-Terms
-Use of ElevenLabs and any generated outputs is subject to ElevenLabs’ then-current terms and policies:
-- https://elevenlabs.io/terms-of-use
-- https://elevenlabs.io/use-policy
+ElevenLabs:
+https://elevenlabs.io
 
-Good-faith statement
-To the best of Jesus Afkerian’s knowledge and good-faith belief, no third-party voice likeness was used without permission. Jesus Afkerian is responsible for securing any required rights, consents, and permissions for voice-related content.
+2. GOVERNING TERMS
 
-Attribution
-Attribution requirements (if any) are governed by ElevenLabs’ terms/policies and Jesus Afkerian’s subscription tier/contract. If attribution is required, it will be provided in the Game’s Third-Party Notices and/or credits.
+Use of ElevenLabs and generated output is governed by the terms and subscription that applied when each output was generated. ElevenLabs states that paid plans may include commercial rights, while free-plan output is restricted, and beta services are subject to separate restrictions.
 
-No endorsement
-ElevenLabs is not affiliated with, and does not endorse, Jesus Afkerian or the Game.
+ElevenLabs Terms of Use:
+https://elevenlabs.io/terms-of-use
 
-File organization note
-File names may have been changed for internal organization; the audio content itself was not modified.
+ElevenLabs Beta Services Addendum:
+https://elevenlabs.io/bsa
 
-Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+Publishing guidance:
+https://help.elevenlabs.io/hc/en-us/articles/13313564601361-Can-I-publish-the-content-I-generate-on-the-platform
+
+3. RIGHTS AND RESTRICTIONS
+
+This notice does not expand ElevenLabs' terms or grant a user the right to extract, redistribute, or separately exploit audio from the Game.
+
+4. NO ENDORSEMENT
+
+ElevenLabs does not sponsor or endorse the Game merely because its service was used.

@@ -1,137 +1,118 @@
 TERMS OF SERVICE
+Air Strike Arcade
 
-Product: Air Strike Arcade
-Document ID: TERMS_OF_SERVICE
-Language: en-US
 Effective Date: July 22, 2026
 Last Updated: July 22, 2026
-Version: 2026-07-22
-Operator: Jesus Afkerian
-Contact: afkerian.support@gmail.com
 
-1. CONTRACT AND OPERATOR
+1. AGREEMENT AND OPERATOR
 
-These Terms of Service ("Terms") govern Air Strike Arcade (the "Game"). They form an agreement between you and Jesus Afkerian ("operator," "I," "me," or "my"). Jesus Afkerian, an individual, publishes and operates the Game.
+These Terms of Service are an agreement between you and Jesus Afkerian, an individual who publishes and operates the Game. These Terms govern Air Strike Arcade (the “Game”).
 
-If you disagree, do not download, install, access, or use the Game. If it is installed, stop using and uninstall it. To the maximum extent permitted by law, downloading, installing, accessing, or using after these Terms and a reasonably conspicuous notice are made available manifests agreement. Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law. This does not guarantee enforceability in every circumstance.
+If you do not agree, do not download, install, access, or use the Game. If it is installed, stop using it and uninstall it.
 
 2. ADULT ELIGIBILITY
 
-The Game is intended only for adults and is not directed to children. You are authorized only if you are at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. A person below either threshold or otherwise lacking contractual capacity is not authorized. There is no parental or guardian alternative.
-
-The Game does not independently verify age. Google Play audience configuration is a separate store setting and is not proven by these Terms.
+You may use the Game only if you are at least 18 and have reached the age of majority and contractual capacity where you live, whichever standard is higher. The Game is not directed to children.
 
 3. PERMITTED TERRITORY
 
-The Game is authorized for distribution and use only in Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are excluded. The versioned canonical list is incorporated into these Terms:
+Use is authorized only in the territory identified at:
 https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
 
-Public access to the Game website or documents does not authorize use elsewhere. Actual Google Play production and testing availability is external to these Terms and remains unverified.
+Access to the Game or these Terms from another location does not grant authorization there. You are responsible for complying with mandatory local law.
 
 4. LIMITED LICENSE
 
-Subject to these Terms and law, I grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the Game on a compatible device for lawful, noncommercial entertainment.
+Subject to these Terms, Jesus Afkerian grants you a personal, limited, revocable, nonexclusive, nontransferable, and nonsublicensable license to install and use the Game on a compatible device for personal, noncommercial entertainment in the permitted territory.
 
-The Game is licensed, not sold. No ownership in the Game, brand, code, audiovisual content, or other materials transfers to you. Third-party materials remain subject to their licenses and notices.
+No ownership interest is transferred. Except where applicable law does not permit restriction, you may not copy, sell, rent, sublicense, distribute, publicly perform, make available, reverse engineer, circumvent technical protections, extract assets, or create derivative works from the Game.
 
-5. GAME FUNCTION, LOCAL DATA, AND BACKUPS
+5. GAME FUNCTION, LOCAL DATA, AND BACKUP
 
-Core gameplay and settings are handled primarily on the device. Local information may include progress, scores, preferences, and ordinary game state. It may be lost through uninstall, clear-data actions, corruption, device loss, updates, incompatibility, or operating-system behavior. Android backup or transfer may copy or restore supported preferences depending on settings. I do not guarantee backup, synchronization, restoration, or recovery.
-
-Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud prevention use network connections. The Game is not completely offline.
-
-No first-party account system, Google Play Billing integration, real-money in-app purchase, or subscription system was identified in the inspected Game. These Terms do not create purchase or refund rights for a transaction that does not exist, without limiting rights arising from any separate transaction or mandatory law.
+The Game stores progress, scores, preferences, and ordinary state primarily on the device. Android backup or device-transfer services may copy supported local data when enabled by Android, the device manufacturer, or the user. Uninstalling, clearing data, device loss, corruption, or backup behavior may delete, retain, copy, or restore data. Jesus Afkerian does not promise recovery, uninterrupted availability, or compatibility with every device.
 
 6. ADVERTISING
 
-The Game uses banner and interstitial advertising. Rewarded, App Open, and native ads were not identified in the inspected source.
-
 The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
 
-Ads and privacy messages use Google services. Availability, content, suitability, timing, measurement, and delivery can depend on region, device, network, provider systems, user choices, and publisher or provider configuration. I do not guarantee any ad or reward. In the inspected implementation, ad failure does not block ordinary gameplay continuation.
-
-You may not manipulate ads, consent signals, impressions, clicks, rewards, identifiers, measurement, frequency controls, or anti-fraud systems.
+The Game uses anchored banner advertisements and occasional interstitial advertisements. It does not use App Open or native advertisements. UMP gates advertising requests only; it does not disable analytics, crash reporting, installation or session measurement, security services, or all network activity. Advertising failure must not be treated as permission to bypass technical controls.
 
 7. PRIVACY
 
-The Privacy Policy is incorporated by reference:
+The Privacy Policy explains local data, advertising, Analytics, Crashlytics, Installations, Sessions, support communications, and available choices:
 https://afkerianinteractive.github.io/air-strike-arcade/privacy-policy.html
 
-The Game uses Google Mobile Ads, UMP, Analytics, Crashlytics, Installations, and Sessions. Agreeing to these Terms is not blanket consent to every privacy activity. Processing, choices, and rights are described in the Privacy Policy and provider policies.
+The Game is not completely offline.
 
 8. ACCEPTABLE USE
 
-You may not use the Game unlawfully or outside the Permitted Territory; copy, sell, rent, sublicense, distribute, publicly perform, commercially exploit, or create unauthorized derivative works; reverse engineer, decompile, disassemble, bypass, or extract source code except where a restriction is prohibited by mandatory law; evade technical, territorial, security, advertising, privacy, or access controls; interfere with operation, networks, providers, or devices; introduce malicious code; exploit errors, automate interaction, falsify metrics, or manipulate ads or rewards; infringe another person's rights; or misrepresent affiliation, sponsorship, endorsement, or ownership.
+You may not misuse the Game, interfere with its operation, exploit defects, automate interactions in a manner that harms the service, evade advertising or eligibility controls, introduce malicious code, violate another person's rights, or use the Game for unlawful activity.
 
 9. OWNERSHIP AND THIRD-PARTY MATERIALS
 
-Jesus Afkerian owns or licenses the Game's original code, design, brand, and content. Third-party software, services, sounds, music, generated media, tools, and materials are governed by applicable terms, licenses, and notices. Nothing overrides an open-source license or grants rights in a third party's marks or content.
+Jesus Afkerian and his licensors retain their respective rights in the Game, including code, design, text, graphics, audio, and other content. The Game includes sound effects sourced from Pixabay and music generated using Suno. Separate notices identify the sources and governing terms.
 
-See:
-https://afkerianinteractive.github.io/air-strike-arcade/third-party-notices.html
+Third-party names and marks belong to their owners. No license to a third-party mark is granted except as necessary to identify the relevant source.
 
 10. UPDATES AND AVAILABILITY
 
-I may correct, update, change, suspend, or discontinue the Game or a feature when reasonably necessary. I do not promise permanent availability of the Game, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
+The Game may be corrected, updated, changed, suspended, or discontinued. Features may vary by device, operating-system version, region, network, provider availability, and configuration. To the extent permitted by law, no particular feature or period of availability is promised.
 
 11. THIRD-PARTY SERVICES
 
-Google Play, Google, advertising, analytics and crash providers, device manufacturers, network operators, and linked resources operate under separate terms. I do not control their independent systems or promise their availability or conduct. A link does not imply endorsement or partnership.
+Google Play, Google AdMob, UMP, Firebase services, and creative or asset providers are third parties with their own terms and policies. Jesus Afkerian does not control their infrastructure, availability, security, or independent processing.
 
 12. EXPORT CONTROLS AND SANCTIONS
 
-You may not download, access, export, reexport, transfer, or use the Game in violation of applicable U.S. export controls, sanctions, or other trade restrictions, including restrictions involving prohibited persons, destinations, or uses. This clause does not represent that distribution is lawful in any country outside the Permitted Territory.
+You may not use, export, reexport, or transfer the Game in violation of applicable export-control, sanctions, or trade laws. You represent that you are not prohibited from receiving the Game under laws that apply to you.
 
 13. SUPPORT AND FEEDBACK
 
-Support is offered at my discretion through afkerian.support@gmail.com. Do not send sensitive information unless reasonably necessary. If you submit feedback, you permit me to use it without restriction or payment, while retaining rights you already hold. This does not authorize use of confidential or third-party material.
+Support is offered at afkerian.support@gmail.com without a guaranteed response time or outcome.
+
+To the extent you voluntarily provide feedback, you grant Jesus Afkerian a nonexclusive, worldwide, perpetual, irrevocable, royalty-free, transferable and sublicensable license to use it for lawful product and business purposes. This license does not cover personal information, confidential information, or third-party material you lack authority to license.
 
 14. SUSPENSION AND TERMINATION
 
-Your license ends automatically if you materially breach these Terms. I may suspend or terminate access I control when reasonably necessary for unlawful conduct, security, abuse, provider requirements, or discontinuation. On termination, stop using and uninstall. Provisions that should survive by nature will survive.
+Your license ends automatically if you materially breach these Terms. You may end it at any time by stopping use and uninstalling the Game. Provisions that by their nature should survive, including ownership, disclaimers, liability limits, indemnity, governing law, and general terms, continue to the extent permitted by law.
 
 15. DISCLAIMERS
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE GAME IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." I DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE GAME IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITH ALL FAULTS. JESUS AFKERIAN DISCLAIMS IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, AND WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.
 
-I do not warrant preservation of progress, correction of defects, or continuing availability of services, ads, rewards, updates, or content. Nonwaivable warranties and consumer rights remain unaffected.
+Nothing in these Terms excludes a warranty or remedy that cannot lawfully be excluded.
 
 16. LIMITATION OF LIABILITY
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN AND HIS APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROGRESS, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, GOODWILL, OR BUSINESS INTERRUPTION, ARISING FROM OR RELATED TO THE GAME.
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, HIS TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE GAME OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE GAME DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
-
-Nothing excludes or limits liability for fraud or fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, statutory privacy or consumer remedies, or other liability that cannot lawfully be excluded or limited.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN'S AGGREGATE LIABILITY ARISING FROM OR RELATED TO THE GAME WILL NOT EXCEED THE GREATER OF THE AMOUNT YOU PAID DIRECTLY TO JESUS AFKERIAN FOR THE GAME DURING THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM OR TEN U.S. DOLLARS. THIS LIMIT DOES NOT APPLY WHERE APPLICABLE LAW REQUIRES A DIFFERENT RESULT.
 
 17. NARROW INDEMNITY
 
-To the extent permitted by law, you will indemnify Jesus Afkerian against third-party claims and direct losses to the extent caused by your unlawful use, material breach, infringement of a third party's rights, or malicious interference.
+To the maximum extent permitted by law, you will defend, indemnify, and hold Jesus Afkerian harmless from third-party claims, damages, judgments, losses, and reasonable costs arising from your unlawful use of the Game, your material breach of these Terms, or content you submit through support that infringes another person's rights.
 
-This is subject to causation, reasonable mitigation, prompt notice where practicable, and your reasonable control of the defense with qualified counsel, while allowing my participation at my expense. It excludes losses caused by my fraud, willful misconduct, gross negligence where nonwaivable, or other conduct for which indemnity cannot lawfully be required.
+Jesus Afkerian will give reasonably prompt notice and permit you to control the defense with counsel reasonably acceptable to him. You may not settle a claim without Jesus Afkerian's prior written consent if the settlement admits fault by him, imposes a nonmonetary obligation on him, or does not fully release him; consent will not be unreasonably withheld. Jesus Afkerian may participate with counsel at his own expense.
 
 18. MANDATORY RIGHTS
 
-Nothing waives any nonwaivable consumer, privacy, language, warranty, cancellation, small-claims, forum, or remedy right. If a disclaimer, limit, venue, or other term conflicts with mandatory law, that law controls only to the extent required and the remainder continues.
+These Terms do not waive consumer protections, statutory rights, remedies, or jurisdictional rules that cannot lawfully be waived or limited.
 
 19. GOVERNING LAW AND VENUE
 
-These Terms are governed by Florida law, without regard to conflicts rules, except where mandatory law requires otherwise. Subject to nonwaivable local law, consumer forums, and small-claims rights, disputes must be brought in a competent court in Orange County, Florida.
-
-These Terms contain no mandatory arbitration agreement, arbitration delegation, arbitration opt-out, class-action waiver, or jury-trial waiver.
+These Terms are governed by Florida law, without regard to conflict-of-laws principles, except where mandatory law requires otherwise. Subject to any nonwaivable right to another forum, proceedings must be brought in the state courts located in Orange County, Florida, or the federal courts serving Orange County, Florida.
 
 20. CHANGES
 
-I may update these Terms prospectively. Material changes will be made reasonably conspicuous and identify an effective date. Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law.
+Jesus Afkerian may update these Terms for changes to the Game, providers, risk, or applicable requirements. Updated Terms will state their effective date and material changes will receive reasonably conspicuous notice where appropriate.
 
-If you disagree, stop using and uninstall before updated Terms take effect.
+Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law.
 
 21. GENERAL
 
-If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; I may assign them with a lawful transfer of the Game or related rights, subject to mandatory law. Neither these Terms nor Game use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. I am not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the Game without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
+These Terms, the Privacy Policy, and incorporated notices form the agreement concerning the Game. If a provision is unenforceable, it will be enforced to the maximum lawful extent and the remainder will continue. Failure to enforce a provision is not a waiver. You may not assign these Terms without prior written consent; Jesus Afkerian may assign them in connection with a lawful transfer of the Game or his business interests, subject to applicable law.
 
 22. CONTACT
 
 Jesus Afkerian
-Email: afkerian.support@gmail.com
-Website: https://afkerianinteractive.github.io/
+afkerian.support@gmail.com

@@ -1,72 +1,63 @@
 TERRITORIO PERMITIDO
+JUEGOS PUBLICADOS POR JESUS AFKERIAN
 
-ID del documento: PERMITTED_TERRITORY
-Idioma: es-419
 Fecha efectiva: 22 de julio de 2026
 Última actualización: 22 de julio de 2026
-Versión: 2026-07-22
-Operador: Jesus Afkerian
 
-Esta lista se aplica a XO Arcade: Infinity Edition, Air Strike Arcade y Tap Odyssey.
-Jesus Afkerian, persona física, publica y opera cada Juego cubierto por esta lista.
+Esta lista define el territorio actualmente autorizado por Jesus Afkerian para XO Arcade: Infinity Edition, Air Strike Arcade y Tap Odyssey. La disponibilidad técnica o pública fuera de esta lista no concede autorización.
 
-Jurisdicción permitida:
-Estados Unidos: únicamente los 50 estados y el Distrito de Columbia enumerados.
+Subjurisdicciones permitidas de Estados Unidos:
 
 - Alabama
 - Alaska
 - Arizona
 - Arkansas
 - California
-- Carolina del Norte
-- Carolina del Sur
 - Colorado
 - Connecticut
-- Dakota del Norte
-- Dakota del Sur
 - Delaware
-- Distrito de Columbia
 - Florida
 - Georgia
-- Hawái
+- Hawaii
 - Idaho
 - Illinois
 - Indiana
 - Iowa
 - Kansas
 - Kentucky
-- Luisiana
+- Louisiana
 - Maine
 - Maryland
 - Massachusetts
-- Míchigan
+- Michigan
 - Minnesota
-- Misisipi
-- Misuri
+- Mississippi
+- Missouri
 - Montana
 - Nebraska
 - Nevada
-- Nueva Hampshire
-- Nueva Jersey
-- Nuevo México
-- Nueva York
+- New Hampshire
+- New Jersey
+- New Mexico
+- New York
+- North Carolina
+- North Dakota
 - Ohio
 - Oklahoma
-- Oregón
-- Pensilvania
+- Oregon
+- Pennsylvania
 - Rhode Island
+- South Carolina
+- South Dakota
 - Tennessee
 - Texas
 - Utah
 - Vermont
 - Virginia
-- Virginia Occidental
 - Washington
+- West Virginia
 - Wisconsin
 - Wyoming
+- District of Columbia
 
-Quedan fuera de este permiso:
-- Todos los territorios y posesiones de Estados Unidos, incluidos Samoa Americana, Guam, Islas Marianas del Norte, Puerto Rico, Islas Vírgenes de Estados Unidos e Islas Ultramarinas Menores de Estados Unidos.
-- Todo país o región que no figure en la lista anterior.
-
-El acceso público a una App, sitio web, ficha de tienda o documento legal no amplía este permiso. Los ajustes reales de países y pistas de prueba en Google Play son externos a esta lista y permanecen sin verificar.
+Quedan fuera los territorios y posesiones de Estados Unidos y cualquier país o región no enumerado. La disponibilidad real de Google Play depende además de la configuración de publicación controlada por el propietario.

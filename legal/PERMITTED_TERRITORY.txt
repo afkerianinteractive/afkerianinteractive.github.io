@@ -1,17 +1,12 @@
 PERMITTED TERRITORY
+GAMES PUBLISHED BY JESUS AFKERIAN
 
-Document ID: PERMITTED_TERRITORY
-Language: en-US
 Effective Date: July 22, 2026
 Last Updated: July 22, 2026
-Version: 2026-07-22
-Operator: Jesus Afkerian
 
-This list applies to XO Arcade: Infinity Edition, Air Strike Arcade, and Tap Odyssey.
-Jesus Afkerian, an individual, publishes and operates each Game covered by this list.
+This list defines the territory currently authorized by Jesus Afkerian for XO Arcade: Infinity Edition, Air Strike Arcade, and Tap Odyssey. Technical or public accessibility outside this list does not grant authorization.
 
-Permitted jurisdiction:
-United States: only the 50 states and District of Columbia listed below.
+Permitted United States subjurisdictions:
 
 - Alabama
 - Alaska
@@ -21,7 +16,6 @@ United States: only the 50 states and District of Columbia listed below.
 - Colorado
 - Connecticut
 - Delaware
-- District of Columbia
 - Florida
 - Georgia
 - Hawaii
@@ -64,9 +58,6 @@ United States: only the 50 states and District of Columbia listed below.
 - West Virginia
 - Wisconsin
 - Wyoming
+- District of Columbia
 
-Excluded from this permission:
-- Every U.S. territory and possession, including American Samoa, Guam, Northern Mariana Islands, Puerto Rico, U.S. Virgin Islands, and U.S. Minor Outlying Islands.
-- Every country and region not listed above.
-
-Public access to an App, website, store listing, or legal document does not expand this permission. Actual Google Play country and testing-track settings are external to this list and remain unverified.
+United States territories and possessions, and every country or region not listed, are excluded. Actual Google Play availability also depends on owner-controlled publishing configuration.

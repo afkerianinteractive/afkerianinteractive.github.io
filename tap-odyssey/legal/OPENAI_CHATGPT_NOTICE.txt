@@ -1,32 +1,27 @@
-OPENAI / CHATGPT — GENERATED VISUAL ASSETS NOTICE
+OPENAI / CHATGPT GENERATED ASSET NOTICE
+Tap Odyssey
+
+Effective Date: July 22, 2026
 Last Updated: July 22, 2026
 
-The Game includes certain visual assets (including, as applicable, images, icons, textures, UI elements, and/or other artwork) generated using OpenAI’s services for individuals, including ChatGPT (collectively, “OpenAI Services”), under a paid subscription plan held by Jesus Afkerian.
+1. SOURCE
 
-Service / source
-- OpenAI (ChatGPT): https://openai.com
+The Game includes visual assets generated using OpenAI services for individuals, including ChatGPT.
 
-Terms
-Use of OpenAI Services and any generated outputs is subject to OpenAI’s then-current terms and policies:
-- OpenAI Terms of Use (Individuals): https://openai.com/policies/terms-of-use/
-- Terms & Policies hub: https://openai.com/policies/
+OpenAI:
+https://openai.com
 
-Ownership / rights (per OpenAI Terms)
+2. GOVERNING TERMS AND OWNERSHIP
+
+Use of the services and outputs is subject to the applicable OpenAI Terms of Use:
+https://openai.com/policies/terms-of-use/
+
 As between Jesus Afkerian and OpenAI, and to the extent permitted by applicable law, Jesus Afkerian retains his ownership rights in the inputs and owns the outputs as provided by the applicable OpenAI Terms. OpenAI assigns to Jesus Afkerian any right, title, and interest it may have in those outputs, subject to those Terms and applicable law.
 
-Outputs may not be unique, and similar outputs may be generated for or provided to other users. OpenAI’s assignment does not extend to other users’ outputs or to any third-party output.
+3. SIMILAR OUTPUTS, REVIEW, AND THIRD-PARTY RIGHTS
 
-Good-faith statement
-This notice does not grant any rights in third-party content and does not modify any third-party rights. Jesus Afkerian remains responsible for ensuring that the Game’s content and use of any generated assets comply with applicable law and do not infringe or violate third-party rights.
+Outputs may not be unique, and other users may receive similar output. OpenAI's assignment does not extend to another user's output or third-party material. Jesus Afkerian remains responsible for evaluating output accuracy and suitability and for obtaining any rights required for the Game's use.
 
-Attribution
-OpenAI does not require attribution for outputs under its Terms of Use. This notice is provided for provenance and compliance recordkeeping.
+4. NO ENDORSEMENT
 
-No endorsement; no support
-The Game is not affiliated with, endorsed by, or sponsored by OpenAI. OpenAI does not provide warranties, support, or maintenance for the Game.
-
-File organization note
-File names may have been changed for internal organization; the visual assets themselves were not modified.
-
-Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+OpenAI does not sponsor or endorse the Game merely because its service was used.

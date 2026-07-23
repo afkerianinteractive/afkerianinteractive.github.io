@@ -1,76 +1,94 @@
 THIRD-PARTY NOTICES
+XO Arcade: Infinity Edition
 
-Product: XO Arcade: Infinity Edition
-Document ID: THIRD_PARTY_NOTICES
-Language: en-US
 Effective Date: July 22, 2026
 Last Updated: July 22, 2026
-Version: 2026-07-22
-Operator: Jesus Afkerian
-Contact: afkerian.support@gmail.com
 
 1. PURPOSE
 
-This document identifies material third-party software, services, and creative sources used by XO Arcade: Infinity Edition (the "Game"). It provides attribution, provenance, license access, and service information. It does not expand the Game license, replace the Privacy Policy or Terms, certify legal compliance, or grant rights in third-party material.
+This document identifies third-party software, services, and materials used by XO Arcade: Infinity Edition (the “Game”). Jesus Afkerian is the individual who publishes and operates the Game. Third parties retain their respective rights, and their terms control their own materials and services.
 
-Jesus Afkerian, an individual, publishes and operates the Game. In this notice, "operator," "I," "me," and "my" refer to Jesus Afkerian.
+2. GOOGLE SERVICES
 
-2. OPEN-SOURCE SOFTWARE
+The Game uses Google Mobile Ads, Google User Messaging Platform, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions. These components are subject to applicable Google terms and policies. The Privacy Policy describes their information processing.
 
-The Game includes Android, AndroidX, Google, Kotlin/Java, and related components that may be distributed under the Apache License 2.0 or other upstream terms. The bundled Apache License is reproduced without modification in LICENSE_APACHE_2_0.txt. Upstream copyright and attribution statements remain with their owners. If a license conflicts with this summary, the upstream license controls.
+3. CREATIVE AND SERVICE INVENTORY
 
-3. GOOGLE SERVICES AND SDKS
+- Google AdMob and Google User Messaging Platform
+- ElevenLabs-generated voice and sound effects
+- Kenney Casino Audio and UI Audio assets under CC0 1.0
+- Suno-generated music
 
-The inspected build includes Google Mobile Ads, UMP, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies. They are subject to Google's applicable terms and policies.
+Individual notices available through the Game's legal screen and product legal page provide the relevant source and governing terms. Naming a provider does not imply affiliation, sponsorship, or endorsement.
 
-Mobile Ads may automatically collect and share IP address, product interactions, diagnostics, and device/account identifiers for advertising, analytics, and fraud prevention. Analytics, Crashlytics, Installations, and Sessions process other automatic measurement and diagnostic information described in the Privacy Policy. Google, Android, Firebase, AdMob, and related marks belong to their owners. Inclusion does not imply sponsorship or endorsement.
+4. RELEASE RUNTIME SOFTWARE
 
-4. CREATIVE AND GENERATED MATERIAL
+The Game distributes direct and transitive components from AndroidX, Kotlin, Jetpack Compose, and other libraries. Identified open-source components are offered primarily under the Apache License 2.0, with the exceptions reproduced in Sections 5 and 6. The complete Apache License 2.0 appears on the Game's Apache License 2.0 page.
 
-The Game may include sounds, music, voices, images, interface elements, or other material obtained from or generated with the sources listed below. The operator retains provenance records available at acquisition or generation. Subscription status, source terms, and licenses can change; applicable source terms and records control.
+Proprietary Google SDKs and related components are subject to applicable Google terms, including the Google Mobile Developer Services Terms and service-specific terms; they are not represented as Apache software merely because they use a Google coordinate.
 
-Jesus Afkerian maintains private purchase, subscription, license, or provenance records for the third-party materials identified in this notice, where applicable.
+5. DATASTORE EXTERNAL PROTOBUF — BSD 3-CLAUSE
 
-Generated output may not be unique and may be subject to third-party rights or mandatory law. No notice guarantees exclusivity, non-infringement, copyrightability, or continuing provider availability.
+The AndroidX DataStore Preferences External Protobuf component includes material under the BSD 3-Clause terms:
 
-5. DOCUMENT INVENTORY
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
 
-1. Google AdMob and Google User Messaging Platform
-   Canonical notice: AD_SERVICES_NOTICE.txt
-   Website route: https://afkerianinteractive.github.io/xo-arcade/admob-notice.html
+    * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+    * Neither the name of the copyright holder nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
 
-2. ElevenLabs-generated voice and sound effects
-   Canonical notice: ELEVENLABS_NOTICE.txt
-   Website route: https://afkerianinteractive.github.io/xo-arcade/elevenlabs-notice.html
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-3. Kenney sound assets (CC0 1.0)
-   Canonical notice: KENNEY_NOTICE.txt
-   Website route: https://afkerianinteractive.github.io/xo-arcade/kenney-notice.html
+6. CHECKER FRAMEWORK QUALIFIERS — MIT
 
-4. Suno-generated music
-   Canonical notice: SUNO_NOTICE.txt
-   Website route: https://afkerianinteractive.github.io/xo-arcade/suno-notice.html
+The Checker Framework Qualifiers component is distributed under the MIT terms:
 
-5. Apache License 2.0
-   Canonical notice: LICENSE_APACHE_2_0.txt
-   Website route: https://afkerianinteractive.github.io/xo-arcade/apache-2.0.html
+Checker Framework qualifiers
+Copyright 2004-present by the Checker Framework developers
 
-6. PRIVACY AND TERMS
+MIT License:
 
-Privacy Policy:
-https://afkerianinteractive.github.io/xo-arcade/privacy-policy.html
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Terms of Service:
-https://afkerianinteractive.github.io/xo-arcade/terms-of-service.html
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-Provider terms and privacy policies govern provider-controlled services. The Game disclosures do not eliminate provider obligations or operator responsibilities.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
-7. NO ENDORSEMENT OR WARRANTY
+7. PRIVACY, TERMS, AND NO ENDORSEMENT
 
-Unless an individual notice states otherwise under an applicable license, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian or the Game. Third-party material and services are provided under their own terms and without additional operator warranty beyond nonwaivable rights.
+Use of the Game is also subject to its Privacy Policy and Terms of Service. The providers identified here do not operate, maintain, or endorse the Game unless their own terms expressly state otherwise.
 
 8. CONTACT
 
 Jesus Afkerian
-Email: afkerian.support@gmail.com
-Website: https://afkerianinteractive.github.io/
+afkerian.support@gmail.com

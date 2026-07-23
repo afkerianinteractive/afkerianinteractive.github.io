@@ -1,70 +1,53 @@
-POLÍTICA DE PRIVACIDAD DEL SITIO WEB
+POLÍTICA DE PRIVACIDAD
+SITIO PÚBLICO DE JESUS AFKERIAN
 
-Alcance: sitio web público de Jesus Afkerian
-ID del documento: WEBSITE_PRIVACY_POLICY
-Idioma: es-419
 Fecha efectiva: 22 de julio de 2026
 Última actualización: 22 de julio de 2026
-Versión: 2026-07-22
-Operador: Jesus Afkerian
-Contacto: afkerian.support@gmail.com
 
 1. ALCANCE
 
-Esta Política solo se aplica a https://afkerianinteractive.github.io/ y sus páginas estáticas (el «Sitio»). No sustituye la Política de un producto. El acceso público al Sitio o a un TXT no autoriza descargar o usar un producto fuera de su Territorio Permitido.
+Esta Política explica cómo Jesus Afkerian, persona física que publica y opera este sitio, trata información relacionada con el sitio público. No rige las apps o juegos, que tienen políticas propias enlazadas desde sus páginas.
 
-Jesus Afkerian, persona física, publica y opera el Sitio. En esta Política, «operador», «yo» y «mi» se refieren a Jesus Afkerian.
+2. ALOJAMIENTO Y REGISTROS TÉCNICOS
 
-2. FUNCIONAMIENTO
+El sitio es estático y se aloja mediante GitHub Pages. Al solicitar una página, GitHub y proveedores de red pueden recibir dirección IP, fecha y hora, recurso solicitado, agente de usuario, información del dispositivo o navegador, datos de referencia y diagnósticos de seguridad o entrega. Jesus Afkerian no controla los registros propios de GitHub.
 
-El Sitio es estático y se aloja en GitHub Pages. No contiene cuentas propias, registro, pagos, comentarios, suscripción, formulario de contacto, publicidad ni análisis de primera parte. No instala cookies propias de análisis o publicidad ni usa almacenamiento del navegador para rastreo.
-
-Los scripts proporcionan navegación local, efectos visuales y visualización de TXT del mismo origen. Esas solicitudes son solicitudes web ordinarias y no las uso para crear un perfil.
-
-3. ALOJAMIENTO
-
-GitHub opera la infraestructura. Como alojamiento normal, GitHub e intermediarios pueden tratar IP, agente de usuario, ruta, fechas, seguridad y diagnósticos bajo sus políticas y obligaciones. La implementación inspeccionada no me entrega una base propia de análisis por visitante.
-
-Información de GitHub:
+GitHub Privacy Statement:
 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+3. COOKIES, ANALÍTICA Y FORMULARIOS
+
+Jesus Afkerian no incorpora en este sitio una cuenta propia, formulario web, publicidad, píxel de marketing ni analítica web propia. El alojamiento y los enlaces externos pueden operar bajo políticas independientes.
 
 4. CORREO
 
-Si eliges un enlace de correo o escribes a afkerian.support@gmail.com, proporcionas contenido, dirección, cabeceras y adjuntos. Los uso para responder, dar soporte, investigar asuntos técnicos o de seguridad, mantener registros, proteger derechos y cumplir obligaciones.
-
-Gmail, de Google, gestiona el correo bajo términos y política aplicables:
-https://policies.google.com/privacy
-
-No envíes información sensible salvo necesidad razonable. Si no deseas proporcionarla, no uses correo.
+Si escribes a soporte, Jesus Afkerian recibe tu dirección, mensaje, adjuntos y cualquier información que decidas enviar. Se usa para responder, mantener registros apropiados, prevenir abuso, resolver disputas y proteger derechos.
 
 5. ENLACES EXTERNOS
 
-El Sitio enlaza a Google Play, GitHub, políticas y otros recursos independientes. Seguirlos envía una solicitud ordinaria al proveedor, que puede recibir información técnica bajo su política. Un enlace no implica afiliación ni respaldo.
+Los enlaces a Google Play, Google, GitHub, proveedores y otras páginas llevan a servicios independientes. Sus operadores controlan su tratamiento de datos.
 
 6. CONSERVACIÓN Y DIVULGACIÓN
 
-Conservo comunicaciones solo durante el tiempo razonablemente necesario para responder, mantener registros, proteger derechos y seguridad, resolver controversias y cumplir obligaciones. Los proveedores controlan su retención.
-
-La información puede conservarse o divulgarse para cumplir ley o proceso válido; abordar fraude, abuso o seguridad; proteger personas, derechos, propiedad o seguridad; o formular, ejercer o defender reclamaciones.
+El correo se conserva durante el tiempo razonablemente necesario para gestionar la solicitud, mantener registros, prevenir abuso, resolver disputas y cumplir obligaciones legales. Puede conservarse o divulgarse información cuando sea razonablemente necesario ante proceso legal válido, incidentes de seguridad o para establecer, ejercer o defender reclamaciones.
 
 7. DERECHOS Y SOLICITUDES
 
-Según la ley, alcance, umbrales y excepciones, puedes tener derechos sobre comunicaciones directas. Escribe a afkerian.support@gmail.com con el asunto «Solicitud de privacidad del sitio». Puedo pedir lo razonablemente necesario para verificar y localizar registros. Solicitudes sobre datos del proveedor pueden dirigirse a este.
+Según tu residencia, la ley aplicable, umbrales y excepciones, puedes tener derechos sobre información personal. Envía solicitudes a afkerian.support@gmail.com. Puede requerirse información razonablemente necesaria para verificar y responder.
 
 8. SEGURIDAD
 
-Uso medidas razonables acordes con la limitada información propia. Ningún sitio, correo, transmisión, dispositivo o almacenamiento es completamente seguro y no garantizo seguridad absoluta.
+Se usan medidas razonables apropiadas para la información controlada, pero ningún método de almacenamiento o transmisión es completamente seguro.
 
-9. NIÑOS Y PÚBLICO DE PRODUCTOS
+9. NIÑOS
 
-El Sitio es informativo y no solicita intencionalmente información de niños mediante formularios propios. Los tres Juegos identificados están destinados exclusivamente a adultos y tienen reglas separadas. El Sitio no verifica edad.
+El sitio presenta productos destinados a adultos y no se dirige a niños. Si crees que un niño envió información por correo, contacta a Jesus Afkerian.
 
 10. CAMBIOS
 
-Los cambios materiales serán razonablemente visibles y se aplicarán hacia el futuro desde la fecha indicada. La Política de cada producto lo rige y puede cambiar por separado.
+Esta Política puede actualizarse cuando cambien el sitio, el alojamiento o requisitos aplicables. El documento actualizado indicará su fecha efectiva.
 
 11. CONTACTO
 
 Jesus Afkerian
-Correo: afkerian.support@gmail.com
-Sitio: https://afkerianinteractive.github.io/
+afkerian.support@gmail.com

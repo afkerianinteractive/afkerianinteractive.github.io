@@ -217,7 +217,7 @@ def copy_map_value(manifest: dict[str, Any]) -> dict[str, Any]:
     return {
         "schema_version": 1,
         "generated_on": manifest.get("generated_on"),
-        "status": "OWNER_COPY_REQUIRED_ANDROID_REPOSITORIES_NOT_MODIFIED",
+        "status": "BLOCKED_PENDING_OWNER_CREATIVE_RIGHTS_EVIDENCE_AND_FINAL_REVIEW",
         "requested_copy_count": len(requested),
         "additional_consistency_copy_count": len(additional),
         "total_copy_count": len(requested) + len(additional),
@@ -369,33 +369,32 @@ def validate() -> int:
                 errors.append(f"{canonical}: invalid UTF-8: {exc}")
                 continue
             language = entry["language"]
+            lines = content.replace("\r\n", "\n").replace("\r", "\n").splitlines()
+            if len(lines) < 7:
+                errors.append(f"{canonical}: incomplete first-party presentation header")
+                continue
+            if not lines[0].strip() or not lines[1].strip():
+                errors.append(f"{canonical}: title and product name must be the first two lines")
+            if lines[2].strip() or lines[5].strip():
+                errors.append(f"{canonical}: presentation header spacing is not canonical")
+            forbidden_metadata = re.compile(
+                r"(?mi)^(?:Product|Producto|Document ID|ID del documento|"
+                r"Language|Idioma|Version|Versión|Operator|Operador|Contact|Contacto):"
+            )
+            if forbidden_metadata.search(content):
+                errors.append(f"{canonical}: technical body metadata is prohibited")
             declared_updated = metadata_value(
                 content, language, "Last Updated", "Última actualización"
             )
-            if entry.get("category") != "notice":
-                declared_language = metadata_value(content, language, "Language", "Idioma")
-                declared_version = metadata_value(content, language, "Version", "Versión")
-                declared_effective = metadata_value(
-                    content, language, "Effective Date", "Fecha efectiva"
-                )
-                expected_language = language
-                if declared_language != expected_language:
-                    errors.append(
-                        f"{canonical}: declared language {declared_language!r}, "
-                        f"expected {expected_language!r}"
-                    )
-                if declared_version != entry["version"]:
-                    errors.append(f"{canonical}: version metadata mismatch")
-                expected_display = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
-                if expected_display is None:
-                    errors.append(
-                        f"{canonical}: no localized display date for {entry['effective_date']!r}"
-                    )
-                if declared_effective != expected_display:
-                    errors.append(f"{canonical}: effective-date metadata mismatch")
+            declared_effective = metadata_value(
+                content, language, "Effective Date", "Fecha efectiva"
+            )
+            expected_effective = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
+            if declared_effective != expected_effective:
+                errors.append(f"{canonical}: effective-date presentation mismatch")
             expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
             if declared_updated != expected_updated:
-                errors.append(f"{canonical}: last-updated metadata mismatch")
+                errors.append(f"{canonical}: last-updated presentation mismatch")
             if LEGACY_PUBLIC_IDENTITIES.search(content):
                 errors.append(f"{canonical}: legacy public identity in first-party text")
             if entry["product_id"] in {
@@ -413,24 +412,29 @@ def validate() -> int:
             }:
                 if language == "en-US" and entry["document_id"] in {
                     "PRIVACY_POLICY",
-                    "TERMS_OF_SERVICE",
-                    "THIRD_PARTY_NOTICES",
                 }:
                     identity_sentence = (
-                        "Jesus Afkerian, an individual, publishes and operates the Game."
+                        "This Privacy Policy explains how I, Jesus Afkerian, process "
+                        "information in connection with "
                     )
                     if identity_sentence not in content:
-                        errors.append(f"{canonical}: missing exact individual operator statement")
+                        errors.append(f"{canonical}: missing exact Privacy identity opening")
+                if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
+                    identity_sentence = (
+                        "These Terms of Service are an agreement between you and Jesus "
+                        "Afkerian, an individual who publishes and operates the Game."
+                    )
+                    if identity_sentence not in content:
+                        errors.append(f"{canonical}: missing exact Terms identity opening")
                 if language == "es-419" and entry["document_id"] in {
                     "PRIVACY_POLICY",
-                    "TERMS_OF_SERVICE",
-                    "THIRD_PARTY_NOTICES",
                 }:
                     identity_sentence = (
-                        "Jesus Afkerian, persona física, publica y opera el Juego."
+                        "Esta Política de Privacidad explica cómo yo, Jesus Afkerian, "
+                        "trato información en relación con "
                     )
                     if identity_sentence not in content:
-                        errors.append(f"{canonical}: falta declaración exacta de operador")
+                        errors.append(f"{canonical}: falta apertura de identidad de Privacidad")
                 if language == "en-US" and entry["document_id"] in {
                     "PRIVACY_POLICY",
                     "TERMS_OF_SERVICE",
@@ -465,14 +469,6 @@ def validate() -> int:
                     )
                     if assent not in content:
                         errors.append(f"{canonical}: missing exact updated-Terms assent language")
-                if language == "en-US" and entry["document_id"] == "THIRD_PARTY_NOTICES":
-                    records = (
-                        "Jesus Afkerian maintains private purchase, subscription, license, "
-                        "or provenance records for the third-party materials identified in "
-                        "this notice, where applicable."
-                    )
-                    if records not in content:
-                        errors.append(f"{canonical}: missing private provenance-record statement")
 
             if entry.get("requires_bilingual"):
                 bilingual.setdefault(
@@ -497,11 +493,12 @@ def validate() -> int:
                     rf'id="raw-document-link"\s+href="{re.escape(source)}"', html
                 ):
                     errors.append(f"{route}: raw TXT link does not map to {canonical}")
-                for pre_body in re.findall(
-                    r"<pre\b[^>]*>(.*?)</pre>", html, flags=re.I | re.S
-                ):
-                    if pre_body.strip():
-                        errors.append(f"{route}: independently maintained legal body in HTML")
+                if '<article id="legal-document" class="legal-document" tabindex="0"></article>' not in html:
+                    errors.append(f"{route}: legal body host must be an empty article")
+                if re.search(r'<pre\b[^>]*id="legal-document"', html, flags=re.I):
+                    errors.append(f"{route}: first-party viewer must not use a pre body host")
+                if ">Plain-text version</a>" not in html and ">Versión de texto</a>" not in html:
+                    errors.append(f"{route}: missing plain-text version label")
                 canonical_url = (
                     "https://afkerianinteractive.github.io/" + route
                 )

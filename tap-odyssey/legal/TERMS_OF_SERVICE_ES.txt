@@ -1,138 +1,118 @@
 TÉRMINOS DEL SERVICIO
+Tap Odyssey
 
-Producto: Tap Odyssey
-ID del documento: TERMS_OF_SERVICE
-Idioma: es-419
 Fecha efectiva: 22 de julio de 2026
 Última actualización: 22 de julio de 2026
-Versión: 2026-07-22
-Operador: Jesus Afkerian
-Contacto: afkerian.support@gmail.com
 
-1. CONTRATO Y OPERADOR
+1. ACUERDO Y OPERADOR
 
-Estos Términos del Servicio («Términos») rigen Tap Odyssey (el «Juego»). Constituyen un acuerdo entre tú y Jesus Afkerian («operador», «yo» o «mi»). Jesus Afkerian, persona física, publica y opera el Juego.
+Estos Términos del Servicio son un acuerdo entre tú y Jesus Afkerian, persona física que publica y opera el Juego. Estos Términos rigen Tap Odyssey (el «Juego»).
 
-Si no estás de acuerdo, no descargues, instales, accedas ni uses el Juego. Si ya está instalado, deja de usarlo y desinstálalo. En la máxima medida permitida por la ley, descargar, instalar, acceder o usar después de que estos Términos y un aviso razonablemente visible estén disponibles manifiesta aceptación. La mera publicación, el silencio, la inacción o mantener el Juego instalado no constituyen aceptación de Términos actualizados. El acceso o uso continuado después de un aviso razonablemente visible y de la fecha efectiva indicada es la conducta en la que se basa la aceptación, en la máxima medida permitida por la ley. Esto no garantiza exigibilidad en toda circunstancia.
+Si no estás de acuerdo, no descargues, instales, accedas ni uses el Juego. Si está instalado, deja de usarlo y desinstálalo.
 
 2. ELEGIBILIDAD ADULTA
 
-El Juego es exclusivamente para adultos y no se dirige a niños. Solo tienes autorización si tienes al menos 18 años y alcanzaste la mayoría de edad y capacidad contractual local, aplicándose el umbral más alto. Una persona por debajo de cualquiera o sin capacidad no está autorizada. No existe alternativa mediante padre, madre o tutor.
-
-El Juego no verifica la edad de forma independiente. La configuración de público de Google Play es un ajuste separado de la tienda y estos Términos no la demuestran.
+Solo puedes usar el Juego si tienes al menos 18 años y alcanzaste la mayoría de edad y capacidad contractual del lugar donde vives, aplicándose el estándar más alto. El Juego no se dirige a niños.
 
 3. TERRITORIO PERMITIDO
 
-El Juego solo está autorizado para distribución y uso en Alabama, Alaska, Arizona, Arkansas, California, Carolina del Norte, Carolina del Sur, Colorado, Connecticut, Dakota del Norte, Dakota del Sur, Delaware, Florida, Georgia, Hawái, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Luisiana, Maine, Maryland, Massachusetts, Míchigan, Minnesota, Misisipi, Misuri, Montana, Nebraska, Nevada, Nueva Hampshire, Nueva Jersey, Nuevo México, Nueva York, Ohio, Oklahoma, Oregón, Pensilvania, Rhode Island, Tennessee, Texas, Utah, Vermont, Virginia, Virginia Occidental, Washington, Wisconsin, Wyoming y el Distrito de Columbia. Se excluyen territorios estadounidenses. La lista canónica versionada se incorpora:
+El uso solo está autorizado en el territorio identificado en:
 https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY_ES.txt
 
-El acceso público al sitio o documentos no autoriza el uso en otro lugar. La disponibilidad real de producción y pruebas en Google Play es externa a estos Términos y permanece sin verificar.
+Acceder al Juego o a estos Términos desde otro lugar no concede autorización allí. Eres responsable de cumplir la ley local obligatoria.
 
 4. LICENCIA LIMITADA
 
-Sujeto a estos Términos y la ley, otorgo a una persona elegible dentro del Territorio una licencia limitada, personal, revocable, no exclusiva, intransferible y no sublicenciable para instalar y usar en un dispositivo compatible con fines lícitos, personales y no comerciales.
+Sujeto a estos Términos, Jesus Afkerian te concede una licencia personal, limitada, revocable, no exclusiva, intransferible y no sublicenciable para instalar y usar el Juego en un dispositivo compatible, para entretenimiento personal y no comercial dentro del territorio permitido.
 
-El Juego se licencia, no se vende. No se transfiere propiedad sobre el Juego, marca, código, contenido audiovisual ni materiales. Los terceros siguen sujetos a sus licencias y avisos.
+No se transfiere propiedad. Salvo cuando la ley no permita la restricción, no puedes copiar, vender, alquilar, sublicenciar, distribuir, ejecutar públicamente, poner a disposición, aplicar ingeniería inversa, eludir protecciones, extraer recursos ni crear obras derivadas del Juego.
 
-5. FUNCIÓN, DATOS LOCALES Y COPIAS
+5. FUNCIÓN, DATOS LOCALES Y COPIA
 
-La jugabilidad principal, el progreso y los ajustes se gestionan principalmente en el dispositivo. Puede incluir progreso, puntuaciones, preferencias y estado del juego. Puede perderse por desinstalación, borrado, corrupción, pérdida, actualización, incompatibilidad o sistema. Copias o transferencias de Android pueden copiar o restaurar preferencias según ajustes. No garantizo copia, sincronización, restauración ni recuperación.
-
-Publicidad, mensajes de privacidad, análisis, fallos, medición, seguridad y fraude usan red. El Juego no es totalmente offline.
-
-No se identificó en el Juego inspeccionado un sistema propio de cuentas, integración de Google Play Billing, compras dentro del Juego con dinero real ni suscripciones. El Juego incluye artículos virtuales internos adquiridos con monedas de juego almacenadas localmente. Esas monedas no se compran con dinero, no tienen valor en efectivo, no son transferibles y no crean derechos de propiedad, retiro, canje ni reembolso. Estos Términos no crean derechos de compra o reembolso para una transacción con dinero real que no existe, sin limitar derechos nacidos de otra transacción o de la ley obligatoria.
+El Juego almacena progreso, puntuaciones, preferencias y estado ordinario principalmente en el dispositivo. El Juego permite copia y transferencia de Android para preferencias, contenido de base de datos y contenido de DataStore compatibles. Android, el fabricante y los ajustes del usuario controlan si la copia o transferencia ocurre. Desinstalar, borrar datos, perder el dispositivo, la corrupción o las copias pueden eliminar, conservar, copiar o restaurar datos. Jesus Afkerian no promete recuperación, disponibilidad ininterrumpida ni compatibilidad con todo dispositivo.
 
 6. PUBLICIDAD
 
-El Juego usa anuncios de banner, intersticiales y recompensados opcionales. No se identificaron anuncios App Open ni nativos en el código inspeccionado.
-Completar un anuncio recompensado elegible puede otorgar una reanimación exactamente una vez por esa finalización elegible. No se garantizan la disponibilidad ni la entrega.
-
 El Juego se ofrece actualmente sin precio de compra y se financia mediante publicidad. Jesus Afkerian puede recibir ingresos publicitarios a través de Google AdMob. Los ingresos publicitarios no son una cantidad pagada por el usuario.
 
-Los anuncios y mensajes usan Google. Disponibilidad, contenido, idoneidad, momento, medición y entrega dependen de región, dispositivo, red, proveedor, elecciones y configuración del publicador o proveedor. No garantizo anuncios ni recompensas. En lo inspeccionado, el fallo no impide continuar normalmente.
-
-No puedes manipular anuncios, señales, impresiones, clics, recompensas, identificadores, medición, frecuencia ni antifraude.
+El Juego usa anuncios de banner anclado y anuncios intersticiales ocasionales. El Juego también ofrece un anuncio recompensado opcional. Completarlo concede el beneficio descrito dentro del Juego al momento de la oferta. No usa anuncios App Open ni nativos. UMP solo controla solicitudes publicitarias; no desactiva análisis, informes de fallos, medición de instalaciones o sesiones, seguridad ni toda actividad de red. Un fallo publicitario no concede permiso para eludir controles técnicos.
 
 7. PRIVACIDAD
 
-La Política se incorpora:
+La Política de Privacidad explica datos locales, publicidad, Analytics, Crashlytics, Installations, Sessions, soporte y opciones:
 https://afkerianinteractive.github.io/tap-odyssey/privacy-policy-es.html
 
-El Juego usa Mobile Ads, UMP, Analytics, Crashlytics, Installations y Sessions. Aceptar Términos no es consentimiento general a todo tratamiento. El tratamiento, opciones y derechos se explican en la Política y políticas de proveedores.
+El Juego no es totalmente offline.
 
 8. USO ACEPTABLE
 
-No puedes usar ilícitamente o fuera del Territorio; copiar, vender, alquilar, sublicenciar, distribuir, ejecutar públicamente, explotar o crear derivados no autorizados; aplicar ingeniería inversa, descompilar, desensamblar, eludir o extraer código salvo donde ley obligatoria invalide la restricción; evadir controles; interferir con sistemas o dispositivos; introducir código malicioso; explotar errores, automatizar, falsear métricas o manipular anuncios o recompensas; infringir derechos; ni aparentar afiliación, patrocinio, respaldo o propiedad.
+No puedes usar indebidamente el Juego, interferir con su funcionamiento, explotar defectos, automatizar interacciones de forma perjudicial, eludir publicidad o elegibilidad, introducir código malicioso, vulnerar derechos ajenos ni usar el Juego para actividades ilícitas.
 
-9. PROPIEDAD Y TERCEROS
+9. PROPIEDAD Y MATERIAL DE TERCEROS
 
-Jesus Afkerian posee o licencia el código, diseño, marca y contenido original del Juego. Software, servicios, sonidos, música, medios generados y materiales de terceros se rigen por sus términos, licencias y avisos. Nada anula una licencia abierta ni otorga derechos sobre marcas o contenido ajeno.
+Jesus Afkerian y sus licenciantes conservan sus respectivos derechos sobre el Juego, incluido código, diseño, texto, gráficos, audio y demás contenido. El Juego incluye recursos visuales generados mediante servicios de OpenAI, efectos de sonido obtenidos de Pixabay y música generada mediante Suno. Avisos separados identifican las fuentes y los términos aplicables.
 
-Consulta:
-https://afkerianinteractive.github.io/tap-odyssey/third-party-notices-es.html
+Los nombres y marcas de terceros pertenecen a sus titulares. No se concede licencia sobre una marca de tercero salvo lo necesario para identificar la fuente pertinente.
 
 10. ACTUALIZACIONES Y DISPONIBILIDAD
 
-Puedo corregir, actualizar, cambiar, suspender o discontinuar el Juego o una función cuando sea razonable. No prometo disponibilidad permanente del Juego, anuncios, recompensas, red, contenido, actualizaciones, compatibilidad o soporte. Puede exigirse actualizar. Los derechos obligatorios permanecen.
+El Juego puede corregirse, actualizarse, cambiarse, suspenderse o discontinuarse. Las funciones pueden variar por dispositivo, versión del sistema, región, red, disponibilidad del proveedor y configuración. En la medida permitida, no se promete una función o período particular.
 
 11. SERVICIOS DE TERCEROS
 
-Google Play, Google, proveedores, fabricantes, redes y recursos enlazados operan bajo términos propios. No controlo sus sistemas ni prometo disponibilidad o conducta. Un enlace no implica respaldo ni sociedad.
+Google Play, Google AdMob, UMP, los servicios Firebase y los proveedores creativos o de recursos son terceros con términos y políticas propios. Jesus Afkerian no controla su infraestructura, disponibilidad, seguridad ni tratamiento independiente.
 
-12. CONTROLES DE EXPORTACIÓN Y SANCIONES
+12. EXPORTACIONES Y SANCIONES
 
-No puedes descargar, acceder, exportar, reexportar, transferir ni usar el Juego infringiendo controles de exportación, sanciones u otras restricciones comerciales aplicables de EE. UU., incluidas restricciones sobre personas, destinos o usos prohibidos. Esta cláusula no afirma que la distribución sea lícita en un país fuera del Territorio Permitido.
+No puedes usar, exportar, reexportar ni transferir el Juego infringiendo leyes aplicables de exportación, sanciones o comercio. Declaras que ninguna ley aplicable te prohíbe recibirlo.
 
 13. SOPORTE Y COMENTARIOS
 
-El soporte se ofrece a discreción en afkerian.support@gmail.com. No envíes información sensible salvo necesidad razonable. Si envías comentarios, permites su uso sin restricción ni pago, conservando tus derechos. Esto no autoriza información confidencial o material ajeno.
+El soporte se ofrece en afkerian.support@gmail.com sin plazo u resultado garantizado.
+
+En la medida en que proporciones comentarios voluntariamente, otorgas a Jesus Afkerian una licencia no exclusiva, mundial, perpetua, irrevocable, libre de regalías, transferible y sublicenciable para usarlos con fines lícitos de producto y negocio. Esta licencia no cubre información personal, información confidencial ni material de terceros que no estés autorizado a licenciar.
 
 14. SUSPENSIÓN Y TERMINACIÓN
 
-La licencia termina automáticamente por incumplimiento material. Puedo suspender o terminar acceso bajo mi control por conducta ilícita, seguridad, abuso, exigencias de proveedor o discontinuación. Al terminar, deja de usar y desinstala. Sobreviven las cláusulas que deban hacerlo por naturaleza.
+Tu licencia termina automáticamente si incumples materialmente estos Términos. Puedes terminarla dejando de usar y desinstalando el Juego. Las disposiciones que por su naturaleza deban sobrevivir, incluidas propiedad, exclusiones, límites, indemnización, ley aplicable y términos generales, continúan en la medida permitida.
 
 15. EXCLUSIONES DE GARANTÍAS
 
-EN LA MÁXIMA MEDIDA PERMITIDA, EL JUEGO SE OFRECE «TAL CUAL», «SEGÚN DISPONIBILIDAD» Y «CON TODOS SUS DEFECTOS». EXCLUYO GARANTÍAS EXPRESAS, IMPLÍCITAS Y LEGALES, INCLUIDAS COMERCIABILIDAD, IDONEIDAD, TÍTULO, NO INFRACCIÓN, DISFRUTE PACÍFICO, EXACTITUD, SEGURIDAD Y FUNCIONAMIENTO ININTERRUMPIDO O SIN ERRORES.
+EN LA MÁXIMA MEDIDA PERMITIDA, EL JUEGO SE OFRECE «TAL CUAL» Y «SEGÚN DISPONIBILIDAD», CON TODOS SUS DEFECTOS. JESUS AFKERIAN EXCLUYE GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN, TÍTULO, NO INFRACCIÓN, DISFRUTE PACÍFICO Y LAS DERIVADAS DEL CURSO DE NEGOCIACIÓN O USO COMERCIAL.
 
-No garantizo progreso, corrección de defectos ni disponibilidad de servicios, anuncios, recompensas, actualizaciones o contenido. Los derechos no renunciables permanecen.
+Nada excluye una garantía o remedio que legalmente no pueda excluirse.
 
 16. LIMITACIÓN DE RESPONSABILIDAD
 
-EN LA MÁXIMA MEDIDA PERMITIDA, JESUS AFKERIAN Y SUS LICENCIANTES Y PROVEEDORES DE SERVICIOS APLICABLES NO RESPONDERÁN POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI PÉRDIDA DE DATOS, PROGRESO, BENEFICIOS, INGRESOS, REPUTACIÓN, OPORTUNIDADES O USO DEL DISPOSITIVO, CUALQUIERA QUE SEA LA TEORÍA, INCLUIDOS CONTRATO, RESPONSABILIDAD EXTRACONTRACTUAL, NEGLIGENCIA, RESPONSABILIDAD OBJETIVA O LEY. ESTA EXCLUSIÓN SE APLICA AUNQUE SE HUBIERA ADVERTIDO LA POSIBILIDAD Y AUNQUE UN REMEDIO LIMITADO FRACASE EN SU FINALIDAD ESENCIAL, EN LA MEDIDA LÍCITA.
+EN LA MÁXIMA MEDIDA PERMITIDA, JESUS AFKERIAN NO RESPONDE POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES, EJEMPLARES O PUNITIVOS, NI POR PÉRDIDA DE DATOS, BENEFICIOS, INGRESOS, REPUTACIÓN O INTERRUPCIÓN, DERIVADOS DEL JUEGO.
 
-EN LA MÁXIMA MEDIDA PERMITIDA, SU RESPONSABILIDAD TOTAL AGREGADA POR TODAS LAS RECLAMACIONES, HECHOS, TEORÍAS, DISPOSITIVOS, DAÑOS Y REPARACIONES RELACIONADAS CON EL JUEGO O ESTOS TÉRMINOS NO SUPERARÁ EL MAYOR ENTRE: (A) LO QUE REALMENTE PAGASTE DIRECTAMENTE A JESUS AFKERIAN POR EL JUEGO DURANTE LOS 12 MESES ANTERIORES AL HECHO; O (B) USD 100. LOS INGRESOS PUBLICITARIOS NO SON PAGOS TUYOS. ES UN ÚNICO LÍMITE AGREGADO, NO POR RECLAMACIÓN, HECHO, TEORÍA, DISPOSITIVO, ANUNCIO, DOCUMENTO O DEMANDADO.
-
-Nada excluye o limita fraude o declaración fraudulenta, dolo, muerte o lesión, negligencia grave cuando sea irrenunciable, recursos legales de privacidad o consumo ni otra responsabilidad no limitable.
+EN LA MÁXIMA MEDIDA PERMITIDA, LA RESPONSABILIDAD TOTAL DE JESUS AFKERIAN NO SUPERARÁ EL MAYOR ENTRE LO QUE LE PAGASTE DIRECTAMENTE POR EL JUEGO DURANTE LOS DOCE MESES ANTERIORES AL HECHO O DIEZ DÓLARES ESTADOUNIDENSES. ESTE LÍMITE NO SE APLICA CUANDO LA LEY EXIGE OTRO RESULTADO.
 
 17. INDEMNIZACIÓN LIMITADA
 
-En la medida permitida, indemnizarás a Jesus Afkerian frente a reclamaciones de terceros y pérdidas directas en la medida causada por uso ilícito, incumplimiento material, infracción ajena o interferencia maliciosa.
+En la máxima medida permitida, defenderás, indemnizarás y mantendrás indemne a Jesus Afkerian frente a reclamaciones de terceros, daños, sentencias, pérdidas y costes razonables derivados de tu uso ilícito, incumplimiento material o contenido enviado por soporte que vulnere derechos ajenos.
 
-Está sujeta a causalidad, mitigación, aviso oportuno cuando sea posible y tu control razonable de defensa con asesoría calificada, permitiendo mi participación a mi costo. Excluye mi fraude, dolo, negligencia grave irrenunciable u otra conducta no indemnizable.
+Jesus Afkerian dará aviso razonablemente rápido y te permitirá controlar la defensa con abogado razonablemente aceptable. No podrás acordar una solución sin su consentimiento escrito previo si admite culpa suya, le impone una obligación no monetaria o no lo libera plenamente; el consentimiento no se denegará irrazonablemente. Puede participar con abogado propio a su cargo.
 
 18. DERECHOS OBLIGATORIOS
 
-Nada renuncia a derechos obligatorios de consumo, privacidad, idioma, garantía, cancelación, reclamos menores, foro o remedio. Si una cláusula contradice ley obligatoria, esa ley controla solo en lo necesario y el resto continúa.
+Estos Términos no renuncian a protecciones del consumidor, derechos, remedios o reglas jurisdiccionales que legalmente no puedan renunciarse o limitarse.
 
 19. LEY APLICABLE Y FORO
 
-Rige la ley de Florida, sin reglas de conflicto, salvo ley obligatoria. Sujeto a ley local irrenunciable, foros de consumo y reclamos menores, las controversias se presentarán ante tribunal competente de Orange County, Florida.
-
-No hay arbitraje obligatorio, delegación arbitral, exclusión voluntaria de arbitraje, renuncia colectiva ni renuncia a jurado.
+Estos Términos se rigen por la ley de Florida, sin considerar sus principios sobre conflicto de leyes, salvo cuando una norma obligatoria exija otra cosa. Sujeto a cualquier derecho irrenunciable a otro foro, los procedimientos deben presentarse ante los tribunales estatales ubicados en Orange County, Florida, o los tribunales federales que sirven a Orange County, Florida.
 
 20. CAMBIOS
 
-Puedo actualizar estos Términos hacia el futuro. Los cambios materiales serán razonablemente visibles e indicarán una fecha efectiva. La mera publicación, el silencio, la inacción o mantener el Juego instalado no constituyen aceptación de Términos actualizados. El acceso o uso continuado después de un aviso razonablemente visible y de la fecha efectiva indicada es la conducta en la que se basa la aceptación, en la máxima medida permitida por la ley.
+Jesus Afkerian puede actualizar estos Términos por cambios en el Juego, proveedores, riesgos o requisitos aplicables. Los Términos actualizados indicarán su fecha efectiva y los cambios materiales recibirán aviso razonablemente visible cuando corresponda.
 
-Si no estás de acuerdo, deja de usar y desinstala antes de la vigencia.
+La publicación por sí sola, el silencio, la inacción o mantener instalado el Juego no constituyen aceptación de Términos actualizados. El acceso o uso continuado después de un aviso razonablemente visible y la fecha efectiva indicada es la conducta en la que se basa el consentimiento, en la máxima medida permitida por la ley.
 
 21. DISPOSICIONES GENERALES
 
-Una cláusula inválida se aplicará al máximo lícito o se separará y el resto continúa. No ejercer no es renuncia; debe ser explícita y escrita. No puedes ceder sin consentimiento; puedo ceder con una transferencia lícita del Juego o derechos, sujeto a ley. Ni estos Términos ni el uso del Juego crean representación, empleo, sociedad, empresa conjunta o franquicia. Salvo licenciantes o proveedores protegidos expresamente por una exclusión o limitación, no existen terceros beneficiarios. No respondo por demora o incumplimiento causado por hechos fuera del control razonable, sujeto a ley irrenunciable. Estos Términos, la Política y las licencias y avisos incorporados forman el acuerdo completo sin desplazar derechos irrenunciables. Sobreviven las cláusulas de propiedad, garantías, responsabilidad, indemnización, derechos obligatorios y las que deban hacerlo por naturaleza.
+Estos Términos, la Política de Privacidad y los avisos incorporados forman el acuerdo sobre el Juego. Si una disposición no es ejecutable, se aplicará hasta el máximo permitido y el resto continuará. No exigir una disposición no es renuncia. No puedes ceder estos Términos sin consentimiento escrito previo; Jesus Afkerian puede cederlos con una transferencia lícita del Juego o de sus intereses comerciales, sujeto a la ley.
 
 22. CONTACTO
 
 Jesus Afkerian
-Correo: afkerian.support@gmail.com
-Sitio web: https://afkerianinteractive.github.io/
+afkerian.support@gmail.com

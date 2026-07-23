@@ -1,26 +1,30 @@
-SUNO — GENERATED MUSIC NOTICE
+SUNO GENERATED MUSIC NOTICE
+Air Strike Arcade
+
+Effective Date: July 22, 2026
 Last Updated: July 22, 2026
 
-The Game includes certain music tracks generated using Suno (“Suno”) under a commercial subscription/plan held by Jesus Afkerian and in effect at the time of generation.
+1. SOURCE
 
-Service / source
-- Suno: https://suno.com
+The Game includes music generated using Suno.
 
-Terms
-Use of Suno and any generated outputs is subject to Suno’s then-current terms and policies:
-- Terms of Service: https://suno.com/terms-of-service
+Suno:
+https://suno.com
 
-Good-faith statement
-To the best of Jesus Afkerian’s knowledge and good-faith belief, the generated music included in the Game is used under a valid subscription/plan held by Jesus Afkerian and in compliance with Suno’s applicable terms/policies at the time of generation. Jesus Afkerian is responsible for securing any required rights, consents, and permissions associated with the use of generated music.
+2. GOVERNING TERMS
 
-Attribution
-Attribution requirements (if any) are governed by Suno’s terms/policies and Jesus Afkerian’s subscription tier/contract. If attribution is required, it will be provided in the Game’s Third-Party Notices and/or credits.
+Use of Suno and generated output is governed by the terms and plan that applied when each track was generated. Suno states that commercial-use rights depend on generation during an eligible paid subscription and do not arise retroactively from a later subscription.
 
-No endorsement
-Suno is not affiliated with, and does not endorse, Jesus Afkerian or the Game.
+Suno Terms:
+https://suno.com/terms
 
-File organization note
-File names may have been changed for internal organization; the music content itself was not modified.
+Suno commercial-use guidance:
+https://help.suno.com/en/articles/9601665
 
-Recordkeeping
-This notice is provided for provenance and compliance recordkeeping.
+3. RIGHTS AND RESTRICTIONS
+
+This notice does not expand Suno's terms or grant a user the right to extract, redistribute, or separately exploit music from the Game. Suno's terms and applicable law control ownership and permitted use.
+
+4. NO ENDORSEMENT
+
+Suno does not sponsor or endorse the Game merely because its service was used.
