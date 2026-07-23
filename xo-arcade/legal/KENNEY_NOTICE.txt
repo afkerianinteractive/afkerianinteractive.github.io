@@ -1,0 +1,31 @@
+KENNEY.NL — THIRD-PARTY ASSET NOTICE (CC0 1.0)
+Last Updated: February 19, 2026
+
+The App includes certain sound effects from Kenney.nl (“Kenney”) asset packs, made available under the Creative Commons CC0 1.0 Universal public domain dedication (“CC0”).
+
+Service / source
+- Kenney.nl: https://kenney.nl
+
+Asset packs (source pages)
+- Casino Audio: https://kenney.nl/assets/casino-audio
+- UI Audio: https://kenney.nl/assets/ui-audio
+
+Terms
+Use of Kenney assets is governed by the applicable license terms:
+- CC0 1.0 Universal (Deed): https://creativecommons.org/publicdomain/zero/1.0/deed.en
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, the included assets are used in compliance with the CC0 license and any applicable source-page guidance.
+
+Attribution
+CC0 does not require attribution. This attribution is provided voluntarily:
+Kenney.nl — https://kenney.nl
+
+No endorsement
+Kenney is not affiliated with, and does not endorse, AFKERIAN INTERACTIVE or the App.
+
+Organization note
+File names may have been changed for internal organization; the audio content itself was not modified.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

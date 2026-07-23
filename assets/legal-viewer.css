@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("fonts/inter/Inter-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("fonts/space-grotesk/SpaceGrotesk-latin.woff2") format("woff2");
+}
+:root {
+  color-scheme: dark;
+  --bg: #05070a;
+  --surface: #0a0e15;
+  --surface-2: #10151f;
+  --text: #eef1f7;
+  --muted: #b4bfd3;
+  --line: rgba(238, 241, 247, 0.18);
+  --accent: #62adff;
+  --accent-strong: #8bc2ff;
+  --danger: #ffb4ab;
+  --display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --body: "Inter", system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--muted);
+  font-family: var(--body);
+  font-size: 1rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); overflow-wrap: anywhere; }
+a:hover { color: var(--accent-strong); }
+a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 0.2rem;
+}
+.skip-link {
+  position: fixed;
+  inset: 0 auto auto 1rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  transform: translateY(-120%);
+  background: var(--accent);
+  color: #06101e;
+  font-weight: 800;
+}
+.skip-link:focus { transform: translateY(0); }
+.container {
+  width: min(100% - 2rem, 64rem);
+  margin-inline: auto;
+}
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: var(--surface);
+}
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding-block: 0.9rem;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--text);
+  font-family: var(--display);
+  font-weight: 700;
+  text-decoration: none;
+}
+.brand img { width: 2.25rem; height: 2.25rem; object-fit: contain; }
+.product-link { min-height: 2.75rem; display: inline-flex; align-items: center; }
+main { padding-block: clamp(2rem, 6vw, 4rem); }
+.document-header { margin-bottom: 1.5rem; }
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: var(--accent-strong);
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 0;
+  color: var(--text);
+  font-family: var(--display);
+  font-size: clamp(1.75rem, 1.3rem + 2vw, 2.75rem);
+  line-height: 1.1;
+}
+.document-actions,
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1rem;
+  margin-top: 1.25rem;
+}
+.document-actions a,
+.related-links a {
+  display: inline-flex;
+  min-height: 2.75rem;
+  align-items: center;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.45rem;
+  background: var(--surface-2);
+  font-weight: 700;
+  text-decoration: none;
+}
+.status {
+  min-height: 1.65rem;
+  margin: 0 0 0.75rem;
+  color: var(--muted);
+}
+.status[data-state="error"] { color: var(--danger); }
+.legal-document {
+  min-height: 24rem;
+  margin: 0;
+  padding: clamp(1rem, 3vw, 1.75rem);
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--surface);
+  color: var(--text);
+  font: 400 clamp(0.88rem, 0.84rem + 0.15vw, 0.98rem)/1.65 var(--body);
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  word-break: normal;
+  tab-size: 2;
+}
+.related {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+.related h2 {
+  margin: 0;
+  color: var(--text);
+  font: 700 1rem/1.3 var(--display);
+}
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding-block: 1.5rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+@media (min-width: 48rem) {
+  .container { width: min(100% - 4rem, 64rem); }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+

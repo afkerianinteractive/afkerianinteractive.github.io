@@ -1,140 +1,142 @@
-PRIVACY POLICY — AIR STRIKE ARCADE
-Effective Date: February 19, 2026
-Last Updated: February 19, 2026
+PRIVACY POLICY
 
-Most current version (web):
-https://afkerianinteractive.github.io/air-strike-arcade/privacy-policy.html
+Product: Air Strike Arcade
+Document ID: PRIVACY_POLICY
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-22
+Version: 2026-07-22
+Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Contact: afkerian.support@gmail.com
 
-This Privacy Policy is provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
+1. SCOPE AND OPERATOR
 
-1. SCOPE; ENTITY; ROLES
-This Privacy Policy describes how AFKERIAN INTERACTIVE (“Studio,” “we,” “us,” or “our”) processes information in connection with the mobile application Air Strike Arcade (the “App”).
+This Privacy Policy explains how Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE ("AFKERIAN INTERACTIVE," "we," "us," or "our"), handles information in connection with Air Strike Arcade (the "App"). It applies to the App and related support communications. It does not govern the general AFKERIAN INTERACTIVE website, Google Play, Google services, or other third-party services under their own policies.
 
-The App is designed as an offline-first experience. We do not require account registration, and we do not directly request or collect information such as legal names, physical addresses, or account credentials.
+The App does not require users to enter a civil name, postal address, contacts, or payment information during normal gameplay. The inspected source contains no AFKERIAN INTERACTIVE account system, first-party gameplay-profile server, in-app purchase system, user-generated-content service, or social-sharing feature. We may nevertheless receive aggregated or event-level information through provider consoles and information you voluntarily send by support email. A support message can include your email address, message, attachments, and any technical or personal information you choose to provide.
 
-However, the App uses third-party SDKs and services that may collect and process certain information automatically, including:
-- Google AdMob / Google Mobile Ads SDK (ads and measurement)
-- Google User Messaging Platform (UMP) (consent / privacy options flow where required/available)
-- Firebase Analytics (app usage measurement)
-- Firebase Crashlytics (crash reporting and stability diagnostics)
-- Google Play services (platform services and related functionality, as applicable)
+2. ADULT AUDIENCE AND PERMITTED TERRITORY
 
-For certain third-party processing, Google may act as an independent controller under its own terms and policies. See Section 6.
+The App is intended only for adults and is not directed to children. The App does not independently verify age.
 
-2. INFORMATION PROCESSED ON YOUR DEVICE (OFFLINE-FIRST)
+Authorized use requires that a person be at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. Current permitted distribution is limited to Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are not included. Public access to this document does not authorize use elsewhere. The canonical list is:
+https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
 
-2.1 Local App Data
-The App stores certain information locally on your device to provide core functionality, such as gameplay progress, settings, gameplay statistics, and CPU/AI difficulty and behavior settings.
+Actual Google Play country availability and audience settings are external to this Policy and remain unverified.
 
-2.2 User Controls (Local Deletion)
-Because the App is offline-first, most App data is stored locally on your device. You can delete local App data by:
-- Using the App’s in-game deletion control (e.g., a “Wipe Memory” / “Reset” button available in the main menu); and/or
-- Clearing the App’s storage/data via your device settings (typically: Settings → Apps → Air Strike Arcade → Storage → Clear storage/Clear data); and/or
-- Uninstalling the App, subject to your device and operating system backup settings.
+3. LOCAL DATA AND BACKUPS
 
-Note: Clearing cache may remove temporary files but may not remove all locally stored gameplay data, depending on OS behavior.
+Core gameplay and settings are handled primarily on the device. This information can include progress, scores, preferences, and ordinary game state. The operator does not receive that local game state through a first-party server identified in the inspected source.
 
-3. INFORMATION PROCESSED BY THIRD PARTIES (AUTOMATED COLLECTION)
-The App integrates third-party SDKs for advertising, consent, analytics, crash reporting, and platform services. These third parties may automatically collect, receive, and/or process information such as:
+Android backup or device-transfer features may copy supported local preferences when enabled by the operating system, device, or user. Uninstalling, clearing App data, corruption, device loss, and backup or restore behavior can delete, retain, or restore local information. Recovery is not guaranteed.
 
-A) Device or Other Identifiers
-- Advertising ID (or equivalent identifiers), device identifiers, and app instance identifiers
+The inspected manifest and source did not identify permissions for precise location, contacts, microphone, or general shared storage. This describes the inspected version and is not a promise about Android, Google SDK internals, or future versions.
 
-B) Approximate Location
-- IP address and approximate location inferred from IP
+4. NETWORK SERVICES
 
-C) App Interactions
-- App interaction and usage events (e.g., app launches, screens viewed, feature usage)
-- Advertising events (e.g., ad impressions, clicks, interaction signals)
+The App is not completely offline. Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud-prevention services use network connections. The App integrates Google Mobile Ads, Google User Messaging Platform ("UMP"), Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies.
 
-D) Diagnostics
-- Device/technical data such as device model, hardware/OS version, language, time zone, App version
-- Performance/diagnostics signals (including anti-fraud and security-related signals for ads)
+5. ADVERTISING AND PRIVACY MESSAGING
 
-E) Crash Logs
-- Crash reports and related diagnostic information (e.g., stack traces and crash-state signals) processed via Firebase Crashlytics to diagnose and fix stability issues
+The App uses banner and interstitial advertising. Rewarded, App Open, and native ads were not identified in the inspected source.
 
-We do not operate our own user-account servers for these functions; instead, third parties process information under their own terms and policies and, in some cases, as independent controllers.
 
-4. HOW INFORMATION IS USED
-We use information (or enable third parties to use information) to:
-- Provide and maintain App functionality (e.g., saving local progress and settings)
-- Display, measure, and optimize ads; prevent fraud and abuse; enforce policy compliance
-- Measure and understand app usage (analytics/measurement)
-- Maintain security and stability (e.g., troubleshooting, crash/performance diagnostics)
-- Comply with legal obligations
+Advertising operations are gated by the App's current UMP authorization state. UMP may request or display a regional message and may expose Privacy Options when Google reports that an option is required. UMP gates advertising only. It does not disable Analytics, Crashlytics, Firebase Installations, Firebase Sessions, every network request, or information already processed.
 
-5. LEGAL BASES (EEA/UK)
-Where GDPR/UK GDPR applies, processing may occur under:
-- Consent: for personalized advertising where required; consent choices are managed through UMP (see Section 7)
-- Legitimate Interests: limited processing for security, fraud prevention, measurement, and stability, subject to your rights and applicable law
-- Contract Necessity: local processing needed to provide the core offline App experience
+A choice against personalized advertising is not a choice against all processing. Contextual or limited ads, measurement, frequency controls, security, diagnostics, and fraud prevention may still require technical information. In the inspected implementation, ad unavailability or failure does not prevent ordinary gameplay continuation or destroy local progress.
 
-6. SHARING; THIRD-PARTY SERVICES
+6. GOOGLE MOBILE ADS
 
-6.1 Third-Party SDKs and Service Providers
-The App uses third-party SDKs and service providers that collect and/or process information described in this Privacy Policy:
-- Google AdMob / Google Mobile Ads SDK (advertising, measurement, fraud prevention)
-- Google User Messaging Platform (UMP) (consent and privacy options flow)
-- Firebase Analytics (app usage measurement)
-- Firebase Crashlytics (crash reporting and stability diagnostics)
-- Google Play services (platform services and related functionality, as applicable)
+Google states that Google Mobile Ads automatically collects and shares the following for advertising, analytics, and fraud prevention:
 
-These services are provided by Google LLC (including Firebase). Your use of these services is subject to Google’s terms and privacy policies. Depending on the service and context, Google may process certain information as an independent controller under its own policies.
+- IP address, which may be used to estimate approximate location;
+- app and ad interactions, including launches, taps, views, impressions, and clicks;
+- diagnostic and performance information; and
+- device or account identifiers, which may include the Android Advertising ID, app set ID, and other supported identifiers when available.
 
-6.2 “Sharing” for Advertising (where applicable)
-For advertising-related processing, certain disclosures may be considered “sharing” under some laws (e.g., cross-context behavioral advertising). Where required, we provide choices via UMP “Privacy Options” and/or device settings.
+Google states that this SDK data is encrypted in transit. Advertising controls can reset, delete, or limit use of the Advertising ID, but they do not disable Analytics, Crashlytics, security, fraud prevention, or every advertising disclosure.
 
-6.3 Crash Logs (Firebase Crashlytics)
-Crash logs are collected and processed to diagnose and fix stability issues. Crash logs are not shared with non-Google third parties for advertising.
+7. ANALYTICS, CRASHLYTICS, INSTALLATIONS, AND SESSIONS
 
-6.4 Open Source
-The App may include open source components governed by their respective licenses. See the App’s “Third-Party Notices” section.
+Google Analytics for Firebase automatically processes an app-instance identifier, approximate geolocation derived from masked IP address, sessions, screen views and other default lifecycle or interaction events, device/app information, and Advertising ID when available. No app-authored custom Analytics events, User-ID calls, or custom user properties were identified in the inspected source. Google Signals, linked advertising products, and data-sharing settings remain unverified.
 
-7. YOUR CHOICES; PRIVACY RIGHTS
+Firebase Crashlytics automatically processes crash stack traces, relevant application state, device metadata, and a Crashlytics installation UUID. Firebase Installations generates a per-installation identifier. Firebase Sessions processes session, app, device, network-connection, and performance-related metadata. No app-authored Crashlytics custom keys, custom logs, user IDs, or nonfatal reports were identified. Analytics breadcrumbs may still accompany crash reports through SDK integration.
 
-7.1 Consent & Ads Preferences (UMP)
-Where available, you can review or change ad consent choices using the in-app “Privacy Options” (or equivalent), which surfaces UMP choices. Depending on your region and choices, ads may be personalized or non-personalized. Some processing may still occur for measurement, security, and fraud prevention as permitted by applicable law and platform rules.
+These services are not limited by UMP's advertising gate.
 
-7.2 Device Controls
-Depending on your device and region, you may be able to reset or delete your Advertising ID and limit ad personalization through device settings (for example, by searching “Ads” or “Advertising” in system settings).
+8. DATA CATEGORY, SOURCE, PURPOSE, RECIPIENT, AND RETENTION SUMMARY
 
-7.3 California (CCPA/CPRA)
-We do not “sell” personal information for money. Depending on how “share” is defined under applicable law, certain advertising-related disclosures may be considered “sharing” for cross-context behavioral advertising. Where required, we provide an option to opt out of such “sale” or “sharing” via in-app “Privacy Options” or applicable device settings.
+The automatic sources for the categories below are the device, the App, and the identified Google SDKs. Recipients can include Google LLC and related entities operating the relevant services. Retention is governed by the criteria in Section 11, including provider settings, service purpose, security, fraud prevention, debugging, legal obligations, and valid deletion requests; no single fixed period has been verified for every category.
 
-7.4 EEA/UK and Other Regions
-Subject to applicable law, you may have rights to access, delete, or object to certain processing. To submit a request applicable to Studio-controlled processing, contact us as described in Section 13. Please note that we may be unable to access or delete information held by third parties directly; in those cases, you must use the controls provided by the third party or your device settings.
+Approximate location: collected and shared through Mobile Ads; collected through Analytics. Purposes can include advertising, analytics, security, and fraud prevention.
 
-8. DATA RETENTION
-- Local App Data is retained on your device until you delete it using device/OS controls or uninstall the App (subject to OS backups).
-- Third-party data retention is governed by the third parties’ own policies and settings.
+App interactions: collected and shared through Mobile Ads and collected through Analytics. Purposes can include advertising, analytics, measurement, frequency control, security, and fraud prevention.
 
-9. CHILDREN’S PRIVACY
-The App is not directed to children under 13 and we do not knowingly collect personal information from children under 13. If you believe a child has provided information through the App, contact us and we will take appropriate steps consistent with applicable law.
+Crash logs: collected through Crashlytics for debugging, stability, and crash management. Whether a Google Play "sharing" exception applies depends on provider role and applicable provider terms and remains unverified.
 
-10. SECURITY
-We use reasonable administrative and technical measures designed to protect information. However, no method of transmission or storage is 100% secure.
+Diagnostics: collected through Mobile Ads, Crashlytics, and Sessions and shared by Mobile Ads. Purposes include analytics, performance, debugging, stability, security, and fraud prevention.
 
-11. INTERNATIONAL TRANSFERS
-If you use the App outside the United States, information processed by third-party partners may be transferred to and processed in countries other than your own, including the United States, subject to the partners’ safeguards and policies and applicable law.
+Device or other identifiers: collected through Mobile Ads, Analytics, Crashlytics, and Installations and shared by Mobile Ads. Purposes include advertising, analytics, installation/session measurement, crash management, security, and fraud prevention.
 
-12. DATA DELETION (HOW TO DELETE DATA)
+We do not exchange personal information for money. Certain advertising-related transfers can be treated as a "sale," "sharing," or targeted advertising under some laws even without a monetary exchange. During the preceding 12 months, to the extent the App was used with these SDKs active, the categories described above could have been processed for the stated purposes. This retrospective description does not voluntarily assert that any particular state statute or threshold applies.
 
-12.1 Local (On-Device) Deletion
-Because the App is offline-first, most App data is stored locally on your device. You can delete local App data by:
-- Using the App’s in-game deletion control (e.g., “Wipe Memory” / “Reset”); and/or
-- Clearing the App’s storage/data via device settings; and/or
-- Uninstalling the App (subject to OS backup settings).
+9. REQUIRED OR OPTIONAL; EPHEMERAL STATUS
 
-12.2 Third-Party Data
-Some information may be processed by third-party SDKs (e.g., Google AdMob, UMP, Firebase Analytics, Firebase Crashlytics, Google Play services). The Studio may be unable to directly access, delete, or control data held by third parties. Where available, use:
-- The App’s “Privacy Options” (UMP) to manage advertising consent/choices; and/or
-- Your device settings (e.g., reset/delete Advertising ID or limit ad personalization); and/or
-- The third party’s own controls and policies.
+Core gameplay does not require a first-party account or submission of personal information to us. SDK processing is not treated as ephemeral because advertising, analytics, fraud-prevention, installation, and crash-management records may persist beyond a real-time request.
 
-12.3 Requests
-If you have a privacy or deletion request that applies to Studio-controlled processing, contact us using the details in Section 13.
+The inspected source does not give every user in every region one control that disables every listed SDK category. We therefore cannot represent all SDK collection as optional. UMP, Google controls, and Android advertising settings each have a limited scope.
 
-13. CONTACT
-AFKERIAN INTERACTIVE
+10. PROVIDERS AND INTERNATIONAL PROCESSING
+
+Google LLC and related entities provide the services described above. Information can be processed in countries where those providers operate, subject to their terms, policies, contractual measures, and legal requirements. Those processing locations do not expand the App's Permitted Territory. Google may act as a service provider or independent controller depending on product, configuration, and context.
+
+Provider information:
+https://policies.google.com/privacy
+https://business.safety.google/privacy/
+https://developers.google.com/admob/android/privacy/play-data-disclosure
+https://support.google.com/analytics/answer/11582702
+https://firebase.google.com/docs/android/play-data-disclosure
+https://firebase.google.com/support/privacy
+
+Third-party and license details are in THIRD_PARTY_NOTICES.txt.
+
+11. RETENTION AND DELETION
+
+Local game data remains subject to the device, operating system, backup settings, and user actions described above. Google controls provider retention under applicable product settings, contracts, and policies. Analytics retention, provider links, and production settings are configuration-dependent and unverified, so this Policy does not state a fixed provider period.
+
+Uninstalling or clearing the App can remove local data, but does not itself delete information already processed by Google or support email providers. Advertising-ID controls do not delete Analytics, Crashlytics, security, or support records. Requests concerning provider-controlled information may need to be directed to that provider.
+
+Support emails are retained only as reasonably needed to respond, keep appropriate records, protect rights and security, resolve disputes, and meet legal obligations. If you do not want to send information by email, do not use email support.
+
+12. U.S. STATE PRIVACY RIGHTS AND OTHER CHOICES
+
+Where an applicable U.S. state privacy law covers the operator and the processing at issue, a resident may have rights to know or access, correct, delete, and obtain a portable copy of covered information, and to opt out of processing legally defined as sale, sharing, targeted advertising, or certain profiling. Sensitive-data limits, authorized-agent requests, nondiscrimination protections, and appeal rights apply only where the governing law provides them. Statutory thresholds, exemptions, verification rules, security restrictions, and records lawfully needed for legal claims or compliance remain applicable. We respond within the period required by the law that actually applies and may be unable to locate or control provider-held records without adequate identifiers, legal authority, or technical access.
+
+Email afkerian.support@gmail.com with the subject "Privacy Request: Air Strike Arcade". We may request information reasonably necessary to verify the request and locate relevant records, which may include a device, app-instance, installation, crash, advertising, or support-ticket identifier when relevant. An authorized agent may submit a request where applicable law permits, subject to legally permitted verification. We do not discriminate for exercising an applicable privacy right. No financial-incentive or loyalty program was identified in the inspected App. You may also use UMP Privacy Options when displayed, Google controls, and Android advertising settings for the processing those controls actually cover; no one mechanism controls every purpose.
+
+Depending on another applicable law and its scope, thresholds, and exemptions, a person may have other rights concerning processing. Rights are not identical everywhere, and this Policy does not claim that a held or excluded market is authorized.
+
+13. CHILDREN, MINORS, AND PERSONS WITHOUT CONTRACTUAL CAPACITY
+
+The operator does not intentionally solicit direct submissions from minors through normal gameplay. A person under 18, below the applicable local age of majority, or otherwise lacking contractual capacity is not authorized to use the App. Because the App does not independently verify age and the identified SDKs automatically process technical information, processing could occur if a minor uses the App contrary to its intended audience and Terms.
+
+A parent or guardian may contact afkerian.support@gmail.com if they believe information associated with a minor has been processed. Any action depends on reasonable verification and our legal and technical ability to identify, access, control, or direct deletion of the information.
+
+14. SECURITY
+
+We use reasonable measures appropriate to the limited first-party information handled. Google describes encryption in transit for the Mobile Ads and Analytics data identified above. No transmission, software, device, or storage method is completely secure, and we do not guarantee absolute security.
+
+15. LEGAL DISCLOSURES
+
+Information may be preserved or disclosed when reasonably necessary to comply with law or valid process; investigate fraud, abuse, or security incidents; protect users, the public, rights, property, or safety; or establish, exercise, or defend legal claims. Mandatory rights and restrictions remain unaffected.
+
+16. CHANGES
+
+We may update this Policy when the App, providers, practices, or legal requirements change. Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A material new purpose is not authorized merely because the App remains installed.
+
+17. CONTACT
+
+Jesus Afkerian
+publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
+Website: https://afkerianinteractive.github.io/

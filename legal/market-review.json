@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-07-22",
+  "scope": [
+    "XO Arcade: Infinity Edition",
+    "Air Strike Arcade",
+    "Tap Odyssey"
+  ],
+  "authorized_public_identity": [
+    "Jesus Afkerian",
+    "AFKERIAN INTERACTIVE",
+    "afkerian.support@gmail.com"
+  ],
+  "google_play_public_profile_status": "CONSOLE_UNVERIFIED",
+  "platform_identity_gate": "PLATFORM_PUBLIC_IDENTITY_BLOCKER_UNRESOLVED",
+  "source_accessed_on": "2026-07-22",
+  "public_permitted_territory_version": "2026-07-22",
+  "note": "Research aid, not legal advice or country approval. Only rows with permitted=true may appear in the public Permitted Territory.",
+  "inheritance_rule": "Every market row inherits cross_market_evidence. A row-specific gate or source narrows or overrides the inherited UNVERIFIED result; silence never converts UNVERIFIED into approval.",
+  "cross_market_evidence": {
+    "sovereign_or_legal_status": "Each named country is treated as a sovereign market; Quebec is a Canadian provincial subrow and the six named U.S. territories/possessions are separate territorial rows. Excluded European and UK dependencies are outside this candidate-row set and remain out of scope.",
+    "google_play": {
+      "production_availability": "CONSOLE_UNVERIFIED",
+      "exact_console_label": "CONSOLE_UNVERIFIED",
+      "testing_tracks": "CONSOLE_UNVERIFIED",
+      "target_audience": "CONSOLE_UNVERIFIED; owner decision is Ages 18 and over only",
+      "restrict_minor_access": "CONSOLE_UNVERIFIED; owner decision is disabled",
+      "ads_declaration": "CONSOLE_UNVERIFIED; proposed answer is YES",
+      "data_safety": "CONSOLE_UNVERIFIED; proposed matrix is legal/google-play-data-safety.json"
+    },
+    "public_developer_profile": {
+      "account_type": "CONSOLE_UNVERIFIED",
+      "monetization_classification": "CONSOLE_UNVERIFIED",
+      "full_address_display_category": "CONSOLE_UNVERIFIED",
+      "personal_telephone_display_category": "CONSOLE_UNVERIFIED",
+      "underlying_private_values": "NOT_REQUESTED_NOT_RECORDED",
+      "consequence": "The cross-market platform identity blocker remains unresolved until the owner verifies categorical public-display results without copying any private value."
+    },
+    "providers": {
+      "implemented_sdks": "Google Mobile Ads, UMP, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions are evidenced in the inspected Android repositories.",
+      "market_specific_support": "UNVERIFIED_PER_MARKET",
+      "ump_scope": "Advertising only; it does not gate Analytics, Crashlytics, Installations, Sessions, all network activity, or previously processed information.",
+      "published_messages_and_regions": "CONSOLE_UNVERIFIED"
+    },
+    "sanctions_and_export": {
+      "default": "Current U.S. sanctions, export-control, provider, and prohibited-person screening remains required before enablement.",
+      "cuba": "NOT_SUPPORTED_OR_SANCTIONS_REVIEW"
+    },
+    "privacy_and_operator_role": {
+      "operator_role": "Jesus Afkerian may be treated as controller, responsible party, organization, business, or another regulated role only when the applicable law and threshold support that classification; UNVERIFIED rows make no classification claim.",
+      "public_identity_elements": "Each row must be satisfiable using only Jesus Afkerian, AFKERIAN INTERACTIVE, and afkerian.support@gmail.com. A mandatory public element outside that set results in EXCLUDED_BY_OWNER_PRIVACY_REQUIREMENT.",
+      "nonpublic_or_external_duties": "Registration, filing, fee, representative, privacy-officer, assessment, incident, governance, and complaint obligations remain UNVERIFIED unless the row gate identifies one.",
+      "notice_at_collection": "Existing app delivery, timing, content, and regional legal sufficiency remain UNVERIFIED outside the permitted U.S. row.",
+      "legal_bases_and_consent": "No universal legal basis is asserted. Advertising, identifiers, approximate location, Analytics, Crashlytics, security, and fraud-prevention rules require jurisdiction-specific review.",
+      "rights": "Access, correction, deletion, portability, opt-out, appeal, authorized-agent, complaint, and verification rules remain jurisdiction- and threshold-dependent.",
+      "transfers": "Google cross-border processing is disclosed, but market-specific safeguards, contracts, localization, adequacy, and impact assessments remain UNVERIFIED.",
+      "retention_security_incidents": "Provider retention settings and market-specific deletion, safeguards, breach, register, recordkeeping, and governance duties remain UNVERIFIED."
+    },
+    "audience_and_contract": {
+      "eligibility": "At least 18 and the local age of majority and contractual capacity, whichever is higher; the Apps do not independently verify age.",
+      "minor_ad_rules": "UNVERIFIED_PER_MARKET",
+      "consumer_contract": "Florida law and Orange County venue, disclaimers, aggregate cap, and indemnity yield to nonwaivable consumer, privacy, language, warranty, cancellation, small-claims, forum, and remedy rights.",
+      "assent": "Download, installation, access, or use after reasonably conspicuous notice is the asserted assent act; passive retention alone is not assent. In-app versioned affirmative assent is not implemented."
+    },
+    "language_and_surfaces": {
+      "website": "en-US and es-419 first-party core documents are present.",
+      "android": "Only the verified en-US core destinations exist; es-419 has no authorized Android destination or presentation path.",
+      "market_rule": "A required language missing from a web, store, or in-app surface keeps the market on hold."
+    },
+    "evidence_classes": [
+      "REPOSITORY_VERIFIED",
+      "OWNER_DECISION",
+      "OWNER_SUPPLIED_APP_AUDIT",
+      "OFFICIAL_PRIMARY_SOURCE",
+      "CONSOLE_UNVERIFIED"
+    ],
+    "default_owner_action": "Do not enable production, testing, pre-registration, custom listings, campaigns, or ads until the row's exact gate, required languages, product behavior, platform identity, and console settings are resolved and approved."
+  },
+  "status_legend": {
+    "APPROVED_FOR_OWNER_ENABLEMENT": "Documentary and product requirements pass; only authorized console enablement and post-launch verification remain.",
+    "DOCUMENT_READY_CONSOLE_UNVERIFIED": "Local documentary and product gates pass for the intended market, but console configuration is unverified.",
+    "MARKET_HOLD_LEGAL_INPUT": "A mandatory legal, registration, representative, officer, fee, sanctions, or counsel decision remains.",
+    "MARKET_HOLD_LANGUAGE": "A mandatory validated language or delivery surface is missing.",
+    "MARKET_HOLD_PRODUCT_CHANGE": "A required consent or product behavior needs an Android or provider-configuration change.",
+    "MARKET_HOLD_SOURCE_UNAVAILABLE": "Current primary authority could not be verified sufficiently.",
+    "NOT_SUPPORTED_OR_SANCTIONS_REVIEW": "Platform support or lawful distribution is unsupported or unresolved.",
+    "MARKET_HOLD_PLATFORM_IDENTITY": "A required platform may publicly expose a non-authorized identity or contact element.",
+    "EXCLUDED_BY_OWNER": "The owner expressly excluded the market.",
+    "EXCLUDED_BY_OWNER_PRIVACY_REQUIREMENT": "Mandatory public disclosure requires an identity or contact element outside the authorized set; no disclosure action is authorized.",
+    "OUT_OF_SCOPE_EUROPEAN_OR_UK_TERRITORY": "The territory imports an excluded European or UK regime."
+  },
+  "markets": [
+    {
+      "market": "United States (50 states and District of Columbia)",
+      "languages": [
+        "en"
+      ],
+      "status": "DOCUMENT_READY_CONSOLE_UNVERIFIED",
+      "permitted": true,
+      "gate": "Federal/state threshold analysis remains conditional; Play country, audience, Ads, Data safety, and UMP configuration are owner-controlled.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024",
+        "https://cppa.ca.gov/faq.html"
+      ]
+    },
+    {
+      "market": "American Samoa",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "Guam",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "Northern Mariana Islands",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "Puerto Rico",
+      "languages": [
+        "es",
+        "en"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting, Spanish in-app delivery review, and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "U.S. Virgin Islands",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "U.S. Minor Outlying Islands",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "U.S. territory requires separate platform targeting and owner approval.",
+      "official_sources": [
+        "https://support.google.com/googleplay/android-developer/answer/7550024"
+      ]
+    },
+    {
+      "market": "Canada (excluding Quebec)",
+      "languages": [
+        "en",
+        "fr"
+      ],
+      "status": "EXCLUDED_BY_OWNER_PRIVACY_REQUIREMENT",
+      "permitted": false,
+      "gate": "PIPEDA Schedule 1 clause 4.8.2 requires the name or title and address of the accountable person to be made readily available; address is outside the Authorized Public Identity Set.",
+      "official_sources": [
+        "https://laws-lois.justice.gc.ca/eng/acts/p-8.6/page-7.html"
+      ]
+    },
+    {
+      "market": "Quebec",
+      "languages": [
+        "fr"
+      ],
+      "status": "EXCLUDED_BY_OWNER_PRIVACY_REQUIREMENT",
+      "permitted": false,
+      "gate": "Canadian accountable-person address requirement plus Quebec privacy, consumer, and French-language review cannot be satisfied within the Authorized Public Identity Set.",
+      "official_sources": [
+        "https://laws-lois.justice.gc.ca/eng/acts/p-8.6/page-7.html",
+        "https://www.legisquebec.gouv.qc.ca/en/document/cs/p-39.1",
+        "https://www.legisquebec.gouv.qc.ca/en/document/cs/c-11"
+      ]
+    },
+    {
+      "market": "Mexico",
+      "languages": [
+        "es"
+      ],
+      "status": "EXCLUDED_BY_OWNER_PRIVACY_REQUIREMENT",
+      "permitted": false,
+      "gate": "LFPDPPP Article 15 requires the privacy notice to contain the responsible party's identity and domicile; domicile is outside the Authorized Public Identity Set.",
+      "official_sources": [
+        "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf"
+      ]
+    },
+    {
+      "market": "Belize",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official privacy/consumer source was located in this pass.",
+      "official_sources": [
+        "https://www.gov.bz/"
+      ]
+    },
+    {
+      "market": "Costa Rica",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "Official privacy law exists, but Spanish legal assets and assent notice are not exposed in-app and local operational requirements remain unverified.",
+      "official_sources": [
+        "https://www.prodhab.go.cr/acercade/normativa/"
+      ]
+    },
+    {
+      "market": "El Salvador",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "The 2024/2025 data-protection framework requires current implementation review; Spanish legal assets are not exposed in-app.",
+      "official_sources": [
+        "https://www.asamblea.gob.sv/sites/default/files/documents/decretos/17458CF0-AB9B-482A-85A1-03834D5D89B7.pdf"
+      ]
+    },
+    {
+      "market": "Guatemala",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "Official sources show a data-protection bill still under discussion in 2026; current private-sector baseline and launch obligations require local review.",
+      "official_sources": [
+        "https://www.congreso.gob.gt/noticias_congreso/16492/2026/3"
+      ]
+    },
+    {
+      "market": "Honduras",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official privacy/consumer source was located in this pass.",
+      "official_sources": [
+        "https://www.tsc.gob.hn/"
+      ]
+    },
+    {
+      "market": "Nicaragua",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "Law 787 applies to private files; Spanish in-app legal delivery and current registration/authority operation remain unverified.",
+      "official_sources": [
+        "https://legislacion.asamblea.gob.ni/normaweb.nsf/9e314815a08d4a6206257265005d21f9/e5d37e9b4827fc06062579ed0076ce1d"
+      ]
+    },
+    {
+      "market": "Panama",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "Law 81 and its regulation apply; Spanish in-app delivery and controller obligations remain unverified.",
+      "official_sources": [
+        "https://antai.gob.pa/leyes-de-antai/"
+      ]
+    },
+    {
+      "market": "Antigua and Barbuda",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "An official government assessment identifies a Data Protection Act, but a complete current consolidated official text was not located.",
+      "official_sources": [
+        "https://ab.gov.ag/digitaltransformation/pdf/ud_dra_stakholder_workshop_survey/antigua_and_barbuda_digital_readiness_analysis.pdf"
+      ]
+    },
+    {
+      "market": "Bahamas",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official privacy/consumer source was located in this pass.",
+      "official_sources": [
+        "https://www.bahamas.gov.bs/"
+      ]
+    },
+    {
+      "market": "Barbados",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Data Protection Act obligations and controller registration require owner action and local review.",
+      "official_sources": [
+        "https://oag.gov.bb/attachments/Data%20Protection%20Act%2C%202019-29.pdf",
+        "https://www.gov.bb/Departments/data-protection-commissioner"
+      ]
+    },
+    {
+      "market": "Cuba",
+      "languages": [
+        "es"
+      ],
+      "status": "NOT_SUPPORTED_OR_SANCTIONS_REVIEW",
+      "permitted": false,
+      "gate": "Distribution, advertising, provider terms, and U.S. sanctions require a separate sanctions review.",
+      "official_sources": [
+        "https://ofac.treasury.gov/sanctions-programs-and-country-information"
+      ]
+    },
+    {
+      "market": "Dominica",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official privacy/consumer source was located in this pass.",
+      "official_sources": [
+        "https://dominica.gov.dm/"
+      ]
+    },
+    {
+      "market": "Dominican Republic",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "Law 172-13 is referenced by official sources; Spanish in-app delivery and the law's scope for this SDK processing require local review.",
+      "official_sources": [
+        "https://www.consultoria.gov.do/Consulta/Home/"
+      ]
+    },
+    {
+      "market": "Grenada",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No complete current official consolidated source and commencement/registration analysis was completed.",
+      "official_sources": [
+        "https://www.gov.gd/"
+      ]
+    },
+    {
+      "market": "Haiti",
+      "languages": [
+        "fr",
+        "ht"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "Official sources located only a proposed personal-data bill; current law, French/Creole delivery, and security/sanctions conditions require review.",
+      "official_sources": [
+        "https://communication.gouv.ht/in/projet-de-loi-instituant-la-carte-didentification-nationale-unique-et-portant-sur-la-protection-des-donnees-personnelles/"
+      ]
+    },
+    {
+      "market": "Jamaica",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "The Data Protection Act applies extraterritorially to offering services to persons in Jamaica; registration/representative and commencement obligations require owner/local review.",
+      "official_sources": [
+        "https://japarliament.gov.jm/attachments/article/339/The%20Data%20Protection%20Act%2C%202020.pdf"
+      ]
+    },
+    {
+      "market": "Saint Kitts and Nevis",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "The official Act has establishment/equipment and representative conditions whose application to app SDK processing requires local counsel.",
+      "official_sources": [
+        "https://lawcommission.gov.kn/wp-content/documents/Annual-Laws/2018/ACTs/Act-5-of-2018-Data-Protection-Act-2018.pdf"
+      ]
+    },
+    {
+      "market": "Saint Lucia",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official data-protection source was located.",
+      "official_sources": [
+        "https://www.govt.lc/"
+      ]
+    },
+    {
+      "market": "Saint Vincent and the Grenadines",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "An official gazette references a Data Protection Act, but a complete current text and commencement analysis were not located.",
+      "official_sources": [
+        "https://legal.gov.vc/legal/images/PDF/2025Gazettes/Gazette_No63_2025.pdf"
+      ]
+    },
+    {
+      "market": "Trinidad and Tobago",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "The official 2011 Act was located, but current proclamation/commencement and private-app obligations require local review.",
+      "official_sources": [
+        "https://www.ttparliament.org/publication/the-data-protection-act-2011/"
+      ]
+    },
+    {
+      "market": "Argentina",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Law 25.326 and database-registration/transfer obligations require owner action; Spanish legal assets are not exposed in-app.",
+      "official_sources": [
+        "https://www.argentina.gob.ar/normativa/nacional/ley-25326-64790/actualizacion"
+      ]
+    },
+    {
+      "market": "Bolivia",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "Official results located proposals and general digital-policy material, not a complete current general private-sector baseline for this launch.",
+      "official_sources": [
+        "https://diputados.gob.bo/"
+      ]
+    },
+    {
+      "market": "Brazil",
+      "languages": [
+        "pt-BR"
+      ],
+      "status": "EXCLUDED_BY_OWNER",
+      "permitted": false,
+      "gate": "Brazil is excluded by binding owner decision; no PT-BR or LGPD launch package is created.",
+      "official_sources": [
+        "https://www.gov.br/"
+      ]
+    },
+    {
+      "market": "Chile",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Law 19.628 is current through 2026-11-30 and Law 21.719 takes effect 2026-12-01; transition, language, and launch duties require current local review.",
+      "official_sources": [
+        "https://www.bcn.cl/leychile/Navegar?idLey=19628"
+      ]
+    },
+    {
+      "market": "Colombia",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LANGUAGE",
+      "permitted": false,
+      "gate": "Law 1581 duties remain even where RNBD registration thresholds do not apply; Spanish in-app delivery and privacy-management obligations remain incomplete.",
+      "official_sources": [
+        "https://sedeelectronica.sic.gov.co/index.php/publicaciones/boletin-juridico/concepto/cuales-personas-estan-obligadas-realizar-el-registro-de-bases-de-datos-personales-en-el-rnbd"
+      ]
+    },
+    {
+      "market": "Ecuador",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "The Organic Data Protection Law and current regulator rules require extraterritorial, transfer, and accountability review; Spanish legal assets are not exposed in-app.",
+      "official_sources": [
+        "https://spdp.gob.ec/wp-content/uploads/2024/12/03.pdf.pdf"
+      ]
+    },
+    {
+      "market": "Guyana",
+      "languages": [
+        "en"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Data Protection Act 18 of 2023 was located, but commencement, regulator, registration, and cross-border duties require local review.",
+      "official_sources": [
+        "https://parliament.gov.gy/publications/acts-of-parliament/dataprotectionact18of2023"
+      ]
+    },
+    {
+      "market": "Paraguay",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Law 7593/2025 is newly published and depends on implementing regulation; Spanish in-app delivery and effective-date obligations require local review.",
+      "official_sources": [
+        "https://www.bacn.gov.py/leyes-paraguayas/12924/ley-n-75932025-de-proteccion-de-datos-personales-en-la-republica-del-paraguay"
+      ]
+    },
+    {
+      "market": "Peru",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Law 29733 and the regulation effective 2025 require personal-database registration and other owner actions; Spanish legal assets are not exposed in-app.",
+      "official_sources": [
+        "https://www.gob.pe/8060-inscribir-informacion-en-el-registro-nacional-de-proteccion-de-datos-personales"
+      ]
+    },
+    {
+      "market": "Suriname",
+      "languages": [
+        "nl"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official privacy/consumer source was located; Dutch delivery is unavailable.",
+      "official_sources": [
+        "https://gov.sr/"
+      ]
+    },
+    {
+      "market": "Uruguay",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_LEGAL_INPUT",
+      "permitted": false,
+      "gate": "Law 18.331 and Decree 64/020 require registration and contact/representative analysis for extraterritorial processing; Spanish in-app delivery is unavailable.",
+      "official_sources": [
+        "https://www.impo.com.uy/bases/decretos/64-2020/2"
+      ]
+    },
+    {
+      "market": "Venezuela",
+      "languages": [
+        "es"
+      ],
+      "status": "MARKET_HOLD_SOURCE_UNAVAILABLE",
+      "permitted": false,
+      "gate": "No sufficiently current, complete official general privacy/consumer source was located in this pass.",
+      "official_sources": [
+        "https://www.asambleanacional.gob.ve/"
+      ]
+    }
+  ]
+}

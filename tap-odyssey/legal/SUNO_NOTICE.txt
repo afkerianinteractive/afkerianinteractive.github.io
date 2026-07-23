@@ -1,0 +1,26 @@
+SUNO — GENERATED MUSIC NOTICE
+Last Updated: February 19, 2026
+
+The App includes certain music tracks generated using Suno (“Suno”) under a Studio-held commercial subscription/plan in effect at the time of generation.
+
+Service / source
+- Suno: https://suno.com
+
+Terms
+Use of Suno and any generated outputs is subject to Suno’s then-current terms and policies:
+- Terms of Service: https://suno.com/terms-of-service
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, the generated music included in the App is used under a valid Studio subscription/plan and in compliance with Suno’s applicable terms/policies at the time of generation. The Studio is responsible for securing any required rights, consents, and permissions associated with the use of generated music.
+
+Attribution
+Attribution requirements (if any) are governed by Suno’s terms/policies and the Studio’s subscription tier/contract. If attribution is required, it will be provided in the App’s Third-Party Notices and/or credits.
+
+No endorsement
+Suno is not affiliated with, and does not endorse, AFKERIAN INTERACTIVE or the App.
+
+Organization note
+File names may have been changed for internal organization; the music content itself was not modified.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

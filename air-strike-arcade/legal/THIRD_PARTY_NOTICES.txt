@@ -1,122 +1,70 @@
-AIR STRIKE ARCADE — THIRD-PARTY NOTICES
-Version: 1.2
-Last Updated: February 19, 2026
+THIRD-PARTY NOTICES
 
-1. SCOPE
-This Third-Party Notices document applies to Air Strike Arcade (the “App”), developed and distributed by AFKERIAN INTERACTIVE (“Studio”).
-It identifies (i) third-party open source software, (ii) third-party services/SDKs, and (iii) certain third-party or licensed creative assets included in or used by the App.
+Product: Air Strike Arcade
+Document ID: THIRD_PARTY_NOTICES
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-22
+Version: 2026-07-22
+Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Contact: afkerian.support@gmail.com
 
-These notices are provided for attribution and statutory compliance only. They do not modify the App’s Terms of Service or Privacy Policy.
-Privacy-related disclosures (e.g., advertising identifiers, approximate location inferred from IP, app interactions, diagnostics, consent signals, and crash reporting) are described in the Privacy Policy and in the applicable provider notices/policies.
+1. PURPOSE
 
-2. LOCATION / AVAILABILITY
-This notice is provided in-app (Settings/About → Third-Party Notices) and may also be available on the Studio website.
-If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
+This document identifies material third-party software, services, and creative sources used by Air Strike Arcade (the "App"). It provides attribution, provenance, license access, and service information. It does not expand the App license, replace the Privacy Policy or Terms, certify legal compliance, or grant rights in third-party material.
 
-3. INCLUDED NOTICES (LINKS / ATTACHMENTS)
-The App includes separate, provider-specific notices and license texts. Where available in this build, they are accessible from this screen as individual links/buttons:
+2. OPEN-SOURCE SOFTWARE
 
-- Google Ad Services Notice: AD_SERVICES_NOTICE.txt
-- Suno Generated Music Notice: SUNO_NOTICE.txt
-- Pixabay Sound Effects Notice: PIXABAY_NOTICE.txt
-- Apache License 2.0 (Full Text): LICENSE_APACHE_2_0.txt (or equivalent in-app “Apache 2.0” view)
+The App includes Android, AndroidX, Google, Kotlin/Java, and related components that may be distributed under the Apache License 2.0 or other upstream terms. The bundled Apache License is reproduced without modification in LICENSE_APACHE_2_0.txt. Upstream copyright and attribution statements remain with their owners. If a license conflicts with this summary, the upstream license controls.
 
-Firebase-related disclosures (Firebase Analytics and Firebase Crashlytics) are included in Section C of this document (no separate notice file in this build).
+3. GOOGLE SERVICES AND SDKS
 
-If any listed file is not present in a specific build variant, the Studio will provide the applicable license/notice upon request.
+The inspected build includes Google Mobile Ads, UMP, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies. They are subject to Google's applicable terms and policies.
 
-=======================================================================
-A. OPEN SOURCE SOFTWARE (OSS)
-=======================================================================
+Mobile Ads may automatically collect and share IP address, product interactions, diagnostics, and device/account identifiers for advertising, analytics, and fraud prevention. Analytics, Crashlytics, Installations, and Sessions process other automatic measurement and diagnostic information described in the Privacy Policy. Google, Android, Firebase, AdMob, and related marks belong to their owners. Inclusion does not imply sponsorship or endorsement.
 
-A.1 Summary
-The App includes open source components. Each component is governed by its own license terms.
-In the event of a conflict between this notice and an applicable open source license, the open source license controls solely with respect to that component.
+4. CREATIVE AND GENERATED MATERIAL
 
-A.2 Primary OSS License Family (Apache License 2.0) — Non-Exhaustive
-The following primary components are commonly used by the App and are generally licensed under the Apache License, Version 2.0:
+The App may include sounds, music, voices, images, interface elements, or other material obtained from or generated with the sources listed below. The operator retains provenance records available at acquisition or generation. Subscription status, source terms, and licenses can change; applicable source terms and records control.
 
-- AndroidX Libraries (Core KTX, AppCompat, Activity, ConstraintLayout, RecyclerView, CardView, CoordinatorLayout, WorkManager)
-  Copyright (c) The Android Open Source Project
+Generated output may not be unique and may be subject to third-party rights or mandatory law. No notice guarantees exclusivity, non-infringement, copyrightability, or continuing provider availability.
 
-- Material Components for Android
-  Copyright (c) Google LLC
+5. DOCUMENT INVENTORY
 
-- Kotlin Standard Library (as applicable)
-  Copyright (c) JetBrains s.r.o.
+1. Google AdMob and Google User Messaging Platform
+   Canonical notice: AD_SERVICES_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/air-strike-arcade/admob-notice.html
 
-NOTE ON COMPLETENESS: This list is intended to cover primary components. The App may also include additional open source libraries and transitive dependencies that carry their own licenses.
+2. Pixabay sound effects
+   Canonical notice: PIXABAY_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/air-strike-arcade/pixabay-notice.html
 
-A.3 License Text Availability
-The full text of the Apache License, Version 2.0 is provided within the App (see “Apache 2.0” in this screen) and/or distributed with the App package as a license file.
+3. Suno-generated music
+   Canonical notice: SUNO_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/air-strike-arcade/suno-notice.html
 
-=======================================================================
-B. CREATIVE ASSETS & SYNTHETIC MEDIA
-=======================================================================
+4. Apache License 2.0
+   Canonical notice: LICENSE_APACHE_2_0.txt
+   Website route: https://afkerianinteractive.github.io/air-strike-arcade/apache-2.0.html
 
-B.1 Summary
-The App incorporates certain third-party assets and/or synthetic media (AI-generated) used under applicable licenses or Studio subscriptions.
-Users receive no license to extract, redistribute, or commercially exploit these assets outside the App, except as permitted by applicable law and as described in the App’s Terms of Service.
+6. PRIVACY AND TERMS
 
-B.2 Included Assets / Synthetic Media (Build-Dependent)
-- Pixabay (Sound Effects / UI & Gameplay SFX)
-  Additional Notice: PIXABAY_NOTICE.txt
+Privacy Policy:
+https://afkerianinteractive.github.io/air-strike-arcade/privacy-policy.html
 
-- Suno (Generated Music)
-  Additional Notice: SUNO_NOTICE.txt
+Terms of Service:
+https://afkerianinteractive.github.io/air-strike-arcade/terms-of-service.html
 
-=======================================================================
-C. THIRD-PARTY SERVICES & SDKs
-=======================================================================
+Provider terms and privacy policies govern provider-controlled services. The App disclosures do not eliminate provider obligations or operator responsibilities.
 
-C.1 Summary
-The App uses certain third-party services/SDKs (e.g., advertising, consent/privacy options flows, analytics, and crash reporting).
-Provider data handling may include device identifiers, approximate location inferred from IP, app interaction signals, diagnostics/performance signals, consent state, and crash logs, depending on region, configuration, and user choices.
-See the Privacy Policy and the provider notices/policies for details.
+7. NO ENDORSEMENT OR WARRANTY
 
-C.2 Included Services/SDKs
+Unless an individual notice states otherwise under an applicable license, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian, AFKERIAN INTERACTIVE, or the App. Third-party material and services are provided under their own terms and without additional operator warranty beyond nonwaivable rights.
 
-- Google AdMob / Google Mobile Ads SDK
-  Category: Third-Party Service / SDK (Advertising)
-  Provider: Google LLC
-  Purpose: Ad delivery, measurement, frequency capping, fraud prevention
-  Data/Privacy: May process and share advertising/device identifiers, approximate location inferred from IP, app interactions and advertising events, diagnostics/performance signals, and anti-fraud signals, as described in the Privacy Policy and Google’s policies.
-  Additional Notice: AD_SERVICES_NOTICE.txt
+8. CONTACT
 
-- Google User Messaging Platform (UMP)
-  Category: Third-Party Service / SDK (Consent / Privacy Options)
-  Provider: Google LLC
-  Purpose: Consent collection and privacy options flow (where required/available, e.g., EEA/UK)
-  Data/Privacy: May process consent state and related device/technical signals as described in the Privacy Policy and Google’s policies.
+Jesus Afkerian
+publishing under AFKERIAN INTERACTIVE
+Email: afkerian.support@gmail.com
+Website: https://afkerianinteractive.github.io/
 
-- Firebase Analytics
-  Category: Third-Party Service / SDK (Analytics / Measurement)
-  Provider: Google LLC (Firebase)
-  Purpose: App usage measurement and analytics to improve the App
-  Data/Privacy: May process app interaction events, device/technical information, and identifiers used for measurement/analytics, as described in the Privacy Policy and Google’s policies.
-  Policies (Google/Firebase): https://firebase.google.com/support/privacy
-
-- Firebase Crashlytics
-  Category: Third-Party Service / SDK (Diagnostics / Crash Reporting)
-  Provider: Google LLC (Firebase)
-  Purpose: Crash reporting and stability diagnostics
-  Data/Privacy: May collect and process crash logs (e.g., stack traces) and related technical/diagnostic signals to diagnose and fix stability issues, as described in the Privacy Policy and Google’s policies. Crash logs are not shared with non-Google third parties for advertising.
-  Policies (Google/Firebase): https://firebase.google.com/support/privacy
-
-- Google Play Services
-  Category: Third-Party Service / SDK (Platform Services)
-  Provider: Google LLC
-  Purpose: Platform services and related functionality (as applicable to the App build and device)
-  Data/Privacy: May process certain device/technical information and identifiers under Google’s terms and privacy policies.
-  Policies (Google): https://policies.google.com/privacy
-
-=======================================================================
-D. PRIVACY & SUPPORT
-=======================================================================
-
-Privacy Policy
-For information on data practices, identifiers, consent controls, and user choices (including UMP/Privacy Options where available), refer to the App’s Privacy Policy.
-
-Support / Contact
-AFKERIAN INTERACTIVE
-Support: afkerian.support@gmail.com

@@ -36,7 +36,7 @@
 
   <!-- Security & referrer posture (static host; no server headers available on GitHub Pages) -->
   <!-- frame-ancestors is intentionally omitted: it has no effect via <meta> per spec and GitHub Pages does not allow real response headers -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'sha256-R82yLD48lYEb9kG8SfrDL2wtSJgafN2Q2KBjwU5dBF4=' 'sha256-OFsNGAaSlUkQnJdo1n5LQ5Vw4P4eBRcpudnoKPvMAI0='; object-src 'none'; base-uri 'self'; form-action 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'sha256-1n+zqMjXLOTLlpu20d4yQqgK1Z9N9UriG/iX3zc6ylM=' 'sha256-OFsNGAaSlUkQnJdo1n5LQ5Vw4P4eBRcpudnoKPvMAI0='; object-src 'none'; base-uri 'self'; form-action 'none';">
   <meta name="referrer" content="strict-origin-when-cross-origin">
 
   <!-- Fonts are self-hosted under assets/fonts (Inter, Space Grotesk, both OFL-1.1). No remote font requests. -->
@@ -46,12 +46,13 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "AFKERIAN INTERACTIVE",
+    "@type": "Person",
+    "name": "Jesus Afkerian",
+    "alternateName": "AFKERIAN INTERACTIVE",
     "url": "https://afkerianinteractive.github.io/",
-    "logo": "https://afkerianinteractive.github.io/assets/afkerian-logo.png",
+    "image": "https://afkerianinteractive.github.io/assets/afkerian-logo.png",
     "email": "mailto:afkerian.support@gmail.com",
-    "description": "Independent studio creating practical apps, thoughtful digital tools, games, and interactive experiences."
+    "description": "Independent software developer publishing apps and games under the AFKERIAN INTERACTIVE name."
   }
   </script>
   <script type="application/ld+json">
@@ -498,6 +499,15 @@
     }
     .portfolio-title { font-size: var(--step-2); margin-top: 2px; }
     .portfolio-desc { color: var(--ash-300); font-size: 0.95rem; margin-bottom: 0; }
+    .portfolio-market {
+      margin: var(--sp-4) 0 0;
+      padding: var(--sp-3);
+      border-inline-start: 3px solid var(--blue-500);
+      background: rgba(31, 111, 235, 0.08);
+      color: var(--ash-500);
+      font-size: 0.84rem;
+    }
+    .portfolio-market strong { color: var(--ash-300); }
 
     .portfolio-links {
       display: flex;
@@ -760,6 +770,7 @@
                 </div>
               </div>
               <p class="portfolio-desc">A strategy game played on a grid, featuring the studio's own ZERO Protocol AI engine. Core gameplay and progress are handled locally; advertising, consent, analytics and crash-reporting services may use network connections.</p>
+              <p class="portfolio-market"><strong>Adult / territory notice:</strong> Intended only for users who are at least 18 and have reached the local age of majority and legal capacity. Intended distribution is limited to the <a href="legal/PERMITTED_TERRITORY.txt">50 U.S. states and the District of Columbia listed here</a>. U.S. territories and all other markets are excluded; production storefront configuration remains unverified.</p>
               <div class="portfolio-links">
                 <a href="xo-arcade/">Product Details</a>
                 <a href="xo-arcade/privacy-policy.html">Privacy Policy</a>
@@ -782,6 +793,7 @@
                 </div>
               </div>
               <p class="portfolio-desc">A fast neon hockey arcade game built for two players sharing one device. Core gameplay is designed for local play; advertising, consent, analytics and crash-reporting services may use network connections.</p>
+              <p class="portfolio-market"><strong>Adult / territory notice:</strong> Intended only for users who are at least 18 and have reached the local age of majority and legal capacity. Intended distribution is limited to the <a href="legal/PERMITTED_TERRITORY.txt">50 U.S. states and the District of Columbia listed here</a>. U.S. territories and all other markets are excluded; production storefront configuration remains unverified.</p>
               <div class="portfolio-links">
                 <a href="air-strike-arcade/">Product Details</a>
                 <a href="air-strike-arcade/privacy-policy.html">Privacy Policy</a>
@@ -803,7 +815,8 @@
                   <h3 class="portfolio-title">Tap Odyssey</h3>
                 </div>
               </div>
-              <p class="portfolio-desc">A rhythm game with skins to unlock and worlds to explore, built around collecting as little data as possible.</p>
+              <p class="portfolio-desc">A rhythm game with skins to unlock and worlds to explore. Core gameplay and progress are handled locally; advertising, consent, analytics and crash-reporting services may use network connections.</p>
+              <p class="portfolio-market"><strong>Adult / territory notice:</strong> Intended only for users who are at least 18 and have reached the local age of majority and legal capacity. Intended distribution is limited to the <a href="legal/PERMITTED_TERRITORY.txt">50 U.S. states and the District of Columbia listed here</a>. U.S. territories and all other markets are excluded; production storefront configuration remains unverified.</p>
               <div class="portfolio-links">
                 <a href="tap-odyssey/">Product Details</a>
                 <a href="tap-odyssey/privacy-policy.html">Privacy Policy</a>
@@ -955,6 +968,8 @@
           <ul>
             <li><a href="privacy-policy.html">Website Privacy Policy</a></li>
             <li><a href="terms-of-service.html">Website Terms of Service</a></li>
+            <li lang="es-419"><a href="privacy-policy-es.html">Política de Privacidad del Sitio</a></li>
+            <li lang="es-419"><a href="terms-of-service-es.html">Términos del Servicio del Sitio</a></li>
             <li><a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></li>
           </ul>
         </div>

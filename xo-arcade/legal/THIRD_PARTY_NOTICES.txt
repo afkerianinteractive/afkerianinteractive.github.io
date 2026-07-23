@@ -1,0 +1,74 @@
+THIRD-PARTY NOTICES
+
+Product: XO Arcade: Infinity Edition
+Document ID: THIRD_PARTY_NOTICES
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-22
+Version: 2026-07-22
+Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Contact: afkerian.support@gmail.com
+
+1. PURPOSE
+
+This document identifies material third-party software, services, and creative sources used by XO Arcade: Infinity Edition (the "App"). It provides attribution, provenance, license access, and service information. It does not expand the App license, replace the Privacy Policy or Terms, certify legal compliance, or grant rights in third-party material.
+
+2. OPEN-SOURCE SOFTWARE
+
+The App includes Android, AndroidX, Google, Kotlin/Java, and related components that may be distributed under the Apache License 2.0 or other upstream terms. The bundled Apache License is reproduced without modification in LICENSE_APACHE_2_0.txt. Upstream copyright and attribution statements remain with their owners. If a license conflicts with this summary, the upstream license controls.
+
+3. GOOGLE SERVICES AND SDKS
+
+The inspected build includes Google Mobile Ads, UMP, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions through direct or transitive dependencies. They are subject to Google's applicable terms and policies.
+
+Mobile Ads may automatically collect and share IP address, product interactions, diagnostics, and device/account identifiers for advertising, analytics, and fraud prevention. Analytics, Crashlytics, Installations, and Sessions process other automatic measurement and diagnostic information described in the Privacy Policy. Google, Android, Firebase, AdMob, and related marks belong to their owners. Inclusion does not imply sponsorship or endorsement.
+
+4. CREATIVE AND GENERATED MATERIAL
+
+The App may include sounds, music, voices, images, interface elements, or other material obtained from or generated with the sources listed below. The operator retains provenance records available at acquisition or generation. Subscription status, source terms, and licenses can change; applicable source terms and records control.
+
+Generated output may not be unique and may be subject to third-party rights or mandatory law. No notice guarantees exclusivity, non-infringement, copyrightability, or continuing provider availability.
+
+5. DOCUMENT INVENTORY
+
+1. Google AdMob and Google User Messaging Platform
+   Canonical notice: AD_SERVICES_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/xo-arcade/admob-notice.html
+
+2. ElevenLabs-generated voice and sound effects
+   Canonical notice: ELEVENLABS_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/xo-arcade/elevenlabs-notice.html
+
+3. Kenney sound assets (CC0 1.0)
+   Canonical notice: KENNEY_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/xo-arcade/kenney-notice.html
+
+4. Suno-generated music
+   Canonical notice: SUNO_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/xo-arcade/suno-notice.html
+
+5. Apache License 2.0
+   Canonical notice: LICENSE_APACHE_2_0.txt
+   Website route: https://afkerianinteractive.github.io/xo-arcade/apache-2.0.html
+
+6. PRIVACY AND TERMS
+
+Privacy Policy:
+https://afkerianinteractive.github.io/xo-arcade/privacy-policy.html
+
+Terms of Service:
+https://afkerianinteractive.github.io/xo-arcade/terms-of-service.html
+
+Provider terms and privacy policies govern provider-controlled services. The App disclosures do not eliminate provider obligations or operator responsibilities.
+
+7. NO ENDORSEMENT OR WARRANTY
+
+Unless an individual notice states otherwise under an applicable license, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian, AFKERIAN INTERACTIVE, or the App. Third-party material and services are provided under their own terms and without additional operator warranty beyond nonwaivable rights.
+
+8. CONTACT
+
+Jesus Afkerian
+publishing under AFKERIAN INTERACTIVE
+Email: afkerian.support@gmail.com
+Website: https://afkerianinteractive.github.io/
+

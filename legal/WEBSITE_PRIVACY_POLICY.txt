@@ -1,0 +1,70 @@
+WEBSITE PRIVACY POLICY
+
+Scope: AFKERIAN INTERACTIVE public website
+Document ID: WEBSITE_PRIVACY_POLICY
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-22
+Version: 2026-07-22
+Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Contact: afkerian.support@gmail.com
+
+1. SCOPE
+
+This Policy applies only to https://afkerianinteractive.github.io/ and its static pages (the "Website"). It does not replace a product Privacy Policy. Public access to the Website or a legal TXT file does not authorize download or use of a product outside that product's Permitted Territory.
+
+2. WEBSITE OPERATION
+
+The Website is a static GitHub Pages site. The inspected Website contains no first-party account, registration, payment, comment, subscription, contact form, advertising, or analytics system. It does not set first-party analytics or advertising cookies and does not use browser storage for tracking.
+
+Website scripts provide local navigation, visual effects, and same-origin display of legal TXT documents. Those legal-document requests are ordinary Website requests and are not used by us to create a visitor profile.
+
+3. HOSTING INFORMATION
+
+GitHub operates the hosting infrastructure. Like ordinary web hosting, GitHub and network intermediaries may process technical request information such as IP address, user agent, requested path, timestamps, security events, and diagnostics under their own policies and legal obligations. We do not receive a first-party visitor-level analytics database from the Website implementation inspected.
+
+GitHub information:
+https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+4. EMAIL
+
+If you choose a mailto link or otherwise email afkerian.support@gmail.com, you provide the content, email address, headers, and attachments you send. We use that information to respond, provide support, investigate technical or security concerns, keep appropriate records, protect rights, and meet legal obligations.
+
+Email is handled through Gmail, a Google service, under Google's applicable terms and Privacy Policy:
+https://policies.google.com/privacy
+
+Do not send sensitive information unless reasonably necessary. If you do not want to provide information by email, do not use that channel.
+
+5. EXTERNAL LINKS
+
+The Website links to Google Play, GitHub, provider policies, source websites, and other independent resources. Following a link sends an ordinary request to that provider, which may receive technical information and operate under its own policies. A link does not imply affiliation or endorsement.
+
+6. RETENTION AND DISCLOSURE
+
+We retain support communications only as reasonably needed to respond, keep appropriate business records, protect rights and security, resolve disputes, and meet legal obligations. GitHub, Google, and other providers control their own retention.
+
+Information may be preserved or disclosed when reasonably necessary to comply with applicable law or valid legal process; address fraud, abuse, or security; protect persons, rights, property, or safety; or establish, exercise, or defend legal claims.
+
+7. RIGHTS AND REQUESTS
+
+Depending on applicable law and its scope, thresholds, and exemptions, you may have rights concerning information in your direct communications with us. Email afkerian.support@gmail.com with the subject "Website Privacy Request". We may request information reasonably necessary to verify and locate relevant records. Provider-controlled requests may need to be directed to the provider.
+
+8. SECURITY
+
+We use reasonable measures appropriate to the limited first-party information handled. No website, email, transmission, device, or storage method is completely secure, and we do not guarantee absolute security.
+
+9. CHILDREN AND PRODUCT AUDIENCE
+
+The Website is informational and does not knowingly solicit personal information from children through a first-party form. The three Games identified on the Website are intended only for adults and have separate eligibility rules. The Website does not independently verify a visitor's age.
+
+10. CHANGES
+
+Material changes will be made reasonably conspicuous and apply prospectively from the stated effective date. A product's Privacy Policy governs that product and can change independently.
+
+11. CONTACT
+
+Jesus Afkerian
+publishing under AFKERIAN INTERACTIVE
+Email: afkerian.support@gmail.com
+Website: https://afkerianinteractive.github.io/
+

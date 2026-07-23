@@ -1,0 +1,70 @@
+POLÍTICA DE PRIVACIDAD DEL SITIO WEB
+
+Alcance: sitio web público de AFKERIAN INTERACTIVE
+ID del documento: WEBSITE_PRIVACY_POLICY
+Idioma: es-419
+Fecha de entrada en vigor: 2026-08-15
+Última actualización: 2026-07-22
+Versión: 2026-07-22
+Operador: Jesus Afkerian, persona física que publica bajo AFKERIAN INTERACTIVE
+Contacto: afkerian.support@gmail.com
+
+1. ALCANCE
+
+Esta Política solo se aplica a https://afkerianinteractive.github.io/ y sus páginas estáticas (el «Sitio»). No sustituye la Política de un producto. El acceso público al Sitio o a un TXT no autoriza descargar o usar un producto fuera de su Territorio Permitido.
+
+2. FUNCIONAMIENTO
+
+El Sitio es estático y se aloja en GitHub Pages. No contiene cuentas propias, registro, pagos, comentarios, suscripción, formulario de contacto, publicidad ni análisis de primera parte. No instala cookies propias de análisis o publicidad ni usa almacenamiento del navegador para rastreo.
+
+Los scripts proporcionan navegación local, efectos visuales y visualización de TXT del mismo origen. Esas solicitudes son solicitudes web ordinarias y no se usan por nosotros para crear un perfil.
+
+3. ALOJAMIENTO
+
+GitHub opera la infraestructura. Como alojamiento normal, GitHub e intermediarios pueden tratar IP, agente de usuario, ruta, fechas, seguridad y diagnósticos bajo sus políticas y obligaciones. La implementación inspeccionada no nos entrega una base propia de análisis por visitante.
+
+Información de GitHub:
+https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
+
+4. CORREO
+
+Si eliges un enlace de correo o escribes a afkerian.support@gmail.com, proporcionas contenido, dirección, cabeceras y adjuntos. Los usamos para responder, dar soporte, investigar asuntos técnicos o de seguridad, mantener registros, proteger derechos y cumplir obligaciones.
+
+Gmail, de Google, gestiona el correo bajo términos y política aplicables:
+https://policies.google.com/privacy
+
+No envíes información sensible salvo necesidad razonable. Si no deseas proporcionarla, no uses correo.
+
+5. ENLACES EXTERNOS
+
+El Sitio enlaza a Google Play, GitHub, políticas y otros recursos independientes. Seguirlos envía una solicitud ordinaria al proveedor, que puede recibir información técnica bajo su política. Un enlace no implica afiliación ni respaldo.
+
+6. CONSERVACIÓN Y DIVULGACIÓN
+
+Conservamos comunicaciones solo durante el tiempo razonablemente necesario para responder, mantener registros, proteger derechos y seguridad, resolver controversias y cumplir obligaciones. Los proveedores controlan su retención.
+
+La información puede conservarse o divulgarse para cumplir ley o proceso válido; abordar fraude, abuso o seguridad; proteger personas, derechos, propiedad o seguridad; o formular, ejercer o defender reclamaciones.
+
+7. DERECHOS Y SOLICITUDES
+
+Según la ley, alcance, umbrales y excepciones, puedes tener derechos sobre comunicaciones directas. Escribe a afkerian.support@gmail.com con el asunto «Solicitud de privacidad del sitio». Podemos pedir lo razonablemente necesario para verificar y localizar registros. Solicitudes sobre datos del proveedor pueden dirigirse a este.
+
+8. SEGURIDAD
+
+Usamos medidas razonables acordes con la limitada información propia. Ningún sitio, correo, transmisión, dispositivo o almacenamiento es completamente seguro y no garantizamos seguridad absoluta.
+
+9. NIÑOS Y PÚBLICO DE PRODUCTOS
+
+El Sitio es informativo y no solicita intencionalmente información de niños mediante formularios propios. Los tres Juegos identificados están destinados exclusivamente a adultos y tienen reglas separadas. El Sitio no verifica edad.
+
+10. CAMBIOS
+
+Los cambios materiales serán razonablemente visibles y se aplicarán hacia el futuro desde la fecha indicada. La Política de cada producto lo rige y puede cambiar por separado.
+
+11. CONTACTO
+
+Jesus Afkerian
+publicando bajo AFKERIAN INTERACTIVE
+Correo: afkerian.support@gmail.com
+Sitio: https://afkerianinteractive.github.io/
+

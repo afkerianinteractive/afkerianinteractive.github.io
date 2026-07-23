@@ -1,0 +1,27 @@
+ELEVENLABS — GENERATED VOICE / SFX NOTICE
+Last Updated: February 19, 2026
+
+The App includes certain voice and/or sound effects generated using ElevenLabs (“ElevenLabs”) under a Studio-held commercial subscription/plan in effect at the time of generation.
+
+Service / source
+- ElevenLabs: https://elevenlabs.io
+
+Terms
+Use of ElevenLabs and any generated outputs is subject to ElevenLabs’ then-current terms and policies:
+- https://elevenlabs.io/terms-of-use
+- https://elevenlabs.io/use-policy
+
+Good-faith statement
+To the best of the Studio’s knowledge and good-faith belief, no third-party voice likeness was used without permission. The Studio is responsible for securing any required rights, consents, and permissions for voice-related content.
+
+Attribution
+Attribution requirements (if any) are governed by ElevenLabs’ terms/policies and the Studio’s subscription tier/contract. If attribution is required, it will be provided in the App’s Third-Party Notices and/or credits.
+
+No endorsement
+ElevenLabs is not affiliated with, and does not endorse, AFKERIAN INTERACTIVE or the App.
+
+Organization note
+File names may have been changed for internal organization; the audio content itself was not modified.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

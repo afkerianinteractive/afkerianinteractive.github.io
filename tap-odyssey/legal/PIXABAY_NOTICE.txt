@@ -1,0 +1,30 @@
+PIXABAY — THIRD-PARTY ASSET NOTICE (SOUND EFFECTS)
+Last Updated: February 19, 2026
+
+The App includes certain sound effects obtained from Pixabay (pixabay.com) and incorporated into the App’s audiovisual experience (e.g., UI and gameplay SFX).
+
+Service / source
+- Pixabay: https://pixabay.com
+
+Terms
+Pixabay content is made available under the Pixabay Content License and is subject to Pixabay’s applicable terms and policies. In the event of any conflict between this notice and the applicable Pixabay license/terms, Pixabay’s license/terms control with respect to the Pixabay content.
+- Pixabay Content License (Summary): https://pixabay.com/service/license-summary/
+- Pixabay Terms of Service: https://pixabay.com/service/terms/
+
+Scope of use
+Pixabay sound effects are used only as integrated components of the App’s audiovisual experience. They are not distributed as a standalone sound library, stock package, or as a substitute for the original content.
+
+Good-faith statement
+Certain Pixabay content may depict, include, or reference third-party rights (e.g., trademarks or other protected material). The Studio uses Pixabay sound effects in good faith under the applicable license and remains responsible for ensuring the App’s use of such content complies with applicable law and does not infringe third-party rights.
+
+Attribution
+Attribution is not stated as mandatory under the Pixabay Content License. This notice is provided for provenance and compliance recordkeeping. Where available, the Studio maintains internal records for relevant items (e.g., source page URLs, file names/IDs, and download evidence, including any available license certificates).
+
+No endorsement; no support
+The App is not affiliated with, endorsed by, or sponsored by Pixabay. Pixabay does not provide warranties, support, or maintenance for the App.
+
+Organization note
+File names may have been changed for internal organization; the audio content itself was not modified.
+
+Recordkeeping
+This notice is provided for provenance and compliance recordkeeping.

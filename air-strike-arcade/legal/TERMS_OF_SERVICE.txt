@@ -1,96 +1,137 @@
-AIR STRIKE ARCADE
 TERMS OF SERVICE
-Effective Date: February 19, 2026
-Last Updated: February 19, 2026
 
-These Terms are provided in-app and may also be available on the Studio website. If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
+Product: Air Strike Arcade
+Document ID: TERMS_OF_SERVICE
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-22
+Version: 2026-07-22
+Operator: Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE
+Contact: afkerian.support@gmail.com
 
-1. BINDING AGREEMENT
-These Terms of Service (“Terms”) constitute a binding contract between you (“User”) and AFKERIAN INTERACTIVE (“Studio,” “we,” “us,” or “our”). By downloading, installing, accessing, or using Air Strike Arcade (the “App”), you agree to these Terms. If you do not agree, do not use the App. We may modify these Terms from time to time; if you continue to use the App after the effective date of updated Terms, you accept the updated Terms.
+1. CONTRACT AND OPERATOR
 
-2. ELIGIBILITY
-The App is not directed to children under 13, and you may not use the App if you are under 13. You represent that you are at least 13 years old. If you are a minor in your jurisdiction, you represent that you have permission from a parent or legal guardian to use the App and that such parent or guardian has reviewed and agreed to these Terms on your behalf.
+These Terms of Service ("Terms") govern Air Strike Arcade (the "App"). They form an agreement between you and Jesus Afkerian, an individual publishing under AFKERIAN INTERACTIVE ("AFKERIAN INTERACTIVE," "we," "us," or "our").
 
-3. LICENSE GRANT & RESTRICTIONS
-3.1 License. Subject to your compliance with these Terms, the Studio grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the App for your personal, non-commercial entertainment purposes on compatible devices you own or control. All rights not expressly granted to you are reserved by the Studio.
+If you disagree, do not download, install, access, or use the App. If it is installed, stop using and uninstall it. To the maximum extent permitted by law, downloading, installing, accessing, or using after these Terms and a reasonably conspicuous notice are made available manifests agreement. This does not guarantee enforceability in every circumstance.
 
-3.2 Restrictions. Except as expressly permitted by applicable law, you may not, and you agree not to:
-(a) copy, reproduce, distribute, publicly perform, publicly display, modify, translate, or create derivative works of the App;
-(b) sell, rent, lease, lend, sublicense, assign, or otherwise transfer the App or access to the App;
-(c) reverse engineer, decompile, disassemble, or attempt to derive the source code, underlying ideas, algorithms, structure, or organization of the App, except to the extent such restriction is prohibited by applicable law;
-(d) circumvent, disable, or interfere with security-related features, advertising delivery, measurement, consent flows, analytics, crash reporting, or fraud-prevention systems;
-(e) use cheats, automation software, bots, exploits, hacks, or otherwise interfere with the normal operation of the App;
-(f) remove, alter, or obscure proprietary notices (including copyright, trademark, and attribution notices) contained in or displayed by the App.
+2. ADULT ELIGIBILITY
 
-4. INTELLECTUAL PROPERTY; AI-GENERATED AND LICENSED ASSETS; VIRTUAL ITEMS
-4.1 Ownership. The App and all associated content and materials, including without limitation software, audiovisual works, user interface and visual design, trademarks, logos, artwork, images, sound effects, music, and documentation (collectively, “Studio Materials”), are owned by the Studio or its licensors and are protected by intellectual property and other laws. All rights not expressly granted to you are reserved by the Studio.
+The App is intended only for adults and is not directed to children. You are authorized only if you are at least 18 years old and have reached the local age of majority and contractual capacity, whichever threshold is higher. A person below either threshold or otherwise lacking contractual capacity is not authorized. There is no parental or guardian alternative.
 
-4.2 AI-Generated Music (Suno). The App may incorporate certain music/audio tracks generated using Suno under a Studio-held paid subscription plan in effect at the time of generation (“Suno Assets”). Suno Assets are used under the applicable commercial terms of the subscription/plan held by the Studio at the time of generation. You may not extract, reproduce, distribute, publicly perform, or commercially exploit Suno Assets outside the App, except as expressly permitted by applicable law.
+The App does not independently verify age. Google Play audience configuration is a separate store setting and is not proven by these Terms.
 
-4.3 Third-Party Sound Effects (Pixabay). The App may include certain sound effects sourced from third-party libraries such as Pixabay and used under the applicable license terms available at the time of download (“Third-Party SFX”). You may not extract, redistribute, resell, or otherwise use Third-Party SFX outside the App except as permitted by applicable law and the applicable third-party license.
+3. PERMITTED TERRITORY
 
-4.4 No Endorsement. Third-party providers (including Suno and Pixabay) are not affiliated with, and do not endorse, the Studio or the App.
+The App is authorized for distribution and use only in Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina, South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming, and the District of Columbia. U.S. territories are excluded. The versioned canonical list is incorporated into these Terms:
+https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
 
-4.5 Virtual Items. The App may include virtual in-game currency or items (“Virtual Items”). Virtual Items are licensed, not sold, have no real-world monetary value, are non-transferable, and are not redeemable for cash or tangible goods. The Studio may modify, manage, or remove Virtual Items to the maximum extent permitted by applicable law (for example, to maintain balance, prevent fraud, or fix errors). Nothing in this section limits mandatory consumer rights that cannot be waived under applicable law.
+Public access to the App website or documents does not authorize use elsewhere. Actual Google Play production and testing availability is external to these Terms and remains unverified.
 
-5. PRIVACY; DATA
-Your use of the App is governed by our Privacy Policy, which is incorporated by reference and made part of these Terms. The Privacy Policy is available in the App and at:
+4. LIMITED LICENSE
+
+Subject to these Terms and law, we grant an eligible user in the Permitted Territory a limited, personal, revocable, nonexclusive, nontransferable, nonsublicensable license to install and use the App on a compatible device for lawful, noncommercial entertainment.
+
+The App is licensed, not sold. No ownership in the App, brand, code, audiovisual content, or other materials transfers to you. Third-party materials remain subject to their licenses and notices.
+
+5. APP FUNCTION, LOCAL DATA, AND BACKUPS
+
+Core gameplay and settings are handled primarily on the device. Local information may include progress, scores, preferences, and ordinary game state. It may be lost through uninstall, clear-data actions, corruption, device loss, updates, incompatibility, or operating-system behavior. Android backup or transfer may copy or restore supported preferences depending on settings. We do not guarantee backup, synchronization, restoration, or recovery.
+
+Advertising, privacy messaging, analytics, crash reporting, installation/session measurement, security, and fraud prevention use network connections. The App is not completely offline.
+
+No account, subscription, or in-app purchase system was identified in the inspected App. These Terms do not create purchase or refund rights for a transaction that does not exist, without limiting rights arising from any separate transaction or mandatory law.
+
+6. ADVERTISING
+
+The App uses banner and interstitial advertising. Rewarded, App Open, and native ads were not identified in the inspected source.
+
+
+Ads and privacy messages use Google services. Availability, content, suitability, timing, measurement, and delivery can depend on region, device, network, provider systems, user choices, and publisher or provider configuration. We do not guarantee any ad or reward. In the inspected implementation, ad failure does not block ordinary gameplay continuation.
+
+You may not manipulate ads, consent signals, impressions, clicks, rewards, identifiers, measurement, frequency controls, or anti-fraud systems.
+
+7. PRIVACY
+
+The Privacy Policy is incorporated by reference:
 https://afkerianinteractive.github.io/air-strike-arcade/privacy-policy.html
 
-The App is designed as an offline-first experience; gameplay progress, settings, and single-player opponent/CPU difficulty and behavior settings are stored locally on your device. You can delete local App data using the App’s in-game deletion control (e.g., a “Wipe Memory” / “Reset” button), device/OS controls (e.g., clearing storage/data), and/or by uninstalling the App, subject to your device and operating system backup settings.
+The App uses Google Mobile Ads, UMP, Analytics, Crashlytics, Installations, and Sessions. Agreeing to these Terms is not blanket consent to every privacy activity. Processing, choices, and rights are described in the Privacy Policy and provider policies.
 
-The App may integrate third-party SDKs/services (including Google AdMob, Google UMP, Firebase Analytics, Firebase Crashlytics, and Google Play services) that may collect and process certain information (such as device identifiers, IP-derived approximate location, app interactions, diagnostics, consent state, and crash logs) as described in the Privacy Policy and in the App’s Third-Party Notices.
+8. ACCEPTABLE USE
 
-6. THIRD-PARTY SERVICES; OPEN SOURCE; NOTICES
-6.1 Third-Party Services. The App may interoperate with or include third-party services, SDKs, or integrations (“Third-Party Services”), including advertising, consent/privacy options, analytics, and crash reporting services. Third-Party Services are provided by their respective providers and may be subject to separate terms and policies. The Studio is not responsible for Third-Party Services and does not warrant their availability, accuracy, or performance.
+You may not use the App unlawfully or outside the Permitted Territory; copy, sell, rent, sublicense, distribute, publicly perform, commercially exploit, or create unauthorized derivative works; reverse engineer, decompile, disassemble, bypass, or extract source code except where a restriction is prohibited by mandatory law; evade technical, territorial, security, advertising, privacy, or access controls; interfere with operation, networks, providers, or devices; introduce malicious code; exploit errors, automate interaction, falsify metrics, or manipulate ads or rewards; infringe another person's rights; or misrepresent affiliation, sponsorship, endorsement, or ownership.
 
-6.2 Open Source. The App may include open source software components licensed under applicable open source licenses (e.g., Apache License 2.0). Required notices and license texts are provided in the App’s “Third-Party Notices” section. In the event of a conflict between these Terms and an applicable open source license, the open source license governs solely with respect to the open source component.
+9. OWNERSHIP AND THIRD-PARTY MATERIALS
 
-6.3 Third-Party Notices. Additional attributions and notices for third-party assets, SDKs, and services may be provided in the App’s Licenses/Notices or Third-Party Notices sections and/or in accompanying notice files. Those notices are provided for attribution and compliance and do not modify these Terms.
+Jesus Afkerian owns or licenses the App's original code, design, brand, and content. Third-party software, services, sounds, music, generated media, tools, and materials are governed by applicable terms, licenses, and notices. Nothing overrides an open-source license or grants rights in a third party's marks or content.
 
-7. DISCLAIMER OF WARRANTIES
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP AND ALL STUDIO MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE,” WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, AND QUIET ENJOYMENT. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
+See:
+https://afkerianinteractive.github.io/air-strike-arcade/third-party-notices.html
 
-8. LIMITATION OF LIABILITY
-TO THE MAXIMUM EXTENT PERMITTED BY LAW:
-(a) IN NO EVENT WILL THE STUDIO BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO THE APP OR THESE TERMS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES; AND
-(b) THE STUDIO’S TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF (I) THE AMOUNTS YOU PAID TO THE STUDIO FOR THE APP (IF ANY) IN THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM OR (II) TEN U.S. DOLLARS (US $10.00).
-Nothing in these Terms limits or excludes liability for fraud, willful misconduct, gross negligence, or personal injury or death to the extent such limitation or exclusion is prohibited by applicable law. SOME JURISDICTIONS DO NOT ALLOW LIMITATIONS OF LIABILITY, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+10. UPDATES AND AVAILABILITY
 
-9. DISPUTE RESOLUTION; BINDING ARBITRATION; CLASS ACTION WAIVER
-PLEASE READ THIS SECTION CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS.
-9.1 Informal Resolution and Notice of Dispute. Before initiating arbitration or any court proceeding (except small claims court), you agree to first send the Studio a written Notice of Dispute to afkerian.support@gmail.com with the subject line “Notice of Dispute – Air Strike Arcade.” The Notice must include (a) your name and contact information, (b) a description of the dispute, and (c) the relief you seek. The parties agree to attempt in good faith to resolve the dispute within thirty (30) days after the Notice is received.
+We may correct, update, change, suspend, or discontinue the App or a feature when reasonably necessary. We do not promise permanent availability of the App, ads, rewards, network functions, content, updates, compatibility, or support. Updates can be required. Mandatory consumer rights remain unaffected.
 
-9.2 Agreement to Arbitrate. If the dispute is not resolved within the 30-day period, you and the Studio agree that any dispute, claim, or controversy arising out of or relating to the App or these Terms will be resolved by binding arbitration administered by the American Arbitration Association (“AAA”) under its Consumer Arbitration Rules, as modified by these Terms. Judgment on the award may be entered in any court of competent jurisdiction.
+11. THIRD-PARTY SERVICES
 
-9.3 Arbitration Location and Procedure. Arbitration will be conducted remotely by video or telephone unless the arbitrator determines an in-person hearing is necessary. If an in-person hearing is required, it will take place in Orange County, Florida, unless the AAA rules or the arbitrator provide otherwise. The arbitrator has exclusive authority to resolve any dispute relating to the interpretation, applicability, enforceability, or formation of this arbitration agreement, except that courts of competent jurisdiction may determine the enforceability of the Class Action Waiver.
+Google Play, Google, advertising, analytics and crash providers, device manufacturers, network operators, and linked resources operate under separate terms. We do not control their independent systems or promise their availability or conduct. A link does not imply endorsement or partnership.
 
-9.4 Fees and Costs. Payment of arbitration fees will be governed by the AAA Consumer Arbitration Rules and applicable law.
+12. EXPORT CONTROLS AND SANCTIONS
 
-9.5 Small Claims. Either party may bring an individual action in small claims court in lieu of arbitration, provided the action remains in small claims court and proceeds only on an individual basis.
+You may not download, access, export, reexport, transfer, or use the App in violation of applicable U.S. export controls, sanctions, or other trade restrictions, including restrictions involving prohibited persons, destinations, or uses. This clause does not represent that distribution is lawful in any country outside the Permitted Territory.
 
-9.6 Class Action Waiver. YOU AND THE STUDIO AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL CAPACITY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, CONSOLIDATED, OR REPRESENTATIVE PROCEEDING. THE ARBITRATOR MAY NOT CONSOLIDATE CLAIMS OR PRESIDE OVER ANY FORM OF CLASS OR REPRESENTATIVE PROCEEDING.
+13. SUPPORT AND FEEDBACK
 
-9.7 Opt-Out. You may opt out of this arbitration agreement within thirty (30) days of your first use of the App by emailing afkerian.support@gmail.com with the subject line “Arbitration Opt-Out – Air Strike Arcade” and providing (a) your name, (b) the email address you use (if any), and (c) a clear statement that you wish to opt out of arbitration. If you opt out, you and the Studio agree that disputes will be resolved in court as set forth in Section 11.1, and the Class Action Waiver in Section 9.6 will not apply to you.
+Support is offered at our discretion through afkerian.support@gmail.com. Do not send sensitive information unless reasonably necessary. If you submit feedback, you permit us to use it without restriction or payment, while retaining rights you already hold. This does not authorize use of confidential or third-party material.
 
-9.8 Administrator Unavailability. If AAA is unavailable to administer arbitration, the parties will reasonably cooperate to select an alternative arbitration administrator that applies consumer arbitration rules substantially similar to the AAA Consumer Arbitration Rules.
+14. SUSPENSION AND TERMINATION
 
-10. TERMINATION
-The Studio may suspend or terminate your access to the App and this license at any time if you violate these Terms or if the Studio reasonably determines your use is unlawful, harmful, or abusive. Upon termination, you must cease all use of the App and delete any copies in your possession or control. Sections 3.2, 4, 5, 6, 7, 8, 9, 10, 11, and 12 survive termination.
+Your license ends automatically if you materially breach these Terms. We may suspend or terminate access we control when reasonably necessary for unlawful conduct, security, abuse, provider requirements, or discontinuation. On termination, stop using and uninstall. Provisions that should survive by nature will survive.
 
-11. GENERAL TERMS
-11.1 Governing Law; Venue. These Terms are governed by the laws of the State of Florida, USA, without regard to conflict of laws principles. To the extent a dispute is not subject to arbitration (including if you validly opt out under Section 9.7), you agree that any such action will be brought exclusively in the state or federal courts located in Orange County, Florida, and you consent to personal jurisdiction and venue there. Mandatory consumer protection rights that cannot be waived under applicable law remain unaffected.
+15. DISCLAIMERS
 
-11.2 Severability. If any provision of these Terms is held invalid or unenforceable, that provision will be enforced to the maximum extent permissible and the remaining provisions will remain in full force and effect.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE APP IS PROVIDED "AS IS," "AS AVAILABLE," AND "WITH ALL FAULTS." WE DISCLAIM EXPRESS, IMPLIED, AND STATUTORY WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, ACCURACY, SECURITY, AND UNINTERRUPTED OR ERROR-FREE OPERATION.
 
-11.3 Entire Agreement. These Terms, together with the Privacy Policy and Third-Party Notices, constitute the entire agreement between you and the Studio regarding the App and supersede all prior or contemporaneous agreements and understandings.
+We do not warrant preservation of progress, correction of defects, or continuing availability of services, ads, rewards, updates, or content. Nonwaivable warranties and consumer rights remain unaffected.
 
-11.4 Assignment. You may not assign or transfer these Terms without the Studio’s prior written consent. The Studio may assign these Terms (including all rights and obligations) in connection with a merger, acquisition, sale of assets, or by operation of law.
+16. LIMITATION OF LIABILITY
 
-11.5 No Waiver. The Studio’s failure to enforce any right or provision of these Terms will not constitute a waiver of such right or provision.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN, AFKERIAN INTERACTIVE, AND THEIR APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOST DATA, PROGRESS, PROFITS, REVENUE, GOODWILL, OPPORTUNITY, OR DEVICE USE, REGARDLESS OF THEORY, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE. THIS EXCLUSION APPLIES EVEN IF A PARTY WAS ADVISED OF THE POSSIBILITY AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFUL.
 
-11.6 Interpretation. Headings are for convenience only and do not affect interpretation. The word “including” means “including without limitation.”
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THEIR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE APP OR THESE TERMS WILL NOT EXCEED THE GREATER OF: (A) THE AMOUNT YOU ACTUALLY PAID DIRECTLY TO JESUS AFKERIAN FOR THE APP DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR (B) USD 100. ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY YOU. THIS IS ONE AGGREGATE CAP, NOT A CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
 
-12. CONTACT
-AFKERIAN INTERACTIVE
+Nothing excludes or limits liability for fraud or fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, statutory privacy or consumer remedies, or other liability that cannot lawfully be excluded or limited.
+
+17. NARROW INDEMNITY
+
+To the extent permitted by law, you will indemnify Jesus Afkerian and AFKERIAN INTERACTIVE against third-party claims and direct losses to the extent caused by your unlawful use, material breach, infringement of a third party's rights, or malicious interference.
+
+This is subject to causation, reasonable mitigation, prompt notice where practicable, and your reasonable control of the defense with qualified counsel, while allowing our participation at our expense. It excludes losses caused by our fraud, willful misconduct, gross negligence where nonwaivable, or other conduct for which indemnity cannot lawfully be required.
+
+18. MANDATORY RIGHTS
+
+Nothing waives any nonwaivable consumer, privacy, language, warranty, cancellation, small-claims, forum, or remedy right. If a disclaimer, limit, venue, or other term conflicts with mandatory law, that law controls only to the extent required and the remainder continues.
+
+19. GOVERNING LAW AND VENUE
+
+These Terms are governed by Florida law, without regard to conflicts rules, except where mandatory law requires otherwise. Subject to nonwaivable local law, consumer forums, and small-claims rights, disputes must be brought in a competent court in Orange County, Florida.
+
+These Terms contain no mandatory arbitration agreement, arbitration delegation, arbitration opt-out, class-action waiver, or jury-trial waiver.
+
+20. CHANGES
+
+We may update these Terms prospectively. Material changes will be made reasonably conspicuous and identify an effective date. Continued access or use after that notice and date manifests agreement to the maximum extent permitted by law. Merely retaining the App installed, without access or use, is not agreement.
+
+If you disagree, stop using and uninstall before updated Terms take effect.
+
+21. GENERAL
+
+If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remainder continues. Failure to enforce is not a waiver. A waiver must be explicit and written. You may not assign these Terms without consent; we may assign them with a lawful transfer of the App or related rights, subject to mandatory law. Neither these Terms nor App use creates an agency, employment, partnership, joint venture, or franchise relationship. Except for applicable licensors or service providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries. We are not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law. These Terms, the Privacy Policy, and incorporated licenses and notices are the entire agreement about the App without overriding nonwaivable rights. Provisions concerning ownership, disclaimers, liability, indemnity, mandatory rights, and other terms that by nature should survive will survive termination.
+
+22. CONTACT
+
+Jesus Afkerian
+publishing under AFKERIAN INTERACTIVE
 Email: afkerian.support@gmail.com
+Website: https://afkerianinteractive.github.io/

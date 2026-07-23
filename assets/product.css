@@ -205,6 +205,23 @@ h1 {
 
 .section-copy { margin: 1rem 0 0; }
 
+.market-notice {
+  max-width: 74ch;
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.1rem;
+  border-inline-start: 3px solid var(--accent);
+  background: var(--accent-soft);
+  color: var(--ash-300);
+}
+
+.market-notice strong { color: var(--ash-100); }
+
+.language-links {
+  margin: 1.25rem 0 0;
+  color: var(--ash-500);
+  font-size: 0.94rem;
+}
+
 .legal-grid {
   display: grid;
   gap: 1rem;

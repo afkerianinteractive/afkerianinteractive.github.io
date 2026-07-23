@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-07-22",
+  "status": "PROPOSED_OWNER_REVIEW_REQUIRED",
+  "ads_declaration": "YES — each App contains ads",
+  "limitations": [
+    "Play Console forms, production SDK switches, provider contractual roles, retention, Google Signals, product links, data-sharing settings, UMP publications, and live country settings are CONSOLE_UNVERIFIED.",
+    "Do not submit this file mechanically. The owner must reconcile it with the exact release artifact and current provider documentation in Play Console."
+  ],
+  "apps": [
+    {
+      "product": "XO Arcade: Infinity Edition",
+      "ads_formats": [
+        "banner",
+        "interstitial"
+      ],
+      "rewarded_behavior": "none",
+      "data_safety": [
+        {
+          "type": "Approximate Location",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Google Mobile Ads uses IP address to estimate general location and automatically collects/shares it; Analytics derives coarse location from masked IP."
+        },
+        {
+          "type": "App Interactions",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares product interactions; Analytics automatically collects lifecycle events, screen views, and sessions."
+        },
+        {
+          "type": "Crash Logs",
+          "collected": "YES",
+          "shared": "UNVERIFIED",
+          "purposes": [
+            "Analytics",
+            "App functionality"
+          ],
+          "optional_required": "REQUIRED",
+          "ephemeral": "NO",
+          "evidence": "Crashlytics automatically collects stack traces. Google Play sharing treatment depends on verified provider role/terms, which the repository cannot prove."
+        },
+        {
+          "type": "Diagnostics",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares diagnostics; Crashlytics and Sessions collect crash, device, session, network, and performance-related metadata."
+        },
+        {
+          "type": "Device or Other IDs",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads collects/shares advertising, app-set, and supported account/device identifiers; Analytics, Installations, and Crashlytics create app-instance/install identifiers."
+        }
+      ],
+      "additional_data_types": "No additional Google Play user-data type was proven from the inspected app-authored source and resolved direct SDK set; absence in source does not prove absence in live SDK/configuration.",
+      "user_directed_sharing": "No app-authored user-directed sharing feature was identified.",
+      "first_party_accounts": "None identified.",
+      "delete_account_requirement": "Not applicable based on no account system identified; owner must verify Play Console.",
+      "encryption_in_transit": "Google documents TLS for Mobile Ads and Analytics data; an app-level universal encryption declaration remains OWNER_CONFIRMATION_REQUIRED.",
+      "deletion_request_mechanism": "Support email plus provider/device controls, each with limited scope; no in-app account deletion because no account exists."
+    },
+    {
+      "product": "Air Strike Arcade",
+      "ads_formats": [
+        "banner",
+        "interstitial"
+      ],
+      "rewarded_behavior": "none",
+      "data_safety": [
+        {
+          "type": "Approximate Location",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Google Mobile Ads uses IP address to estimate general location and automatically collects/shares it; Analytics derives coarse location from masked IP."
+        },
+        {
+          "type": "App Interactions",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares product interactions; Analytics automatically collects lifecycle events, screen views, and sessions."
+        },
+        {
+          "type": "Crash Logs",
+          "collected": "YES",
+          "shared": "UNVERIFIED",
+          "purposes": [
+            "Analytics",
+            "App functionality"
+          ],
+          "optional_required": "REQUIRED",
+          "ephemeral": "NO",
+          "evidence": "Crashlytics automatically collects stack traces. Google Play sharing treatment depends on verified provider role/terms, which the repository cannot prove."
+        },
+        {
+          "type": "Diagnostics",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares diagnostics; Crashlytics and Sessions collect crash, device, session, network, and performance-related metadata."
+        },
+        {
+          "type": "Device or Other IDs",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads collects/shares advertising, app-set, and supported account/device identifiers; Analytics, Installations, and Crashlytics create app-instance/install identifiers."
+        }
+      ],
+      "additional_data_types": "No additional Google Play user-data type was proven from the inspected app-authored source and resolved direct SDK set; absence in source does not prove absence in live SDK/configuration.",
+      "user_directed_sharing": "No app-authored user-directed sharing feature was identified.",
+      "first_party_accounts": "None identified.",
+      "delete_account_requirement": "Not applicable based on no account system identified; owner must verify Play Console.",
+      "encryption_in_transit": "Google documents TLS for Mobile Ads and Analytics data; an app-level universal encryption declaration remains OWNER_CONFIRMATION_REQUIRED.",
+      "deletion_request_mechanism": "Support email plus provider/device controls, each with limited scope; no in-app account deletion because no account exists."
+    },
+    {
+      "product": "Tap Odyssey",
+      "ads_formats": [
+        "banner",
+        "interstitial",
+        "optional rewarded"
+      ],
+      "rewarded_behavior": "one optional in-game benefit per eligible completed rewarded ad",
+      "data_safety": [
+        {
+          "type": "Approximate Location",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Google Mobile Ads uses IP address to estimate general location and automatically collects/shares it; Analytics derives coarse location from masked IP."
+        },
+        {
+          "type": "App Interactions",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares product interactions; Analytics automatically collects lifecycle events, screen views, and sessions."
+        },
+        {
+          "type": "Crash Logs",
+          "collected": "YES",
+          "shared": "UNVERIFIED",
+          "purposes": [
+            "Analytics",
+            "App functionality"
+          ],
+          "optional_required": "REQUIRED",
+          "ephemeral": "NO",
+          "evidence": "Crashlytics automatically collects stack traces. Google Play sharing treatment depends on verified provider role/terms, which the repository cannot prove."
+        },
+        {
+          "type": "Diagnostics",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads automatically collects/shares diagnostics; Crashlytics and Sessions collect crash, device, session, network, and performance-related metadata."
+        },
+        {
+          "type": "Device or Other IDs",
+          "collected": "YES",
+          "shared": "YES",
+          "purposes": [
+            "Advertising or marketing",
+            "Analytics",
+            "App functionality",
+            "Fraud prevention, security, and compliance"
+          ],
+          "optional_required": "REQUIRED_OR_NOT_UNIVERSALLY_OPTIONAL",
+          "ephemeral": "NO",
+          "evidence": "Mobile Ads collects/shares advertising, app-set, and supported account/device identifiers; Analytics, Installations, and Crashlytics create app-instance/install identifiers."
+        }
+      ],
+      "additional_data_types": "No additional Google Play user-data type was proven from the inspected app-authored source and resolved direct SDK set; absence in source does not prove absence in live SDK/configuration.",
+      "user_directed_sharing": "No app-authored user-directed sharing feature was identified.",
+      "first_party_accounts": "None identified.",
+      "delete_account_requirement": "Not applicable based on no account system identified; owner must verify Play Console.",
+      "encryption_in_transit": "Google documents TLS for Mobile Ads and Analytics data; an app-level universal encryption declaration remains OWNER_CONFIRMATION_REQUIRED.",
+      "deletion_request_mechanism": "Support email plus provider/device controls, each with limited scope; no in-app account deletion because no account exists."
+    }
+  ]
+}
+

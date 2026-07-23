@@ -1,413 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Third-Party Notices for Tap Odyssey by AFKERIAN INTERACTIVE." />
-  <link rel="canonical" href="https://afkerianinteractive.github.io/tap-odyssey/third-party-notices.html" />
-  <title>Third-Party Notices - Tap Odyssey | AFKERIAN INTERACTIVE</title>
-  <style>
-    :root{
-      --primary:#0f172a;   /* Navy/Slate */
-      --text:#111827;
-      --muted:#4b5563;
-      --bg:#ffffff;        /* White background for legibility */
-      --surface:#f9fafb;
-      --border:#e5e7eb;
-      --highlight:#eff6ff;
-      --link:#2563eb;
-    }
-    *{ box-sizing:border-box; }
-    body{
-      margin:0;
-      background:var(--bg);
-      color:var(--text);
-      font-family:'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      line-height:1.65;
-    }
-    .wrap{
-      max-width: 980px;
-      margin: 0 auto;
-      padding: 60px 22px 80px;
-    }
-    .header{
-      border-bottom: 4px solid var(--primary);
-      padding-bottom: 20px;
-      margin-bottom: 26px;
-      text-align: center;
-    }
-    h1{
-      margin: 0 0 8px;
-      font-size: 2rem;
-      letter-spacing: -0.02em;
-      text-transform: uppercase;
-      color: var(--primary);
-      font-weight: 900;
-    }
-    .meta{
-      color: var(--muted);
-      font-size: .9rem;
-      text-transform: uppercase;
-      font-weight: 700;
-      letter-spacing: .06em;
-    }
-    .card{
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-    }
-    .notice{
-      border: 2px solid var(--primary);
-      background: var(--highlight);
-      border-radius: 12px;
-      padding: 18px;
-      margin-top: 18px;
-    }
-    h2{
-      margin: 0 0 12px;
-      font-size: 1.05rem;
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: .06em;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 10px;
-      font-weight: 800;
-    }
-    p{ margin: 0 0 14px; color: var(--muted); }
-    a{ color: var(--link); font-weight: 700; text-decoration: none; }
-    a:hover{ text-decoration: underline; }
-    a:focus-visible{ outline: 2px solid var(--link); outline-offset: 2px; border-radius: 4px; }
-
-    /* Quick links panel */
-    .quick{
-      margin-top: 14px;
-      padding: 14px;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: #fff;
-    }
-    .quick h2{
-      margin: 0 0 10px;
-      font-size: 1rem;
-      color: var(--primary);
-      text-transform: uppercase;
-      letter-spacing: .06em;
-      font-weight: 900;
-      border-bottom: none;
-      padding-bottom: 0;
-    }
-    .link-list{
-      display:flex;
-      flex-direction:column;
-      gap:10px;
-    }
-    .link-item{
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:14px;
-      padding:10px 12px;
-      background:#fff;
-      border:1px solid var(--border);
-      border-radius:10px;
-      text-decoration:none;
-    }
-    .link-left{
-      display:flex;
-      flex-direction:column;
-      gap:2px;
-      min-width:0;
-    }
-    .link-title{
-      font-weight:900;
-      color:var(--text);
-      line-height:1.2;
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-    .link-sub{
-      font-size:0.86rem;
-      color:var(--muted);
-      white-space:nowrap;
-      overflow:hidden;
-      text-overflow:ellipsis;
-    }
-    .pill{
-      font-size:0.75rem;
-      font-weight:900;
-      padding:3px 10px;
-      border-radius:999px;
-      border:1px solid #bfdbfe;
-      background:var(--highlight);
-      color:var(--primary);
-      white-space:nowrap;
-      flex:0 0 auto;
-    }
-
-    /* Verbatim document block */
-    .doc{
-      margin: 0;
-      background: #ffffff;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      color: var(--text);
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-      font-size: 0.86rem;
-      line-height: 1.55;
-      white-space: pre-wrap;
-      word-break: break-word;
-    }
-
-    footer{
-      margin-top: 36px;
-      padding-top: 18px;
-      border-top: 1px solid var(--border);
-      text-align: center;
-      font-size: .9rem;
-      color: var(--muted);
-    }
-
-    /* Navigation Bar */
-    .site-nav{
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-      justify-content:center;
-      margin-bottom:26px;
-    }
-    .site-nav a{
-      display:inline-flex;
-      align-items:center;
-      min-height:44px;
-      padding:8px 18px;
-      font-size:.82rem;
-      font-weight:700;
-      text-transform:uppercase;
-      letter-spacing:.05em;
-      text-decoration:none;
-      border-radius:8px;
-      border:1px solid var(--border);
-      color:var(--muted);
-      background:var(--surface, #f9fafb);
-      transition:background .2s,color .2s,border-color .2s;
-    }
-    .site-nav a:hover,
-    .site-nav a[aria-current="page"]{
-      background:var(--highlight, #eff6ff);
-      color:var(--primary, #0f172a);
-      border-color:var(--primary, #0f172a);
-      text-decoration:none;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Third-Party Notices and license sources for Tap Odyssey.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#05070a">
+  <meta name="color-scheme" content="dark">
+  <title>Third-Party Notices — Tap Odyssey | AFKERIAN INTERACTIVE</title>
+  <link rel="canonical" href="https://afkerianinteractive.github.io/tap-odyssey/third-party-notices.html">
+  <link rel="alternate" hreflang="es" href="https://afkerianinteractive.github.io/tap-odyssey/third-party-notices-es.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="AFKERIAN INTERACTIVE">
+  <meta property="og:title" content="Third-Party Notices — Tap Odyssey | AFKERIAN INTERACTIVE">
+  <meta property="og:description" content="Third-Party Notices and license sources for Tap Odyssey.">
+  <meta property="og:url" content="https://afkerianinteractive.github.io/tap-odyssey/third-party-notices.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Third-Party Notices — Tap Odyssey | AFKERIAN INTERACTIVE">
+  <meta name="twitter:description" content="Third-Party Notices and license sources for Tap Odyssey.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="preload" href="../assets/fonts/inter/Inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="../assets/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="stylesheet" href="../assets/legal-viewer.css">
+  <script src="../assets/legal-viewer.js" defer></script>
 </head>
-
 <body>
-  <div class="wrap">
-    <div class="header">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">
+        <img src="../assets/afkerian-logo.png" width="320" height="294" alt="">
+        <span>AFKERIAN INTERACTIVE</span>
+      </a>
+      <a class="product-link" href="index.html">Product home</a>
+    </div>
+  </header>
+  <main id="main-content" class="container" data-legal-src="legal/THIRD_PARTY_NOTICES.txt" data-loading="Loading document…" data-loaded="Document loaded." data-error="The legal document could not be loaded. Use the direct TXT link." aria-busy="true">
+    <header class="document-header">
+      <p class="eyebrow">Canonical TXT source</p>
       <h1>Third-Party Notices</h1>
-      <div class="meta">Tap Odyssey | AFKERIAN INTERACTIVE</div>
-    </div>
-
-    <nav class="site-nav" aria-label="Site navigation">
-      <a href="index.html">Product Home</a>
-      <a href="../index.html">AFKERIAN Home</a>
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-of-service.html">Terms of Service</a>
-      <a href="third-party-notices.html" aria-current="page">Third-Party Notices</a>
+      <div class="document-actions">
+        <a id="raw-document-link" href="legal/THIRD_PARTY_NOTICES.txt">Open raw TXT</a>
+        <a href="third-party-notices-es.html" hreflang="es">Español</a>
+      </div>
+    </header>
+    <p id="legal-status" class="status" role="status" aria-live="polite">Loading document…</p>
+    <pre id="legal-document" class="legal-document" tabindex="0"></pre>
+    <noscript>
+      <p>JavaScript is disabled. Open the <a href="legal/THIRD_PARTY_NOTICES.txt">canonical TXT source</a>.</p>
+    </noscript>
+    <nav class="related" aria-label="Related documents">
+      <h2>Related documents</h2>
+      <div class="related-links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="third-party-notices.html">Third-Party Notices</a>
+        <a href="admob-notice.html">Ad Services Notice</a>
+        <a href="openai-notice.html">OpenAI / ChatGPT Notice</a>
+        <a href="pixabay-notice.html">Pixabay Notice</a>
+        <a href="suno-notice.html">Suno Notice</a>
+        <a href="apache-2.0.html">Apache License 2.0</a>
+      </div>
     </nav>
-
-    <div class="card">
-      <p>
-        This page provides the <strong>Third-Party Notices</strong> for <strong>Tap Odyssey</strong>,
-        developed by <strong>AFKERIAN INTERACTIVE</strong> ("Studio").
-      </p>
-
-      <div class="quick" aria-label="Quick links">
-        <h2>Notices &amp; License Texts</h2>
-        <div class="link-list">
-          <a class="link-item" href="apache-2.0.html">
-            <div class="link-left">
-              <div class="link-title">Apache License 2.0 (Full Text)</div>
-              <div class="link-sub">Full license text referenced in Section A.3</div>
-            </div>
-            <div class="pill">OPEN</div>
-          </a>
-
-          <a class="link-item" href="pixabay-notice.html">
-            <div class="link-left">
-              <div class="link-title">Pixabay Notice (Sound Effects)</div>
-              <div class="link-sub">Pixabay Content License, scope of use, no-endorsement</div>
-            </div>
-            <div class="pill">OPEN</div>
-          </a>
-
-          <a class="link-item" href="suno-notice.html">
-            <div class="link-left">
-              <div class="link-title">Suno Notice (Generated Music)</div>
-              <div class="link-sub">Commercial plan provenance + no-endorsement</div>
-            </div>
-            <div class="pill">OPEN</div>
-          </a>
-
-          <a class="link-item" href="openai-notice.html">
-            <div class="link-left">
-              <div class="link-title">OpenAI / ChatGPT Notice (Generated Visual Assets)</div>
-              <div class="link-sub">Ownership/assignment, no-endorsement, policy references</div>
-            </div>
-            <div class="pill">OPEN</div>
-          </a>
-
-          <a class="link-item" href="admob-notice.html">
-            <div class="link-left">
-              <div class="link-title">Google AdMob Notice</div>
-              <div class="link-sub">Data handling, consent choices, policy references</div>
-            </div>
-            <div class="pill">OPEN</div>
-          </a>
-        </div>
-      </div>
-
-      <div class="notice">
-        <!-- 1:1 VERBATIM COPY (matches your offline TXT) -->
-        <pre class="doc">TAP ODYSSEY — THIRD-PARTY NOTICES
-Version: 1.2
-Last Updated: February 19, 2026
-
-1. SCOPE
-This Third-Party Notices document applies to Tap Odyssey (the “App”), developed and distributed by AFKERIAN INTERACTIVE (“Studio”).
-It identifies (i) third-party open source software, (ii) third-party services/SDKs, and (iii) certain third-party or licensed creative assets included in or used by the App.
-
-These notices are provided for attribution and statutory compliance only. They do not modify the App’s Terms of Service or Privacy Policy.
-Privacy-related disclosures (e.g., advertising identifiers, approximate location inferred from IP, app interactions, diagnostics, consent signals, and crash reporting) are described in the Privacy Policy and in the applicable provider notices/policies.
-
-2. LOCATION / AVAILABILITY
-This notice is provided in-app (Settings/About → Third-Party Notices) and may also be available on the Studio website.
-If a web copy differs from the in-app copy included with your installed build, the in-app copy controls for that build.
-
-3. INCLUDED NOTICES (LINKS / ATTACHMENTS)
-The App includes separate, provider-specific notices and license texts. Where available in this build, they are accessible from this screen as individual links/buttons:
-
-- Google Ad Services Notice: AD_SERVICES_NOTICE.txt
-- Suno Generated Music Notice: SUNO_NOTICE.txt
-- OpenAI / ChatGPT Generated Visual Assets Notice: OPENAI_CHATGPT_NOTICE.txt
-- Pixabay Sound Effects Notice: PIXABAY_NOTICE.txt
-- Apache License 2.0 (Full Text): LICENSE_APACHE_2_0.txt (or equivalent in-app “Apache 2.0” view)
-
-Firebase-related disclosures (Firebase Analytics and Firebase Crashlytics) are included in Section C of this document (no separate notice file in this build).
-
-If any listed file is not present in a specific build variant, the Studio will provide the applicable license/notice upon request.
-
-=======================================================================
-A. OPEN SOURCE SOFTWARE (OSS)
-=======================================================================
-
-A.1 Summary
-The App includes open source components. Each component is governed by its own license terms.
-In the event of a conflict between this notice and an applicable open source license, the open source license controls solely with respect to that component.
-
-A.2 Primary OSS License Family (Apache License 2.0) — Non-Exhaustive
-The following primary components are commonly used by the App and are generally licensed under the Apache License, Version 2.0:
-
-- AndroidX Libraries (Core KTX, Splashscreen, Lifecycle, Navigation, Activity Compose, DataStore)
-  Copyright (c) The Android Open Source Project
-
-- Jetpack Compose (BOM, UI, Material3, Foundation, Animation, Tooling/Preview)
-  Copyright (c) The Android Open Source Project
-
-- Kotlin Standard Library
-  Copyright (c) JetBrains s.r.o.
-
-- Material Components / Material Design libraries (as applicable)
-  Copyright (c) Google LLC
-
-NOTE ON COMPLETENESS: This list is intended to cover primary components. The App may also include additional open source libraries and transitive dependencies that carry their own licenses.
-
-A.3 License Text Availability
-The full text of the Apache License, Version 2.0 is provided within the App (see “Apache 2.0” in this screen) and/or distributed with the App package as a license file.
-
-=======================================================================
-B. CREATIVE ASSETS &amp; SYNTHETIC MEDIA
-=======================================================================
-
-B.1 Summary
-The App incorporates certain third-party assets and/or synthetic media (AI-generated) used under applicable licenses or Studio subscriptions.
-Users receive no license to extract, redistribute, or commercially exploit these assets outside the App, except as permitted by applicable law and as described in the App’s Terms of Service.
-
-B.2 Included Assets / Synthetic Media (Build-Dependent)
-- Pixabay (Sound Effects / UI &amp; Gameplay SFX)
-  Additional Notice: PIXABAY_NOTICE.txt
-
-- Suno (Generated Music)
-  Additional Notice: SUNO_NOTICE.txt
-
-- OpenAI / ChatGPT (Generated Visual Assets)
-  Additional Notice: OPENAI_CHATGPT_NOTICE.txt
-
-=======================================================================
-C. THIRD-PARTY SERVICES &amp; SDKs
-=======================================================================
-
-C.1 Summary
-The App uses certain third-party services/SDKs (e.g., advertising, consent/privacy options flows, analytics, and crash reporting).
-Provider data handling may include device identifiers, approximate location inferred from IP, app interaction signals, diagnostics/performance signals, consent state, and crash logs, depending on region, configuration, and user choices.
-See the Privacy Policy and the provider notices/policies for details.
-
-C.2 Included Services/SDKs
-
-- Google AdMob / Google Mobile Ads SDK
-  Category: Third-Party Service / SDK (Advertising)
-  Provider: Google LLC
-  Purpose: Ad delivery, measurement, frequency capping, fraud prevention
-  Data/Privacy: May process and share advertising/device identifiers, approximate location inferred from IP, app interactions and advertising events, diagnostics/performance signals, and anti-fraud signals, as described in the Privacy Policy and Google’s policies.
-  Additional Notice: AD_SERVICES_NOTICE.txt
-
-- Google User Messaging Platform (UMP)
-  Category: Third-Party Service / SDK (Consent / Privacy Options)
-  Provider: Google LLC
-  Purpose: Consent collection and privacy options flow (where required/available, e.g., EEA/UK)
-  Data/Privacy: May process consent state and related device/technical signals as described in the Privacy Policy and Google’s policies.
-
-- Firebase Analytics
-  Category: Third-Party Service / SDK (Analytics / Measurement)
-  Provider: Google LLC (Firebase)
-  Purpose: App usage measurement and analytics to improve the App
-  Data/Privacy: May process app interaction events, device/technical information, and identifiers used for measurement/analytics, as described in the Privacy Policy and Google’s policies.
-  Policies (Google/Firebase): https://firebase.google.com/support/privacy
-
-- Firebase Crashlytics
-  Category: Third-Party Service / SDK (Diagnostics / Crash Reporting)
-  Provider: Google LLC (Firebase)
-  Purpose: Crash reporting and stability diagnostics
-  Data/Privacy: May collect and process crash logs (e.g., stack traces) and related technical/diagnostic signals to diagnose and fix stability issues, as described in the Privacy Policy and Google’s policies. Crash logs are not shared with non-Google third parties for advertising.
-  Policies (Google/Firebase): https://firebase.google.com/support/privacy
-
-- Google Play Services
-  Category: Third-Party Service / SDK (Platform Services)
-  Provider: Google LLC
-  Purpose: Platform services and related functionality (as applicable to the App build and device)
-  Data/Privacy: May process certain device/technical information and identifiers under Google’s terms and privacy policies.
-  Policies (Google): https://policies.google.com/privacy
-
-=======================================================================
-D. PRIVACY &amp; SUPPORT
-=======================================================================
-
-Privacy Policy
-For information on data practices, identifiers, consent controls, and user choices (including UMP/Privacy Options where available), refer to the App’s Privacy Policy.
-
-Support / Contact
-AFKERIAN INTERACTIVE
-Support: afkerian.support@gmail.com</pre>
-      </div>
-
-      <footer>
-        <div><strong>AFKERIAN INTERACTIVE</strong></div>
-        <div>Contact: <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></div>
-      </footer>
-    </div>
-  </div>
+  </main>
+  <footer class="site-footer">
+    <div class="container">Jesus Afkerian · AFKERIAN INTERACTIVE · <a href="mailto:afkerian.support@gmail.com">afkerian.support@gmail.com</a></div>
+  </footer>
 </body>
 </html>
+
