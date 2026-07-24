@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-07-23",
+  "generated_on": "2026-07-24",
   "status": "BLOCKED_PENDING_OWNER_CREATIVE_RIGHTS_EVIDENCE_AND_FINAL_REVIEW",
   "requested_copy_count": 15,
   "additional_consistency_copy_count": 5,
@@ -11,9 +11,9 @@
       "source_path": "xo-arcade/legal/PRIVACY_POLICY.txt",
       "android_repository": "XOArcade",
       "android_destination": "app/src/main/assets/legal/PRIVACY_POLICY.txt",
-      "size_bytes": 17798,
-      "sha256": "1F9F925C0000AD0788E83B1FE5917A9957185E461F8E46670212F2798089A9A4",
-      "normalized_sha256": "1F9F925C0000AD0788E83B1FE5917A9957185E461F8E46670212F2798089A9A4"
+      "size_bytes": 19518,
+      "sha256": "9BAF02C371A8367632A2EC44EB8A2E203091DC30B2AAB02EB8813BE5F1D79416",
+      "normalized_sha256": "9BAF02C371A8367632A2EC44EB8A2E203091DC30B2AAB02EB8813BE5F1D79416"
     },
     {
       "product_id": "xo-arcade",
@@ -65,9 +65,9 @@
       "source_path": "air-strike-arcade/legal/PRIVACY_POLICY.txt",
       "android_repository": "AirStrikeArcade",
       "android_destination": "app/src/main/assets/legal/PRIVACY_POLICY.txt",
-      "size_bytes": 17668,
-      "sha256": "6728F29D22812473C62942C0DEF7AAB7D2B20D0CF44C3BCB5C7467B6F25651C8",
-      "normalized_sha256": "6728F29D22812473C62942C0DEF7AAB7D2B20D0CF44C3BCB5C7467B6F25651C8"
+      "size_bytes": 19398,
+      "sha256": "667F8231008A165F29EE48F1E566A2EEEE3395C9D18A26AE5AAB1870074AD350",
+      "normalized_sha256": "667F8231008A165F29EE48F1E566A2EEEE3395C9D18A26AE5AAB1870074AD350"
     },
     {
       "product_id": "air-strike-arcade",
@@ -101,18 +101,18 @@
       "source_path": "tap-odyssey/legal/PRIVACY_POLICY.txt",
       "android_repository": "TapOdyssey",
       "android_destination": "app/src/main/assets/legal/PRIVACY_POLICY.txt",
-      "size_bytes": 18237,
-      "sha256": "4A4FDECF1D3EFAB8E3DB947C98393CC186073E0A0F04ADB186255DE7B9393648",
-      "normalized_sha256": "4A4FDECF1D3EFAB8E3DB947C98393CC186073E0A0F04ADB186255DE7B9393648"
+      "size_bytes": 19326,
+      "sha256": "18BE713E2974725F4E596B70C0DFA73F6C6A4EC2B2BEEDD9AB7BDD6463FDDD96",
+      "normalized_sha256": "18BE713E2974725F4E596B70C0DFA73F6C6A4EC2B2BEEDD9AB7BDD6463FDDD96"
     },
     {
       "product_id": "tap-odyssey",
       "source_path": "tap-odyssey/legal/TERMS_OF_SERVICE.txt",
       "android_repository": "TapOdyssey",
       "android_destination": "app/src/main/assets/legal/TERMS_OF_SERVICE.txt",
-      "size_bytes": 9085,
-      "sha256": "46552F614441F89111ABD2A95DC7F8C9383EAC07ED355EDC4E16A8FB4FE52EC9",
-      "normalized_sha256": "46552F614441F89111ABD2A95DC7F8C9383EAC07ED355EDC4E16A8FB4FE52EC9"
+      "size_bytes": 16502,
+      "sha256": "82E23B08F81A5292785B990E1936416BD39D63B3D84FFC189B5CBE09763CF0DF",
+      "normalized_sha256": "82E23B08F81A5292785B990E1936416BD39D63B3D84FFC189B5CBE09763CF0DF"
     },
     {
       "product_id": "tap-odyssey",

@@ -55,6 +55,10 @@ DISPLAY_DATES = {
         "en-US": "July 23, 2026",
         "es-419": "23 de julio de 2026",
     },
+    "2026-07-24": {
+        "en-US": "July 24, 2026",
+        "es-419": "24 de julio de 2026",
+    },
 }
 LEGACY_PUBLIC_IDENTITIES = re.compile(
     r"\b(?:AFKERIAN\s+INTERACTIVE|AFK\s+GAMES\s+STUDIO|JAfkerian)\b",
@@ -77,10 +81,12 @@ OPERATOR_BRAND_FORMULAS = {
     "en-US": (
         "Jesus Afkerian, a natural person operating under the AFKERIAN INTERACTIVE brand",
         "Jesus Afkerian, operating under the AFKERIAN INTERACTIVE brand",
+        "Jesus Afkerian, an individual who operates and publishes the Game under the AFKERIAN INTERACTIVE brand",
     ),
     "es-419": (
         "Jesus Afkerian, persona física que opera bajo la marca AFKERIAN INTERACTIVE",
         "Jesus Afkerian, operando bajo la marca AFKERIAN INTERACTIVE",
+        "Jesus Afkerian, persona física que opera y publica el Juego bajo la marca AFKERIAN INTERACTIVE",
     ),
 }
 REQUESTED_COPY_PATHS = {
@@ -418,7 +424,7 @@ def validate() -> int:
             # the "Fecha efectiva" label.
             es_effective_key = (
                 "Fecha de entrada en vigor"
-                if entry["document_id"] == "PRIVACY_POLICY"
+                if entry["document_id"] == "PRIVACY_POLICY" or (entry["document_id"] == "TERMS_OF_SERVICE" and entry["product_id"] == "tap-odyssey")
                 else "Fecha efectiva"
             )
             declared_effective = metadata_value(
@@ -464,12 +470,11 @@ def validate() -> int:
                         )
                         if identity_sentence not in content:
                             errors.append(f"{canonical}: missing exact Privacy identity opening")
-                        for fragment in (
-                            "is offered without a purchase price and is funded through advertising.",
-                            "AFKERIAN INTERACTIVE may receive advertising revenue through Google AdMob.",
-                        ):
-                            if fragment not in content:
-                                errors.append(f"{canonical}: missing approved monetization text")
+                        if not (("is offered without a purchase price and is funded through advertising." in content and
+                                 "AFKERIAN INTERACTIVE may receive advertising revenue through Google AdMob." in content) or
+                                ("is funded wholly or partly through advertising." in content and
+                                 "Jesus Afkerian may receive advertising revenue under the AFKERIAN INTERACTIVE brand through Google AdMob." in content)):
+                            errors.append(f"{canonical}: missing approved monetization text")
                     if language == "es-419":
                         identity_sentence = (
                             "Esta Política de Privacidad explica cómo Jesus Afkerian, "
@@ -477,37 +482,52 @@ def validate() -> int:
                         )
                         if identity_sentence not in content:
                             errors.append(f"{canonical}: falta apertura de identidad de Privacidad")
-                        for fragment in (
-                            "se ofrece sin precio de compra y se financia mediante publicidad.",
-                            "AFKERIAN INTERACTIVE puede recibir ingresos publicitarios mediante Google AdMob.",
-                        ):
-                            if fragment not in content:
-                                errors.append(f"{canonical}: falta declaración de monetización")
+                        if not (("se ofrece sin precio de compra y se financia mediante publicidad." in content and
+                                 "AFKERIAN INTERACTIVE puede recibir ingresos publicitarios mediante Google AdMob." in content) or
+                                ("se financia total o parcialmente mediante publicidad." in content and
+                                 "Jesus Afkerian puede recibir ingresos publicitarios bajo la marca AFKERIAN INTERACTIVE mediante Google AdMob." in content)):
+                            errors.append(f"{canonical}: falta declaración de monetización")
                 # Terms of Service keep their existing first-person identity and
                 # monetization wording (out of scope for this change).
                 if entry["document_id"] == "TERMS_OF_SERVICE":
                     if language == "en-US":
-                        identity_sentence = (
-                            "These Terms of Service are an agreement between you and Jesus "
-                            "Afkerian, an individual who publishes and operates the Game."
-                        )
+                        if entry["product_id"] == "tap-odyssey":
+                            identity_sentence = (
+                                "These Terms form an agreement between the user and Jesus "
+                                "Afkerian, an individual who operates and publishes the Game"
+                            )
+                        else:
+                            identity_sentence = (
+                                "These Terms of Service are an agreement between you and Jesus "
+                                "Afkerian, an individual who publishes and operates the Game."
+                            )
                         if identity_sentence not in content:
                             errors.append(f"{canonical}: missing exact Terms identity opening")
-                        monetization = (
-                            "The Game is currently offered without a purchase price and is "
-                            "supported by advertising. Jesus Afkerian may receive advertising "
-                            "revenue through Google AdMob. Advertising revenue is not an amount "
-                            "paid by the user."
-                        )
+                        if entry["product_id"] == "tap-odyssey":
+                            monetization = (
+                                "Tap Odyssey is funded in whole or in part by advertising"
+                            )
+                        else:
+                            monetization = (
+                                "The Game is currently offered without a purchase price and is "
+                                "supported by advertising. Jesus Afkerian may receive advertising "
+                                "revenue through Google AdMob. Advertising revenue is not an amount "
+                                "paid by the user."
+                            )
                         if monetization not in content:
                             errors.append(f"{canonical}: missing exact monetization statement")
                     if language == "es-419":
-                        monetization = (
-                            "El Juego se ofrece actualmente sin precio de compra y se financia "
-                            "mediante publicidad. Jesus Afkerian puede recibir ingresos "
-                            "publicitarios a través de Google AdMob. Los ingresos publicitarios "
-                            "no son una cantidad pagada por el usuario."
-                        )
+                        if entry["product_id"] == "tap-odyssey":
+                            monetization = (
+                                "Tap Odyssey se financia total o parcialmente mediante publicidad"
+                            )
+                        else:
+                            monetization = (
+                                "El Juego se ofrece actualmente sin precio de compra y se financia "
+                                "mediante publicidad. Jesus Afkerian puede recibir ingresos "
+                                "publicitarios a través de Google AdMob. Los ingresos publicitarios "
+                                "no son una cantidad pagada por el usuario."
+                            )
                         if monetization not in content:
                             errors.append(f"{canonical}: falta declaración de monetización")
                 if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
@@ -518,7 +538,11 @@ def validate() -> int:
                         "is the conduct relied upon as assent, to the maximum extent permitted "
                         "by law."
                     )
-                    if assent not in content:
+                    assent_new = (
+                        "To the maximum extent permitted by law, accessing or using the Game "
+                        "after the notice and effective date manifests acceptance of the updated Terms."
+                    )
+                    if assent not in content and assent_new not in content:
                         errors.append(f"{canonical}: missing exact updated-Terms assent language")
 
             if entry.get("requires_bilingual"):

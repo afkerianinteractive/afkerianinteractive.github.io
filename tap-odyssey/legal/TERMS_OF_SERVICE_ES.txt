@@ -28,7 +28,7 @@ La ausencia de una restricción técnica de edad no concede autorización contra
 
 El Juego está autorizado únicamente en los territorios indicados en el documento vigente de Territorio Permitido:
 
-https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
+https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY_ES.txt
 
 El acceso público al sitio web, a la ficha de Google Play o a los documentos legales no autoriza el uso del Juego fuera del territorio permitido.
 
