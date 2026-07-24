@@ -1,130 +1,573 @@
 POLÍTICA DE PRIVACIDAD
 Air Strike Arcade
 
-Fecha efectiva: 22 de julio de 2026
-Última actualización: 22 de julio de 2026
+Fecha de entrada en vigor: 23 de julio de 2026
+Última actualización: 23 de julio de 2026
 
-1. ALCANCE E IDENTIDAD
 
-Esta Política de Privacidad explica cómo yo, Jesus Afkerian, trato información en relación con Air Strike Arcade (el «Juego»). En esta Política, «yo» y «mi» se refieren únicamente a Jesus Afkerian. Soy la persona física que publica y opera el Juego. Esta Política cubre el Juego y las comunicaciones de soporte relacionadas. Google Play, los servicios de Google y otros servicios de terceros operan bajo sus propias políticas.
+1. RESPONSABLE Y MARCA
 
-El Juego no exige una cuenta propia ni solicita nombre civil, dirección postal, contactos o información de pago durante el uso ordinario. Si contactas soporte, recibo la dirección de correo, mensaje, adjuntos y demás información que decidas enviar.
+Esta Política de Privacidad explica cómo Jesus Afkerian, persona física que opera bajo la marca AFKERIAN INTERACTIVE («AFKERIAN INTERACTIVE», «nosotros», «nos» o «nuestro»), trata la información relacionada con Air Strike Arcade (el «Juego»).
 
-2. PÚBLICO Y TERRITORIO PERMITIDO
+Jesus Afkerian es el editor y operador legal responsable del Juego. AFKERIAN INTERACTIVE es la marca bajo la cual Jesus Afkerian publica y opera el Juego; no se presenta en esta Política como una entidad jurídica separada.
 
-El Juego está destinado exclusivamente a adultos y no se dirige a niños. No verifica la edad de forma independiente. Debes tener al menos 18 años y haber alcanzado la mayoría de edad y capacidad contractual del lugar donde vives, aplicándose el estándar más alto.
+Contacto para asuntos de privacidad:
 
-El territorio de distribución permitido se indica en:
-https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY_ES.txt
+afkerian.support@gmail.com
 
-3. DATOS LOCALES Y COPIA DE ANDROID
 
-El progreso, puntuaciones, preferencias y estado ordinario se almacenan principalmente en el dispositivo. No opero un servidor propio de perfiles de juego que reciba ese estado local.
+2. ALCANCE DE ESTA POLÍTICA
 
-Los servicios de copia o transferencia de Android pueden copiar datos locales compatibles cuando Android, el fabricante o el usuario los habilitan.
+Esta Política se aplica a:
 
-Desinstalar el Juego, borrar sus datos, perder el dispositivo, la corrupción o el funcionamiento de copia y restauración pueden eliminar, conservar, copiar o restaurar información local. No se garantiza recuperación.
+- la aplicación Air Strike Arcade para Android;
+- los datos locales generados durante el uso del Juego;
+- los servicios de publicidad, analítica, informes de fallos, medición de instalaciones, medición de sesiones y gestión de privacidad integrados en el Juego;
+- las comunicaciones realizadas con soporte; y
+- las solicitudes relacionadas con privacidad o eliminación de datos.
 
-4. SERVICIOS DE RED
+Google Play, Android, Google, los fabricantes de dispositivos, los proveedores de acceso a internet y otros servicios de terceros operan conforme a sus propios términos y políticas de privacidad.
 
-El Juego no es totalmente offline. Se conecta a servicios de publicidad, mensajes de privacidad, análisis, informes de fallos, medición de instalaciones y sesiones, seguridad y prevención del fraude. Estos servicios incluyen Google Mobile Ads, Google User Messaging Platform («UMP»), Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations y Firebase Sessions.
 
-5. PUBLICIDAD Y MENSAJES DE PRIVACIDAD
+3. RESUMEN DE LAS PRÁCTICAS DE DATOS
 
-El Juego se ofrece actualmente sin precio de compra y se financia mediante publicidad. Jesus Afkerian puede recibir ingresos publicitarios a través de Google AdMob. Los ingresos publicitarios no son una cantidad pagada por el usuario.
+Air Strike Arcade:
 
-El Juego usa anuncios de banner anclado y anuncios intersticiales ocasionales. No usa anuncios App Open ni nativos.
+- no requiere ni permite crear una cuenta administrada por AFKERIAN INTERACTIVE;
+- no utiliza servidores propios para almacenar o sincronizar perfiles de jugadores;
+- almacena el progreso, las preferencias y el estado ordinario del Juego principalmente en el dispositivo Android;
+- no solicita durante el uso ordinario el nombre, dirección postal, contactos, número de teléfono, documentos de identidad, información financiera, información médica ni datos biométricos;
+- utiliza Google AdMob para mostrar publicidad;
+- utiliza Google User Messaging Platform para administrar determinados mensajes y opciones de privacidad publicitaria;
+- utiliza Google Analytics para Firebase;
+- utiliza Firebase Crashlytics;
+- utiliza Firebase Installations;
+- utiliza Firebase Sessions; y
+- recibe información directamente del usuario cuando este contacta voluntariamente con soporte o presenta una solicitud de privacidad.
 
-UMP determina si el código publicitario puede solicitar anuncios y puede presentar un mensaje regional de consentimiento u Opciones de privacidad. UMP solo controla publicidad. Una elección de UMP no desactiva Analytics, Crashlytics, Firebase Installations, Firebase Sessions ni toda actividad de red.
+La ausencia de cuentas y servidores propios no significa que ningún dato salga del dispositivo. Los servicios de Google integrados en el Juego pueden transmitir y tratar automáticamente determinados datos técnicos, identificadores, interacciones, diagnósticos y direcciones IP.
 
-Un fallo publicitario no bloquea la navegación ordinaria ni borra progreso local. Rechazar publicidad personalizada todavía puede permitir anuncios contextuales o limitados y tratamiento para medición, seguridad, frecuencia, diagnóstico y prevención del fraude.
 
-6. TRATAMIENTO AUTOMÁTICO DE GOOGLE MOBILE ADS
+4. AUSENCIA DE CUENTAS DE USUARIO
 
-Google indica que Google Mobile Ads trata y comparte automáticamente la dirección IP, que puede estimar ubicación aproximada; interacciones con el Juego y la publicidad; diagnósticos; e identificadores de dispositivo o cuenta para publicidad, análisis y prevención del fraude. Los identificadores compatibles pueden incluir el ID de publicidad de Android y los identificadores de conjunto de apps. Google indica que estos datos se cifran en tránsito.
+Air Strike Arcade no requiere registro, nombre de usuario, contraseña ni inicio de sesión.
 
-7. ANALYTICS, CRASHLYTICS, INSTALLATIONS Y SESSIONS
+AFKERIAN INTERACTIVE no crea ni administra cuentas de jugadores y no mantiene una base de datos propia de perfiles de usuario.
 
-Google Analytics for Firebase recopila automáticamente información predeterminada del Juego, dispositivo, sesión, pantallas e interacciones; un identificador de instancia; ubicación aproximada derivada de IP; e ID de publicidad cuando está disponible y no desactivado. El Juego no envía eventos personalizados de Analytics escritos por el propietario, valores User-ID ni propiedades personalizadas.
+Por tanto:
 
-Firebase Crashlytics trata trazas de fallos, estado relevante, metadatos del dispositivo y un identificador de instalación cuando opera el informe de fallos. El Juego habilita Crashlytics en compilaciones release y no añade registros, claves, identificadores de usuario ni informes de contenido del usuario personalizados.
+- no existe una cuenta de AFKERIAN INTERACTIVE que el usuario deba eliminar;
+- no existe un historial de actividad vinculado a una cuenta propia del Juego;
+- no existe un perfil de juego almacenado en servidores propios; y
+- no se utiliza información de inicio de sesión para acceder al Juego.
 
-Firebase Installations crea un identificador por instalación. Firebase Sessions trata metadatos de sesión, Juego, dispositivo, conexión y rendimiento. La integración de Google puede asociar eventos anteriores de Analytics con informes de fallos.
 
-8. CATEGORÍAS DE DATOS
+5. DATOS Y FUNCIONES ALMACENADOS LOCALMENTE
 
-Categoría: Ubicación aproximada
-Fuente: Dirección IP tratada por Google Mobile Ads y Google Analytics for Firebase.
-Finalidad: Publicidad, análisis, seguridad y prevención del fraude.
-Destinatarios: Google y proveedores que actúan para los servicios pertinentes de Google.
-Criterio de conservación: Ajustes del proveedor, finalidad del servicio, seguridad, fraude, obligaciones legales y solicitudes válidas de eliminación.
+El Juego puede almacenar localmente en el dispositivo:
 
-Categoría: Interacciones con el Juego y la publicidad
-Fuente: El Juego, Google Mobile Ads y Google Analytics for Firebase.
-Finalidad: Entrega publicitaria, medición, análisis, control de frecuencia, seguridad y prevención del fraude.
-Destinatarios: Google y proveedores que actúan para los servicios pertinentes de Google.
-Criterio de conservación: Ajustes del proveedor, períodos de medición, seguridad, fraude, obligaciones legales y solicitudes válidas de eliminación.
+- progreso;
+- puntuaciones;
+- preferencias;
+- configuración;
+- estadísticas de juego;
+- artículos o recursos virtuales;
+- estado de las partidas;
+- información utilizada por oponentes automatizados, lógica de juego o funciones locales, cuando corresponda; y
+- otros datos necesarios para conservar el estado del Juego.
 
-Categoría: Registros de fallos y diagnósticos
-Fuente: Google Mobile Ads, Firebase Crashlytics, Firebase Sessions, el dispositivo y el Juego.
-Finalidad: Estabilidad, depuración, rendimiento, análisis, seguridad y prevención del fraude.
-Destinatarios: Google y proveedores que actúan para los servicios pertinentes de Google.
-Criterio de conservación: Tiempo para diagnosticar y agregar fallos, ajustes del proveedor, seguridad, obligaciones legales y solicitudes válidas de eliminación.
+Estos datos permanecen principalmente en el dispositivo y no se transmiten a un servidor de perfiles operado por AFKERIAN INTERACTIVE.
 
-Categoría: Identificadores de dispositivo y otros
-Fuente: Google Mobile Ads, Google Analytics for Firebase, Firebase Crashlytics y Firebase Installations.
-Finalidad: Publicidad, análisis, medición de instalaciones y sesiones, gestión de fallos, seguridad y prevención del fraude.
-Destinatarios: Google y proveedores que actúan para los servicios pertinentes de Google.
-Criterio de conservación: Ajustes del proveedor, continuidad del servicio, seguridad, fraude, obligaciones legales y solicitudes válidas de eliminación.
+Algunas funciones o modos del Juego pueden utilizar lógica automatizada, sistemas de decisión u oponentes controlados localmente. Cuando esas funciones existen, su estado o memoria permanece en el dispositivo y no se transmite a servidores operados por AFKERIAN INTERACTIVE.
 
-Categoría: Comunicaciones de soporte
-Fuente: Información que decides enviar por correo.
-Finalidad: Responder la solicitud, mantener registros de soporte, proteger derechos y prevenir abuso.
-Destinatarios: Jesus Afkerian y proveedores de correo o infraestructura necesarios para gestionar la solicitud.
-Criterio de conservación: Tiempo razonablemente necesario para gestionar la solicitud, mantener registros apropiados, resolver disputas, proteger el servicio y cumplir obligaciones legales.
+Android, Google o el fabricante del dispositivo pueden respaldar, transferir o restaurar algunos datos locales según:
 
-9. CARÁCTER OBLIGATORIO, OPCIONAL Y EFÍMERO
+- la versión de Android;
+- la cuenta de Google;
+- la configuración de respaldo;
+- la configuración del fabricante; y
+- las opciones seleccionadas por el usuario.
 
-No necesitas contactarme ni crear una cuenta propia para jugar. El tratamiento automático de SDK no se describe como efímero porque los registros publicitarios, analíticos, de instalación, fraude, diagnóstico y fallos pueden persistir después de una solicitud de red. UMP, los controles de Google y los ajustes publicitarios de Android tienen alcances diferentes; el Juego no ofrece un único control que desactive todos los servicios enumerados.
+AFKERIAN INTERACTIVE no controla los respaldos, transferencias o restauraciones administrados por Android, Google o el fabricante del dispositivo.
 
-10. PROVEEDORES Y TRATAMIENTO INTERNACIONAL
 
-Google LLC y sus afiliadas proporcionan AdMob, UMP, Analytics, Crashlytics, Installations y Sessions. Google puede tratar información en Estados Unidos y otros países donde opera o donde operan sus encargados. Google determina su infraestructura, personal, subencargados, ajustes de conservación y bases jurídicas bajo sus términos y políticas.
+6. ELIMINACIÓN DE LOS DATOS LOCALES
+
+El usuario puede eliminar los datos locales de Air Strike Arcade mediante los controles disponibles dentro del Juego, cuando existan, o mediante la configuración de Android:
+
+1. Abrir la configuración de Android.
+2. Acceder a la sección de aplicaciones.
+3. Seleccionar Air Strike Arcade.
+4. Abrir la sección de almacenamiento.
+5. Seleccionar la opción para borrar los datos o el almacenamiento de la aplicación.
+
+El usuario también puede eliminar los datos locales desinstalando el Juego.
+
+Borrar únicamente la memoria caché puede no eliminar todo el progreso, configuración o estado local.
+
+Los sistemas de respaldo de Android pueden restaurar información previamente respaldada después de una reinstalación o cambio de dispositivo. El usuario puede administrar ese comportamiento mediante la configuración de respaldo de Android, Google y el fabricante del dispositivo.
+
+
+7. DATOS RECOGIDOS Y COMPARTIDOS
+
+Los servicios integrados en Air Strike Arcade pueden recoger y compartir las siguientes categorías de datos.
+
+
+A. Ubicación aproximada
+
+Estado declarado:
+
+- recogida: sí;
+- compartida: sí;
+- tratamiento temporal: no;
+- recogida obligatoria en la configuración actual: sí.
+
+La ubicación aproximada puede inferirse a partir de la dirección de Protocolo de Internet («IP») del dispositivo.
+
+El Juego no solicita acceso a la ubicación GPS precisa para su funcionamiento ordinario.
+
+Finalidades:
+
+- análisis;
+- publicidad o marketing; y
+- prevención de fraudes, seguridad y cumplimiento.
+
+
+B. Registros de fallos
+
+Estado declarado:
+
+- recogidos: sí;
+- compartidos conforme a la clasificación de Data Safety: no;
+- tratamiento temporal: no;
+- recogida obligatoria en la configuración actual: sí.
+
+Los registros de fallos pueden incluir:
+
+- trazas de errores;
+- estado técnico de la aplicación cuando ocurre un fallo;
+- versión de la aplicación;
+- modelo del dispositivo;
+- versión del sistema operativo;
+- identificadores técnicos de instalación; y
+- metadatos relacionados con el fallo.
+
+Finalidades:
+
+- funcionalidad de la aplicación; y
+- análisis.
+
+Los registros se transmiten a Firebase Crashlytics para que Google los trate como proveedor de servicios de informes y diagnóstico de fallos. Bajo la clasificación aplicable de Google Play, este tratamiento por un proveedor de servicios puede declararse como recopilación sin compartición.
+
+
+C. Diagnósticos
+
+Estado declarado:
+
+- recogidos: sí;
+- compartidos: sí;
+- tratamiento temporal: no;
+- recogida obligatoria en la configuración actual: sí.
+
+Los diagnósticos pueden incluir:
+
+- tiempo de inicio de la aplicación;
+- bloqueos o interrupciones;
+- porcentaje de fallos;
+- rendimiento;
+- consumo de energía;
+- información de conexión;
+- información de sesiones;
+- información del dispositivo y de la aplicación; y
+- otros datos técnicos necesarios para evaluar el Juego y los SDK integrados.
+
+Finalidades:
+
+- análisis;
+- publicidad o marketing; y
+- prevención de fraudes, seguridad y cumplimiento.
+
+
+D. Interacciones con la aplicación
+
+Estado declarado:
+
+- recogidas: sí;
+- compartidas: sí;
+- tratamiento temporal: no;
+- recogida obligatoria en la configuración actual: sí.
+
+Las interacciones pueden incluir:
+
+- apertura de la aplicación;
+- inicio y duración de sesiones;
+- uso de pantallas o funciones;
+- pulsaciones;
+- impresiones publicitarias;
+- interacciones con anuncios;
+- visualizaciones de video; y
+- otras actividades técnicas registradas por los SDK integrados.
+
+Finalidades:
+
+- análisis;
+- publicidad o marketing; y
+- prevención de fraudes, seguridad y cumplimiento.
+
+
+E. IDs de dispositivo o de otro tipo
+
+Estado declarado:
+
+- recogidos: sí;
+- compartidos: sí;
+- tratamiento temporal: no;
+- recogida obligatoria en la configuración actual: sí.
+
+Los identificadores pueden incluir, dependiendo del servicio, la configuración y la disponibilidad:
+
+- ID de publicidad de Android;
+- App Set ID;
+- Firebase Installation ID;
+- identificador de instancia de Analytics;
+- identificador de instalación de Crashlytics;
+- identificadores de sesión; y
+- otros identificadores técnicos compatibles con los servicios de Google.
+
+Finalidades:
+
+- análisis;
+- publicidad o marketing; y
+- prevención de fraudes, seguridad y cumplimiento.
+
+Algunos identificadores pueden restablecerse, limitarse o eliminarse mediante la configuración de Android o Google. La modificación de un identificador concreto no desactiva necesariamente todos los servicios ni toda la recopilación técnica.
+
+
+8. PUBLICIDAD MEDIANTE GOOGLE ADMOB
+
+Air Strike Arcade se financia total o parcialmente mediante publicidad.
+
+El Juego utiliza Google AdMob y puede mostrar, según la versión, configuración, disponibilidad o función correspondiente:
+
+- anuncios tipo banner;
+- anuncios intersticiales;
+- anuncios de pantalla completa; y
+- anuncios recompensados opcionales cuando estén habilitados.
+
+Los anuncios recompensados, cuando estén disponibles, pueden conceder el beneficio indicado en el Juego después de completarse correctamente. Su disponibilidad, reproducción o entrega no está garantizada.
+
+Jesus Afkerian puede recibir ingresos publicitarios bajo la marca AFKERIAN INTERACTIVE mediante Google AdMob.
+
+Google Mobile Ads puede tratar:
+
+- direcciones IP;
+- ubicación aproximada;
+- aperturas e interacciones con la aplicación;
+- interacciones publicitarias;
+- impresiones;
+- pulsaciones;
+- visualizaciones;
+- información de diagnóstico;
+- información de rendimiento;
+- ID de publicidad de Android;
+- App Set ID; y
+- otros identificadores compatibles.
+
+Según la ubicación del usuario, las decisiones de privacidad, la configuración del dispositivo y los sistemas de Google, los anuncios pueden ser:
+
+- personalizados;
+- no personalizados;
+- contextuales;
+- limitados; o
+- estar sujetos a otras restricciones.
+
+
+9. GOOGLE USER MESSAGING PLATFORM
+
+Air Strike Arcade utiliza Google User Messaging Platform («UMP») para mostrar mensajes de consentimiento u opciones de privacidad publicitaria cuando corresponda.
+
+Las decisiones realizadas mediante UMP pueden afectar la personalización y otros tratamientos relacionados con la publicidad.
+
+Una decisión realizada mediante UMP no necesariamente desactiva:
+
+- Google Analytics para Firebase;
+- Firebase Crashlytics;
+- Firebase Installations;
+- Firebase Sessions;
+- anuncios limitados o no personalizados;
+- tratamientos necesarios para seguridad o prevención del fraude; ni
+- todas las comunicaciones técnicas realizadas por el Juego o los SDK integrados.
+
+El usuario también puede disponer de controles adicionales mediante Android y las opciones de privacidad, cuenta o publicidad de Google.
+
+
+10. GOOGLE ANALYTICS PARA FIREBASE
+
+Google Analytics para Firebase puede tratar automáticamente:
+
+- identificadores de instancia de la aplicación;
+- información del dispositivo;
+- información de la aplicación;
+- aperturas;
+- sesiones;
+- pantallas o funciones utilizadas;
+- interacciones;
+- ubicación aproximada inferida de la dirección IP;
+- ID de publicidad de Android cuando esté disponible y permitido; y
+- eventos automáticos generados por la aplicación o los SDK.
+
+Analytics se utiliza para:
+
+- medir el uso del Juego;
+- analizar interacciones;
+- elaborar informes;
+- evaluar rendimiento;
+- identificar tendencias técnicas;
+- mejorar estabilidad y funcionamiento; y
+- apoyar funciones de seguridad y prevención del fraude.
+
+
+11. FIREBASE CRASHLYTICS, INSTALLATIONS Y SESSIONS
+
+Firebase Crashlytics puede tratar:
+
+- registros de fallos;
+- trazas de errores;
+- estado técnico relevante de la aplicación;
+- versión de la aplicación;
+- sistema operativo;
+- modelo del dispositivo;
+- identificador de instalación de Crashlytics; y
+- datos de diagnóstico relacionados.
+
+Crashlytics se utiliza para identificar, analizar, priorizar y corregir fallos y problemas de estabilidad.
+
+Firebase Installations genera y trata un Firebase Installation ID para identificar una instalación concreta de la aplicación. Ese identificador no identifica por sí solo de manera única a una persona ni necesariamente a un dispositivo físico.
+
+Firebase Sessions puede tratar:
+
+- metadatos de la aplicación;
+- fabricante y modelo del dispositivo;
+- información del sistema operativo;
+- información del SDK;
+- tipo de conexión;
+- actividad en primer plano;
+- inicio de sesiones;
+- duración o estado de las sesiones;
+- información de rendimiento; y
+- métricas relacionadas.
+
+Firebase Sessions se utiliza para generar métricas de sesión, rendimiento, estabilidad y fallos.
+
+
+12. COMUNICACIONES DE RED Y DESTINATARIOS
+
+Para prestar las funciones descritas, el Juego y sus SDK pueden realizar comunicaciones técnicas con servidores e infraestructura operados por Google y sus proveedores.
+
+Estas comunicaciones pueden transmitir:
+
+- dirección IP;
+- información básica de la solicitud;
+- identificadores técnicos;
+- versión de la aplicación;
+- información del dispositivo;
+- información de conexión;
+- interacciones;
+- diagnósticos; y
+- otros datos descritos en esta Política.
+
+Los datos pueden ser tratados o comunicados a:
+
+- Google y sus entidades afiliadas;
+- Google AdMob;
+- Google User Messaging Platform;
+- Google Analytics para Firebase;
+- Firebase Crashlytics;
+- Firebase Installations;
+- Firebase Sessions;
+- proveedores y subencargados utilizados por Google;
+- proveedores y socios publicitarios que participen en la presentación, seguridad, limitación o medición de anuncios;
+- autoridades gubernamentales;
+- tribunales;
+- organismos policiales; y
+- otras personas cuando resulte razonablemente necesario para cumplir una obligación legal o un proceso legal válido.
+
+AFKERIAN INTERACTIVE no vende datos personales a cambio de un pago monetario directo.
+
+Determinadas leyes pueden considerar algunas comunicaciones relacionadas con publicidad como «venta», «intercambio», «compartición» o «publicidad dirigida», aunque no exista un pago directo por los datos.
+
+
+13. COMUNICACIONES DE SOPORTE
+
+Si el usuario escribe a afkerian.support@gmail.com, Jesus Afkerian puede recibir:
+
+- dirección de correo electrónico;
+- nombre visible asociado al correo;
+- contenido del mensaje;
+- archivos adjuntos;
+- información técnica proporcionada voluntariamente; y
+- metadatos habituales del correo electrónico.
+
+La dirección de soporte funciona mediante Gmail. Google trata la información del correo conforme a sus propios términos y políticas.
+
+La información de soporte puede utilizarse para:
+
+- responder al usuario;
+- investigar problemas;
+- atender solicitudes de privacidad;
+- prevenir abusos o fraude;
+- mantener registros razonables;
+- resolver disputas;
+- proteger derechos; y
+- cumplir obligaciones legales.
+
+El usuario no debe enviar contraseñas, información financiera, documentos oficiales de identidad, información médica ni otros datos altamente sensibles salvo que sean expresamente solicitados y razonablemente necesarios.
+
+
+14. CONSERVACIÓN Y ELIMINACIÓN
+
+Los datos locales permanecen en el dispositivo hasta que sean:
+
+- borrados por el usuario;
+- sobrescritos por el Juego;
+- reiniciados mediante controles disponibles;
+- eliminados mediante Android; o
+- eliminados al desinstalar el Juego.
+
+Las comunicaciones de soporte se conservarán durante el tiempo razonablemente necesario para:
+
+- responder a la solicitud;
+- mantener registros operativos o legales;
+- prevenir abusos;
+- resolver disputas;
+- proteger derechos; y
+- cumplir obligaciones legales.
+
+Google controla los períodos de conservación de los datos tratados mediante sus servicios de acuerdo con:
+
+- el servicio correspondiente;
+- su configuración;
+- los ajustes del usuario;
+- los términos aplicables;
+- las necesidades de seguridad; y
+- las obligaciones legales.
+
+AFKERIAN INTERACTIVE puede no tener capacidad para identificar, acceder, recuperar o eliminar datos conservados por Google cuando estén asociados únicamente con identificadores de dispositivo, publicidad, instalación, sesión o instancia de aplicación.
+
+
+15. BASES DEL TRATAMIENTO Y DERECHOS DE PRIVACIDAD
+
+Dependiendo de la jurisdicción y del tratamiento concreto, los datos pueden tratarse sobre la base de:
+
+- el consentimiento, cuando sea legalmente necesario;
+- la prestación de las funciones solicitadas por el usuario;
+- intereses legítimos relacionados con operación, análisis, seguridad, diagnóstico, prevención del fraude y soporte;
+- cumplimiento de obligaciones legales; y
+- establecimiento, ejercicio o defensa de reclamaciones.
+
+Dependiendo del lugar de residencia y de la aplicación de la legislación correspondiente, el usuario puede tener derecho a:
+
+- solicitar acceso;
+- solicitar rectificación;
+- solicitar eliminación;
+- solicitar una copia de sus datos;
+- limitar u oponerse a determinados tratamientos;
+- retirar el consentimiento cuando corresponda;
+- excluirse de determinadas formas de publicidad dirigida, venta o compartición; y
+- presentar una reclamación ante una autoridad competente.
+
+Para ejercer derechos respecto de información directamente controlada por Jesus Afkerian, el usuario puede escribir a:
+
+afkerian.support@gmail.com
+
+La solicitud debe identificar razonablemente la información o comunicación correspondiente. Puede solicitarse información razonablemente necesaria para verificar la solicitud, localizar los registros y evitar fraude.
+
+También pueden existir controles mediante:
+
+- las opciones de privacidad de UMP;
+- la configuración de almacenamiento de Android;
+- los controles publicitarios de Android;
+- los controles de cuenta y publicidad de Google; y
+- las herramientas de privacidad y eliminación proporcionadas por Google.
+
+
+16. EDAD Y MENORES
+
+Air Strike Arcade está destinado y se comercializa principalmente para personas de 18 años o más.
+
+El Juego:
+
+- no verifica independientemente la edad del usuario;
+- no impide técnicamente que una persona menor de 18 años lo instale o utilice;
+- no está diseñado ni dirigido específicamente a niños menores de 13 años;
+- no ofrece cuentas infantiles;
+- no incluye perfiles infantiles;
+- no solicita consentimiento parental mediante servicios propios; y
+- no solicita conscientemente datos personales de menores mediante cuentas, formularios de registro o perfiles administrados por AFKERIAN INTERACTIVE.
+
+Los SDK de terceros pueden tratar automáticamente identificadores técnicos, direcciones IP u otros datos descritos en esta Política cuando el Juego se utiliza, incluso si el usuario es menor de edad.
+
+Si Jesus Afkerian obtiene conocimiento efectivo de que se han tratado datos personales de un menor de 13 años en circunstancias sujetas a COPPA u otra legislación aplicable de privacidad infantil, adoptará medidas razonables para investigar y atender la situación conforme a la ley.
+
+Un padre, una madre o un representante legal puede contactar a:
+
+afkerian.support@gmail.com
+
+
+17. SEGURIDAD Y TRATAMIENTO INTERNACIONAL
+
+Google declara que los datos transmitidos mediante Google Mobile Ads se cifran durante la transmisión mediante Transport Layer Security («TLS»).
+
+Los servicios de Firebase utilizan comunicaciones protegidas mediante HTTPS u otros mecanismos de transporte seguro aplicables.
+
+Jesus Afkerian aplica salvaguardas razonables a la información directamente bajo su control.
+
+Ningún dispositivo, sistema, red, método de almacenamiento, transmisión ni medida de seguridad es completamente seguro. No puede garantizarse una seguridad absoluta.
+
+Google, sus afiliadas, proveedores y subencargados pueden tratar información en Estados Unidos y en otros países donde mantengan instalaciones, personal o infraestructura. Las normas de protección de datos de esos países pueden diferir de las del lugar donde reside el usuario.
+
+
+18. POLÍTICAS Y SERVICIOS DE TERCEROS
+
+Los servicios de terceros se rigen por sus propios términos, configuraciones y políticas.
 
 Política de Privacidad de Google:
 https://policies.google.com/privacy
 
-Divulgaciones de servicios de Google:
+Divulgación de datos de Google Mobile Ads:
 https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+Divulgación de datos de Firebase para Android:
 https://firebase.google.com/docs/android/play-data-disclosure
 
-11. CONSERVACIÓN Y ELIMINACIÓN
+Información sobre Data Safety de Google Play:
+https://support.google.com/googleplay/android-developer/answer/10787469
 
-Los datos locales quedan sujetos al almacenamiento del dispositivo, copia o transferencia de Android, eliminación por el usuario y desinstalación. La información de soporte se conserva según el criterio de la Sección 8. Google controla la conservación de datos en sus servicios, sujeto a ajustes y términos aplicables. Puedo conservar información cuando sea razonablemente necesario para seguridad, fraude, disputas, ejecución u obligaciones legales.
+Los servicios, SDK, términos, configuraciones y documentos de terceros pueden cambiar independientemente de esta Política.
 
-12. DERECHOS Y OPCIONES DE PRIVACIDAD
 
-Según tu residencia, la ley aplicable al tratamiento y los umbrales o excepciones legales, puedes tener derechos para solicitar acceso, corrección, eliminación o copia, u oponerte o limitar cierto tratamiento. Puedes enviar una solicitud a afkerian.support@gmail.com. Puedo necesitar información razonablemente necesaria para verificar y responder. También puedes usar Opciones de privacidad de UMP cuando aparezcan, controles publicitarios de Android, controles de cuenta de Google y herramientas de eliminación del proveedor.
+19. CAMBIOS EN ESTA POLÍTICA
 
-No intercambio información personal por dinero. Algunas leyes pueden calificar una divulgación publicitaria como venta, intercambio o publicidad dirigida aun sin pago monetario. La aplicación de una ley o derecho depende de los hechos y requisitos pertinentes.
+Esta Política puede actualizarse cuando:
 
-13. NIÑOS
+- cambie el Juego;
+- cambie un SDK o proveedor;
+- cambien las prácticas de tratamiento;
+- cambien los requisitos legales;
+- cambien los requisitos de Google Play; o
+- resulte necesario proporcionar aclaraciones.
 
-El Juego no está destinado a niños ni a personas sin capacidad legal para usarlo. Si crees que un niño envió información mediante soporte, contáctame para que pueda evaluar y atender la solicitud.
+La versión vigente indicará su fecha de entrada en vigor y su fecha de última actualización.
 
-14. SEGURIDAD
+Los cambios sustanciales recibirán un aviso adicional cuando resulte legalmente obligatorio o razonablemente apropiado.
 
-Uso medidas administrativas y técnicas razonables apropiadas para la información bajo mi control. Ningún método de almacenamiento o transmisión es completamente seguro y no puedo garantizar seguridad absoluta.
 
-15. DIVULGACIONES LEGALES
-
-La información puede conservarse o divulgarse cuando sea razonablemente necesario para cumplir proceso legal válido, proteger usuarios o al público, investigar abuso o incidentes, ejecutar términos aplicables o establecer, ejercer o defender reclamaciones.
-
-16. CAMBIOS
-
-Puedo actualizar esta Política cuando cambien el Juego, los proveedores o los requisitos aplicables. El documento actualizado indicará su fecha efectiva. Los cambios materiales recibirán aviso razonablemente visible cuando corresponda.
-
-17. CONTACTO
+20. CONTACTO
 
 Jesus Afkerian
+Operando bajo la marca AFKERIAN INTERACTIVE
+Editor y operador de Air Strike Arcade
+
+Correo electrónico:
+
 afkerian.support@gmail.com

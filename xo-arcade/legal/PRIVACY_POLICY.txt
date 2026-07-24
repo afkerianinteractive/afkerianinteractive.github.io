@@ -1,130 +1,573 @@
 PRIVACY POLICY
 XO Arcade: Infinity Edition
 
-Effective Date: July 22, 2026
-Last Updated: July 22, 2026
+Effective Date: July 23, 2026
+Last Updated: July 23, 2026
 
-1. SCOPE AND IDENTITY
 
-This Privacy Policy explains how I, Jesus Afkerian, process information in connection with XO Arcade: Infinity Edition (the “Game”). In this Policy, “I,” “me,” and “my” refer only to Jesus Afkerian. I am the individual who publishes and operates the Game. This Policy covers the Game and support communications about it. Google Play, Google services, and other third-party services operate under their own policies.
+1. RESPONSIBLE PARTY AND BRAND
 
-The Game does not require a first-party account or ask you to enter a civil name, postal address, contacts, or payment information during ordinary play. If you contact support, I receive the email address, message, attachments, and other information you choose to send.
+This Privacy Policy explains how Jesus Afkerian, a natural person operating under the AFKERIAN INTERACTIVE brand (“AFKERIAN INTERACTIVE,” “we,” “us,” or “our”), processes the information related to XO Arcade: Infinity Edition (the “Game”).
 
-2. AUDIENCE AND PERMITTED TERRITORY
+Jesus Afkerian is the publisher and legal operator responsible for the Game. AFKERIAN INTERACTIVE is the brand under which Jesus Afkerian publishes and operates the Game; it is not presented in this Policy as a separate legal entity.
 
-The Game is intended only for adults and is not directed to children. It does not independently verify age. You must be at least 18 and have reached the age of majority and contractual capacity where you live, whichever standard is higher.
+Contact for privacy matters:
 
-The permitted distribution territory is stated at:
-https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
+afkerian.support@gmail.com
 
-3. LOCAL GAME DATA AND ANDROID BACKUP
 
-Progress, scores, preferences, and ordinary game state are stored primarily on the device. I do not operate a first-party gameplay-profile server that receives this local state.
+2. SCOPE OF THIS POLICY
 
-Android backup or device-transfer services may copy supported local data when enabled by Android, the device manufacturer, or the user.
+This Policy applies to:
 
-Uninstalling the Game, clearing its data, device loss, corruption, or backup and restore behavior can delete, retain, copy, or restore local information. Recovery is not guaranteed.
+- the XO Arcade: Infinity Edition application for Android;
+- the local data generated during use of the Game;
+- the advertising, analytics, crash-reporting, installation-measurement, session-measurement, and privacy-management services integrated in the Game;
+- communications made with support; and
+- requests related to privacy or data deletion.
 
-4. NETWORK SERVICES
+Google Play, Android, Google, device manufacturers, internet access providers, and other third-party services operate in accordance with their own terms and privacy policies.
 
-The Game is not completely offline. It connects to services used for advertising, privacy messaging, analytics, crash reporting, installation and session measurement, security, and fraud prevention. These services include Google Mobile Ads, Google User Messaging Platform (“UMP”), Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions.
 
-5. ADVERTISING AND PRIVACY MESSAGING
+3. SUMMARY OF DATA PRACTICES
 
-The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
+XO Arcade: Infinity Edition:
 
-The Game uses anchored banner advertisements and occasional interstitial advertisements. It does not use App Open or native advertisements.
+- does not require or permit the creation of an account administered by AFKERIAN INTERACTIVE;
+- does not use its own servers to store or synchronize player profiles;
+- stores the progress, preferences, and ordinary state of the Game primarily on the Android device;
+- does not request, during ordinary use, the name, postal address, contacts, telephone number, identity documents, financial information, medical information, or biometric data;
+- uses Google AdMob to display advertising;
+- uses Google User Messaging Platform to administer certain advertising privacy messages and options;
+- uses Google Analytics for Firebase;
+- uses Firebase Crashlytics;
+- uses Firebase Installations;
+- uses Firebase Sessions; and
+- receives information directly from the user when the user voluntarily contacts support or submits a privacy request.
 
-UMP determines whether the advertising code may request ads and may present a regional consent message or Privacy Options entry. UMP gates advertising only. A UMP choice does not disable Analytics, Crashlytics, Firebase Installations, Firebase Sessions, or all network activity.
+The absence of first-party accounts and servers does not mean that no data leaves the device. The Google services integrated in the Game may automatically transmit and process certain technical data, identifiers, interactions, diagnostics, and IP addresses.
 
-An advertising failure does not block ordinary navigation or erase local progress. A choice against personalized advertising may still allow contextual or limited ads and processing for measurement, security, frequency control, diagnostics, and fraud prevention.
 
-6. AUTOMATIC PROCESSING BY GOOGLE MOBILE ADS
+4. ABSENCE OF USER ACCOUNTS
 
-Google states that the Google Mobile Ads SDK automatically processes and shares IP address information that may be used to estimate approximate location, Game and advertising interactions, diagnostic information, and device or account identifiers for advertising, analytics, and fraud prevention. Supported identifiers may include the Android Advertising ID and app set identifiers. Google states that this data is encrypted in transit.
+XO Arcade: Infinity Edition does not require registration, a user name, a password, or a sign-in.
 
-7. ANALYTICS, CRASHLYTICS, INSTALLATIONS, AND SESSIONS
+AFKERIAN INTERACTIVE does not create or administer player accounts and does not maintain a first-party database of user profiles.
 
-Google Analytics for Firebase automatically collects default app, device, session, screen, and interaction information; an app-instance identifier; approximate location derived from IP address; and the Advertising ID when available and not disabled. The Game does not send first-party authored custom Analytics events, User-ID values, or custom user properties.
+Therefore:
 
-Firebase Crashlytics processes crash stack traces, relevant application state, device metadata, and a Crashlytics installation identifier when crash reporting operates. Crashlytics operates in public release versions of the Game, and the Game does not add custom Crashlytics logs, keys, user IDs, or user-content reports.
+- there is no AFKERIAN INTERACTIVE account that the user must delete;
+- there is no activity history linked to a first-party Game account;
+- there is no game profile stored on first-party servers; and
+- no sign-in information is used to access the Game.
 
-Firebase Installations creates a per-installation identifier. Firebase Sessions processes session, app, device, network-connection, and performance metadata. Analytics breadcrumbs may be associated with crash reports through Google SDK integration.
 
-8. DATA CATEGORIES
+5. DATA AND FEATURES STORED LOCALLY
 
-Category: Approximate location
-Source: IP address processed by Google Mobile Ads and Google Analytics for Firebase.
-Purpose: Advertising, analytics, security, and fraud prevention.
-Recipients: Google and service providers acting for the relevant Google services.
-Retention criterion: Provider settings, service purpose, security and fraud-prevention needs, legal obligations, and valid deletion requests.
+The Game may store the following locally on the device:
 
-Category: Game and advertising interactions
-Source: The Game, Google Mobile Ads, and Google Analytics for Firebase.
-Purpose: Advertising delivery, measurement, analytics, frequency control, security, and fraud prevention.
-Recipients: Google and service providers acting for the relevant Google services.
-Retention criterion: Provider settings, measurement periods, security and fraud-prevention needs, legal obligations, and valid deletion requests.
+- progress;
+- scores;
+- preferences;
+- settings;
+- gameplay statistics;
+- virtual items or resources;
+- match state;
+- information used by automated opponents, game logic, or local features, where applicable; and
+- other data necessary to preserve the state of the Game.
 
-Category: Crash logs and diagnostics
-Source: Google Mobile Ads, Firebase Crashlytics, Firebase Sessions, the device, and the Game.
-Purpose: Stability, debugging, performance, analytics, security, and fraud prevention.
-Recipients: Google and service providers acting for the relevant Google services.
-Retention criterion: Time needed to diagnose and aggregate failures, provider settings, security needs, legal obligations, and valid deletion requests.
+This data remains primarily on the device and is not transmitted to a profile server operated by AFKERIAN INTERACTIVE.
 
-Category: Device and other identifiers
-Source: Google Mobile Ads, Google Analytics for Firebase, Firebase Crashlytics, and Firebase Installations.
-Purpose: Advertising, analytics, installation and session measurement, crash management, security, and fraud prevention.
-Recipients: Google and service providers acting for the relevant Google services.
-Retention criterion: Provider settings, service continuity, security and fraud-prevention needs, legal obligations, and valid deletion requests.
+Some features or modes of the Game may use automated logic, decision systems, or locally controlled opponents. Where those features exist, their state or memory remains on the device and is not transmitted to servers operated by AFKERIAN INTERACTIVE.
 
-Category: Support communications
-Source: Information you choose to send by email.
-Purpose: Responding to the request, maintaining support records, protecting rights, and preventing abuse.
-Recipients: Jesus Afkerian and email or infrastructure providers needed to handle the request.
-Retention criterion: Time reasonably necessary to handle the request, maintain appropriate records, resolve disputes, protect the service, and meet legal obligations.
+Android, Google, or the device manufacturer may back up, transfer, or restore some local data depending on:
 
-9. REQUIRED, OPTIONAL, AND EPHEMERAL PROCESSING
+- the version of Android;
+- the Google account;
+- the backup configuration;
+- the manufacturer's configuration; and
+- the options selected by the user.
 
-You are not required to contact me or create a first-party account to play. Automatic SDK processing is not described as ephemeral because advertising, analytics, installation, fraud-prevention, diagnostic, and crash records may persist after an individual network request. UMP, Google controls, and Android advertising settings have different scopes; the Game does not provide one control that disables every service listed in this Policy.
+AFKERIAN INTERACTIVE does not control the backups, transfers, or restorations administered by Android, Google, or the device manufacturer.
 
-10. PROVIDERS AND INTERNATIONAL PROCESSING
 
-Google LLC and its affiliates provide AdMob, UMP, Analytics, Crashlytics, Installations, and Sessions. Google may process information in the United States and other countries where it or its processors operate. Google determines its own infrastructure, personnel, subprocessors, retention settings, and legal bases under its terms and policies.
+6. DELETION OF LOCAL DATA
+
+The user may delete the local data of XO Arcade: Infinity Edition through the controls available within the Game, where they exist, or through the Android settings:
+
+1. Open the Android settings.
+2. Go to the applications section.
+3. Select XO Arcade: Infinity Edition.
+4. Open the storage section.
+5. Select the option to clear the application's data or storage.
+
+The user may also delete the local data by uninstalling the Game.
+
+Clearing only the cache may not delete all local progress, settings, or state.
+
+Android backup systems may restore previously backed-up information after a reinstallation or a device change. The user may administer that behavior through the backup configuration of Android, Google, and the device manufacturer.
+
+
+7. DATA COLLECTED AND SHARED
+
+The services integrated in XO Arcade: Infinity Edition may collect and share the following categories of data.
+
+
+A. Approximate location
+
+Declared status:
+
+- collected: yes;
+- shared: yes;
+- ephemeral processing: no;
+- collection required in the current configuration: yes.
+
+Approximate location may be inferred from the device's Internet Protocol (“IP”) address.
+
+The Game does not request access to precise GPS location for its ordinary operation.
+
+Purposes:
+
+- analytics;
+- advertising or marketing; and
+- fraud prevention, security, and compliance.
+
+
+B. Crash logs
+
+Declared status:
+
+- collected: yes;
+- shared in accordance with the Data Safety classification: no;
+- ephemeral processing: no;
+- collection required in the current configuration: yes.
+
+Crash logs may include:
+
+- error traces;
+- the technical state of the application when a failure occurs;
+- the version of the application;
+- the device model;
+- the operating system version;
+- technical installation identifiers; and
+- metadata related to the failure.
+
+Purposes:
+
+- application functionality; and
+- analytics.
+
+The logs are transmitted to Firebase Crashlytics so that Google processes them as a service provider for crash reporting and diagnostics. Under the applicable Google Play classification, this processing by a service provider may be declared as collection without sharing.
+
+
+C. Diagnostics
+
+Declared status:
+
+- collected: yes;
+- shared: yes;
+- ephemeral processing: no;
+- collection required in the current configuration: yes.
+
+Diagnostics may include:
+
+- application launch time;
+- freezes or interruptions;
+- crash rate;
+- performance;
+- energy consumption;
+- connection information;
+- session information;
+- device and application information; and
+- other technical data necessary to evaluate the Game and the integrated SDKs.
+
+Purposes:
+
+- analytics;
+- advertising or marketing; and
+- fraud prevention, security, and compliance.
+
+
+D. Interactions with the application
+
+Declared status:
+
+- collected: yes;
+- shared: yes;
+- ephemeral processing: no;
+- collection required in the current configuration: yes.
+
+Interactions may include:
+
+- opening of the application;
+- start and duration of sessions;
+- use of screens or features;
+- taps;
+- advertising impressions;
+- interactions with advertisements;
+- video views; and
+- other technical activity recorded by the integrated SDKs.
+
+Purposes:
+
+- analytics;
+- advertising or marketing; and
+- fraud prevention, security, and compliance.
+
+
+E. Device or other IDs
+
+Declared status:
+
+- collected: yes;
+- shared: yes;
+- ephemeral processing: no;
+- collection required in the current configuration: yes.
+
+Identifiers may include, depending on the service, the configuration, and availability:
+
+- the Android Advertising ID;
+- App Set ID;
+- Firebase Installation ID;
+- the Analytics instance identifier;
+- the Crashlytics installation identifier;
+- session identifiers; and
+- other technical identifiers compatible with Google services.
+
+Purposes:
+
+- analytics;
+- advertising or marketing; and
+- fraud prevention, security, and compliance.
+
+Some identifiers may be reset, limited, or deleted through the Android or Google settings. Modifying a particular identifier does not necessarily disable every service or all technical collection.
+
+
+8. ADVERTISING THROUGH GOOGLE ADMOB
+
+XO Arcade: Infinity Edition is funded wholly or partly through advertising.
+
+The Game uses Google AdMob and may display, depending on the version, configuration, availability, or corresponding feature:
+
+- banner ads;
+- interstitial ads;
+- full-screen ads; and
+- optional rewarded ads when enabled.
+
+Rewarded ads, when available, may grant the benefit indicated in the Game after being completed correctly. Their availability, playback, or delivery is not guaranteed.
+
+Jesus Afkerian may receive advertising revenue under the AFKERIAN INTERACTIVE brand through Google AdMob.
+
+Google Mobile Ads may process:
+
+- IP addresses;
+- approximate location;
+- openings of and interactions with the application;
+- advertising interactions;
+- impressions;
+- taps;
+- views;
+- diagnostic information;
+- performance information;
+- the Android Advertising ID;
+- App Set ID; and
+- other compatible identifiers.
+
+Depending on the user's location, privacy decisions, device configuration, and Google's systems, ads may be:
+
+- personalized;
+- non-personalized;
+- contextual;
+- limited; or
+- subject to other restrictions.
+
+
+9. GOOGLE USER MESSAGING PLATFORM
+
+XO Arcade: Infinity Edition uses Google User Messaging Platform (“UMP”) to display consent messages or advertising privacy options where applicable.
+
+Decisions made through UMP may affect personalization and other advertising-related processing.
+
+A decision made through UMP does not necessarily disable:
+
+- Google Analytics for Firebase;
+- Firebase Crashlytics;
+- Firebase Installations;
+- Firebase Sessions;
+- limited or non-personalized ads;
+- processing necessary for security or fraud prevention; or
+- all technical communications performed by the Game or the integrated SDKs.
+
+The user may also have additional controls through Android and through Google's privacy, account, or advertising options.
+
+
+10. GOOGLE ANALYTICS FOR FIREBASE
+
+Google Analytics for Firebase may automatically process:
+
+- application instance identifiers;
+- device information;
+- application information;
+- openings;
+- sessions;
+- screens or features used;
+- interactions;
+- approximate location inferred from the IP address;
+- the Android Advertising ID when available and permitted; and
+- automatic events generated by the application or the SDKs.
+
+Analytics is used to:
+
+- measure use of the Game;
+- analyze interactions;
+- produce reports;
+- evaluate performance;
+- identify technical trends;
+- improve stability and operation; and
+- support security and fraud-prevention functions.
+
+
+11. FIREBASE CRASHLYTICS, INSTALLATIONS, AND SESSIONS
+
+Firebase Crashlytics may process:
+
+- crash logs;
+- error traces;
+- relevant technical state of the application;
+- the version of the application;
+- the operating system;
+- the device model;
+- the Crashlytics installation identifier; and
+- related diagnostic data.
+
+Crashlytics is used to identify, analyze, prioritize, and correct failures and stability problems.
+
+Firebase Installations generates and processes a Firebase Installation ID to identify a specific installation of the application. That identifier does not by itself uniquely identify a person or necessarily a physical device.
+
+Firebase Sessions may process:
+
+- application metadata;
+- device manufacturer and model;
+- operating system information;
+- SDK information;
+- connection type;
+- foreground activity;
+- session starts;
+- session duration or state;
+- performance information; and
+- related metrics.
+
+Firebase Sessions is used to generate session, performance, stability, and failure metrics.
+
+
+12. NETWORK COMMUNICATIONS AND RECIPIENTS
+
+To provide the functions described, the Game and its SDKs may make technical communications with servers and infrastructure operated by Google and its providers.
+
+These communications may transmit:
+
+- IP address;
+- basic request information;
+- technical identifiers;
+- the version of the application;
+- device information;
+- connection information;
+- interactions;
+- diagnostics; and
+- other data described in this Policy.
+
+The data may be processed by or disclosed to:
+
+- Google and its affiliated entities;
+- Google AdMob;
+- Google User Messaging Platform;
+- Google Analytics for Firebase;
+- Firebase Crashlytics;
+- Firebase Installations;
+- Firebase Sessions;
+- providers and subprocessors used by Google;
+- advertising providers and partners that participate in the presentation, security, limitation, or measurement of advertisements;
+- governmental authorities;
+- courts;
+- law enforcement bodies; and
+- other persons where reasonably necessary to comply with a legal obligation or a valid legal process.
+
+AFKERIAN INTERACTIVE does not sell personal data in exchange for direct monetary payment.
+
+Certain laws may consider some advertising-related communications a “sale,” “exchange,” “sharing,” or “targeted advertising,” even where there is no direct payment for the data.
+
+
+13. SUPPORT COMMUNICATIONS
+
+If the user writes to afkerian.support@gmail.com, Jesus Afkerian may receive:
+
+- the email address;
+- the visible name associated with the email;
+- the content of the message;
+- attachments;
+- technical information voluntarily provided; and
+- ordinary email metadata.
+
+The support address operates through Gmail. Google processes the email information in accordance with its own terms and policies.
+
+Support information may be used to:
+
+- respond to the user;
+- investigate problems;
+- handle privacy requests;
+- prevent abuse or fraud;
+- maintain reasonable records;
+- resolve disputes;
+- protect rights; and
+- comply with legal obligations.
+
+The user must not send passwords, financial information, official identity documents, medical information, or other highly sensitive data unless they are expressly requested and reasonably necessary.
+
+
+14. RETENTION AND DELETION
+
+Local data remains on the device until it is:
+
+- deleted by the user;
+- overwritten by the Game;
+- reset through available controls;
+- deleted through Android; or
+- deleted by uninstalling the Game.
+
+Support communications will be retained for the time reasonably necessary to:
+
+- respond to the request;
+- maintain operational or legal records;
+- prevent abuse;
+- resolve disputes;
+- protect rights; and
+- comply with legal obligations.
+
+Google controls the retention periods for the data processed through its services in accordance with:
+
+- the relevant service;
+- its configuration;
+- the user's settings;
+- the applicable terms;
+- security needs; and
+- legal obligations.
+
+AFKERIAN INTERACTIVE may be unable to identify, access, retrieve, or delete data retained by Google when it is associated solely with device, advertising, installation, session, or application-instance identifiers.
+
+
+15. BASES OF PROCESSING AND PRIVACY RIGHTS
+
+Depending on the jurisdiction and the specific processing, data may be processed on the basis of:
+
+- consent, where legally necessary;
+- the provision of the functions requested by the user;
+- legitimate interests related to operation, analytics, security, diagnostics, fraud prevention, and support;
+- compliance with legal obligations; and
+- the establishment, exercise, or defense of claims.
+
+Depending on the place of residence and the application of the corresponding legislation, the user may have the right to:
+
+- request access;
+- request rectification;
+- request deletion;
+- request a copy of their data;
+- limit or object to certain processing;
+- withdraw consent where applicable;
+- opt out of certain forms of targeted advertising, sale, or sharing; and
+- file a complaint with a competent authority.
+
+To exercise rights regarding information directly controlled by Jesus Afkerian, the user may write to:
+
+afkerian.support@gmail.com
+
+The request must reasonably identify the corresponding information or communication. Information reasonably necessary to verify the request, locate the records, and prevent fraud may be requested.
+
+Controls may also exist through:
+
+- the UMP privacy options;
+- the Android storage settings;
+- the Android advertising controls;
+- the Google account and advertising controls; and
+- the privacy and deletion tools provided by Google.
+
+
+16. AGE AND MINORS
+
+XO Arcade: Infinity Edition is intended and marketed primarily for persons 18 years of age or older.
+
+The Game:
+
+- does not independently verify the user's age;
+- does not technically prevent a person under 18 years of age from installing or using it;
+- is not designed for or specifically directed to children under 13 years of age;
+- does not offer child accounts;
+- does not include child profiles;
+- does not request parental consent through first-party services; and
+- does not knowingly request personal data from minors through accounts, registration forms, or profiles administered by AFKERIAN INTERACTIVE.
+
+Third-party SDKs may automatically process technical identifiers, IP addresses, or other data described in this Policy when the Game is used, even if the user is a minor.
+
+If Jesus Afkerian obtains actual knowledge that personal data of a child under 13 years of age has been processed in circumstances subject to COPPA or other applicable children's privacy legislation, he will take reasonable measures to investigate and address the situation in accordance with the law.
+
+A father, a mother, or a legal representative may contact:
+
+afkerian.support@gmail.com
+
+
+17. SECURITY AND INTERNATIONAL PROCESSING
+
+Google states that data transmitted through Google Mobile Ads is encrypted in transit using Transport Layer Security (“TLS”).
+
+Firebase services use communications protected through HTTPS or other applicable secure transport mechanisms.
+
+Jesus Afkerian applies reasonable safeguards to the information directly under his control.
+
+No device, system, network, storage method, transmission, or security measure is completely secure. Absolute security cannot be guaranteed.
+
+Google, its affiliates, providers, and subprocessors may process information in the United States and in other countries where they maintain facilities, personnel, or infrastructure. The data protection rules of those countries may differ from those of the place where the user resides.
+
+
+18. THIRD-PARTY POLICIES AND SERVICES
+
+Third-party services are governed by their own terms, configurations, and policies.
 
 Google Privacy Policy:
 https://policies.google.com/privacy
 
-Google service disclosures:
+Google Mobile Ads data disclosure:
 https://developers.google.com/admob/android/privacy/play-data-disclosure
+
+Firebase data disclosure for Android:
 https://firebase.google.com/docs/android/play-data-disclosure
 
-11. RETENTION AND DELETION
+Google Play Data Safety information:
+https://support.google.com/googleplay/android-developer/answer/10787469
 
-Local Game data remains subject to device storage, Android backup or transfer, user deletion, and uninstall behavior. Support information is retained under the criterion stated in Section 8. Google controls retention for data it processes in its services, subject to provider settings and applicable terms. I may retain information when reasonably necessary for security, fraud prevention, dispute resolution, enforcement, or legal obligations.
+Third-party services, SDKs, terms, configurations, and documents may change independently of this Policy.
 
-12. PRIVACY RIGHTS AND CHOICES
 
-Depending on your residence, the law that applies to the processing, and any statutory thresholds or exceptions, you may have rights to request access, correction, deletion, or a copy of personal information, or to object to or limit certain processing. You may send a request to afkerian.support@gmail.com. I may need information reasonably necessary to verify and respond to the request. You may also use UMP Privacy Options when shown, Android advertising controls, Google account controls, and provider deletion tools.
+19. CHANGES TO THIS POLICY
 
-I do not exchange personal information for money. Some laws may characterize advertising-related disclosure as a sale, sharing, or targeted advertising even without a monetary payment. Whether a particular law or right applies depends on the relevant facts and legal requirements.
+This Policy may be updated when:
 
-13. CHILDREN
+- the Game changes;
+- an SDK or provider changes;
+- processing practices change;
+- legal requirements change;
+- Google Play requirements change; or
+- it becomes necessary to provide clarifications.
 
-The Game is not intended for children or for anyone who lacks legal capacity to use it. If you believe a child sent personal information through support, contact me so I can evaluate and address the request.
+The version in force will state its effective date and its last-updated date.
 
-14. SECURITY
+Material changes will receive additional notice where legally required or reasonably appropriate.
 
-I use reasonable administrative and technical measures appropriate to the information I control. No storage or transmission method is completely secure, and I cannot guarantee absolute security.
 
-15. LEGAL DISCLOSURES
-
-Information may be preserved or disclosed when reasonably necessary to comply with valid legal process, protect users or the public, investigate abuse or security incidents, enforce applicable terms, or establish, exercise, or defend legal claims.
-
-16. CHANGES
-
-I may update this Policy when the Game, service providers, or applicable requirements change. The updated document will state its effective date. Material changes will receive reasonably conspicuous notice where appropriate.
-
-17. CONTACT
+20. CONTACT
 
 Jesus Afkerian
+Operating under the AFKERIAN INTERACTIVE brand
+Publisher and operator of XO Arcade: Infinity Edition
+
+Email:
+
 afkerian.support@gmail.com

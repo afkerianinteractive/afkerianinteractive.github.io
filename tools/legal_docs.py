@@ -50,12 +50,39 @@ DISPLAY_DATES = {
     "2026-07-22": {
         "en-US": "July 22, 2026",
         "es-419": "22 de julio de 2026",
-    }
+    },
+    "2026-07-23": {
+        "en-US": "July 23, 2026",
+        "es-419": "23 de julio de 2026",
+    },
 }
 LEGACY_PUBLIC_IDENTITIES = re.compile(
     r"\b(?:AFKERIAN\s+INTERACTIVE|AFK\s+GAMES\s+STUDIO|JAfkerian)\b",
     flags=re.I,
 )
+# Identities that may never appear in any first-party presentation.
+BANNED_PUBLIC_IDENTITIES = re.compile(
+    r"\b(?:AFK\s+GAMES\s+STUDIO|JAfkerian)\b",
+    flags=re.I,
+)
+# AFKERIAN INTERACTIVE is a brand, never a legal person. First-party TXT may use
+# it only when the document also states, verbatim, that Jesus Afkerian is the
+# operator behind it. HTML keeps the unconditional LEGACY_PUBLIC_IDENTITIES ban.
+OPERATOR_BRAND = re.compile(r"\bAFKERIAN\s+INTERACTIVE\b", flags=re.I)
+# A first-party document may use the AFKERIAN INTERACTIVE brand only when it also
+# ties the brand to Jesus Afkerian as its operator. Any of these verbatim ties
+# satisfies the guard; the OWNER-approved policy opening uses the "persona física
+# que opera" / "a natural person operating" wording.
+OPERATOR_BRAND_FORMULAS = {
+    "en-US": (
+        "Jesus Afkerian, a natural person operating under the AFKERIAN INTERACTIVE brand",
+        "Jesus Afkerian, operating under the AFKERIAN INTERACTIVE brand",
+    ),
+    "es-419": (
+        "Jesus Afkerian, persona física que opera bajo la marca AFKERIAN INTERACTIVE",
+        "Jesus Afkerian, operando bajo la marca AFKERIAN INTERACTIVE",
+    ),
+}
 REQUESTED_COPY_PATHS = {
     "xo-arcade/legal/PRIVACY_POLICY.txt",
     "xo-arcade/legal/TERMS_OF_SERVICE.txt",
@@ -386,8 +413,16 @@ def validate() -> int:
             declared_updated = metadata_value(
                 content, language, "Last Updated", "Última actualización"
             )
+            # The OWNER-approved privacy policies label the effective date
+            # "Fecha de entrada en vigor" in Spanish; all other ES documents keep
+            # the "Fecha efectiva" label.
+            es_effective_key = (
+                "Fecha de entrada en vigor"
+                if entry["document_id"] == "PRIVACY_POLICY"
+                else "Fecha efectiva"
+            )
             declared_effective = metadata_value(
-                content, language, "Effective Date", "Fecha efectiva"
+                content, language, "Effective Date", es_effective_key
             )
             expected_effective = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
             if declared_effective != expected_effective:
@@ -395,14 +430,24 @@ def validate() -> int:
             expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
             if declared_updated != expected_updated:
                 errors.append(f"{canonical}: last-updated presentation mismatch")
-            if LEGACY_PUBLIC_IDENTITIES.search(content):
+            if BANNED_PUBLIC_IDENTITIES.search(content):
                 errors.append(f"{canonical}: legacy public identity in first-party text")
+            if OPERATOR_BRAND.search(content):
+                formulas = OPERATOR_BRAND_FORMULAS.get(language, ())
+                if not any(formula in content for formula in formulas):
+                    errors.append(
+                        f"{canonical}: AFKERIAN INTERACTIVE used without the verbatim "
+                        f"operator formula naming Jesus Afkerian"
+                    )
             if entry["product_id"] in {
                 "xo-arcade",
                 "air-strike-arcade",
                 "tap-odyssey",
             }:
-                product_term_scan = content.replace("App Open", "")
+                # "App Set ID" is Google's proper identifier name; "App Open" is a
+                # Google ad-format name. Neither is a product term, so strip both
+                # before enforcing Game/Juego over a bare "App".
+                product_term_scan = content.replace("App Open", "").replace("App Set ID", "")
                 if re.search(r"\b(?:App|APP)\b", product_term_scan):
                     errors.append(f"{canonical}: product term must be Game/Juego, not App")
             if entry["product_id"] in {
@@ -410,55 +455,61 @@ def validate() -> int:
                 "air-strike-arcade",
                 "tap-odyssey",
             }:
-                if language == "en-US" and entry["document_id"] in {
-                    "PRIVACY_POLICY",
-                }:
-                    identity_sentence = (
-                        "This Privacy Policy explains how I, Jesus Afkerian, process "
-                        "information in connection with "
-                    )
-                    if identity_sentence not in content:
-                        errors.append(f"{canonical}: missing exact Privacy identity opening")
-                if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
-                    identity_sentence = (
-                        "These Terms of Service are an agreement between you and Jesus "
-                        "Afkerian, an individual who publishes and operates the Game."
-                    )
-                    if identity_sentence not in content:
-                        errors.append(f"{canonical}: missing exact Terms identity opening")
-                if language == "es-419" and entry["document_id"] in {
-                    "PRIVACY_POLICY",
-                }:
-                    identity_sentence = (
-                        "Esta Política de Privacidad explica cómo yo, Jesus Afkerian, "
-                        "trato información en relación con "
-                    )
-                    if identity_sentence not in content:
-                        errors.append(f"{canonical}: falta apertura de identidad de Privacidad")
-                if language == "en-US" and entry["document_id"] in {
-                    "PRIVACY_POLICY",
-                    "TERMS_OF_SERVICE",
-                }:
-                    monetization = (
-                        "The Game is currently offered without a purchase price and is "
-                        "supported by advertising. Jesus Afkerian may receive advertising "
-                        "revenue through Google AdMob. Advertising revenue is not an amount "
-                        "paid by the user."
-                    )
-                    if monetization not in content:
-                        errors.append(f"{canonical}: missing exact monetization statement")
-                if language == "es-419" and entry["document_id"] in {
-                    "PRIVACY_POLICY",
-                    "TERMS_OF_SERVICE",
-                }:
-                    monetization = (
-                        "El Juego se ofrece actualmente sin precio de compra y se financia "
-                        "mediante publicidad. Jesus Afkerian puede recibir ingresos "
-                        "publicitarios a través de Google AdMob. Los ingresos publicitarios "
-                        "no son una cantidad pagada por el usuario."
-                    )
-                    if monetization not in content:
-                        errors.append(f"{canonical}: falta declaración de monetización")
+                # Privacy policies follow the OWNER-approved base text verbatim.
+                if entry["document_id"] == "PRIVACY_POLICY":
+                    if language == "en-US":
+                        identity_sentence = (
+                            "This Privacy Policy explains how Jesus Afkerian, a natural "
+                            "person operating under the AFKERIAN INTERACTIVE brand"
+                        )
+                        if identity_sentence not in content:
+                            errors.append(f"{canonical}: missing exact Privacy identity opening")
+                        for fragment in (
+                            "is offered without a purchase price and is funded through advertising.",
+                            "AFKERIAN INTERACTIVE may receive advertising revenue through Google AdMob.",
+                        ):
+                            if fragment not in content:
+                                errors.append(f"{canonical}: missing approved monetization text")
+                    if language == "es-419":
+                        identity_sentence = (
+                            "Esta Política de Privacidad explica cómo Jesus Afkerian, "
+                            "persona física que opera bajo la marca AFKERIAN INTERACTIVE"
+                        )
+                        if identity_sentence not in content:
+                            errors.append(f"{canonical}: falta apertura de identidad de Privacidad")
+                        for fragment in (
+                            "se ofrece sin precio de compra y se financia mediante publicidad.",
+                            "AFKERIAN INTERACTIVE puede recibir ingresos publicitarios mediante Google AdMob.",
+                        ):
+                            if fragment not in content:
+                                errors.append(f"{canonical}: falta declaración de monetización")
+                # Terms of Service keep their existing first-person identity and
+                # monetization wording (out of scope for this change).
+                if entry["document_id"] == "TERMS_OF_SERVICE":
+                    if language == "en-US":
+                        identity_sentence = (
+                            "These Terms of Service are an agreement between you and Jesus "
+                            "Afkerian, an individual who publishes and operates the Game."
+                        )
+                        if identity_sentence not in content:
+                            errors.append(f"{canonical}: missing exact Terms identity opening")
+                        monetization = (
+                            "The Game is currently offered without a purchase price and is "
+                            "supported by advertising. Jesus Afkerian may receive advertising "
+                            "revenue through Google AdMob. Advertising revenue is not an amount "
+                            "paid by the user."
+                        )
+                        if monetization not in content:
+                            errors.append(f"{canonical}: missing exact monetization statement")
+                    if language == "es-419":
+                        monetization = (
+                            "El Juego se ofrece actualmente sin precio de compra y se financia "
+                            "mediante publicidad. Jesus Afkerian puede recibir ingresos "
+                            "publicitarios a través de Google AdMob. Los ingresos publicitarios "
+                            "no son una cantidad pagada por el usuario."
+                        )
+                        if monetization not in content:
+                            errors.append(f"{canonical}: falta declaración de monetización")
                 if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
                     assent = (
                         "Publication alone, silence, inaction, or keeping the Game installed "
@@ -677,7 +728,18 @@ def validate() -> int:
         "false offline absolute": r"(?i)(?<!not\s)completely\s+offline|nothing\s+leaves\s+the\s+device",
         "false no-data absolute": r"(?i)we\s+(?:do\s+not|don['’]t)\s+collect\s+(?:any\s+)?data|no\s+data\s+is\s+collected",
         "false ad-free absolute": r"(?i)completely\s+ad[- ]free",
-        "false entity suffix": r"(?i)AFKERIAN\s+INTERACTIVE\s+(?:LLC|INC\.?|CORPORATION|LTD\.?)",
+        "false entity suffix": (
+            r"(?i)AFKERIAN\s+INTERACTIVE\s+"
+            r"(?:LLC|INC\.?|CORP\.?|CORPORATION|COMPANY|CO\.|LTD\.?|LP|LLP|PARTNERSHIP"
+            r"|S\.?A\.?|S\.?L\.?|GMBH|B\.?V\.?)"
+        ),
+        "false AFKERIAN INTERACTIVE registration claim": (
+            r"(?i)AFKERIAN\s+INTERACTIVE[^.\n]{0,80}?"
+            r"(?:registered\s+(?:DBA|trade\s+name|trademark|company|entity)"
+            r"|DBA\s+registrad[oa]|nombre\s+comercial\s+registrado"
+            r"|marca\s+registrada|entidad\s+(?:jurídica|legal)\s+separada"
+            r"|separate\s+legal\s+entity)"
+        ),
     }
     scan_paths = []
     for base in [ROOT, ROOT / "xo-arcade", ROOT / "air-strike-arcade", ROOT / "tap-odyssey"]:
@@ -687,12 +749,19 @@ def validate() -> int:
         else:
             scan_paths.extend(base.glob("*.html"))
             scan_paths.extend((base / "legal").glob("*.txt"))
+    # The OWNER-approved policies carry a specific children's-privacy clause that
+    # legitimately references "under 13 years of age" (an actual-knowledge / COPPA
+    # style statement, not a legacy age gate). Allow that exact phrasing only.
+    allowed_under_13_context = "under 13 years of age"
     for path in scan_paths:
         if not path.is_file():
             continue
         content = path.read_text(encoding="utf-8")
         for label, pattern in forbidden_patterns.items():
-            if re.search(pattern, content):
+            probe = content
+            if label == "legacy under-13 rule":
+                probe = content.replace(allowed_under_13_context, "")
+            if re.search(pattern, probe):
                 errors.append(f"{path.relative_to(ROOT).as_posix()}: {label}")
         if path.suffix.lower() == ".html" and LEGACY_PUBLIC_IDENTITIES.search(content):
             errors.append(
