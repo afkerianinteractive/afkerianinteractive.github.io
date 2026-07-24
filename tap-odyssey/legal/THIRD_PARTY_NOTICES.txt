@@ -1,65 +1,164 @@
 THIRD-PARTY NOTICES
 Tap Odyssey
 
-Effective Date: July 22, 2026
-Last Updated: July 22, 2026
+Document ID: THIRD_PARTY_NOTICES
+Language: en-US
+Effective date: 2026-08-15
+Last updated: 2026-07-24
+Version: 2026-07-24
+Operator: Jesus Afkerian, an individual who operates under the AFKERIAN INTERACTIVE brand
+Contact: afkerian.support@gmail.com
 
-1. PURPOSE
 
-This document identifies third-party software, services, and materials used by Tap Odyssey (the “Game”). Jesus Afkerian is the individual who publishes and operates the Game. Third parties retain their respective rights, and their terms control their own materials and services.
+1. PURPOSE AND SCOPE
 
-2. GOOGLE SERVICES
+This document identifies material third-party software, services, and creative sources used by Tap Odyssey (the “Game”). It provides attribution, provenance, license access, and an audited inventory of packaged software components.
 
-The Game uses Google Mobile Ads, Google User Messaging Platform, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, and Firebase Sessions. These components are subject to applicable Google terms and policies. The Privacy Policy describes their information processing.
+This document does not expand the Game license, replace the Privacy Policy or Terms of Service, certify legal compliance, or grant rights in third-party materials. Each third-party component or service remains governed by its applicable license, terms, policies, and mandatory law. If this summary conflicts with an upstream license or provider term, the upstream text controls.
 
-3. CREATIVE AND SERVICE INVENTORY
 
-- Google AdMob and Google User Messaging Platform
-- OpenAI / ChatGPT-generated visual assets
-- Pixabay sound effects
-- Suno-generated music
+2. AUDITED SOFTWARE INVENTORY
 
-Individual notices available through the Game's legal screen and product legal page provide the relevant source and governing terms. Naming a provider does not imply affiliation, sponsorship, or endorsement.
+The audited release inventory contains 138 packaged JAR or AAR artifacts:
 
-4. RELEASE RUNTIME SOFTWARE
+- 109 components classified under the Apache License, Version 2.0;
+- 1 component classified under the MIT License; and
+- 28 Google, Firebase, Play Services, Mobile Ads, UMP, or related provider-controlled SDK components.
 
-The Game distributes direct and transitive components from AndroidX, Kotlin, Jetpack Compose, and other libraries. Identified open-source components are offered primarily under the Apache License 2.0, with the exceptions reproduced in Sections 5 and 6. The complete Apache License 2.0 appears on the Game's Apache License 2.0 page.
+The audit found no non-empty META-INF/NOTICE, META-INF/NOTICE.txt, or equivalent upstream NOTICE text inside the packaged artifacts inspected in the local Gradle cache.
 
-Proprietary Google SDKs and related components are subject to applicable Google terms, including the Google Mobile Developer Services Terms and service-specific terms; they are not represented as Apache software merely because they use a Google coordinate.
+This inventory is a snapshot of the audited build and must be reviewed when dependencies or packaged versions change.
 
-5. DATASTORE EXTERNAL PROTOBUF — BSD 3-CLAUSE
 
-The AndroidX DataStore Preferences External Protobuf component includes material under the BSD 3-Clause terms:
+3. APACHE LICENSE 2.0 COMPONENTS
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are
-met:
+The following packaged artifacts were classified under the Apache License, Version 2.0:
 
-    * Redistributions of source code must retain the above copyright
-notice, this list of conditions and the following disclaimer.
-    * Redistributions in binary form must reproduce the above
-copyright notice, this list of conditions and the following disclaimer
-in the documentation and/or other materials provided with the
-distribution.
-    * Neither the name of the copyright holder nor the names of its
-contributors may be used to endorse or promote products derived from
-this software without specific prior written permission.
+- org.jetbrains.kotlin:kotlin-stdlib:2.4.10
+- org.jetbrains:annotations:23.0.0
+- androidx.core:core-ktx:1.19.0
+- androidx.core:core:1.19.0
+- androidx.annotation:annotation:1.10.0
+- androidx.annotation:annotation-jvm:1.10.0
+- androidx.annotation:annotation-experimental:1.5.1
+- androidx.collection:collection:1.5.0
+- androidx.collection:collection-jvm:1.5.0
+- androidx.concurrent:concurrent-futures:1.1.0
+- com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava
+- androidx.core:core-viewtree:1.0.0
+- androidx.interpolator:interpolator:1.0.0
+- androidx.lifecycle:lifecycle-common:2.11.0
+- androidx.lifecycle:lifecycle-common-jvm:2.11.0
+- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0
+- org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.9.0
+- org.jspecify:jspecify:1.0.0
+- androidx.lifecycle:lifecycle-runtime-android:2.11.0
+- androidx.arch.core:core-common:2.2.0
+- androidx.arch.core:core-runtime:2.2.0
+- androidx.profileinstaller:profileinstaller:1.4.0
+- androidx.startup:startup-runtime:1.1.1
+- androidx.tracing:tracing:1.2.0
+- androidx.versionedparcelable:versionedparcelable:1.1.1
+- androidx.core:core-splashscreen:1.2.0
+- androidx.appcompat:appcompat-resources:1.7.0
+- androidx.vectordrawable:vectordrawable:1.1.0
+- androidx.vectordrawable:vectordrawable-animated:1.1.0
+- androidx.lifecycle:lifecycle-runtime-ktx-android:2.11.0
+- androidx.lifecycle:lifecycle-viewmodel-android:2.11.0
+- androidx.lifecycle:lifecycle-runtime-compose-android:2.11.0
+- androidx.compose.runtime:runtime:1.11.4
+- androidx.compose.runtime:runtime-android:1.11.4
+- androidx.compose.runtime:runtime-annotation:1.11.4
+- androidx.compose.runtime:runtime-annotation-android:1.11.4
+- androidx.activity:activity-compose:1.13.0
+- androidx.activity:activity:1.13.0
+- androidx.lifecycle:lifecycle-viewmodel-savedstate-android:2.11.0
+- androidx.savedstate:savedstate:1.4.0
+- androidx.savedstate:savedstate-android:1.4.0
+- org.jetbrains.kotlinx:kotlinx-serialization-core:1.7.3
+- org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.7.3
+- androidx.navigationevent:navigationevent:1.0.0
+- androidx.navigationevent:navigationevent-android:1.0.0
+- androidx.compose.runtime:runtime-saveable-android:1.11.4
+- androidx.savedstate:savedstate-compose-android:1.4.0
+- androidx.compose.ui:ui-android:1.11.4
+- androidx.autofill:autofill:1.0.0
+- androidx.compose.runtime:runtime-retain-android:1.11.4
+- androidx.compose.ui:ui-geometry:1.11.4
+- androidx.compose.ui:ui-geometry-android:1.11.4
+- androidx.compose.ui:ui-util:1.11.4
+- androidx.compose.ui:ui-util-android:1.11.4
+- androidx.compose.ui:ui-graphics-android:1.11.4
+- androidx.compose.ui:ui-unit-android:1.11.4
+- androidx.graphics:graphics-path:1.0.1
+- androidx.compose.ui:ui-text-android:1.11.4
+- androidx.emoji2:emoji2:1.4.0
+- androidx.customview:customview-poolingcontainer:1.0.0
+- androidx.transition:transition:1.6.0
+- androidx.dynamicanimation:dynamicanimation:1.0.0
+- androidx.legacy:legacy-support-core-utils:1.0.0
+- androidx.documentfile:documentfile:1.0.0
+- androidx.loader:loader:1.0.0
+- androidx.localbroadcastmanager:localbroadcastmanager:1.0.0
+- androidx.print:print:1.0.0
+- androidx.window:window:1.5.0
+- androidx.window:window-core:1.5.0
+- androidx.window:window-core-android:1.5.0
+- androidx.navigationevent:navigationevent-compose-android:1.0.0
+- androidx.navigation:navigation-compose:2.9.8
+- androidx.navigation:navigation-compose-android:2.9.8
+- androidx.compose.animation:animation:1.11.4
+- androidx.compose.animation:animation-android:1.11.4
+- androidx.compose.animation:animation-core:1.11.4
+- androidx.compose.animation:animation-core-android:1.11.4
+- androidx.compose.foundation:foundation-layout:1.11.4
+- androidx.compose.foundation:foundation-layout-android:1.11.4
+- androidx.lifecycle:lifecycle-viewmodel-compose-android:2.11.0
+- androidx.navigation:navigation-common:2.9.8
+- androidx.navigation:navigation-common-android:2.9.8
+- androidx.navigation:navigation-runtime-android:2.9.8
+- androidx.datastore:datastore-preferences:1.2.1
+- androidx.datastore:datastore-preferences-android:1.2.1
+- androidx.datastore:datastore:1.2.1
+- androidx.datastore:datastore-android:1.2.1
+- androidx.datastore:datastore-core:1.2.1
+- androidx.datastore:datastore-core-android:1.2.1
+- androidx.datastore:datastore-core-okio-jvm:1.2.1
+- com.squareup.okio:okio:3.9.1
+- com.squareup.okio:okio-jvm:3.9.1
+- androidx.datastore:datastore-preferences-core-android:1.2.1
+- androidx.browser:browser:1.8.0
+- androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11
+- androidx.webkit:webkit:1.12.1
+- androidx.work:work-runtime:2.7.0
+- androidx.room:room-runtime:2.2.5
+- androidx.room:room-common:2.2.5
+- androidx.sqlite:sqlite-framework:2.1.0
+- androidx.sqlite:sqlite:2.1.0
+- androidx.fragment:fragment:1.8.9
+- androidx.viewpager:viewpager:1.0.0
+- androidx.customview:customview:1.0.0
+- com.google.guava:guava:31.1-android
+- com.google.guava:failureaccess:1.0.1
+- com.google.code.findbugs:jsr305:3.0.2
+- com.google.j2objc:j2objc-annotations:1.3
+- javax.inject:javax.inject:1
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
-A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
-HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
-SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
-LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+The complete Apache License, Version 2.0 is reproduced without modification in:
 
-6. CHECKER FRAMEWORK QUALIFIERS — MIT
+Canonical file: LICENSE_APACHE_2_0.txt
+Website route: https://afkerianinteractive.github.io/tap-odyssey/apache-2.0.html
 
-The Checker Framework Qualifiers component is distributed under the MIT terms:
+Upstream copyright, patent, trademark, and attribution notices remain with their respective owners. The absence of a non-empty upstream NOTICE file in the audited artifacts does not modify the Apache License or any upstream rights.
+
+
+4. MIT-LICENSED COMPONENT
+
+The audited build includes:
+
+- org.checkerframework:checker-qual:3.12.0
+
+The applicable copyright and MIT License text is reproduced below without modification:
 
 Checker Framework qualifiers
 Copyright 2004-present by the Checker Framework developers
@@ -84,11 +183,104 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-7. PRIVACY, TERMS, AND NO ENDORSEMENT
 
-Use of the Game is also subject to its Privacy Policy and Terms of Service. The providers identified here do not operate, maintain, or endorse the Game unless their own terms expressly state otherwise.
+5. GOOGLE SERVICES AND PROVIDER-CONTROLLED SDK COMPONENTS
 
-8. CONTACT
+The audited build includes the following provider-controlled components:
+
+- com.google.android.gms:play-services-ads:25.4.0
+- com.google.android.gms:play-services-ads-api:25.4.0
+- com.google.android.gms:play-services-basement:18.9.0
+- com.google.android.gms:play-services-measurement-sdk-api:23.2.0
+- com.google.android.gms:play-services-measurement-base:23.2.0
+- com.google.android.play:hsdp:2.0.1
+- com.google.android.ump:user-messaging-platform:4.0.0
+- com.google.android.gms:play-services-ads-identifier:18.0.0
+- com.google.android.gms:play-services-appset:16.0.1
+- com.google.android.gms:play-services-base:18.5.0
+- com.google.android.gms:play-services-tasks:18.4.0
+- com.google.android.gms:play-services-measurement:23.2.0
+- com.google.android.gms:play-services-measurement-impl:23.2.0
+- com.google.android.gms:play-services-stats:17.0.2
+- com.google.android.gms:play-services-measurement-api:23.2.0
+- com.google.firebase:firebase-components:19.0.0
+- com.google.firebase:firebase-annotations:17.0.0
+- com.google.firebase:firebase-installations-interop:17.3.0
+- com.google.firebase:firebase-measurement-connector:20.0.1
+- com.google.android.gms:play-services-measurement-sdk:23.2.0
+- com.google.firebase:firebase-sessions:3.0.7
+- com.google.firebase:firebase-encoders-json:18.0.1
+- com.google.firebase:firebase-datatransport:19.0.0
+- com.google.android.datatransport:transport-api:3.2.0
+- com.google.android.datatransport:transport-backend-cct:3.3.0
+- com.google.android.datatransport:transport-runtime:3.3.0
+- com.google.firebase:firebase-encoders-proto:16.0.0
+- com.google.firebase:firebase-config-interop:16.0.1
+
+These components include or support Google Mobile Ads, Google AdMob, Google User Messaging Platform, Google Analytics for Firebase, Firebase Crashlytics, Firebase Installations, Firebase Sessions, measurement, identifiers, transport, and related functionality.
+
+Their inclusion in this inventory does not grant an open-source license to proprietary Google or provider software. Use of the applicable services and SDKs remains subject to the provider’s agreements, policies, documentation, and mandatory law.
+
+Canonical service notice: AD_SERVICES_NOTICE.txt
+Website route: https://afkerianinteractive.github.io/tap-odyssey/admob-notice.html
+
+Data processing and privacy disclosures are addressed in the Tap Odyssey Privacy Policy.
+
+
+6. CREATIVE AND GENERATED MATERIAL
+
+The audited project and existing legal inventory identify the following creative or generated material sources:
+
+1. OpenAI / ChatGPT-generated visual assets
+   Canonical notice: OPENAI_CHATGPT_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/tap-odyssey/openai-notice.html
+
+2. Pixabay sound effects
+   Canonical notice: PIXABAY_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/tap-odyssey/pixabay-notice.html
+
+3. Suno-generated music
+   Canonical notice: SUNO_NOTICE.txt
+   Website route: https://afkerianinteractive.github.io/tap-odyssey/suno-notice.html
+
+The operator retains available provenance records associated with acquisition or generation. Provider terms, subscription status, license conditions, and service availability may change. The applicable terms and contemporaneous provenance records control.
+
+Generated output may not be unique and may be subject to third-party rights or mandatory law. No notice guarantees exclusivity, copyrightability, registrability, non-infringement, or continuing provider availability.
+
+
+7. RELATED LEGAL DOCUMENTS
+
+Privacy Policy:
+https://afkerianinteractive.github.io/tap-odyssey/privacy-policy.html
+
+Terms of Service:
+https://afkerianinteractive.github.io/tap-odyssey/terms-of-service.html
+
+Provider-controlled services remain governed by their own terms and privacy policies. These notices do not eliminate provider obligations or the operator’s responsibilities.
+
+
+8. NO ENDORSEMENT OR AFFILIATION
+
+Unless an applicable upstream license or individual notice expressly states otherwise, no listed third party is affiliated with, sponsoring, or endorsing Jesus Afkerian, AFKERIAN INTERACTIVE, or Tap Odyssey.
+
+Google, Android, Firebase, AdMob, OpenAI, ChatGPT, Pixabay, Suno, Kotlin, AndroidX, Jetpack, Checker Framework, Guava, Okio, JSpecify, and other referenced names and marks belong to their respective owners.
+
+
+9. THIRD-PARTY WARRANTY STATUS
+
+Third-party software, services, and materials are provided under their own licenses and terms. Jesus Afkerian does not provide an additional warranty on behalf of third-party licensors or providers.
+
+Nothing in this document limits rights or remedies that cannot lawfully be waived.
+
+
+10. CONTACT
 
 Jesus Afkerian
+Operating under the AFKERIAN INTERACTIVE brand
+Publisher and operator of Tap Odyssey
+
+Email:
 afkerian.support@gmail.com
+
+Website:
+https://afkerianinteractive.github.io/

@@ -63,12 +63,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 8857,
-      "sha256": "E989F47052717BFF930F2021D91E9CC36AB6F03CE626D598711DDF7AADF57848",
-      "normalized_sha256": "E989F47052717BFF930F2021D91E9CC36AB6F03CE626D598711DDF7AADF57848",
+      "version": "2026-07-24",
+      "effective_date": "2026-07-24",
+      "last_updated": "2026-07-24",
+      "size_bytes": 18192,
+      "sha256": "CFE7D4C254140B233AE4DC4B40B9285ABBC65C13B51E8A7C1A790F0969C5F2B2",
+      "normalized_sha256": "CFE7D4C254140B233AE4DC4B40B9285ABBC65C13B51E8A7C1A790F0969C5F2B2",
       "aliases": [
         "xo-arcade/terms-of-use.html"
       ],
@@ -92,12 +92,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 8914,
-      "sha256": "250B0BA0BF210A41288ACBD5E956321030DC9372F91E36AA86D606886FF8BE89",
-      "normalized_sha256": "250B0BA0BF210A41288ACBD5E956321030DC9372F91E36AA86D606886FF8BE89",
+      "version": "2026-07-24",
+      "effective_date": "2026-07-24",
+      "last_updated": "2026-07-24",
+      "size_bytes": 20366,
+      "sha256": "695C7E506F2B2C935CEB75EC589A99C8AC7ACA649A11196746EDABBE6B735E71",
+      "normalized_sha256": "695C7E506F2B2C935CEB75EC589A99C8AC7ACA649A11196746EDABBE6B735E71",
       "aliases": [],
       "android_destination": null,
       "android_mapping_status": "UNVERIFIED_NO_ANDROID_DESTINATION",
@@ -367,12 +367,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 8816,
-      "sha256": "ADB8223BC6BA114661FCE41AC897672D416E12FDAFA90EC78453383F64DF2FCD",
-      "normalized_sha256": "ADB8223BC6BA114661FCE41AC897672D416E12FDAFA90EC78453383F64DF2FCD",
+      "version": "2026-07-24",
+      "effective_date": "2026-07-24",
+      "last_updated": "2026-07-24",
+      "size_bytes": 18148,
+      "sha256": "5E7ED3E47108E1D0C5E45F152ABFA0A7930FE5023159F0B8B0805C60DADE289F",
+      "normalized_sha256": "5E7ED3E47108E1D0C5E45F152ABFA0A7930FE5023159F0B8B0805C60DADE289F",
       "aliases": [
         "air-strike-arcade/terms-of-use.html"
       ],
@@ -396,12 +396,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 8889,
-      "sha256": "AE33ADF5C00417D2C24AEDA414E6C5BC85A318C2B5300C8BEDE40144882EC671",
-      "normalized_sha256": "AE33ADF5C00417D2C24AEDA414E6C5BC85A318C2B5300C8BEDE40144882EC671",
+      "version": "2026-07-24",
+      "effective_date": "2026-07-24",
+      "last_updated": "2026-07-24",
+      "size_bytes": 20322,
+      "sha256": "98E7201F9F8D62A76200412567938F48AF39D8F8C9467100535DBA28C52FFB7C",
+      "normalized_sha256": "98E7201F9F8D62A76200412567938F48AF39D8F8C9467100535DBA28C52FFB7C",
       "aliases": [],
       "android_destination": null,
       "android_mapping_status": "UNVERIFIED_NO_ANDROID_DESTINATION",
@@ -699,12 +699,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 4849,
-      "sha256": "4C5285E7C41F47E504C22F9E8B2CCE94780CDFE02D9763895668B9CE99895160",
-      "normalized_sha256": "4C5285E7C41F47E504C22F9E8B2CCE94780CDFE02D9763895668B9CE99895160",
+      "version": "2026-07-24",
+      "effective_date": "2026-08-15",
+      "last_updated": "2026-07-24",
+      "size_bytes": 13300,
+      "sha256": "E70D640BB8D364821E5A0C054DA137D439FBB45956C6A8BAD52A81364041CA13",
+      "normalized_sha256": "E70D640BB8D364821E5A0C054DA137D439FBB45956C6A8BAD52A81364041CA13",
       "aliases": [],
       "android_destination": "app/src/main/assets/legal/THIRD_PARTY_NOTICES.txt",
       "android_mapping_status": "VERIFIED_EXISTING_FILENAME",
@@ -726,12 +726,12 @@
       "first_party": true
     },
     {
-      "version": "2026-07-22",
-      "effective_date": "2026-07-22",
-      "last_updated": "2026-07-22",
-      "size_bytes": 5117,
-      "sha256": "FBD7ABA09182B37FDF75C3D683862A0FF9424D67A738B41FBC32B565FC752DB1",
-      "normalized_sha256": "FBD7ABA09182B37FDF75C3D683862A0FF9424D67A738B41FBC32B565FC752DB1",
+      "version": "2026-07-24",
+      "effective_date": "2026-08-15",
+      "last_updated": "2026-07-24",
+      "size_bytes": 14012,
+      "sha256": "44D394BB244FE989B254CD4806869A0C46E49B9817A0134E8B6C64826E56568F",
+      "normalized_sha256": "44D394BB244FE989B254CD4806869A0C46E49B9817A0134E8B6C64826E56568F",
       "aliases": [],
       "android_destination": null,
       "android_mapping_status": "UNVERIFIED_NO_ANDROID_DESTINATION",

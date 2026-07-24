@@ -20,9 +20,9 @@
       "source_path": "xo-arcade/legal/TERMS_OF_SERVICE.txt",
       "android_repository": "XOArcade",
       "android_destination": "app/src/main/assets/legal/TERMS_OF_SERVICE.txt",
-      "size_bytes": 8857,
-      "sha256": "E989F47052717BFF930F2021D91E9CC36AB6F03CE626D598711DDF7AADF57848",
-      "normalized_sha256": "E989F47052717BFF930F2021D91E9CC36AB6F03CE626D598711DDF7AADF57848"
+      "size_bytes": 18192,
+      "sha256": "CFE7D4C254140B233AE4DC4B40B9285ABBC65C13B51E8A7C1A790F0969C5F2B2",
+      "normalized_sha256": "CFE7D4C254140B233AE4DC4B40B9285ABBC65C13B51E8A7C1A790F0969C5F2B2"
     },
     {
       "product_id": "xo-arcade",
@@ -74,9 +74,9 @@
       "source_path": "air-strike-arcade/legal/TERMS_OF_SERVICE.txt",
       "android_repository": "AirStrikeArcade",
       "android_destination": "app/src/main/assets/legal/TERMS_OF_SERVICE.txt",
-      "size_bytes": 8816,
-      "sha256": "ADB8223BC6BA114661FCE41AC897672D416E12FDAFA90EC78453383F64DF2FCD",
-      "normalized_sha256": "ADB8223BC6BA114661FCE41AC897672D416E12FDAFA90EC78453383F64DF2FCD"
+      "size_bytes": 18148,
+      "sha256": "5E7ED3E47108E1D0C5E45F152ABFA0A7930FE5023159F0B8B0805C60DADE289F",
+      "normalized_sha256": "5E7ED3E47108E1D0C5E45F152ABFA0A7930FE5023159F0B8B0805C60DADE289F"
     },
     {
       "product_id": "air-strike-arcade",
@@ -119,9 +119,9 @@
       "source_path": "tap-odyssey/legal/THIRD_PARTY_NOTICES.txt",
       "android_repository": "TapOdyssey",
       "android_destination": "app/src/main/assets/legal/THIRD_PARTY_NOTICES.txt",
-      "size_bytes": 4849,
-      "sha256": "4C5285E7C41F47E504C22F9E8B2CCE94780CDFE02D9763895668B9CE99895160",
-      "normalized_sha256": "4C5285E7C41F47E504C22F9E8B2CCE94780CDFE02D9763895668B9CE99895160"
+      "size_bytes": 13300,
+      "sha256": "E70D640BB8D364821E5A0C054DA137D439FBB45956C6A8BAD52A81364041CA13",
+      "normalized_sha256": "E70D640BB8D364821E5A0C054DA137D439FBB45956C6A8BAD52A81364041CA13"
     },
     {
       "product_id": "tap-odyssey",

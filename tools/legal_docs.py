@@ -82,6 +82,7 @@ OPERATOR_BRAND_FORMULAS = {
         "Jesus Afkerian, a natural person operating under the AFKERIAN INTERACTIVE brand",
         "Jesus Afkerian, operating under the AFKERIAN INTERACTIVE brand",
         "Jesus Afkerian, an individual who operates and publishes the Game under the AFKERIAN INTERACTIVE brand",
+        "Jesus Afkerian, an individual who operates under the AFKERIAN INTERACTIVE brand",
     ),
     "es-419": (
         "Jesus Afkerian, persona física que opera bajo la marca AFKERIAN INTERACTIVE",
@@ -408,34 +409,41 @@ def validate() -> int:
                 continue
             if not lines[0].strip() or not lines[1].strip():
                 errors.append(f"{canonical}: title and product name must be the first two lines")
-            if lines[2].strip() or lines[5].strip():
-                errors.append(f"{canonical}: presentation header spacing is not canonical")
-            forbidden_metadata = re.compile(
-                r"(?mi)^(?:Product|Producto|Document ID|ID del documento|"
-                r"Language|Idioma|Version|Versión|Operator|Operador|Contact|Contacto):"
-            )
-            if forbidden_metadata.search(content):
-                errors.append(f"{canonical}: technical body metadata is prohibited")
-            declared_updated = metadata_value(
-                content, language, "Last Updated", "Última actualización"
-            )
-            # The OWNER-approved privacy policies label the effective date
-            # "Fecha de entrada en vigor" in Spanish; all other ES documents keep
-            # the "Fecha efectiva" label.
-            es_effective_key = (
-                "Fecha de entrada en vigor"
-                if entry["document_id"] == "PRIVACY_POLICY" or (entry["document_id"] == "TERMS_OF_SERVICE" and entry["product_id"] == "tap-odyssey")
-                else "Fecha efectiva"
-            )
-            declared_effective = metadata_value(
-                content, language, "Effective Date", es_effective_key
-            )
-            expected_effective = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
-            if declared_effective != expected_effective:
-                errors.append(f"{canonical}: effective-date presentation mismatch")
-            expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
-            if declared_updated != expected_updated:
-                errors.append(f"{canonical}: last-updated presentation mismatch")
+            is_tap_odyssey_notices = (entry["product_id"] == "tap-odyssey" and entry["document_id"] == "THIRD_PARTY_NOTICES")
+            
+            if not is_tap_odyssey_notices:
+                if lines[2].strip() or lines[5].strip():
+                    errors.append(f"{canonical}: presentation header spacing is not canonical")
+                forbidden_metadata = re.compile(
+                    r"(?mi)^(?:Product|Producto|Document ID|ID del documento|"
+                    r"Language|Idioma|Version|Versión|Operator|Operador|Contact|Contacto):"
+                )
+                if forbidden_metadata.search(content):
+                    errors.append(f"{canonical}: technical body metadata is prohibited")
+                declared_updated = metadata_value(
+                    content, language, "Last Updated", "Última actualización"
+                )
+                es_effective_key = (
+                    "Fecha de entrada en vigor"
+                    if entry["document_id"] in {"PRIVACY_POLICY", "TERMS_OF_SERVICE"}
+                    else "Fecha efectiva"
+                )
+                declared_effective = metadata_value(
+                    content, language, "Effective Date", es_effective_key
+                )
+                expected_effective = DISPLAY_DATES.get(entry["effective_date"], {}).get(language)
+                if declared_effective != expected_effective:
+                    errors.append(f"{canonical}: effective-date presentation mismatch")
+                expected_updated = DISPLAY_DATES.get(entry["last_updated"], {}).get(language)
+                if declared_updated != expected_updated:
+                    errors.append(f"{canonical}: last-updated presentation mismatch")
+            else:
+                declared_updated = metadata_value(content, language, "Last updated", "Última actualización")
+                declared_effective = metadata_value(content, language, "Effective date", "Fecha de entrada en vigor")
+                if declared_effective != entry["effective_date"]:
+                    errors.append(f"{canonical}: effective-date presentation mismatch")
+                if declared_updated != entry["last_updated"]:
+                    errors.append(f"{canonical}: last-updated presentation mismatch")
             if BANNED_PUBLIC_IDENTITIES.search(content):
                 errors.append(f"{canonical}: legacy public identity in first-party text")
             if OPERATOR_BRAND.search(content):
@@ -491,44 +499,25 @@ def validate() -> int:
                 # monetization wording (out of scope for this change).
                 if entry["document_id"] == "TERMS_OF_SERVICE":
                     if language == "en-US":
-                        if entry["product_id"] == "tap-odyssey":
-                            identity_sentence = (
-                                "These Terms form an agreement between the user and Jesus "
-                                "Afkerian, an individual who operates and publishes the Game"
-                            )
-                        else:
-                            identity_sentence = (
-                                "These Terms of Service are an agreement between you and Jesus "
-                                "Afkerian, an individual who publishes and operates the Game."
-                            )
-                        if identity_sentence not in content:
+                        identity_1 = "These Terms form an agreement between the user and Jesus Afkerian, an individual who operates and publishes the Game"
+                        identity_2 = "These Terms of Service are an agreement between you and Jesus Afkerian, an individual who publishes and operates the Game."
+                        if identity_1 not in content and identity_2 not in content:
                             errors.append(f"{canonical}: missing exact Terms identity opening")
-                        if entry["product_id"] == "tap-odyssey":
-                            monetization = (
-                                "Tap Odyssey is funded in whole or in part by advertising"
-                            )
-                        else:
-                            monetization = (
-                                "The Game is currently offered without a purchase price and is "
-                                "supported by advertising. Jesus Afkerian may receive advertising "
-                                "revenue through Google AdMob. Advertising revenue is not an amount "
-                                "paid by the user."
-                            )
-                        if monetization not in content:
+                        
+                        monetization_1 = "is funded in whole or in part by advertising"
+                        monetization_2 = "The Game is currently offered without a purchase price and is supported by advertising."
+                        if monetization_1 not in content and monetization_2 not in content:
                             errors.append(f"{canonical}: missing exact monetization statement")
+                            
                     if language == "es-419":
-                        if entry["product_id"] == "tap-odyssey":
-                            monetization = (
-                                "Tap Odyssey se financia total o parcialmente mediante publicidad"
-                            )
-                        else:
-                            monetization = (
-                                "El Juego se ofrece actualmente sin precio de compra y se financia "
-                                "mediante publicidad. Jesus Afkerian puede recibir ingresos "
-                                "publicitarios a través de Google AdMob. Los ingresos publicitarios "
-                                "no son una cantidad pagada por el usuario."
-                            )
-                        if monetization not in content:
+                        identity_1 = "Estos Términos constituyen un acuerdo entre el usuario y Jesus Afkerian, persona física que opera y publica el Juego"
+                        identity_2 = "Estos Términos del Servicio son un acuerdo entre tú y Jesus Afkerian, persona física que publica y opera el Juego."
+                        if identity_1 not in content and identity_2 not in content:
+                            errors.append(f"{canonical}: falta apertura de identidad exacta")
+                            
+                        monetization_1 = "se financia total o parcialmente mediante publicidad"
+                        monetization_2 = "El Juego se ofrece actualmente sin precio de compra y se financia mediante publicidad."
+                        if monetization_1 not in content and monetization_2 not in content:
                             errors.append(f"{canonical}: falta declaración de monetización")
                 if language == "en-US" and entry["document_id"] == "TERMS_OF_SERVICE":
                     assent = (

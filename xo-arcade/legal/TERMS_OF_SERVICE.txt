@@ -1,118 +1,469 @@
 TERMS OF SERVICE
 XO Arcade: Infinity Edition
 
-Effective Date: July 22, 2026
-Last Updated: July 22, 2026
+Effective Date: July 24, 2026
+Last Updated: July 24, 2026
 
-1. AGREEMENT AND OPERATOR
 
-These Terms of Service are an agreement between you and Jesus Afkerian, an individual who publishes and operates the Game. These Terms govern XO Arcade: Infinity Edition (the “Game”).
+1. AGREEMENT, OPERATOR, AND ACCEPTANCE
 
-If you do not agree, do not download, install, access, or use the Game. If it is installed, stop using it and uninstall it.
+These Terms of Service (“Terms”) govern the download, installation, access, and use of XO Arcade: Infinity Edition (the “Game”).
 
-2. ADULT ELIGIBILITY
+These Terms form an agreement between the user and Jesus Afkerian, an individual who operates and publishes the Game under the AFKERIAN INTERACTIVE brand (“AFKERIAN INTERACTIVE,” “we,” “us,” or “our”). AFKERIAN INTERACTIVE is the brand under which Jesus Afkerian publishes the Game and is not presented here as a separate legal entity.
 
-You may use the Game only if you are at least 18 and have reached the age of majority and contractual capacity where you live, whichever standard is higher. The Game is not directed to children.
+To the maximum extent permitted by law, downloading, installing, accessing, or using the Game after these Terms and a reasonably conspicuous notice are made available manifests acceptance of these Terms.
 
-3. PERMITTED TERRITORY
+Merely keeping the Game installed without accessing or using it does not, by itself, constitute acceptance of a new or modified version of the Terms.
 
-Use is authorized only in the territory identified at:
+If the user does not accept these Terms, the user must not download, install, access, or use the Game. If it is already installed, the user must stop using it and uninstall it.
+
+
+2. AGE AND LEGAL CAPACITY
+
+XO Arcade: Infinity Edition is intended and marketed primarily for persons 18 years of age or older.
+
+The Game does not independently verify a user’s age or technically prevent a person under 18 from installing or using it. However, a person under 18, a person who has not reached the applicable age of contractual majority, or a person who otherwise lacks legal capacity to enter into this agreement is not authorized to use the Game under these Terms.
+
+The absence of a technical age restriction does not grant contractual authorization to a person who does not meet these requirements.
+
+
+3. AUTHORIZED TERRITORY
+
+The Game is authorized only in the territories identified in the current Permitted Territory document:
+
 https://afkerianinteractive.github.io/legal/PERMITTED_TERRITORY.txt
 
-Access to the Game or these Terms from another location does not grant authorization there. You are responsible for complying with mandatory local law.
+Public access to the website, Google Play listing, or legal documents does not authorize use of the Game outside the permitted territory.
+
+The user is responsible for not downloading, accessing, or using the Game where doing so is prohibited by applicable law, sanctions, export controls, trade restrictions, or these Terms.
+
 
 4. LIMITED LICENSE
 
-Subject to these Terms, Jesus Afkerian grants you a personal, limited, revocable, nonexclusive, nontransferable, and nonsublicensable license to install and use the Game on a compatible device for personal, noncommercial entertainment in the permitted territory.
+Subject to compliance with these Terms and applicable law, an eligible user is granted a limited, personal, revocable, nonexclusive, nontransferable, and nonsublicensable license to install and use the Game on a compatible device for lawful, personal, noncommercial entertainment.
 
-No ownership interest is transferred. Except where applicable law does not permit restriction, you may not copy, sell, rent, sublicense, distribute, publicly perform, make available, reverse engineer, circumvent technical protections, extract assets, or create derivative works from the Game.
+The Game is licensed, not sold.
 
-5. GAME FUNCTION, LOCAL DATA, AND BACKUP
+The license does not transfer ownership of:
 
-The Game stores progress, scores, preferences, and ordinary state primarily on the device. Android backup or device-transfer services may copy supported local data when enabled by Android, the device manufacturer, or the user. Uninstalling, clearing data, device loss, corruption, or backup behavior may delete, retain, copy, or restore data. Jesus Afkerian does not promise recovery, uninterrupted availability, or compatibility with every device.
+- the Game;
+- its code;
+- design;
+- mechanics;
+- graphics;
+- interfaces;
+- music;
+- sounds;
+- text;
+- characters;
+- names;
+- logos;
+- brand;
+- content; or
+- other materials.
+
+Third-party materials remain subject to their own licenses, terms, and notices.
+
+
+5. OPERATION, ZERO, LOCAL DATA, AND NO ACCOUNTS
+
+Progress, scores, preferences, settings, virtual items, and ordinary game state are stored primarily on the user’s Android device.
+
+The Game does not offer or require an account administered by Jesus Afkerian or AFKERIAN INTERACTIVE. There is no first-party player profile synchronized with servers operated by us.
+
+The Game includes “Zero,” a first-party automated opponent and logic system that operates locally on the device. Zero:
+
+- is not a person or remote player;
+- is not an account, community, or multiplayer service;
+- does not use an external API, externally hosted artificial-intelligence model, or external service at runtime to decide its moves;
+- does not transmit its memory or learning state to servers;
+- may locally adapt parts of its behavior based on gameplay events;
+- may be reset or have its memory erased through controls available within the Game; and
+- may lose its memory or state through clearing data, uninstalling, corruption, updates, incompatibility, restoration, or device replacement.
+
+We do not guarantee that Zero will indefinitely preserve the same memory, behavior, difficulty, strategy, performance, or results. An update, reset, or technical change may alter its behavior.
+
+Zero affects gameplay only. It does not make decisions that produce legal or similarly significant effects concerning the user.
+
+The Game currently does not include:
+
+- subscriptions;
+- in-app purchases;
+- account purchases;
+- a user marketplace;
+- transfers of items between users; or
+- publicly posted user-generated content.
+
+Other local data may be lost, changed, or deleted through:
+
+- uninstalling;
+- clearing application data;
+- corruption;
+- loss or replacement of the device;
+- updates;
+- incompatibility;
+- restoration;
+- Android behavior; or
+- user action.
+
+Android backup or transfer features may copy or restore certain data depending on device, Google, and manufacturer settings. We do not guarantee backup, synchronization, recovery, or restoration of progress or Zero’s local memory.
+
+The Game may use network connections for advertising, privacy messaging, analytics, crash reporting, installation or session measurement, fraud prevention, and other external services described in the Privacy Policy. The Game is not completely offline.
+
 
 6. ADVERTISING
 
-The Game is currently offered without a purchase price and is supported by advertising. Jesus Afkerian may receive advertising revenue through Google AdMob. Advertising revenue is not an amount paid by the user.
+XO Arcade: Infinity Edition is funded in whole or in part by advertising and may display:
 
-The Game uses anchored banner advertisements and occasional interstitial advertisements. It does not use App Open or native advertisements. UMP gates advertising requests only; it does not disable analytics, crash reporting, installation or session measurement, security services, or all network activity. Advertising failure must not be treated as permission to bypass technical controls.
+- banner ads; and
+- interstitial ads.
+
+The availability, content, suitability, timing, frequency, measurement, and delivery of ads may depend on location, device, connection, settings, privacy choices, and Google or other applicable provider systems.
+
+We do not guarantee that a particular ad will be available, load, play, or display correctly.
+
+The user may not manipulate or attempt to manipulate:
+
+- ads;
+- consent signals;
+- impressions;
+- clicks;
+- identifiers;
+- measurement;
+- frequency limits;
+- anti-fraud mechanisms; or
+- ad availability.
+
+The absence, failure, or unavailability of an ad does not prevent ordinary use of the Game or create a right to compensation.
+
 
 7. PRIVACY
 
-The Privacy Policy explains local data, advertising, Analytics, Crashlytics, Installations, Sessions, support communications, and available choices:
+The XO Arcade: Infinity Edition Privacy Policy is incorporated into these Terms by reference:
+
 https://afkerianinteractive.github.io/xo-arcade/privacy-policy.html
 
-The Game is not completely offline.
+The Game uses Google services related to advertising, privacy management, analytics, crash reporting, installations, and sessions.
+
+Accepting these Terms does not constitute general and unlimited consent to every data-processing activity. Collection, use, sharing, retention, controls, and privacy rights are described in the Privacy Policy and applicable provider policies.
+
 
 8. ACCEPTABLE USE
 
-You may not misuse the Game, interfere with its operation, exploit defects, automate interactions in a manner that harms the service, evade advertising or eligibility controls, introduce malicious code, violate another person's rights, or use the Game for unlawful activity.
+The user may not, and may not assist another person to:
 
-9. OWNERSHIP AND THIRD-PARTY MATERIALS
+- use the Game unlawfully or outside the authorized territory;
+- copy, sell, rent, sublicense, redistribute, or commercially exploit the Game or any part of it;
+- create, distribute, or exploit an unauthorized derivative work;
+- decompile, disassemble, reverse engineer, extract source code, or bypass technical measures, except where a restriction is invalid under mandatory law;
+- modify, interfere with, damage, overload, or disrupt the Game, a device, a network, or a related service;
+- introduce malware, malicious code, abusive automation, or tools intended to alter operation;
+- exploit errors or vulnerabilities;
+- manipulate, alter, extract, reproduce, or attempt to control without authorization Zero’s logic, memory, behavior, or state;
+- falsify scores, activity, metrics, ads, clicks, or consent signals;
+- evade territorial, technical, advertising, privacy, security, or fraud-prevention controls;
+- infringe intellectual property, privacy, or other third-party rights;
+- use the Game to harass, defraud, deceive, or harm another person;
+- remove or obscure ownership, license, or attribution notices; or
+- falsely claim a relationship, sponsorship, approval, association, or ownership connected with Jesus Afkerian, AFKERIAN INTERACTIVE, Google, or any third party.
 
-Jesus Afkerian and his licensors retain their respective rights in the Game, including code, design, text, graphics, audio, and other content. The Game includes Kenney sound assets made available under CC0 1.0 and audio generated using ElevenLabs and Suno. Separate notices identify the sources and governing terms.
 
-Third-party names and marks belong to their owners. No license to a third-party mark is granted except as necessary to identify the relevant source.
+9. INTELLECTUAL PROPERTY AND THIRD-PARTY MATERIALS
 
-10. UPDATES AND AVAILABILITY
+Jesus Afkerian owns or licenses the Game’s original code, design, content, brand, and other materials, including Zero’s logic, implementation, behavior, and design.
 
-The Game may be corrected, updated, changed, suspended, or discontinued. Features may vary by device, operating-system version, region, network, provider availability, and configuration. To the extent permitted by law, no particular feature or period of availability is promised.
+The Game may include third-party software, services, sounds, music, images, tools, generated content, and other materials. Those elements are governed by their applicable licenses, terms, and notices.
 
-11. THIRD-PARTY SERVICES
+Applicable third-party notices are available at:
 
-Google Play, Google AdMob, UMP, Firebase services, and creative or asset providers are third parties with their own terms and policies. Jesus Afkerian does not control their infrastructure, availability, security, or independent processing.
+https://afkerianinteractive.github.io/xo-arcade/third-party-notices.html
+
+Nothing in these Terms:
+
+- overrides an open-source license;
+- grants rights in third-party marks or content;
+- grants access, ownership, or rights in Zero’s code, memory, logic, or internal operation;
+- guarantees exclusivity, registrability, copyrightability, or the absolute absence of third-party claims; or
+- implies sponsorship or approval by a referenced provider.
+
+
+10. UPDATES, CHANGES, AND AVAILABILITY
+
+We may correct, update, modify, rebalance, suspend, or withdraw the Game or any of its features when reasonably necessary.
+
+Updates may:
+
+- change features;
+- correct errors;
+- modify compatibility;
+- adjust scores, items, or virtual economy;
+- modify, reset, or delete local progress;
+- modify, reset, or delete Zero’s memory, strategy, or behavior;
+- change technical requirements; or
+- discontinue content or features.
+
+We do not guarantee permanent availability of:
+
+- the Game;
+- features;
+- ads;
+- content;
+- updates;
+- compatibility;
+- support;
+- external services;
+- local data; or
+- any particular version or behavior of Zero.
+
+Mandatory consumer rights remain unaffected.
+
+
+11. THIRD-PARTY SERVICES AND PLATFORMS
+
+Google Play, Android, Google, AdMob, Firebase, device manufacturers, network operators, internet providers, and other third parties operate under their own terms and policies.
+
+We do not control their independent systems or guarantee their:
+
+- availability;
+- security;
+- continuity;
+- accuracy;
+- conduct;
+- decisions;
+- advertising content; or
+- compatibility.
+
+A link, integration, reference, or availability through a platform does not imply affiliation, sponsorship, or approval.
+
+The user must also comply with applicable Google Play terms and the terms of any third-party services used.
+
 
 12. EXPORT CONTROLS AND SANCTIONS
 
-You may not use, export, reexport, or transfer the Game in violation of applicable export-control, sanctions, or trade laws. You represent that you are not prohibited from receiving the Game under laws that apply to you.
+The user may not download, access, export, reexport, transfer, or use the Game in violation of:
+
+- United States export controls;
+- economic sanctions;
+- trade restrictions;
+- restrictions involving prohibited persons, destinations, or uses; or
+- other applicable laws.
+
+This section does not represent that the Game is authorized in any territory not included in the Permitted Territory.
+
 
 13. SUPPORT AND FEEDBACK
 
-Support is offered at afkerian.support@gmail.com without a guaranteed response time or outcome.
+Support may be offered at our discretion through:
 
-To the extent you voluntarily provide feedback, you grant Jesus Afkerian a nonexclusive, worldwide, perpetual, irrevocable, royalty-free, transferable and sublicensable license to use it for lawful product and business purposes. This license does not cover personal information, confidential information, or third-party material you lack authority to license.
+afkerian.support@gmail.com
+
+The user must not send passwords, financial information, identification documents, medical information, or other highly sensitive data unless expressly requested and reasonably necessary.
+
+When the user submits comments, ideas, or suggestions about the Game, the user grants permission to use, adapt, and implement them without an obligation of payment, attribution, or incorporation.
+
+The user retains any rights already held in submitted materials. This section does not authorize submission or use of confidential information or content that infringes third-party rights.
+
 
 14. SUSPENSION AND TERMINATION
 
-Your license ends automatically if you materially breach these Terms. You may end it at any time by stopping use and uninstalling the Game. Provisions that by their nature should survive, including ownership, disclaimers, liability limits, indemnity, governing law, and general terms, continue to the extent permitted by law.
+The license granted by these Terms ends automatically when the user materially breaches these Terms.
 
-15. DISCLAIMERS
+We may suspend or terminate access or features under our control when reasonably necessary because of:
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE GAME IS PROVIDED “AS IS” AND “AS AVAILABLE,” WITH ALL FAULTS. JESUS AFKERIAN DISCLAIMS IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, QUIET ENJOYMENT, AND WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.
+- unlawful activity;
+- abuse;
+- fraud;
+- security risk;
+- breach;
+- provider requirements;
+- technical impossibility; or
+- discontinuation of the Game.
 
-Nothing in these Terms excludes a warranty or remedy that cannot lawfully be excluded.
+After termination, the user must stop using and uninstall the Game.
+
+Provisions that by their nature should continue, including intellectual property, disclaimers, limitation of liability, indemnification, mandatory rights, and dispute provisions, will survive.
+
+
+15. WARRANTY DISCLAIMER
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE GAME IS PROVIDED “AS IS,” “AS AVAILABLE,” AND “WITH ALL FAULTS.”
+
+EXPRESS, IMPLIED, AND STATUTORY WARRANTIES ARE DISCLAIMED, INCLUDING WARRANTIES OF:
+
+- MERCHANTABILITY;
+- FITNESS FOR A PARTICULAR PURPOSE;
+- TITLE;
+- NON-INFRINGEMENT;
+- QUIET ENJOYMENT;
+- ACCURACY;
+- RELIABILITY;
+- SECURITY;
+- AVAILABILITY;
+- COMPATIBILITY;
+- DATA PRESERVATION;
+- ERROR-FREE OPERATION; AND
+- UNINTERRUPTED USE.
+
+WE DO NOT WARRANT:
+
+- PRESERVATION OF PROGRESS;
+- PRESERVATION OF ZERO’S MEMORY OR BEHAVIOR;
+- CORRECTION OF EVERY DEFECT;
+- CONTINUING AVAILABILITY OF ADS;
+- PERMANENT AVAILABILITY OF THE GAME OR EXTERNAL SERVICES; OR
+- THAT THE GAME OR ZERO WILL MEET EVERY INDIVIDUAL USER EXPECTATION.
+
+WARRANTIES AND RIGHTS THAT CANNOT BE WAIVED UNDER APPLICABLE LAW REMAIN IN EFFECT.
+
 
 16. LIMITATION OF LIABILITY
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOSS OF DATA, PROFITS, REVENUE, GOODWILL, OR BUSINESS INTERRUPTION, ARISING FROM OR RELATED TO THE GAME.
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN, AFKERIAN INTERACTIVE, AND APPLICABLE LICENSORS AND SERVICE PROVIDERS WILL NOT BE LIABLE FOR:
 
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, JESUS AFKERIAN'S AGGREGATE LIABILITY ARISING FROM OR RELATED TO THE GAME WILL NOT EXCEED THE GREATER OF THE AMOUNT YOU PAID DIRECTLY TO JESUS AFKERIAN FOR THE GAME DURING THE TWELVE MONTHS BEFORE THE EVENT GIVING RISE TO THE CLAIM OR TEN U.S. DOLLARS. THIS LIMIT DOES NOT APPLY WHERE APPLICABLE LAW REQUIRES A DIFFERENT RESULT.
+- INDIRECT;
+- INCIDENTAL;
+- SPECIAL;
+- CONSEQUENTIAL;
+- EXEMPLARY; OR
+- PUNITIVE DAMAGES;
 
-17. NARROW INDEMNITY
+OR FOR LOSS OF:
 
-To the maximum extent permitted by law, you will defend, indemnify, and hold Jesus Afkerian harmless from third-party claims, damages, judgments, losses, and reasonable costs arising from your unlawful use of the Game, your material breach of these Terms, or content you submit through support that infringes another person's rights.
+- DATA;
+- PROGRESS;
+- SCORES;
+- VIRTUAL ITEMS;
+- ZERO’S MEMORY OR STATE;
+- PROFITS;
+- REVENUE;
+- OPPORTUNITY;
+- GOODWILL;
+- DEVICE USE; OR
+- OTHER INTANGIBLE VALUE,
 
-Jesus Afkerian will give reasonably prompt notice and permit you to control the defense with counsel reasonably acceptable to him. You may not settle a claim without Jesus Afkerian's prior written consent if the settlement admits fault by him, imposes a nonmonetary obligation on him, or does not fully release him; consent will not be unreasonably withheld. Jesus Afkerian may participate with counsel at his own expense.
+REGARDLESS OF THE LEGAL THEORY APPLIED, INCLUDING CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY, OR STATUTE.
+
+THIS EXCLUSION APPLIES EVEN IF THE POSSIBILITY OF DAMAGE WAS DISCLOSED AND EVEN IF A LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE, TO THE EXTENT LAWFULLY PERMITTED.
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS, EVENTS, THEORIES, DEVICES, DAMAGES, AND RELIEF ARISING FROM OR RELATING TO THE GAME OR THESE TERMS WILL NOT EXCEED THE GREATER OF:
+
+(A) THE AMOUNT ACTUALLY PAID DIRECTLY BY THE CLAIMANT TO JESUS AFKERIAN FOR THE GAME DURING THE 12 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY; OR
+
+(B) USD 100.
+
+ADVERTISING REVENUE IS NOT AN AMOUNT PAID BY THE USER.
+
+THIS IS ONE AGGREGATE CAP, NOT A SEPARATE CAP PER CLAIM, EVENT, THEORY, DEVICE, AD, DOCUMENT, OR DEFENDANT.
+
+Nothing excludes or limits liability for fraud, fraudulent misrepresentation, willful misconduct, death or personal injury, gross negligence where nonwaivable, mandatory statutory privacy or consumer remedies, or any other liability that cannot lawfully be excluded or limited.
+
+
+17. LIMITED INDEMNIFICATION
+
+To the extent permitted by law, the user will indemnify Jesus Afkerian and AFKERIAN INTERACTIVE against third-party claims and direct losses only to the extent caused by:
+
+- unlawful use of the Game;
+- material breach of these Terms;
+- infringement of third-party rights; or
+- malicious interference with the Game or related services.
+
+Indemnification is subject to:
+
+- causation;
+- reasonable mitigation;
+- reasonably prompt notice when practicable;
+- the user’s reasonable control of the defense through qualified counsel; and
+- the right of Jesus Afkerian to participate at his own expense.
+
+It does not cover losses caused by fraud, willful misconduct, nonwaivable gross negligence, or conduct for which indemnification cannot lawfully be required.
+
 
 18. MANDATORY RIGHTS
 
-These Terms do not waive consumer protections, statutory rights, remedies, or jurisdictional rules that cannot lawfully be waived or limited.
+Nothing in these Terms waives or limits any nonwaivable right relating to:
+
+- consumers;
+- privacy;
+- language;
+- warranties;
+- cancellation;
+- small-claims courts;
+- jurisdiction;
+- forum; or
+- legal remedies.
+
+When a provision conflicts with mandatory law, that law will control only to the extent necessary. The remainder of the Terms will continue in effect.
+
 
 19. GOVERNING LAW AND VENUE
 
-These Terms are governed by Florida law, without regard to conflict-of-laws principles, except where mandatory law requires otherwise. Subject to any nonwaivable right to another forum, proceedings must be brought in the state courts located in Orange County, Florida, or the federal courts serving Orange County, Florida.
+These Terms are governed by the laws of the State of Florida, United States, without applying its conflict-of-laws rules, except where mandatory law requires otherwise.
 
-20. CHANGES
+Subject to nonwaivable local rights, mandatory consumer forums, and small-claims courts, any dispute must be brought before a court of competent jurisdiction in Orange County, Florida.
 
-Jesus Afkerian may update these Terms for changes to the Game, providers, risk, or applicable requirements. Updated Terms will state their effective date and material changes will receive reasonably conspicuous notice where appropriate.
+These Terms contain no:
 
-Publication alone, silence, inaction, or keeping the Game installed does not constitute acceptance of updated Terms. Continued access or use after reasonably conspicuous notice and the stated effective date is the conduct relied upon as assent, to the maximum extent permitted by law.
+- mandatory arbitration agreement;
+- arbitration delegation;
+- arbitration opt-out procedure;
+- class-action waiver; or
+- jury-trial waiver.
 
-21. GENERAL
 
-These Terms, the Privacy Policy, and incorporated notices form the agreement concerning the Game. If a provision is unenforceable, it will be enforced to the maximum lawful extent and the remainder will continue. Failure to enforce a provision is not a waiver. You may not assign these Terms without prior written consent; Jesus Afkerian may assign them in connection with a lawful transfer of the Game or his business interests, subject to applicable law.
+20. CHANGES TO THESE TERMS
+
+These Terms may be updated prospectively.
+
+Material changes will:
+
+- be made reasonably conspicuous;
+- identify an effective date; and
+- not apply retroactively unless permitted by law and expressly stated.
+
+To the maximum extent permitted by law, accessing or using the Game after the notice and effective date manifests acceptance of the updated Terms.
+
+Merely keeping the Game installed without accessing or using it does not constitute acceptance of the updated Terms.
+
+If the user does not accept an update, the user must stop using the Game and uninstall it before the stated date.
+
+
+21. GENERAL PROVISIONS
+
+If a provision is invalid or unenforceable, it will be enforced to the maximum lawful extent or severed, and the remaining provisions will continue in effect.
+
+Failure to exercise a right is not a waiver. A waiver must be express and written.
+
+The user may not assign these Terms without consent. Jesus Afkerian may assign them together with a lawful transfer of the Game or related rights, subject to mandatory law.
+
+Use of the Game does not create a relationship of:
+
+- agency;
+- employment;
+- partnership;
+- association;
+- joint venture;
+- franchise; or
+- representation.
+
+Except for licensors or providers expressly protected by a disclaimer or limitation, there are no third-party beneficiaries.
+
+We are not responsible for delay or failure caused by events beyond reasonable control, subject to nonwaivable law.
+
+These Terms, the Privacy Policy, and incorporated licenses and notices constitute the entire agreement concerning the Game without replacing nonwaivable rights.
+
+Provisions concerning ownership, disclaimers, liability, indemnification, mandatory rights, forum, and provisions that by their nature should survive will continue after termination.
+
 
 22. CONTACT
 
 Jesus Afkerian
+Operating under the AFKERIAN INTERACTIVE brand
+Publisher and operator of XO Arcade: Infinity Edition
+
+Email:
+
 afkerian.support@gmail.com
+
+Website:
+
+https://afkerianinteractive.github.io/
